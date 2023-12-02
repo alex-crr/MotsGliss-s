@@ -8,7 +8,7 @@ namespace MotsGlissés
         {
             Console.WriteLine("Hello World!");
             Dictionnaire dico = new Dictionnaire("Mots_Français.txt");
-            dico.Sort();  
+            dico.Sort(); 
             Console.WriteLine(dico.Exists("ojerghpuioahfggh"));
             Console.WriteLine(dico.Exists("cheval"));
         }

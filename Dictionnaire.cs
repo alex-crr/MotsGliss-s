@@ -38,22 +38,25 @@ namespace MotsGlissés
                 {
                     string line;
                     int cpt = 0;
-                    while ((line = sr.ReadLine()) != null && cpt != input[0] - 65)
+                    while ((line = sr.ReadLine()) != null && cpt < 26)
                     {
+                        if (cpt == input[0] - 65)
+                        {
+                            string[] lineContent = line.Split(" ");
+
+                            bool Cherche(int borneInf, int borneSup) //pas dingue car cherche 1 puis 2, pas de comparaisons sur pivot central
+                            {
+                                int middle = borneInf + ((borneSup - borneInf) / 2);
+                                int compared = string.Compare(lineContent[middle], input);
+                                if (compared == 0) return input == lineContent[middle];
+                                else if (compared < 0) return Cherche(middle + 1, borneSup);
+                                else return Cherche(0, middle - 1);
+                            }
+
+                            return Cherche(0, lineContent.Length - 1);
+                        }
                         cpt++;
                     }
-                    bool Cherche(string[] tab) //pas dingue car cherche 1 puis 2, pas de comparaisons sur pivot central
-                    {
-                        if (tab.Length == 0) return false;
-                        if (tab.Length == 1) return tab[0] == input;
-                        else
-                        {
-                            (string[] arr1, string[] arr2) = Extras.Split(tab);
-                            return Cherche(arr1) || Cherche(arr2);
-                        }
-                    }
-                    return Cherche(line.Split(" "));
-                    sr.Close();
                 }
                 return false;
             }
