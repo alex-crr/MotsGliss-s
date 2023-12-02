@@ -1,38 +1,32 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
+using Microsoft.Win32.SafeHandles;
 
 namespace MotsGlissés
 {
     class Dictionnaire
     {
         string _chemin;
-        public string[][] _lettres;
-
-        public Dictionnaire(string filePath)
+        public Dictionnaire(string chemin)
         {
-            _chemin = filePath;
-            if (!File.Exists(filePath))
+            if (!File.Exists(chemin))
             {
-                Console.WriteLine("ReadFile: file not found");
+                throw new FileNotFoundException();
             }
-
-            else
-            {
-                string[] readText = File.ReadAllLines(filePath);
-                _lettres = new string[26][];
-                if(readText.Length != 26) { throw new Exception("Dictionnaire: Invalid file structure"); }
-                for(int i = 0; i < readText.Length; i++)
-                {
-                    _lettres[i] = readText[i].Split(" ");
-                }
-            }
+            _chemin = chemin;
         }
 
         public void Sort()
         {
-            for(int i = 0; i <  _lettres.Length; i++)
+            string[] lines = File.ReadAllLines(_chemin);
+            for (int i = 0; i < lines.Length; i++)
             {
-                _lettres[i] = Extras.Fusion(_lettres[i]);
+                string[] words = lines[i].Split(' ');
+                words = Extras.Fusion(words);
+                lines[i] = string.Join(" ", words);
             }
+            File.WriteAllLines(_chemin, lines);
         }
 
         public bool Exists(string input)
@@ -43,21 +37,29 @@ namespace MotsGlissés
             else
             {
                 input = input.ToUpper();
-                bool Cherche(string[] tab)
+                using (StreamReader sr = new StreamReader(_chemin))
                 {
-                    if (tab.Length == 0) return false;
-                    if (tab.Length == 1) return tab[0] == input;
-                    else
+                    string line;
+                    int cpt = 0;
+                    while ((line = sr.ReadLine()) != null && cpt != input[0] - 65)
                     {
-                        (string[] arr1, string[] arr2) = Extras.Split(tab);
-                        return Cherche(arr1) && Cherche(arr2);
+                        cpt++;
                     }
+                    bool Cherche(string[] tab) //pas dingue car cherche 1 puis 2, pas de comparaisons sur pivot central
+                    {
+                        if (tab.Length == 0) return false;
+                        if (tab.Length == 1) return tab[0] == input;
+                        else
+                        {
+                            (string[] arr1, string[] arr2) = Extras.Split(tab);
+                            return Cherche(arr1) || Cherche(arr2);
+                        }
+                    }
+                    return Cherche(line.Split(" "));
+                    sr.Close();
                 }
-                Console.WriteLine(input[0]- 65);
-                return Cherche(_lettres[input[0]- 65]);
+                return false;
             }
         }
-
-        
     }
 }
