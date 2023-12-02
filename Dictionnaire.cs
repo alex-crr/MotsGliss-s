@@ -44,13 +44,15 @@ namespace MotsGlissés
                         {
                             string[] lineContent = line.Split(" ");
 
-                            bool Cherche(int borneInf, int borneSup) //pas dingue car cherche 1 puis 2, pas de comparaisons sur pivot central
+                            bool Cherche( int borneInf, int borneSup)
                             {
-                                int middle = borneInf + ((borneSup - borneInf) / 2);
-                                int compared = string.Compare(lineContent[middle], input);
-                                if (compared == 0) return input == lineContent[middle];
-                                else if (compared < 0) return Cherche(middle + 1, borneSup);
-                                else return Cherche(0, middle - 1);
+                                int middle = (borneInf + borneSup) / 2;
+                                if (borneInf > borneSup) return false;
+                                if (lineContent[middle] == input) return true;
+
+                                int compared = lineContent[middle].CompareTo(input);
+                                if (compared > 0) return Cherche(borneInf, middle - 1);
+                                else return Cherche(middle + 1, borneSup);
                             }
 
                             return Cherche(0, lineContent.Length - 1);
