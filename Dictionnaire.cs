@@ -1,13 +1,11 @@
-﻿ using System;
-using System.Numerics;
-using System.Security.Cryptography.X509Certificates;
+﻿using System;
 
 namespace MotsGlissés
 {
     class Dictionnaire
     {
         string _chemin;
-        string[][] _lettres;
+        public string[][] _lettres;
 
         public Dictionnaire(string filePath)
         {
@@ -20,6 +18,7 @@ namespace MotsGlissés
             else
             {
                 string[] readText = File.ReadAllLines(filePath);
+                _lettres = new string[26][];
                 if(readText.Length != 26) { throw new Exception("Dictionnaire: Invalid file structure"); }
                 for(int i = 0; i < readText.Length; i++)
                 {
@@ -43,15 +42,22 @@ namespace MotsGlissés
             if (!input.All(Char.IsLetter)) return false;
             else
             {
+                input = input.ToUpper();
                 bool Cherche(string[] tab)
                 {
                     if (tab.Length == 0) return false;
-                    if (tab.Length == 1) return (tab[0] == input);
+                    if (tab.Length == 1) return tab[0] == input;
                     else
                     {
-
+                        (string[] arr1, string[] arr2) = Extras.Split(tab);
+                        return Cherche(arr1) && Cherche(arr2);
                     }
                 }
+                Console.WriteLine(input[0]- 65);
+                return Cherche(_lettres[input[0]- 65]);
             }
+        }
+
+        
     }
 }
