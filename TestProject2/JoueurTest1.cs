@@ -1,5 +1,4 @@
-﻿using NUnit.Framework;
-namespace TestProject2
+﻿namespace TestProject2
 {
     class JoueurTest1
     {

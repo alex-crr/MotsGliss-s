@@ -9,7 +9,7 @@ namespace MotsGlissés
         {
             if (!File.Exists(chemin))
             {
-                throw new FileNotFoundException();
+                throw new FileNotFoundException($"Dictionnaire: couldn't find {chemin}.");
             }
             _chemin = chemin;
         }
