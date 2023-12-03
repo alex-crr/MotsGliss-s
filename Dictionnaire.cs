@@ -2,7 +2,7 @@
 
 namespace MotsGlissés
 {
-    class Dictionnaire
+    public class Dictionnaire
     {
         string _chemin;
         public Dictionnaire(string chemin)
