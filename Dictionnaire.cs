@@ -63,5 +63,9 @@ namespace MotsGlissés
                 return false;
             }
         }
+        public string toString()
+        {
+
+        }
     }
 }
