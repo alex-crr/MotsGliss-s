@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace MotsGlissés
 {
@@ -14,7 +15,7 @@ namespace MotsGlissés
             _chemin = chemin;
         }
 
-        public void Sort()
+        public void Tri_Fusion()
         {
             string[] lines = File.ReadAllLines(_chemin);
             for (int i = 0; i < lines.Length; i++)
@@ -26,7 +27,7 @@ namespace MotsGlissés
             File.WriteAllLines(_chemin, lines);
         }
 
-        public bool Exists(string input)
+        public bool RechDichoRecursif(string input)
         {
             if (input == null) return false;
             if (input.Length == 0) return false;
@@ -65,7 +66,19 @@ namespace MotsGlissés
         }
         public string toString()
         {
+            using(StreamReader sr = new StreamReader(_chemin))
+            {
+                string line;
+                int cpt = 65;
+                string res = "Langue Française\n";
+                while((line = sr.ReadLine()) != null)
+                {
 
+                    res += $"{(char)cpt} : {line.Split(" ").Length} mots\n";
+                    cpt++;
+                }
+                return res;
+            }
         }
     }
 }
