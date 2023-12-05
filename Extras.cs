@@ -26,7 +26,7 @@ namespace MotsGlissés
             int length = tab.Length;
             if (length <= 1) return tab;
 
-            int[] Merge(int[] tab1, int[] tab2)
+            static int[] Merge(int[] tab1, int[] tab2)
             {
                 int l1 = tab1.Length;
                 int l2 = tab2.Length;
@@ -82,7 +82,7 @@ namespace MotsGlissés
             int length = tab.Length;
             if (length <= 1) return tab;
 
-            string[] Merge(string[] tab1, string[] tab2)
+            static string[] Merge(string[] tab1, string[] tab2)
             {
                 int l1 = tab1.Length;
                 int l2 = tab2.Length;

@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace MotsGlissés
 {
-    class Joueur
+    public class Joueur
     {
         private string _nom;
         private int _score;
@@ -14,6 +15,8 @@ namespace MotsGlissés
             this._score = score;
             this._mots = listeMotTrouver;
         }
+
+        public string Nom => _nom;
 
         public void Add_Mot(string mot)
         {

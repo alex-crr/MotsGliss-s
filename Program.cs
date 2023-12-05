@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace MotsGlissés
 {
     class Program
@@ -7,10 +6,12 @@ namespace MotsGlissés
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Dictionnaire dico = new Dictionnaire("Mots_Français.txt");
-            dico.Sort(); 
-            Console.WriteLine(dico.Exists("ojerghpuioahfggh"));
-            Console.WriteLine(dico.Exists("cheval"));
+            string filePath = Path.Combine("..", "..", "..", "Resources", "Mots_Français.txt");
+            Dictionnaire dico = new Dictionnaire(filePath);
+            dico.Tri_Fusion(); 
+            Console.WriteLine(dico.RechDichoRecursif("ojerghpuioahfggh"));
+            Console.WriteLine(dico.RechDichoRecursif("cheval"));
+            Console.WriteLine(dico.toString());
         }
     }
 }
