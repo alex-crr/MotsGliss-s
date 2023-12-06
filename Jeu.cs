@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MotsGlissés
 {
-    internal class Jeu
+    public class Jeu
     {
+
     }
 }
