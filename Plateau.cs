@@ -1,13 +1,14 @@
 using System;
 using System.Text.RegularExpressions;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace MotsGlissés
 {
     public class Plateau
     {
         // faire une liste avec le nombre de lettre possible ,
-        // choisir un element au hasard
+        // choisir un element au hasard liste[r.Next(1,liste.count)]
         // et le supprimer de la liste
         char[,] plat;
         Random r = new Random();
@@ -66,7 +67,9 @@ namespace MotsGlissés
                     plat[i, j] = lines2[i][j][0]; // met les éléments de lines2 dans plateau
                 }
             }
-
+           
         }
+
+        public void Maj_plateau(string nomfile) { }
     }
 }
