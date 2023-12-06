@@ -12,8 +12,8 @@ namespace MotsGlissés
             Console.WriteLine(dico.RechDichoRecursif("ojerghpuioahfggh"));
             Console.WriteLine(dico.RechDichoRecursif("cheval"));
             Console.WriteLine(dico.toString());*/
-            string filePath = Path.Combine("..", "..", "..", "Resources", "Lettre.txt");
-            Plateau p = new Plateau();
+            string filePath = Path.Combine("..", "..", "..", "Resources", "Test1.csv");
+            Plateau p = new Plateau(filePath);
             Console.WriteLine(p.toString());
         }
     }

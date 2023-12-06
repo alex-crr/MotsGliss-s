@@ -7,13 +7,30 @@ namespace MotsGlissés
         // faire une liste avec le nombre de lettre possible ,
         // choisir un element au hasard liste[r.Next(1,liste.count)]
         // et le supprimer de la liste
-        
+
         char[,] _plateau;
         Random r = new Random();
 
+        /// <summary>
+        /// crée le plateau à partir d'un csv
+        /// </summary>
+        /// <param name="filepath"></param>
         public Plateau(string filepath)
         {
-
+            if (!File.Exists(filepath))
+            {
+                throw new FileNotFoundException($"Plateau: couldn't find {filepath}.");
+            }
+            string[] lines = File.ReadAllLines(filepath);
+            _plateau = new char[lines.Length, lines[0].Split(';').Length];
+            for (int i = 0; i < lines.Length; i++)
+            {
+                string[] temp = lines[i].Split(';');
+                for (int j = 0; j < temp.Length; j++)
+                {
+                    _plateau[i, j] = temp[j].ToUpper()[0];
+                }
+            }
         }
 
         /// <summary>
@@ -21,7 +38,7 @@ namespace MotsGlissés
         /// </summary>
         public Plateau()
         {
-            string filePath  = Path.Combine("..", "..", "..", "Resources", "Lettre.txt");
+            string filePath = Path.Combine("..", "..", "..", "Resources", "Lettre.txt");
             if (!File.Exists(filePath))
             {
                 throw new FileNotFoundException($"Plateau: couldn't find {filePath}.");
@@ -64,12 +81,12 @@ namespace MotsGlissés
             }
             return output;
         }
-        
+
         /// <summary>
         /// sauvegarde l’instance du plateau dans un fichier en respectant la structure précisée
         /// </summary>
         /// <param name="nomfile">nom du fichier</param>
-        public void toFile(string nomfile)
+        public void ToFile(string nomfile)
         {
             StreamWriter s = new StreamWriter(nomfile);
             for (int i = 0; i < _plateau.GetLength(0); i++)
@@ -87,7 +104,7 @@ namespace MotsGlissés
         /// fonction lit le fichier et met chacun des éléments dans la plateau
         /// </summary>
         /// <param name="nomfile">nom du fichier</param>
-        public void toRead(string nomfile)
+        public void ToRead(string nomfile)
         {
             //pas de trycatch car le verification
 
@@ -111,7 +128,7 @@ namespace MotsGlissés
         /// <summary>
         /// met a jour la matrice en fonction du mot trouvé
         /// </summary>
-        public void Maj_plateau(string mot) { throw new NotImplementedException();}
+        public void Maj_plateau(string mot) { throw new NotImplementedException(); }
 
         public struct Position
         {
@@ -124,10 +141,12 @@ namespace MotsGlissés
             }
         }
 
-        public (bool, List<Position>) Recherche_Mot(string mot, Position lastPos, int cpt){
+        public (bool, List<Position>) Recherche_Mot(string mot, Position lastPos, int cpt)
+        {
             throw new NotImplementedException();
-            if(cpt == 0){
-                
+            if (cpt == 0)
+            {
+
             }
         }
     }
