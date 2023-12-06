@@ -1,7 +1,4 @@
 using System;
-using System.Text.RegularExpressions;
-using System.IO;
-using System.Security.Cryptography.X509Certificates;
 
 namespace MotsGlissés
 {
@@ -10,54 +7,64 @@ namespace MotsGlissés
         // faire une liste avec le nombre de lettre possible ,
         // choisir un element au hasard liste[r.Next(1,liste.count)]
         // et le supprimer de la liste
-        char[,] plat;
+        
+        char[,] _plateau;
         Random r = new Random();
 
-        public Plateau(int lignes, int colonnes)
+        public Plateau(string filepath)
         {
-            plat = new char[lignes, colonnes];
+
         }
+
         /// <summary>
         /// crée un plateau de maniere aleatoire
         /// </summary>
-        public void alea()
+        public Plateau()
         {
+            string filePath  = Path.Combine("..", "..", "..", "Resources", "Lettre.txt");
+            if (!File.Exists(filePath))
+            {
+                throw new FileNotFoundException($"Plateau: couldn't find {filePath}.");
+            }
+            _plateau = new char[8, 8]; // à faire en fonction de la taille limite
             List<char> lettre = new List<char>();
-            string[] lines = File.ReadAllLines("lettre.txt"); // tableau de ligne 
+            string[] lines = File.ReadAllLines(filePath); // tableau de ligne 
             foreach (string line in lines)
             {
-                string[] temp = line.Split(','); //[A;10;0]
+                string[] temp = line.Split(','); //[A,10,0]
                 for (int i = 0; i < Convert.ToInt32(temp[1]); i++)
                 {
                     lettre.Add(temp[0][0]);
                 }
             }
-            for(int i =0; i < plat.GetLength(0);i++)
+            for (int i = 0; i < _plateau.GetLength(0); i++)
             {
-                for(int j = 0; j < plat.GetLength(1);j++)
+                for (int j = 0; j < _plateau.GetLength(1); j++)
                 {
                     int nb = r.Next(lettre.Count());
-                    plat[i, j] = lettre[nb];
+                    _plateau[i, j] = lettre[nb];
                     lettre.Remove(lettre[nb]);
                 }
             }
         }
+
         /// <summary>
         /// retourne une chaîne de caractères qui décrit le plateau
         /// </summary>
         public string toString()
         {
-            string s = "";
-            for (int i = 0;i< plat.GetLength(0);i++)
+            string output = "";
+            for (int i = 0; i < _plateau.GetLength(0); i++)
             {
-                for (int j = 0;j< plat.GetLength(1);j++)
+                for (int j = 0; j < _plateau.GetLength(1); j++)
                 {
-                    s += plat[i, j];
+                    output += $"| {_plateau[i, j]} ";
                 }
-                s += "\n";
+                output += "|\n";
             }
-            return s;
+            return output;
         }
+        
         /// <summary>
         /// sauvegarde l’instance du plateau dans un fichier en respectant la structure précisée
         /// </summary>
@@ -65,16 +72,17 @@ namespace MotsGlissés
         public void toFile(string nomfile)
         {
             StreamWriter s = new StreamWriter(nomfile);
-            for (int i = 0; i< plat.GetLength(0);i++)
+            for (int i = 0; i < _plateau.GetLength(0); i++)
             {
-                for(int j = 0; j< plat.GetLength(1);j++)
+                for (int j = 0; j < _plateau.GetLength(1); j++)
                 {
-                    s.Write(plat[i,j]);
+                    s.Write(_plateau[i, j]);
                 }
                 s.WriteLine();
             }
             s.Close();
         }
+
         /// <summary>
         /// fonction lit le fichier et met chacun des éléments dans la plateau
         /// </summary>
@@ -82,26 +90,45 @@ namespace MotsGlissés
         public void toRead(string nomfile)
         {
             //pas de trycatch car le verification
-          
+
             string[] lines = File.ReadAllLines(nomfile);
             string[][] lines2 = new string[lines.Length][];
-            int var  = 0;
+            int var = 0;
             foreach (string line in lines) // remplie la lines2
             {
-                lines2[var] = line.Split(';'); 
+                lines2[var] = line.Split(';');
             }
             for (int i = 0; i < lines2.GetLength(0); i++)
             {
                 for (int j = 0; j < lines2[i].GetLength(1); j++)
                 {
-                    plat[i, j] = lines2[i][j][0]; // met les éléments de lines2 dans plateau
+                    _plateau[i, j] = lines2[i][j][0]; // met les éléments de lines2 dans plateau
                 }
             }
-           
+
         }
+
         /// <summary>
         /// met a jour la matrice en fonction du mot trouvé
         /// </summary>
-        public void Maj_plateau(string mot) { }
+        public void Maj_plateau(string mot) { throw new NotImplementedException();}
+
+        public struct Position
+        {
+            int x;
+            int y;
+            public Position(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
+        }
+
+        public (bool, List<Position>) Recherche_Mot(string mot, Position lastPos, int cpt){
+            throw new NotImplementedException();
+            if(cpt == 0){
+                
+            }
+        }
     }
 }
