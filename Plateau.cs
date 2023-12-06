@@ -70,6 +70,6 @@ namespace MotsGlissés
            
         }
 
-        public void Maj_plateau(string nomfile) { }
+        public void Maj_plateau(string mot) { }
     }
 }
