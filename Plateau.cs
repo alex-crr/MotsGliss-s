@@ -18,6 +18,29 @@ namespace MotsGlissés
             plat = new char[lignes, colonnes];
         }
 
+        public void alea()
+        {
+            List<char> lettre = new List<char>();
+            string[] lines = File.ReadAllLines("lettre.txt");
+            foreach (string line in lines)
+            {
+                string[] temp = line.Split(',');
+                for (int i = 0; i < Convert.ToInt32(temp[1]); i++)
+                {
+                    lettre.Add(temp[0][0]);
+                }
+            }
+            for(int i =0; i < plat.GetLength(0);i++)
+            {
+                for(int j = 0; j < plat.GetLength(1);j++)
+                {
+                    int nb = r.Next(lettre.Count());
+                    plat[i, j] = lettre[nb];
+                    lettre.Remove(lettre[nb]);
+                }
+            }
+        }
+
         public string toString()
         {
             string s = "";
