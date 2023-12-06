@@ -17,14 +17,16 @@ namespace MotsGlissés
         {
             plat = new char[lignes, colonnes];
         }
-
+        /// <summary>
+        /// crée un plateau de maniere aleatoire
+        /// </summary>
         public void alea()
         {
             List<char> lettre = new List<char>();
-            string[] lines = File.ReadAllLines("lettre.txt");
+            string[] lines = File.ReadAllLines("lettre.txt"); // tableau de ligne 
             foreach (string line in lines)
             {
-                string[] temp = line.Split(',');
+                string[] temp = line.Split(','); //[A;10;0]
                 for (int i = 0; i < Convert.ToInt32(temp[1]); i++)
                 {
                     lettre.Add(temp[0][0]);
@@ -40,7 +42,9 @@ namespace MotsGlissés
                 }
             }
         }
-
+        /// <summary>
+        /// retourne une chaîne de caractères qui décrit le plateau
+        /// </summary>
         public string toString()
         {
             string s = "";
@@ -54,7 +58,10 @@ namespace MotsGlissés
             }
             return s;
         }
-
+        /// <summary>
+        /// sauvegarde l’instance du plateau dans un fichier en respectant la structure précisée
+        /// </summary>
+        /// <param name="nomfile">nom du fichier</param>
         public void toFile(string nomfile)
         {
             StreamWriter s = new StreamWriter(nomfile);
@@ -92,7 +99,9 @@ namespace MotsGlissés
             }
            
         }
-
+        /// <summary>
+        /// met a jour la matrice en fonction du mot trouvé
+        /// </summary>
         public void Maj_plateau(string mot) { }
     }
 }
