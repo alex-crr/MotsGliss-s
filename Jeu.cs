@@ -50,7 +50,7 @@ namespace MotsGlissés
                         {
 
                             j.Add_Mot(motcherche);
-                            for(int i = 0; i < motcherche.Length;i++)
+                            for (int i = 0; i < motcherche.Length; i++)
                             {
                                 // trouver la fonction
                             }
@@ -65,13 +65,23 @@ namespace MotsGlissés
 
                 }
             }
-            Console.WriteLine("jeu terminer voici les resultat");
+            Console.WriteLine("le jeu est terminer voici les resultat");
             foreach (Joueur j in _joueurs)
             {
-                Console.WriteLine(j.toString);
+                Console.WriteLine(_joueurs[i].toString);
             }
-            // if(j1.scaore > j2.score) Console.Writeline(j1.Nom +" a gagné");
-            //else Console.Writeline(j2.Nom +" a gagné");
+            // for (int i = 0; i < _joueurs.Count; i++) mettre si plus de joueurs
+            // { }
+            if (_joueurs[0].score > _jouurs[1].score)
+                Console.WriteLine(_joueurs[0].Nom + " a gagné");
+            else 
+                Console.WriteLine(_joueurs[1].Nom +" a gagné");
+          
+        }
+
+        public Dictionary<char, int> point(string nomfile)
+        {
+            Dictionary<char,int> ppl = new Dictionary
         }
     }
 }
