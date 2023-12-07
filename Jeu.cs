@@ -10,16 +10,16 @@ namespace MotsGlissés
     {
         Dictionnaire dico;
         Plateau plateau;
-        Joueur joueur;
+        List<Joueur> joueur;
         TimeSpan tempsjoueur ;
         TimeSpan tempsjeu = (120);
 
     }
-    public Jeu(Dictionnaire dico, Plateau plateau,Joueur joueur, TimeSpan tempsjoueur)
+    public Jeu(Dictionnaire dico, Plateau plateau,List<Joueur> joueur, TimeSpan tempsjoueur)
     {
         this.dico = dico;
         this.plateau1 = plateau;
-        this.joueur1 = joueur;
+        this.joueur = joueur;
         this.tempsjoueur = tempsjoueur;
 
     }
@@ -29,9 +29,8 @@ namespace MotsGlissés
     public void play()
     {
         DateTime startGame= DateTime.Now;
-       DateTime temps = TimeSpan.Zero;
-
-        while(startGame < tempsjeu )
+        DateTime finjeu = startGame.Add(tempsjeu);
+        while(startGame < finjeu )
         {
             foreach(Joueur j in joueur)
             {
@@ -39,15 +38,17 @@ namespace MotsGlissés
                 DateTime debuttour = DateTime.Now;
                 TimeSpan tempsrestant = tempsjoueur;
                 string motcherche = "";
-                while(debuttour<tempsrestant && motcherche=="")
+                while(DateTime.Now<debuttour.Add(tempsrestant) && motcherche=="")
                 {
                     Console.WriteLine("entre un mot");
                     motcherche = Console.ReadLine();
-                    if( motcherche dans dictionnaire et existe dans plateau)
-                        {
-                            this.joueur.score = addition;
-                            supprimer/decaler matrice
-                        }
+                    if(dico.RechDichoRecursif(motrecherche) && Joueur.Contient(motcherche) && Plateau.Recherche_Mot(motcherche))
+                    {
+
+                        Joueur.Add_Mot(motcherche);
+                        joueur.score += ;
+                        supprimer / decaler matrice
+                    }
                     else
                     {
                         Console.WriteLine("le mot n'existe pas")
