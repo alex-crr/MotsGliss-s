@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,7 @@ using System.Xml.Linq;
 
 namespace MotsGlissés
 {
-  
+
     public class Jeu
     {
         Dictionnaire _dico;
@@ -74,14 +75,10 @@ namespace MotsGlissés
             // { }
             if (_joueurs[0].score > _jouurs[1].score)
                 Console.WriteLine(_joueurs[0].Nom + " a gagné");
-            else 
-                Console.WriteLine(_joueurs[1].Nom +" a gagné");
-          
-        }
-
-        public Dictionary<char, int> point(string nomfile)
-        {
-            Dictionary<char,int> ppl = new Dictionary
+            else
+                Console.WriteLine(_joueurs[1].Nom + " a gagné");
         }
     }
 }
+    
+
