@@ -1,4 +1,5 @@
 using System;
+using static MotsGlissés.Extras;
 
 namespace MotsGlissés
 {
@@ -8,7 +9,7 @@ namespace MotsGlissés
         // choisir un element au hasard liste[r.Next(1,liste.count)]
         // et le supprimer de la liste
 
-        char[,] _plateau;
+        char[,] _plateau; // avec [Y, la hauteur et largeur respectivement
         Random r = new Random();
 
         /// <summary>
@@ -17,20 +18,7 @@ namespace MotsGlissés
         /// <param name="filepath"></param>
         public Plateau(string filepath)
         {
-            if (!File.Exists(filepath))
-            {
-                throw new FileNotFoundException($"Plateau: couldn't find {filepath}.");
-            }
-            string[] lines = File.ReadAllLines(filepath);
-            _plateau = new char[lines.Length, lines[0].Split(';').Length];
-            for (int i = 0; i < lines.Length; i++)
-            {
-                string[] temp = lines[i].Split(';');
-                for (int j = 0; j < temp.Length; j++)
-                {
-                    _plateau[i, j] = temp[j].ToUpper()[0];
-                }
-            }
+            ToRead(filepath);
         }
 
         /// <summary>
@@ -103,23 +91,21 @@ namespace MotsGlissés
         /// <summary>
         /// fonction lit le fichier et met chacun des éléments dans la plateau
         /// </summary>
-        /// <param name="nomfile">nom du fichier</param>
-        public void ToRead(string nomfile)
+        /// <param name="filepath">nom du fichier</param>
+        public void ToRead(string filepath)
         {
-            //pas de trycatch car le verification
-
-            string[] lines = File.ReadAllLines(nomfile);
-            string[][] lines2 = new string[lines.Length][];
-            int var = 0;
-            foreach (string line in lines) // remplie la lines2
+            if (!File.Exists(filepath))
             {
-                lines2[var] = line.Split(';');
+                throw new FileNotFoundException($"Plateau: couldn't find {filepath}.");
             }
-            for (int i = 0; i < lines2.GetLength(0); i++)
+            string[] lines = File.ReadAllLines(filepath);
+            _plateau = new char[lines.Length, lines[0].Split(';').Length];
+            for (int i = 0; i < lines.Length; i++)
             {
-                for (int j = 0; j < lines2[i].GetLength(1); j++)
+                string[] temp = lines[i].Split(';');
+                for (int j = 0; j < temp.Length; j++)
                 {
-                    _plateau[i, j] = lines2[i][j][0]; // met les éléments de lines2 dans plateau
+                    _plateau[i, j] = temp[j].ToUpper()[0];
                 }
             }
 
@@ -130,24 +116,75 @@ namespace MotsGlissés
         /// </summary>
         public void Maj_plateau(string mot) { throw new NotImplementedException(); }
 
-        public struct Position
+
+        public (bool, Stack<Position>) Recherche_Mot(string mot)
         {
-            int x;
-            int y;
-            public Position(int x, int y)
+            if (mot is null)
             {
-                this.x = x;
-                this.y = y;
+                throw new ArgumentNullException(nameof(mot));
+            }
+            else if (mot.Length == 0)
+            {
+                Console.WriteLine("mot de taille nulle");
+                return (false, new Stack<Position>());
+            }
+            else
+            {
+                mot = mot.ToUpper();
+                int height = _plateau.GetLength(0) - 1; //pos de la dernière ligne
+                bool found = false; // mot trouvé ou pas
+                Stack<Position> pos = new Stack<Position>();
+                int i = 0;
+                int Length = _plateau.GetLength(1);
+                while (!found && i < Length)
+                {
+                    if (mot[0] == _plateau[height, i])
+                    {
+                        Stack<Position> positions = new Stack<Position>();
+                        (found, pos) = Recherche_Aux(0, positions, mot, new Position(height, i));
+                    }
+                    i++;
+                }
+                return (found, pos);
             }
         }
 
-        public (bool, List<Position>) Recherche_Mot(string mot, Position lastPos, int cpt)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cpt">position dans le mot</param>
+        /// <param name="positions">liste des précédentes positions</param>
+        /// <param name="mot">mot qu'on cherche</param>
+        /// <param name="pos">position qu'on teste</param>
+        /// <returns></returns>
+        private (bool, Stack<Position>) Recherche_Aux(int cpt, Stack<Position> positions, string mot, Position pos)
         {
-            throw new NotImplementedException();
-            if (cpt == 0)
+            if (cpt == mot.Length) return (true, positions);
+            //Position latsPos = positions.Peek();
+            bool found = false;
+            if (pos.X >= 0 && pos.X < _plateau.GetLength(1) && pos.Y >= 0 && pos.Y < _plateau.GetLength(0) && _plateau[pos.X, pos.Y] == mot[cpt])
             {
+                Console.WriteLine($"lettre trouvée: {mot[cpt]}, longueur du mot: {mot.Length}, position: {pos.X}, {pos.Y}");
+                (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X, pos.Y - 1)); //recherche en haut
+                if (!found)
+                {
+                    (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X - 1, pos.Y)); //recherche à gauche
+                    if (!found)
+                    {
+                        (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X + 1, pos.Y));//recherche verticale
+                        if (!found)
+                        {
+                            (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X - 1, pos.Y -1));//recherche verticale
+                            if (!found)
+                            {
+                                (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X + 1, pos.Y - 1));//recherche verticale
+                            }
+                        }
+                    }
 
+                }
             }
+            return (found, positions);
         }
     }
 }

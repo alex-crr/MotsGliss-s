@@ -1,2 +1,3 @@
 global using NUnit.Framework;
-global using MotsGliss�s;
+global using MotsGlissés;
+global using static MotsGlissés.Extras;
