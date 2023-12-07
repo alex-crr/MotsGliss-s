@@ -76,6 +76,7 @@ namespace MotsGlissés
         /// <param name="nomfile">nom du fichier</param>
         public void ToFile(string nomfile)
         {
+
             StreamWriter s = new StreamWriter(nomfile);
             for (int i = 0; i < _plateau.GetLength(0); i++)
             {
@@ -174,8 +175,8 @@ namespace MotsGlissés
         /// <returns></returns>
         private (bool, Stack<Position>) Recherche_Aux(int cpt, Stack<Position> positions, string mot, Position pos)
         {
-            if (cpt == mot.Length) return (true, positions);
-            if (positions.Any() && positions.Peek() == pos) return (false, positions);
+            if (cpt == mot.Length) return (true, positions); // Si on a compté le bon nombre de lettres valides, c'est qu'on a trouvé le mot
+            if (positions.Contains(pos)) return (false, positions);// si on est déjà passé par là, on arrête
 
             bool found = false;
             if (pos.X >= 0 && pos.X < _plateau.GetLength(1) && pos.Y >= 0 && pos.Y < _plateau.GetLength(0) && _plateau[pos.Y, pos.X] == mot[cpt])
