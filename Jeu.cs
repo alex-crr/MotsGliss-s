@@ -70,8 +70,8 @@ namespace MotsGlissés
             {
                 Console.WriteLine(j.toString);
             }
-
-
+            // if(j1.scaore > j2.score) Console.Writeline(j1.Nom +" a gagné");
+            //else Console.Writeline(j2.Nom +" a gagné");
         }
     }
 }
