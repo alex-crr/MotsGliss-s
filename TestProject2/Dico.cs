@@ -194,9 +194,10 @@ namespace TestProject2
 
         [Test]
         [TestCase("", false)]
-        public void RechercheDicoN(string input, bool expected)
+        public void RechercheDicoEmpty(string input, bool expected)
         {
             Assert.That(expected, Is.EqualTo(dico.RechDichoRecursif(input)));
         }
+
     }
 }
