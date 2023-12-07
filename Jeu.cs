@@ -8,19 +8,19 @@ namespace MotsGlissés
 {
     public class Jeu
     {
-        private Dictionnaire dico1;
-        Plateau plateau1;
-        Joueur joueur1;
+        Dictionnaire dico;
+        Plateau plateau;
+        Joueur joueur;
         int tempsjoueur ;
         int tempsjeu = 120;
 
     }
-    public Jeu(Dictionnaire dico, Plateau plateau1,Joueur joueur1, int tempsjoueur)
+    public Jeu(Dictionnaire dico, Plateau plateau,Joueur joueur, int tempsjoueur)
     {
         this.dico = dico;
-        this.plateau1 = plateau1;
-        this.joueur1 = joueur1;
-        this.tempsjoueur = tempsjoueur
+        this.plateau1 = plateau;
+        this.joueur1 = joueur;
+        this.tempsjoueur = tempsjoueur;
 
     }
 
@@ -31,6 +31,15 @@ namespace MotsGlissés
         DateTime startGame= DateTime.Now;
         TimeSpan tempsEcoule = TimeSpan.Zero;
 
-        while(DateTime.Now -)
+        while(tempsEcoule < tempsjeu )
+        {
+            foreach(Joueur j in joueur)
+            {
+                Console.WriteLine($"{j.Nom} a toi de jouer !");
+                DateTime debuttour = DateTime.Now;
+                TimeSpan tempsrestant = tempsjoueur;
+
+            }
+        }
     }
 }
