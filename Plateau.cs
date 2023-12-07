@@ -141,7 +141,7 @@ namespace MotsGlissés
                     if (mot[0] == _plateau[height, i])
                     {
                         Stack<Position> positions = new Stack<Position>();
-                        (found, pos) = Recherche_Aux(0, positions, mot, new Position(height, i));
+                        (found, pos) = Recherche_Aux(0, positions, mot, new Position(i, height));
                     }
                     i++;
                 }
@@ -162,7 +162,7 @@ namespace MotsGlissés
             if (cpt == mot.Length) return (true, positions);
             //Position latsPos = positions.Peek();
             bool found = false;
-            if (pos.X >= 0 && pos.X < _plateau.GetLength(1) && pos.Y >= 0 && pos.Y < _plateau.GetLength(0) && _plateau[pos.X, pos.Y] == mot[cpt])
+            if (pos.X >= 0 && pos.X < _plateau.GetLength(1) && pos.Y >= 0 && pos.Y < _plateau.GetLength(0) && _plateau[pos.Y, pos.X] == mot[cpt])
             {
                 Console.WriteLine($"lettre trouvée: {mot[cpt]}, longueur du mot: {mot.Length}, position: {pos.X}, {pos.Y}");
                 (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X, pos.Y - 1)); //recherche en haut

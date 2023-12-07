@@ -7,20 +7,21 @@ namespace TestProject2
         static string filepath = Path.Combine("..", "..", "..", "..", "Resources");
 
         [Test]
-        [TestCase( "TestUp.csv", "maison", true)]
-        [TestCase( "TestUp.csv", "maison", true)]
-        [TestCase( "TestRight.csv", "maison", true)]
-        [TestCase( "TestLeft.csv", "maison", true)]
-        [TestCase( "TestSDiagLeft.csv", "maison", true)]
-        [TestCase( "TestSDiagRight.csv", "maison", true)]
-        [TestCase( "TestDiagLeft.csv", "maison", true)]
-        [TestCase( "TestDiagRight.csv", "maison", true)]
-        public void TestBasic(string fileName, string àChercher, bool expected)
+        [TestCase( "TestUp.csv")]
+        [TestCase( "TestUp.csv")]
+        [TestCase( "TestRight.csv")]
+        [TestCase( "TestLeft.csv")]
+        [TestCase( "TestSDiagLeft.csv")]
+        [TestCase( "TestSDiagRight.csv")]
+        [TestCase( "TestDiagLeft.csv")]
+        [TestCase( "TestDiagRight.csv")]
+        public void TestBasic(string fileName)
         {
+            string àChercher = "maison";
             string file = Path.Combine(filepath, fileName);
             Plateau p = new Plateau(file);
             var res = p.Recherche_Mot(àChercher);
-            Assert.That(res.Item1, Is.EqualTo(expected));
+            Assert.That(res.Item1, Is.EqualTo(true));
         }
     }
 }
