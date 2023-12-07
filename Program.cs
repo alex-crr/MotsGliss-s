@@ -12,10 +12,12 @@ namespace MotsGlissés
             Console.WriteLine(dico.RechDichoRecursif("ojerghpuioahfggh"));
             Console.WriteLine(dico.RechDichoRecursif("cheval"));
             Console.WriteLine(dico.toString());*/
-            string filePath = Path.Combine("..", "..", "..", "Resources", "TestRight.csv");
+            string filePath = Path.Combine("..", "..", "..", "Resources", "Test1.csv");
             Plateau p = new Plateau(filePath);
             Console.WriteLine(p.toString());
-            Console.WriteLine(p.Recherche_Mot("maison"));   
+            (bool found, var tits) = p.Recherche_Mot("maison");
+            p.Maj_plateau(tits);
+            Console.WriteLine(p.toString());
         }
     }
 }

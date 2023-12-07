@@ -114,16 +114,33 @@ namespace MotsGlissés
         /// <summary>
         /// met a jour la matrice en fonction du mot trouvé
         /// </summary>
-        public void Maj_plateau(string mot) { throw new NotImplementedException(); }
+        public void Maj_plateau(Stack<Position> positions)
+        {
+            int height = _plateau.GetLength(1) - 1;
+            while (positions.Count() != 0)
+            {
+                Position pos = positions.Pop();
+                _plateau[pos.Y, pos.X] = ' ';
+                for(int i = pos.Y; i >= 1; i--){
+                    (_plateau[i, pos.X], _plateau[i - 1, pos.X])  = (_plateau[i - 1, pos.X], _plateau[i, pos.X]);
+                }
+            }
+        }
 
-
+        /// <summary>
+        /// Initie un arbre de recherche sur toutes les cases de la ligne en bas du plateau. 
+        /// Un test est efectué dans la recherche arbre pour savoir si la case correspondà ce qu'on attend. 
+        /// Assez opti
+        /// </summary>
+        /// <param name="mot">mot à chercher</param>
+        /// <returns>bool : si le mot a été trouvé, Stack<Position> : représentation du chemin pris</returns>
         public (bool, Stack<Position>) Recherche_Mot(string mot)
         {
             if (mot is null)
             {
                 throw new ArgumentNullException(nameof(mot));
             }
-            else if (mot.Length == 0)
+            else if (mot.Length == 0) // handled par la recherche dans le dico qui renvoie faux
             {
                 Console.WriteLine("mot de taille nulle");
                 return (false, new Stack<Position>());
@@ -138,11 +155,9 @@ namespace MotsGlissés
                 int Length = _plateau.GetLength(1);
                 while (!found && i < Length)
                 {
-                    if (mot[0] == _plateau[height, i])
-                    {
-                        Stack<Position> positions = new Stack<Position>();
-                        (found, pos) = Recherche_Aux(0, positions, mot, new Position(i, height));
-                    }
+                    Stack<Position> positions = new Stack<Position>();
+                    (found, pos) = Recherche_Aux(0, positions, mot, new Position(i, height));
+
                     i++;
                 }
                 return (found, pos);
@@ -150,7 +165,7 @@ namespace MotsGlissés
         }
 
         /// <summary>
-        /// 
+        /// Principe de recherche récursive dans un arbre. 
         /// </summary>
         /// <param name="cpt">position dans le mot</param>
         /// <param name="positions">liste des précédentes positions</param>
@@ -160,24 +175,25 @@ namespace MotsGlissés
         private (bool, Stack<Position>) Recherche_Aux(int cpt, Stack<Position> positions, string mot, Position pos)
         {
             if (cpt == mot.Length) return (true, positions);
-            //Position latsPos = positions.Peek();
+            if (positions.Any() && positions.Peek() == pos) return (false, positions);
+
             bool found = false;
             if (pos.X >= 0 && pos.X < _plateau.GetLength(1) && pos.Y >= 0 && pos.Y < _plateau.GetLength(0) && _plateau[pos.Y, pos.X] == mot[cpt])
             {
-                Console.WriteLine($"lettre trouvée: {mot[cpt]}, longueur du mot: {mot.Length}, position: {pos.X}, {pos.Y}");
+                positions.Push(pos);
                 (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X, pos.Y - 1)); //recherche en haut
                 if (!found)
                 {
                     (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X - 1, pos.Y)); //recherche à gauche
                     if (!found)
                     {
-                        (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X + 1, pos.Y));//recherche verticale
+                        (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X + 1, pos.Y));//recherche droite
                         if (!found)
                         {
-                            (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X - 1, pos.Y -1));//recherche verticale
+                            (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X - 1, pos.Y - 1));//recherche diag gauche
                             if (!found)
                             {
-                                (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X + 1, pos.Y - 1));//recherche verticale
+                                (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X + 1, pos.Y - 1));//recherche diag droite
                             }
                         }
                     }
