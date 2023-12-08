@@ -12,6 +12,13 @@ namespace MotsGlissés
         char[,] _plateau; // avec [Y, la hauteur et largeur respectivement
         Random r = new Random();
 
+        int _nbLettres = 0;
+
+        public int NbLettres
+        {
+            get { return _nbLettres; }
+        }
+
         /// <summary>
         /// crée le plateau à partir d'un csv
         /// </summary>
@@ -31,6 +38,8 @@ namespace MotsGlissés
             {
                 throw new FileNotFoundException($"Plateau: couldn't find {filePath}.");
             }
+
+            _nbLettres = 64;
             _plateau = new char[8, 8]; // à faire en fonction de la taille limite
             List<char> lettre = new List<char>();
             string[] lines = File.ReadAllLines(filePath); // tableau de ligne 
@@ -82,7 +91,7 @@ namespace MotsGlissés
             {
                 for (int j = 0; j < _plateau.GetLength(1); j++)
                 {
-                    s.Write(_plateau[i, j]);
+                    s.Write(_plateau[i, j] + ";");
                 }
                 s.WriteLine();
             }
@@ -107,6 +116,7 @@ namespace MotsGlissés
                 for (int j = 0; j < temp.Length; j++)
                 {
                     _plateau[i, j] = temp[j].ToUpper()[0];
+                    _nbLettres++;
                 }
             }
 
@@ -115,12 +125,13 @@ namespace MotsGlissés
         /// <summary>
         /// met a jour la matrice en fonction du mot trouvé
         /// </summary>
-        public void Maj_plateau(Stack<Position> positions)
+        public void Maj_Plateau(Stack<Position> positions)
         {
             int height = _plateau.GetLength(1) - 1;
             while (positions.Count() != 0)
             {
                 Position pos = positions.Pop();
+                _nbLettres--;
                 _plateau[pos.Y, pos.X] = ' ';
                 for(int i = pos.Y; i >= 1; i--){
                     (_plateau[i, pos.X], _plateau[i - 1, pos.X])  = (_plateau[i - 1, pos.X], _plateau[i, pos.X]);

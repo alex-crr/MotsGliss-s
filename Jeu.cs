@@ -1,10 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace MotsGlissés
 {
@@ -15,7 +10,7 @@ namespace MotsGlissés
         Plateau _plateau;
         List<Joueur> _joueurs;
         TimeSpan _tempsjoueur;
-        TimeSpan tempsjeu = TimeSpan.FromSeconds(120);
+        TimeSpan tempsjeu = TimeSpan.FromSeconds(30);
 
 
         public Jeu(Dictionnaire dico, Plateau plateau, List<Joueur> joueur, TimeSpan tempsjoueur)
@@ -34,51 +29,58 @@ namespace MotsGlissés
         public void play()
         {
             DateTime startGame = DateTime.Now; //temps maintenant
-            DateTime finjeu = startGame.Add(tempsjeu);//temps definie au préalable
-            while (startGame < finjeu)
+            DateTime endGame = startGame.Add(tempsjeu);//temps definie au préalable
+            while (DateTime.Now < endGame && _plateau.NbLettres > 0)
             {
-                foreach (Joueur j in _joueurs)
+                foreach (Joueur joueur in _joueurs)
                 {
-                    Console.WriteLine($"{j.Nom} a toi de jouer !");
-                    DateTime debuttour = DateTime.Now;
-                    TimeSpan tempsrestant = _tempsjoueur;
-                    string motcherche = "";
-                    while (DateTime.Now < debuttour.Add(tempsrestant) && motcherche == "")
+                    Console.WriteLine(_plateau.toString());
+                    Console.WriteLine($"{joueur.Nom} a toi de jouer !");
                     {
-                        Console.WriteLine("entre un mot");
-                        motcherche = Console.ReadLine();
-                        if (_dico.RechDichoRecursif(motcherche) && Plateau.Recherche_Mot(motcherche)) //vérifie que le mot existe dans le dictionniaire et sur le plateau
+                        string motCherché = Console.ReadLine();
+                        //inclure des tests sur l'input 
+                        if (joueur.Contient(motCherché))
                         {
-
-                            j.Add_Mot(motcherche);
-                            for (int i = 0; i < motcherche.Length; i++)
-                            {
-                                // trouver la fonction
-                            }
-                            j.Add_Score += ;
-                            _plateau.Maj_Plateau(motcherche);
+                            Console.WriteLine("Le mot a déjà été trouvé, tu passes ton tour");
+                        }
+                        else if (!_dico.RechDichoRecursif(motCherché))
+                        {
+                            Console.WriteLine("Le mot n'existe pas, tu passes ton tour");
                         }
                         else
                         {
-                            Console.WriteLine("le mot n'existe pas");
-                        }
+                            var res = _plateau.Recherche_Mot(motCherché);
+                            if (res.Item1)
+                            {
+                                _plateau.Maj_Plateau(res.Item2);
+                                joueur.Add_Mot(motCherché);
+                                //faire le add score
+                            }
+                            else
+                            {
+                                Console.WriteLine("Le mot n'existe pas");
+                            }
+                        }maison
+
                     }
 
                 }
             }
-            Console.WriteLine("le jeu est terminer voici les resultat");
-            foreach (Joueur j in _joueurs)
+            Console.WriteLine("Fin de la partie");
+            if (_joueurs[0].Score < _joueurs[1].Score)
             {
-                Console.WriteLine(_joueurs[i].toString);
+                Console.WriteLine($"{_joueurs[1].Nom} a gagné");
             }
-            // for (int i = 0; i < _joueurs.Count; i++) mettre si plus de joueurs
-            // { }
-            if (_joueurs[0].score > _jouurs[1].score)
-                Console.WriteLine(_joueurs[0].Nom + " a gagné");
+            else if (_joueurs[0].Score > _joueurs[1].Score)
+            {
+                Console.WriteLine($"{_joueurs[0].Nom} a gagné");
+            }
             else
-                Console.WriteLine(_joueurs[1].Nom + " a gagné");
+            {
+                Console.WriteLine("Egalité");
+            }
         }
     }
 }
-    
+
 

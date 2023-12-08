@@ -9,6 +9,13 @@ namespace MotsGlissés
         private int _score;
         private List<string> _mots;
 
+        public int Score => _score;
+        public Joueur(string nom)
+        {
+            this._nom = nom;
+            this._score = 0;
+            this._mots = new List<string>();
+        }
         public Joueur(string nom, int score, List<string> listeMotTrouver)
         {
             this._nom = nom;
