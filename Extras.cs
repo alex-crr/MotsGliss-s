@@ -2,7 +2,7 @@
 
 namespace MotsGlissés
 {
-    class Extras
+    public class Extras
     {
         public static (string[], string[]) Split(string[] tab)
         {
@@ -132,6 +132,38 @@ namespace MotsGlissés
 
             (string[] array1, string[] array2) = Split(tab);
             return Merge(Fusion(array1), Fusion(array2));
+        }
+        public struct Position
+        {
+            int x;
+            int y;
+
+            public int X { get => x; }
+            public int Y { get => y; }
+
+            public Position(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
+
+            public override bool Equals(object obj)
+            {
+                if (obj is Position other)
+                {
+                    return x == other.x && y == other.y;
+                }
+                return false;
+            }
+            public static bool operator ==(Position left, Position right)
+            {
+                return left.Equals(right);
+            }
+
+            public static bool operator !=(Position left, Position right)
+            {
+                return !left.Equals(right);
+            }
         }
     }
 }
