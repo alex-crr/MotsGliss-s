@@ -28,6 +28,7 @@ namespace MotsGlissés
 
             while (true)
             {
+                Core.ClearContent();
                 var inputGameMode = Core.ScrollingMenuSelector("What do you want to do ?", default, default, "Play from a preloaded file", "Play from a randomly generated file", "Quit");
                 Plateau p = new Plateau();
                 switch (inputGameMode.Item2)
@@ -38,8 +39,6 @@ namespace MotsGlissés
                         {
                             var inputPlateauPath = Core.WritePrompt("Please enter the path to the file you want to play with (leave empty for us to choose)", default, 10);
                             string plateauName = inputPlateauPath.Item2;
-                            Core.WritePositionedString( plateauName.Length.ToString(), Placement.Left, default, 12, default);
-                            Console.ReadKey();
                             if (plateauName.Length == 0)
                             {
                                 //add randomnness to file selection, see input from teachers

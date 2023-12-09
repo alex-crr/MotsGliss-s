@@ -29,12 +29,16 @@ namespace MotsGlissés
         {
             DateTime startGame = DateTime.Now; //temps maintenant
             DateTime endGame = startGame.Add(tJeu);//temps definie au préalable
+            bool first = true;
             while (DateTime.Now < endGame && _plateau.NbLettres > 0)
             {
                 foreach (Joueur joueur in _joueurs)
                 {
-                    Console.WriteLine(_plateau.toString());
-                    Console.WriteLine($"{joueur.Nom} a toi de jouer !");
+                    if(!first) Thread.Sleep(1000);
+                    first = false;
+                    Core.ClearContent();
+                    Core.WriteContinuousString(_plateau.toString(), 10, false, 250);
+                    Console.WriteLine($"{joueur.Nom} it's your turn to shine !");
                     {
                         string motCherché = ReadLine(_tJoueur);
                         if (motCherché != null)
@@ -42,11 +46,11 @@ namespace MotsGlissés
                             //inclure des tests sur l'input 
                             if (joueur.Contient(motCherché))
                             {
-                                Console.WriteLine("Le mot a déjà été trouvé, tu passes ton tour");
+                                Console.WriteLine("You've already found this word, you skip your turn ...");
                             }
                             else if (!_dico.RechDichoRecursif(motCherché))
                             {
-                                Console.WriteLine("Le mot n'existe pas, tu passes ton tour");
+                                Console.WriteLine("The word you're looking for doesn't exist, you skip your turn ...");
                             }
                             else
                             {
@@ -56,33 +60,40 @@ namespace MotsGlissés
                                     _plateau.Maj_Plateau(res.Item2);
                                     joueur.Add_Mot(motCherché);
                                     joueur.Add_Score(_plateau.GetScore(motCherché) + 5);//bonus de 5 pour avoir trouvé un mot
+                                    Console.WriteLine($"You found the word {motCherché} and earned {_plateau.GetScore(motCherché) + 5} points !");
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Le mot n'existe pas");
+                                    Console.WriteLine("Too bad, the word you're looking for doesn't exist on the table, you skip your turn ...");
                                 }
                             }
                         }
-                        else Console.WriteLine("Temps écoulé, tu passes ton tour");
+                        else Console.WriteLine("Time's up for you");
 
                     }
 
                 }
             }
-            Console.WriteLine("Fin de la partie");
-            Console.WriteLine($"Résultats :\n - {_joueurs[0].Nom} : {_joueurs[0].Score}\n - {_joueurs[1].Nom} : {_joueurs[1].Score}");
+            Thread.Sleep(2000);
+            Core.ClearContent();
+            Core.WriteContinuousString("Time is up !", 10, false, 500);
+            Core.WriteContinuousString("The results are in", 11, false, 500); 
+            Core.WritePositionedString($"{_joueurs[0].Nom} has {_joueurs[0].Score}", Placement.Center, default, 12, default);
+            Core.WritePositionedString($"{_joueurs[1].Nom} has {_joueurs[1].Score}", Placement.Center, default, 13, default);
             if (_joueurs[0].Score < _joueurs[1].Score)
             {
-                Console.WriteLine($"{_joueurs[1].Nom} a gagné");
+                Core.WritePositionedString($"{_joueurs[1].Nom} has won", Placement.Center, default, 14, default);
             }
             else if (_joueurs[0].Score > _joueurs[1].Score)
             {
-                Console.WriteLine($"{_joueurs[0].Nom} a gagné");
+                Core.WritePositionedString($"{_joueurs[0].Nom} has won", Placement.Center, default, 14, default);
             }
             else
             {
-                Console.WriteLine("Egalité");
+                Core.WritePositionedString("It's a tie", Placement.Center, default, 14, default);
             }
+            Core.WritePositionedString("Press any key to continue", Placement.Center, default, 15, default);
+            Console.ReadKey();
         }
     }
 }
