@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace MotsGlissés
+﻿namespace MotsGlissés
 {
     public class Extras
     {
@@ -133,6 +131,10 @@ namespace MotsGlissés
             (string[] array1, string[] array2) = Split(tab);
             return Merge(Fusion(array1), Fusion(array2));
         }
+
+        /// <summary>
+        /// Represents a position in a two-dimensional space.
+        /// </summary>
         public struct Position
         {
             int x;
@@ -164,6 +166,45 @@ namespace MotsGlissés
             {
                 return !left.Equals(right);
             }
+        }
+
+        /// <summary>
+        /// Equivalent de ReadLine mais avec un timeout
+        /// </summary>
+        /// <param name="timeout">La durée maximale d'attente pour une entrée.</param>
+        /// <returns>La chaîne de caractères saisie par l'utilisateur, ou null si aucune saisie n'a été effectuée dans le délai imparti.</returns>
+        public static string ReadLine(TimeSpan timeout)
+        {
+            DateTime startTime = DateTime.Now;
+            Stack<char> inputStack = new Stack<char>();
+            string output = "";
+            do
+            {
+                if (Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey(true);
+                    // ajouter check si c'est une lettre
+                    if (key.Key == ConsoleKey.Enter)
+                    {
+                        break;
+                    }
+                    else if (key.Key == ConsoleKey.Backspace && inputStack.Any())
+                    {
+                        inputStack.Pop();
+                    }
+                    else
+                    {
+                        char c = key.KeyChar;
+                        if(char.IsLetter(c)) inputStack.Push(c);
+                    }
+                    output = new string(inputStack.Reverse().ToArray());
+                    Console.Write("\r                                                                          ");
+                    Console.Write("\r{0}", output);
+                }
+            } while ((DateTime.Now - startTime) < timeout);
+
+            Console.WriteLine();
+            return (output.Length > 0) ? output.ToUpper() : null;
         }
     }
 }
