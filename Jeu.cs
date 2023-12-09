@@ -3,6 +3,7 @@ namespace MotsGlissés
 {
     public class Jeu
     {
+        // attributs
         Dictionnaire _dico;
         Plateau _plateau;
         List<Joueur> _joueurs;
@@ -10,6 +11,7 @@ namespace MotsGlissés
         TimeSpan tJeu = TimeSpan.FromSeconds(90);
 
 
+        // constructeur
         public Jeu(Dictionnaire dico, Plateau plateau, List<Joueur> joueur, TimeSpan tempsJoueur, TimeSpan tempsJeu)
         {
             this._dico = dico;
@@ -20,9 +22,8 @@ namespace MotsGlissés
 
         }
 
-
         /// <summary>
-        /// défini le temps de jeu les les resultats
+        /// Méthode 
         /// </summary>
         public void play()
         {

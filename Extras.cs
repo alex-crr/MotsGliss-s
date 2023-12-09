@@ -169,10 +169,10 @@
         }
 
         /// <summary>
-        /// Reads a line of input from the console with a specified timeout.
+        /// Equivalent de ReadLine mais avec un timeout
         /// </summary>
-        /// <param name="timeout">The maximum amount of time to wait for input.</param>
-        /// <returns>The input string entered by the user, or null if no input was received within the timeout.</returns>
+        /// <param name="timeout">La durée maximale d'attente pour une entrée.</param>
+        /// <returns>La chaîne de caractères saisie par l'utilisateur, ou null si aucune saisie n'a été effectuée dans le délai imparti.</returns>
         public static string ReadLine(TimeSpan timeout)
         {
             DateTime startTime = DateTime.Now;

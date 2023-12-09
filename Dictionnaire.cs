@@ -2,7 +2,10 @@
 {
     public class Dictionnaire
     {
-        string _chemin;
+        // attributs
+        string _chemin; // chemin vers le fichier contenant le dictionnaire
+
+        // constructeurs
         public Dictionnaire(string chemin)
         {
             if (!File.Exists(chemin))
@@ -12,6 +15,11 @@
             _chemin = chemin;
         }
 
+        /// <summary>
+        /// Effectue un Tri Fusion sur chacune des lignes du dictionnaire
+        /// Possible de le faire grâce à des streams
+        /// Implémentation de Fusion dans Extras.cs
+        /// </summary>
         public void Tri_Fusion()
         {
             string[] lines = File.ReadAllLines(_chemin);
@@ -24,6 +32,12 @@
             File.WriteAllLines(_chemin, lines);
         }
 
+        /// <summary>
+        /// Recherche un mot dans le dictionnaire, via un stream, en accédant itérativement à la ligne correspondante au premier caractère du mot
+        /// Nécessite que le dictionnaire soit trié, et que le format du fichier soit correct et en accord avec le sujet
+        /// </summary>
+        /// <param name="input">Mot recherché</param>
+        /// <returns>bool: Vrai si la mot a été trouvé, faux si le mot n'est pas trouvé, ou est nul, de taille nulle, ou ne contient pas que des lettres</returns>
         public bool RechDichoRecursif(string input)
         {
             if (input == null) return false;
@@ -31,7 +45,7 @@
             if (!input.All(Char.IsLetter)) return false;
             else
             {
-                input = input.ToUpper();
+                //input = input.ToUpper();// théoriquement géré par ReadLine()
                 using (StreamReader sr = new StreamReader(_chemin))
                 {
                     string line;
@@ -42,7 +56,7 @@
                         {
                             string[] lineContent = line.Split(" ");
 
-                            bool Cherche( int borneInf, int borneSup)
+                            bool Cherche(int borneInf, int borneSup)
                             {
                                 int middle = (borneInf + borneSup) / 2;
                                 if (borneInf > borneSup) return false;
@@ -61,14 +75,22 @@
                 return false;
             }
         }
+
+        /// <summary>
+        /// Représente le dictionnaire sous forme de chaîne de caractères
+        /// Affiche la langue du dictionnaire (français par défaut ), puis le nombre de mots par lettre
+        /// Implémenté avec un stream
+        /// Assume que le dictionnaire soit conforme au format donné dans le sujet
+        /// </summary>
+        /// <returns>string: la chaîne de caractère</returns>
         public string toString()
         {
-            using(StreamReader sr = new StreamReader(_chemin))
+            using (StreamReader sr = new StreamReader(_chemin))
             {
                 string line;
                 int cpt = 65;
                 string res = "Langue Française\n";
-                while((line = sr.ReadLine()) != null)
+                while ((line = sr.ReadLine()) != null)
                 {
 
                     res += $"{(char)cpt} : {line.Split(" ").Length} mots\n";
