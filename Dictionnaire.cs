@@ -1,7 +1,4 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace MotsGlissés
+﻿namespace MotsGlissés
 {
     public class Dictionnaire
     {

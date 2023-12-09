@@ -1,7 +1,4 @@
-﻿using System;
-using System.Reflection.Metadata.Ecma335;
-
-namespace MotsGlissés
+﻿namespace MotsGlissés
 {
     public class Joueur
     {
@@ -37,7 +34,8 @@ namespace MotsGlissés
 
         public void Add_Score(int val)
         {
-            _score = +val;
+            _score += 
+            val;
         }
 
         public bool Contient(string mot)

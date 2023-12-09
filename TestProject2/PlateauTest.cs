@@ -26,12 +26,24 @@ namespace TestProject2
 
         [Test]
         [TestCase("TestRetour.csv")]
-        public void TestRetour(string fileName){
+        public void TestRetour(string fileName)
+        {
             string àChercher = "ana";
             string file = Path.Combine(filepath, fileName);
             Plateau p = new Plateau(file);
             var res = p.Recherche_Mot(àChercher);
             Assert.That(res.Item1, Is.EqualTo(false));
+        }
+
+        [Test]
+        [TestCase("MAISON", 7)]
+        [TestCase("TEST", 4)]
+        [TestCase("ABOIE", 7)]
+        public void TestGetScore(string mot, int expected)
+        {
+            string file = Path.Combine(filepath, "Test1.csv");
+            Plateau p = new Plateau(file);
+            Assert.That(p.GetScore(mot), Is.EqualTo(expected));
         }
     }
 }

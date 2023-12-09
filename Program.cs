@@ -29,12 +29,14 @@ namespace MotsGlissés
             joueurs.Add(new Joueur("Marina"));
             joueurs.Add(new Joueur("Alexandre"));
             TimeSpan tempsjeu = TimeSpan.FromSeconds(60);
+            TimeSpan tempsjoueur = TimeSpan.FromSeconds(10);
 
-            Jeu jeu = new Jeu(dico, p, joueurs, tempsjeu );
+            Jeu jeu = new Jeu(dico, p, joueurs, tempsjoueur, tempsjeu );
             jeu.play();
 
-            
-
+            /*string ToWrite = ReadLine(TimeSpan.FromSeconds(15));
+            if (ToWrite == null) Console.WriteLine("timedout");
+            else Console.WriteLine(ToWrite);*/
 
         }
     }

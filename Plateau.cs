@@ -1,6 +1,3 @@
-using System;
-using static MotsGlissés.Extras;
-
 namespace MotsGlissés
 {
     public class Plateau
@@ -9,11 +6,19 @@ namespace MotsGlissés
         // choisir un element au hasard liste[r.Next(1,liste.count)]
         // et le supprimer de la liste
 
-        char[,] _plateau; // avec [Y, la hauteur et largeur respectivement
+        char[,] _plateau; // avec [Y,X] la hauteur et largeur respectivement
         Random r = new Random();
-
         int _nbLettres = 0;
-
+        Dictionary<char, int> _scoreLettres = new Dictionary<char, int>()
+        {
+            {'A', 1},{'I', 1},{'E', 1},{'L', 1},{'N', 1},{'O', 1},{'R', 1},{'S', 1},{'T', 1},{'U', 1},
+            {'D', 2},{'G', 2},{'M', 2},
+            {'B', 3},{'C', 3},{'P', 3},
+            {'F', 4},{'H', 4},{'V', 4},        
+            {'J', 8},{'Q', 8},
+            {'K', 10},{'W', 10},{'X', 10},{'Y', 10},{'Z', 10},
+        }; // valeurs du scrabble
+        
         public int NbLettres
         {
             get { return _nbLettres; }
@@ -41,23 +46,26 @@ namespace MotsGlissés
 
             _nbLettres = 64;
             _plateau = new char[8, 8]; // à faire en fonction de la taille limite
-            List<char> lettre = new List<char>();
+            List<char> lettres = new List<char>();
+            _scoreLettres = new Dictionary<char, int>();
             string[] lines = File.ReadAllLines(filePath); // tableau de ligne 
             foreach (string line in lines)
             {
                 string[] temp = line.Split(','); //[A,10,0]
                 for (int i = 0; i < Convert.ToInt32(temp[1]); i++)
                 {
-                    lettre.Add(temp[0][0]);
+                    lettres.Add(temp[0][0]);
                 }
+                _scoreLettres.Add(temp[0][0], Convert.ToInt32(temp[2]));
+
             }
             for (int i = 0; i < _plateau.GetLength(0); i++)
             {
                 for (int j = 0; j < _plateau.GetLength(1); j++)
                 {
-                    int nb = r.Next(lettre.Count());
-                    _plateau[i, j] = lettre[nb];
-                    lettre.Remove(lettre[nb]);
+                    int nb = r.Next(lettres.Count());
+                    _plateau[i, j] = lettres[nb];
+                    lettres.Remove(lettres[nb]);
                 }
             }
         }
@@ -191,7 +199,7 @@ namespace MotsGlissés
 
             bool found = false;
             if (pos.X >= 0 && pos.X < _plateau.GetLength(1) && pos.Y >= 0 && pos.Y < _plateau.GetLength(0) && _plateau[pos.Y, pos.X] == mot[cpt])
-            {
+            {   
                 positions.Push(pos);
                 (found, positions) = Recherche_Aux(cpt + 1, positions, mot, new Position(pos.X, pos.Y - 1)); //recherche en haut
                 if (!found)
@@ -213,6 +221,16 @@ namespace MotsGlissés
                 }
             }
             return (found, positions);
+        }
+
+        public int GetScore(string mot)
+        {
+            int score = 0;
+            foreach (char c in mot)
+            {
+                score += _scoreLettres[c];
+            }
+            return score;
         }
     }
 }
