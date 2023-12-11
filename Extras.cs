@@ -173,7 +173,7 @@
         /// </summary>
         /// <param name="timeout">La durée maximale d'attente pour une entrée.</param>
         /// <returns>La chaîne de caractères saisie par l'utilisateur, ou null si aucune saisie n'a été effectuée dans le délai imparti.</returns>
-        public static string ReadLine(TimeSpan timeout)
+        public static string? ReadLine(TimeSpan timeout)
         {
             DateTime startTime = DateTime.Now;
             Stack<char> inputStack = new Stack<char>();
