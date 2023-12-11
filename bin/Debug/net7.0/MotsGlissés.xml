@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MotsGlissés</name>
+    </assembly>
+    <members>
+        <member name="T:MotsGlissés.Dictionnaire">
+            <summary>
+            Classe représentant un dictionnaire. Elle ne contient que le chemin vers le fichier représentant le dictionnaire.
+            </summary>
+        </member>
+        <member name="M:MotsGlissés.Dictionnaire.#ctor(System.String)">
+            <summary>
+            Constructeur de la classe Dictionnaire
+            </summary>
+            <param name="chemin">Chemin vers le fichier représentant le dictionnaire</param>
+        </member>
+        <member name="M:MotsGlissés.Dictionnaire.Tri_Fusion">
+            <summary>
+            Effectue un Tri Fusion sur chacune des lignes du dictionnaire
+            Possible de le faire grâce à des streams
+            Implémentation de Fusion dans Extras.cs
+            </summary>
+        </member>
+        <member name="M:MotsGlissés.Dictionnaire.RechDichoRecursif(System.String)">
+            <summary>
+            Recherche un mot dans le dictionnaire, via un stream, en accédant itérativement à la ligne correspondante au premier caractère du mot
+            Nécessite que le dictionnaire soit trié, et que le format du fichier soit correct et en accord avec le sujet
+            </summary>
+            <param name="input">Mot recherché</param>
+            <returns>bool: Vrai si la mot a été trouvé, faux si le mot n'est pas trouvé, ou est nul, de taille nulle, ou ne contient pas que des lettres</returns>
+        </member>
+        <member name="M:MotsGlissés.Dictionnaire.toString">
+            <summary>
+            Représente le dictionnaire sous forme de chaîne de caractères
+            Affiche la langue du dictionnaire (français par défaut ), puis le nombre de mots par lettre
+            Implémenté avec un stream
+            Assume que le dictionnaire soit conforme au format donné dans le sujet
+            </summary>
+            <returns>string: la chaîne de caractère</returns>
+        </member>
+        <member name="T:MotsGlissés.Extras">
+            <summary>
+            Cete classe contient des méthodes utiles pour le projet.
+            Elles ne sont pas directement liées au jeu, mais rendent sont développement plus facile.
+            Elles sont statiques pour pouvoir être appelées sans instancier la classe, et appelables depuis n'importe où.
+            </summary>
+        </member>
+        <member name="M:MotsGlissés.Extras.Split(System.String[])">
+            <summary>
+            Méthode permettant de couper en deux un tableau de chaînes de caractères.
+            Le polymorphisme est simple à ajouter, mais n'est pas nécessaire pour le projet.
+            </summary>
+            <param name="tab">Le plateau à couper</param>
+            <returns>(string[], string[]): un tuple des tableaux coupés, dans l'ordre de coupe</returns>
+        </member>
+        <member name="M:MotsGlissés.Extras.Fusion(System.String[])">
+            <summary>
+            Implémentation récursive du tri fusion sur un tableau de string.
+            Le polymorphisme est simple à ajouter, mais n'est pas nécessaire pour le projet.
+            </summary>
+            <param name="tab">Tableau à trier</param>
+            <returns>string[]: le tableau qui a été trié</returns>
+        </member>
+        <member name="T:MotsGlissés.Extras.Position">
+            <summary>
+            Represents a position in a two-dimensional space.
+            </summary>
+        </member>
+        <member name="P:MotsGlissés.Extras.Position.X">
+            <summary>
+            Propriété en lecture seule pour lire la position X, qui se réfère à la largeur de la console.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MotsGlissés.Extras.Position.Y">
+            <summary>
+            Propriété en lecture seule pour lire la position Y, qui se réfère à la hauteur de la console.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructeur de la structure Position
+            </summary>
+            <param name="x">La position en x</param>
+            <param name="y">La position en y</param>
+        </member>
+        <member name="M:MotsGlissés.Extras.Position.Equals(System.Object)">
+            <summary>
+            Override de la méthode Equals pour tester l'égalité de deux positions
+            </summary>
+            <param name="obj">Objet à tester</param>
+            <returns>bool: vrai si les positions sont égales en x et y, faux dans le cas contraire, ou si elle est nulle.</returns>
+        </member>
+        <member name="M:MotsGlissés.Extras.Position.op_Equality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)">
+            <summary>
+            Override de l'opérateur == pour tester l'égalité de deux positions
+            </summary>
+            <param name="left">Première position</param>
+            <param name="right">Seconde position</param>
+            <returns>bool: vrai si les deux positions sont égales</returns>
+        </member>
+        <member name="M:MotsGlissés.Extras.Position.op_Inequality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)">
+            <summary>
+            Override de l'opérateur != pour tester l'inégalité de deux positions
+            </summary>
+            <param name="left">Première position</param>
+            <param name="right">Seconde position</param>
+            <returns>bool: vrai si l'inégalité est vérifiée, faux snn</returns>
+        </member>
+        <member name="M:MotsGlissés.Extras.ReadLine(System.TimeSpan)">
+            <summary>
+            Equivalent de ReadLine mais avec un timeout
+            </summary>
+            <param name="timeout">La durée maximale d'attente pour une entrée.</param>
+            <returns>La chaîne de caractères saisie par l'utilisateur, ou null si aucune saisie n'a été effectuée dans le délai imparti.</returns>
+        </member>
+        <member name="T:MotsGlissés.Jeu">
+            <summary>
+            Classe représentant une partie de Mot Glissé
+            </summary>
+        </member>
+        <member name="M:MotsGlissés.Jeu.#ctor(MotsGlissés.Dictionnaire,MotsGlissés.Plateau,System.Collections.Generic.List{MotsGlissés.Joueur},System.TimeSpan,System.TimeSpan)">
+            <summary>
+            Constructeur de la classe Jeu
+            </summary>
+            <param name="dico">Dictionnaire utilisé pour valider </param>
+            <param name="plateau"></param>
+            <param name="joueur"></param>
+            <param name="tempsJoueur"></param>
+            <param name="tempsJeu"></param>
+        </member>
+        <member name="M:MotsGlissés.Jeu.play">
+            <summary>
+            Méthode 
+            </summary>
+        </member>
+        <member name="T:MotsGlissés.Joueur">
+            <summary>
+            Classe représentant un joueur
+            </summary>
+        </member>
+        <member name="P:MotsGlissés.Joueur.Score">
+            <summary>
+            Propriété Score en lecture seule
+            </summary>
+        </member>
+        <member name="P:MotsGlissés.Joueur.Nom">
+            <summary>
+            Propriété Nom en lecture seule
+            </summary>
+        </member>
+        <member name="M:MotsGlissés.Joueur.#ctor(System.String)">
+            <summary>
+            Cosntructeur simple de la classe Joueur
+            Tout est mis à 0
+            </summary>
+            <param name="nom">Nom du joueur</param>
+        </member>
+        <member name="M:MotsGlissés.Joueur.#ctor(System.String,System.Int32,System.Collections.Generic.List{System.String})">
+            <summary>
+            Constructeur de la classe Joueur
+            </summary>
+            <param name="nom">Nom du joueur</param>
+            <param name="score">Score initial du joueur</param>
+            <param name="listeMotTrouver">Liste initiale des mots trouvés</param>
+        </member>
+        <member name="M:MotsGlissés.Joueur.Add_Mot(System.String)">
+            <summary>
+            Ajoute un mot à la liste des mots trouvés par le joueur, seulement si ce mot n'a pas déjà été trouvé
+            </summary>
+            <param name="mot">Mot qu'il faut ajouter à la liste des mots trouvés</param>
+        </member>
+        <member name="M:MotsGlissés.Joueur.toString">
+            <summary>
+            Condense les informations du joueur en une chaine de caractère
+            </summary>
+            <returns>La chaîne de caractère représentant le joueur</returns>
+        </member>
+        <member name="M:MotsGlissés.Joueur.Add_Score(System.Int32)">
+            <summary>
+            Ajoute un score au score du joueur
+            Le score est calculé depuis plateau, à partir du poids des lettres et d'un bonus de 5 points pour avoir trouvé un mot
+            </summary>
+            <param name="val">Valeur à ajouter</param>
+        </member>
+        <member name="M:MotsGlissés.Joueur.Contient(System.String)">
+            <summary>
+            Test si un mot a déjà été trouvé par le joueur
+            </summary>
+            <param name="mot">Le mot qu'on teste</param>
+            <returns>vrai si le mot a déjà été trouvé, faux sinon</returns>
+        </member>
+        <member name="P:MotsGlissés.Plateau.NbLettres">
+            <summary>
+            Propriété en lecture seule représentant le nombre de lettres restantes sur le plateau
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:MotsGlissés.Plateau.#ctor(System.String)">
+            <summary>
+            Constructeur qui crée un plateau à partir d'un fichier .csv
+            Se référer à ToRead 
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:MotsGlissés.Plateau.#ctor">
+            <summary>
+            Crée un plateau de maniere aleatoire à partir d'un fichier .txt conforme au sujet
+            Prochaine implémentations : sélection du fichier et de la taille du plateau
+            </summary>
+        </member>
+        <member name="M:MotsGlissés.Plateau.toString">
+            <summary>
+            Retourne une chaîne de caractères qui représente le plateau
+            </summary>
+            <returns>Chaîne de caractère représentant le tableau de jeu</returns>
+        </member>
+        <member name="M:MotsGlissés.Plateau.ToFile(System.String)">
+            <summary>
+            Sauvegarde l’instance du plateau dans un fichier en respectant la structure précisée
+            </summary>
+            <param name="filePath">Chemin du fichier d'écriture</param>
+        </member>
+        <member name="M:MotsGlissés.Plateau.ToRead(System.String)">
+            <summary>
+            Lecture d'un fichier .csv et remplissage du plateau
+            </summary>
+            <param name="filePath">Chemin vers le fichier</param>
+        </member>
+        <member name="M:MotsGlissés.Plateau.Maj_Plateau(System.Collections.Generic.Stack{MotsGlissés.Extras.Position})">
+            <summary>
+            Mise à jour de la matrice représentant le plateau selon les positions données
+            Remplace les positions par des espaces et fait descendre les lettres
+            Les positions sont données dans une stack pour éviter les modifications intempestives des positions
+            </summary>
+            <param name="positions">Pile des positions à modifier</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MotsGlissés.Plateau.Recherche_Mot(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:MotsGlissés.Plateau.Recherche_Aux(System.Int32,System.Collections.Generic.Stack{MotsGlissés.Extras.Position},System.String,MotsGlissés.Extras.Position)" -->
+        <member name="M:MotsGlissés.Plateau.GetScore(System.String)">
+            <summary>
+            Récupère le score d'un mot en fonction des valeurs des lettres
+            </summary>
+            <param name="mot">Mot dont on cherche le scor associé</param>
+            <returns>int: valeur Scrabble du mot choisi</returns>
+        </member>
+    </members>
+</doc>
