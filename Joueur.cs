@@ -1,5 +1,8 @@
 ﻿namespace MotsGlissés
 {
+    /// <summary>
+    /// Classe représentant un joueur
+    /// </summary>
     public class Joueur
     {
         // attributs
@@ -7,17 +10,34 @@
         private int _score;
         private List<string> _mots;
 
-        // propriétés
+        /// <summary>
+        /// Propriété Score en lecture seule
+        /// </summary>
         public int Score => _score;
+        
+        /// <summary>
+        /// Propriété Nom en lecture seule
+        /// </summary>
         public string Nom => _nom;
 
-        // constructeurs
+        /// <summary>
+        /// Cosntructeur simple de la classe Joueur
+        /// Tout est mis à 0
+        /// </summary>
+        /// <param name="nom">Nom du joueur</param>
         public Joueur(string nom)
         {
             this._nom = nom;
             this._score = 0;
             this._mots = new List<string>();
         }
+
+        /// <summary>
+        /// Constructeur de la classe Joueur
+        /// </summary>
+        /// <param name="nom">Nom du joueur</param>
+        /// <param name="score">Score initial du joueur</param>
+        /// <param name="listeMotTrouver">Liste initiale des mots trouvés</param>
         public Joueur(string nom, int score, List<string> listeMotTrouver)
         {
             this._nom = nom;

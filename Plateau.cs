@@ -20,7 +20,10 @@ namespace MotsGlissés
             {'K', 10},{'W', 10},{'X', 10},{'Y', 10},{'Z', 10},
         }; // valeurs du scrabble 
 
-        //propriétés
+        /// <summary>
+        /// Propriété en lecture seule représentant le nombre de lettres restantes sur le plateau
+        /// </summary>
+        /// <value></value>
         public int NbLettres
         {
             get { return _nbLettres; }

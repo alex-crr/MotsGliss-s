@@ -1,11 +1,17 @@
 ﻿namespace MotsGlissés
 {
+    /// <summary>
+    /// Classe représentant un dictionnaire. Elle ne contient que le chemin vers le fichier représentant le dictionnaire.
+    /// </summary>
     public class Dictionnaire
     {
         // attributs
         string _chemin; // chemin vers le fichier contenant le dictionnaire
 
-        // constructeurs
+        /// <summary>
+        /// Constructeur de la classe Dictionnaire
+        /// </summary>
+        /// <param name="chemin">Chemin vers le fichier représentant le dictionnaire</param>
         public Dictionnaire(string chemin)
         {
             if (!File.Exists(chemin))
