@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.TypeInspectors
+  commentId: N:YamlDotNet.Serialization.TypeInspectors
+  id: YamlDotNet.Serialization.TypeInspectors
+  children:
+  - YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector
+  - YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector
+  - YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector
+  - YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector
+  - YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector
+  - YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector
+  - YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton
+  - YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.TypeInspectors
+  nameWithType: YamlDotNet.Serialization.TypeInspectors
+  fullName: YamlDotNet.Serialization.TypeInspectors
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector.html
+  name: CachedTypeInspector
+  nameWithType: CachedTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector.html
+  name: CompositeTypeInspector
+  nameWithType: CompositeTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector.html
+  name: NamingConventionTypeInspector
+  nameWithType: NamingConventionTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector.html
+  name: ReadableAndWritablePropertiesTypeInspector
+  nameWithType: ReadableAndWritablePropertiesTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector.html
+  name: ReadableFieldsTypeInspector
+  nameWithType: ReadableFieldsTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector.html
+  name: ReadablePropertiesTypeInspector
+  nameWithType: ReadablePropertiesTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton
+  parent: YamlDotNet.Serialization.TypeInspectors
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton.html
+  name: TypeInspectorSkeleton
+  nameWithType: TypeInspectorSkeleton
+  fullName: YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton
+- uid: YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector
+  commentId: T:YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector.html
+  name: WritablePropertiesTypeInspector
+  nameWithType: WritablePropertiesTypeInspector
+  fullName: YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector
+- uid: YamlDotNet.Serialization.TypeInspectors
+  commentId: N:YamlDotNet.Serialization.TypeInspectors
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.TypeInspectors
+  nameWithType: YamlDotNet.Serialization.TypeInspectors
+  fullName: YamlDotNet.Serialization.TypeInspectors
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.TypeInspectors
+    name: TypeInspectors
+    isExternal: true
+    href: YamlDotNet.Serialization.TypeInspectors.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.TypeInspectors
+    name: TypeInspectors
+    isExternal: true
+    href: YamlDotNet.Serialization.TypeInspectors.html

@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.DefaultValuesHandling
+  commentId: T:YamlDotNet.Serialization.DefaultValuesHandling
+  id: DefaultValuesHandling
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.DefaultValuesHandling.OmitDefaults
+  - YamlDotNet.Serialization.DefaultValuesHandling.OmitEmptyCollections
+  - YamlDotNet.Serialization.DefaultValuesHandling.OmitNull
+  - YamlDotNet.Serialization.DefaultValuesHandling.Preserve
+  langs:
+  - csharp
+  - vb
+  name: DefaultValuesHandling
+  nameWithType: DefaultValuesHandling
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling
+  type: Enum
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum DefaultValuesHandling
+    content.vb: >-
+      <Flags>
+
+      Public Enum DefaultValuesHandling
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: YamlDotNet.Serialization.DefaultValuesHandling.Preserve
+  commentId: F:YamlDotNet.Serialization.DefaultValuesHandling.Preserve
+  id: Preserve
+  parent: YamlDotNet.Serialization.DefaultValuesHandling
+  langs:
+  - csharp
+  - vb
+  name: Preserve
+  nameWithType: DefaultValuesHandling.Preserve
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling.Preserve
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: Preserve = 0
+    return:
+      type: YamlDotNet.Serialization.DefaultValuesHandling
+- uid: YamlDotNet.Serialization.DefaultValuesHandling.OmitNull
+  commentId: F:YamlDotNet.Serialization.DefaultValuesHandling.OmitNull
+  id: OmitNull
+  parent: YamlDotNet.Serialization.DefaultValuesHandling
+  langs:
+  - csharp
+  - vb
+  name: OmitNull
+  nameWithType: DefaultValuesHandling.OmitNull
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling.OmitNull
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: OmitNull = 1
+    return:
+      type: YamlDotNet.Serialization.DefaultValuesHandling
+- uid: YamlDotNet.Serialization.DefaultValuesHandling.OmitDefaults
+  commentId: F:YamlDotNet.Serialization.DefaultValuesHandling.OmitDefaults
+  id: OmitDefaults
+  parent: YamlDotNet.Serialization.DefaultValuesHandling
+  langs:
+  - csharp
+  - vb
+  name: OmitDefaults
+  nameWithType: DefaultValuesHandling.OmitDefaults
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling.OmitDefaults
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: OmitDefaults = 2
+    return:
+      type: YamlDotNet.Serialization.DefaultValuesHandling
+- uid: YamlDotNet.Serialization.DefaultValuesHandling.OmitEmptyCollections
+  commentId: F:YamlDotNet.Serialization.DefaultValuesHandling.OmitEmptyCollections
+  id: OmitEmptyCollections
+  parent: YamlDotNet.Serialization.DefaultValuesHandling
+  langs:
+  - csharp
+  - vb
+  name: OmitEmptyCollections
+  nameWithType: DefaultValuesHandling.OmitEmptyCollections
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling.OmitEmptyCollections
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: OmitEmptyCollections = 4
+    return:
+      type: YamlDotNet.Serialization.DefaultValuesHandling
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.DefaultValuesHandling
+  commentId: T:YamlDotNet.Serialization.DefaultValuesHandling
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.DefaultValuesHandling.html
+  name: DefaultValuesHandling
+  nameWithType: DefaultValuesHandling
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling

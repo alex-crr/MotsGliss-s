@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.Utilities.ITypeConverter
+  commentId: T:YamlDotNet.Serialization.Utilities.ITypeConverter
+  id: ITypeConverter
+  parent: YamlDotNet.Serialization.Utilities
+  children:
+  - YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType(System.Object,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: YamlDotNet.Serialization.Utilities.ITypeConverter
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.Utilities
+  syntax:
+    content: public interface ITypeConverter
+    content.vb: Public Interface ITypeConverter
+- uid: YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType(System.Object,System.Type)
+  commentId: M:YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType(System.Object,System.Type)
+  id: ChangeType(System.Object,System.Type)
+  parent: YamlDotNet.Serialization.Utilities.ITypeConverter
+  langs:
+  - csharp
+  - vb
+  name: ChangeType(object?, Type)
+  nameWithType: ITypeConverter.ChangeType(object?, Type)
+  fullName: YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType(object?, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.Utilities
+  syntax:
+    content: object? ChangeType(object? value, Type expectedType)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: expectedType
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function ChangeType(value As Object, expectedType As Type) As Object
+  overload: YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType*
+  nameWithType.vb: ITypeConverter.ChangeType(Object, Type)
+  fullName.vb: YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType(Object, System.Type)
+  name.vb: ChangeType(Object, Type)
+references:
+- uid: YamlDotNet.Serialization.Utilities
+  commentId: N:YamlDotNet.Serialization.Utilities
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.Utilities
+  nameWithType: YamlDotNet.Serialization.Utilities
+  fullName: YamlDotNet.Serialization.Utilities
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Utilities
+    name: Utilities
+    isExternal: true
+    href: YamlDotNet.Serialization.Utilities.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Utilities
+    name: Utilities
+    isExternal: true
+    href: YamlDotNet.Serialization.Utilities.html
+- uid: YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType*
+  commentId: Overload:YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.ITypeConverter.html#YamlDotNet_Serialization_Utilities_ITypeConverter_ChangeType_System_Object_System_Type_
+  name: ChangeType
+  nameWithType: ITypeConverter.ChangeType
+  fullName: YamlDotNet.Serialization.Utilities.ITypeConverter.ChangeType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Events.MappingStyle
+  commentId: T:YamlDotNet.Core.Events.MappingStyle
+  id: MappingStyle
+  parent: YamlDotNet.Core.Events
+  children:
+  - YamlDotNet.Core.Events.MappingStyle.Any
+  - YamlDotNet.Core.Events.MappingStyle.Block
+  - YamlDotNet.Core.Events.MappingStyle.Flow
+  langs:
+  - csharp
+  - vb
+  name: MappingStyle
+  nameWithType: MappingStyle
+  fullName: YamlDotNet.Core.Events.MappingStyle
+  type: Enum
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public enum MappingStyle
+    content.vb: Public Enum MappingStyle
+- uid: YamlDotNet.Core.Events.MappingStyle.Any
+  commentId: F:YamlDotNet.Core.Events.MappingStyle.Any
+  id: Any
+  parent: YamlDotNet.Core.Events.MappingStyle
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: MappingStyle.Any
+  fullName: YamlDotNet.Core.Events.MappingStyle.Any
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: Any = 0
+    return:
+      type: YamlDotNet.Core.Events.MappingStyle
+- uid: YamlDotNet.Core.Events.MappingStyle.Block
+  commentId: F:YamlDotNet.Core.Events.MappingStyle.Block
+  id: Block
+  parent: YamlDotNet.Core.Events.MappingStyle
+  langs:
+  - csharp
+  - vb
+  name: Block
+  nameWithType: MappingStyle.Block
+  fullName: YamlDotNet.Core.Events.MappingStyle.Block
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: Block = 1
+    return:
+      type: YamlDotNet.Core.Events.MappingStyle
+- uid: YamlDotNet.Core.Events.MappingStyle.Flow
+  commentId: F:YamlDotNet.Core.Events.MappingStyle.Flow
+  id: Flow
+  parent: YamlDotNet.Core.Events.MappingStyle
+  langs:
+  - csharp
+  - vb
+  name: Flow
+  nameWithType: MappingStyle.Flow
+  fullName: YamlDotNet.Core.Events.MappingStyle.Flow
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: Flow = 2
+    return:
+      type: YamlDotNet.Core.Events.MappingStyle
+references:
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+- uid: YamlDotNet.Core.Events.MappingStyle
+  commentId: T:YamlDotNet.Core.Events.MappingStyle
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingStyle.html
+  name: MappingStyle
+  nameWithType: MappingStyle
+  fullName: YamlDotNet.Core.Events.MappingStyle

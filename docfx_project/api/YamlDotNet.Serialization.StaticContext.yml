@@ -1,0 +1,522 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.StaticContext
+  commentId: T:YamlDotNet.Serialization.StaticContext
+  id: StaticContext
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.StaticContext.#ctor
+  - YamlDotNet.Serialization.StaticContext.GetFactory
+  - YamlDotNet.Serialization.StaticContext.GetTypeInspector
+  - YamlDotNet.Serialization.StaticContext.GetTypeResolver
+  - YamlDotNet.Serialization.StaticContext.IsKnownType(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: StaticContext
+  nameWithType: StaticContext
+  fullName: YamlDotNet.Serialization.StaticContext
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public abstract class StaticContext
+    content.vb: Public MustInherit Class StaticContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.StaticContext.IsKnownType(System.Type)
+  commentId: M:YamlDotNet.Serialization.StaticContext.IsKnownType(System.Type)
+  id: IsKnownType(System.Type)
+  parent: YamlDotNet.Serialization.StaticContext
+  langs:
+  - csharp
+  - vb
+  name: IsKnownType(Type)
+  nameWithType: StaticContext.IsKnownType(Type)
+  fullName: YamlDotNet.Serialization.StaticContext.IsKnownType(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual bool IsKnownType(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Function IsKnownType(type As Type) As Boolean
+  overload: YamlDotNet.Serialization.StaticContext.IsKnownType*
+- uid: YamlDotNet.Serialization.StaticContext.GetTypeResolver
+  commentId: M:YamlDotNet.Serialization.StaticContext.GetTypeResolver
+  id: GetTypeResolver
+  parent: YamlDotNet.Serialization.StaticContext
+  langs:
+  - csharp
+  - vb
+  name: GetTypeResolver()
+  nameWithType: StaticContext.GetTypeResolver()
+  fullName: YamlDotNet.Serialization.StaticContext.GetTypeResolver()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual ITypeResolver GetTypeResolver()
+    return:
+      type: YamlDotNet.Serialization.ITypeResolver
+    content.vb: Public Overridable Function GetTypeResolver() As ITypeResolver
+  overload: YamlDotNet.Serialization.StaticContext.GetTypeResolver*
+- uid: YamlDotNet.Serialization.StaticContext.GetFactory
+  commentId: M:YamlDotNet.Serialization.StaticContext.GetFactory
+  id: GetFactory
+  parent: YamlDotNet.Serialization.StaticContext
+  langs:
+  - csharp
+  - vb
+  name: GetFactory()
+  nameWithType: StaticContext.GetFactory()
+  fullName: YamlDotNet.Serialization.StaticContext.GetFactory()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual StaticObjectFactory GetFactory()
+    return:
+      type: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+    content.vb: Public Overridable Function GetFactory() As StaticObjectFactory
+  overload: YamlDotNet.Serialization.StaticContext.GetFactory*
+- uid: YamlDotNet.Serialization.StaticContext.GetTypeInspector
+  commentId: M:YamlDotNet.Serialization.StaticContext.GetTypeInspector
+  id: GetTypeInspector
+  parent: YamlDotNet.Serialization.StaticContext
+  langs:
+  - csharp
+  - vb
+  name: GetTypeInspector()
+  nameWithType: StaticContext.GetTypeInspector()
+  fullName: YamlDotNet.Serialization.StaticContext.GetTypeInspector()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual ITypeInspector GetTypeInspector()
+    return:
+      type: YamlDotNet.Serialization.ITypeInspector
+    content.vb: Public Overridable Function GetTypeInspector() As ITypeInspector
+  overload: YamlDotNet.Serialization.StaticContext.GetTypeInspector*
+- uid: YamlDotNet.Serialization.StaticContext.#ctor
+  commentId: M:YamlDotNet.Serialization.StaticContext.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.Serialization.StaticContext
+  langs:
+  - csharp
+  - vb
+  name: StaticContext()
+  nameWithType: StaticContext.StaticContext()
+  fullName: YamlDotNet.Serialization.StaticContext.StaticContext()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: protected StaticContext()
+    content.vb: Protected Sub New()
+  overload: YamlDotNet.Serialization.StaticContext.#ctor*
+  nameWithType.vb: StaticContext.New()
+  fullName.vb: YamlDotNet.Serialization.StaticContext.New()
+  name.vb: New()
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.StaticContext.IsKnownType*
+  commentId: Overload:YamlDotNet.Serialization.StaticContext.IsKnownType
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticContext.html#YamlDotNet_Serialization_StaticContext_IsKnownType_System_Type_
+  name: IsKnownType
+  nameWithType: StaticContext.IsKnownType
+  fullName: YamlDotNet.Serialization.StaticContext.IsKnownType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Serialization.StaticContext.GetTypeResolver*
+  commentId: Overload:YamlDotNet.Serialization.StaticContext.GetTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticContext.html#YamlDotNet_Serialization_StaticContext_GetTypeResolver
+  name: GetTypeResolver
+  nameWithType: StaticContext.GetTypeResolver
+  fullName: YamlDotNet.Serialization.StaticContext.GetTypeResolver
+- uid: YamlDotNet.Serialization.ITypeResolver
+  commentId: T:YamlDotNet.Serialization.ITypeResolver
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeResolver.html
+  name: ITypeResolver
+  nameWithType: ITypeResolver
+  fullName: YamlDotNet.Serialization.ITypeResolver
+- uid: YamlDotNet.Serialization.StaticContext.GetFactory*
+  commentId: Overload:YamlDotNet.Serialization.StaticContext.GetFactory
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticContext.html#YamlDotNet_Serialization_StaticContext_GetFactory
+  name: GetFactory
+  nameWithType: StaticContext.GetFactory
+  fullName: YamlDotNet.Serialization.StaticContext.GetFactory
+- uid: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+  parent: YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory.html
+  name: StaticObjectFactory
+  nameWithType: StaticObjectFactory
+  fullName: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+- uid: YamlDotNet.Serialization.ObjectFactories
+  commentId: N:YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectFactories
+  nameWithType: YamlDotNet.Serialization.ObjectFactories
+  fullName: YamlDotNet.Serialization.ObjectFactories
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectFactories
+    name: ObjectFactories
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectFactories
+    name: ObjectFactories
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.html
+- uid: YamlDotNet.Serialization.StaticContext.GetTypeInspector*
+  commentId: Overload:YamlDotNet.Serialization.StaticContext.GetTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticContext.html#YamlDotNet_Serialization_StaticContext_GetTypeInspector
+  name: GetTypeInspector
+  nameWithType: StaticContext.GetTypeInspector
+  fullName: YamlDotNet.Serialization.StaticContext.GetTypeInspector
+- uid: YamlDotNet.Serialization.ITypeInspector
+  commentId: T:YamlDotNet.Serialization.ITypeInspector
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeInspector.html
+  name: ITypeInspector
+  nameWithType: ITypeInspector
+  fullName: YamlDotNet.Serialization.ITypeInspector
+- uid: YamlDotNet.Serialization.StaticContext.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.StaticContext.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticContext.html#YamlDotNet_Serialization_StaticContext__ctor
+  name: StaticContext
+  nameWithType: StaticContext.StaticContext
+  fullName: YamlDotNet.Serialization.StaticContext.StaticContext
+  nameWithType.vb: StaticContext.New
+  fullName.vb: YamlDotNet.Serialization.StaticContext.New
+  name.vb: New

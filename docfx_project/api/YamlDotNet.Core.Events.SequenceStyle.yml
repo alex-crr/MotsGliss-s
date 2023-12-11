@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Events.SequenceStyle
+  commentId: T:YamlDotNet.Core.Events.SequenceStyle
+  id: SequenceStyle
+  parent: YamlDotNet.Core.Events
+  children:
+  - YamlDotNet.Core.Events.SequenceStyle.Any
+  - YamlDotNet.Core.Events.SequenceStyle.Block
+  - YamlDotNet.Core.Events.SequenceStyle.Flow
+  langs:
+  - csharp
+  - vb
+  name: SequenceStyle
+  nameWithType: SequenceStyle
+  fullName: YamlDotNet.Core.Events.SequenceStyle
+  type: Enum
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public enum SequenceStyle
+    content.vb: Public Enum SequenceStyle
+- uid: YamlDotNet.Core.Events.SequenceStyle.Any
+  commentId: F:YamlDotNet.Core.Events.SequenceStyle.Any
+  id: Any
+  parent: YamlDotNet.Core.Events.SequenceStyle
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: SequenceStyle.Any
+  fullName: YamlDotNet.Core.Events.SequenceStyle.Any
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: Any = 0
+    return:
+      type: YamlDotNet.Core.Events.SequenceStyle
+- uid: YamlDotNet.Core.Events.SequenceStyle.Block
+  commentId: F:YamlDotNet.Core.Events.SequenceStyle.Block
+  id: Block
+  parent: YamlDotNet.Core.Events.SequenceStyle
+  langs:
+  - csharp
+  - vb
+  name: Block
+  nameWithType: SequenceStyle.Block
+  fullName: YamlDotNet.Core.Events.SequenceStyle.Block
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: Block = 1
+    return:
+      type: YamlDotNet.Core.Events.SequenceStyle
+- uid: YamlDotNet.Core.Events.SequenceStyle.Flow
+  commentId: F:YamlDotNet.Core.Events.SequenceStyle.Flow
+  id: Flow
+  parent: YamlDotNet.Core.Events.SequenceStyle
+  langs:
+  - csharp
+  - vb
+  name: Flow
+  nameWithType: SequenceStyle.Flow
+  fullName: YamlDotNet.Core.Events.SequenceStyle.Flow
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: Flow = 2
+    return:
+      type: YamlDotNet.Core.Events.SequenceStyle
+references:
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+- uid: YamlDotNet.Core.Events.SequenceStyle
+  commentId: T:YamlDotNet.Core.Events.SequenceStyle
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.SequenceStyle.html
+  name: SequenceStyle
+  nameWithType: SequenceStyle
+  fullName: YamlDotNet.Core.Events.SequenceStyle

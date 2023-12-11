@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  commentId: N:YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  id: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  children:
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  nameWithType: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html
+  name: FullObjectGraphTraversalStrategy
+  nameWithType: FullObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html
+  name: FullObjectGraphTraversalStrategy.ObjectPathSegment
+  nameWithType: FullObjectGraphTraversalStrategy.ObjectPathSegment
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+    name: FullObjectGraphTraversalStrategy
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+    name: ObjectPathSegment
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.html
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+    name: FullObjectGraphTraversalStrategy
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+    name: ObjectPathSegment
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.html
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy.html
+  name: RoundtripObjectGraphTraversalStrategy
+  nameWithType: RoundtripObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  commentId: N:YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  nameWithType: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+    name: ObjectGraphTraversalStrategies
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+    name: ObjectGraphTraversalStrategies
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html

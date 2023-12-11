@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: ConsoleAppVisuals.Output
+  commentId: T:ConsoleAppVisuals.Output
+  id: Output
+  parent: ConsoleAppVisuals
+  children:
+  - ConsoleAppVisuals.Output.Delete
+  - ConsoleAppVisuals.Output.Exit
+  - ConsoleAppVisuals.Output.Select
+  langs:
+  - csharp
+  - vb
+  name: Output
+  nameWithType: Output
+  fullName: ConsoleAppVisuals.Output
+  type: Enum
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public enum Output
+    content.vb: Public Enum Output
+- uid: ConsoleAppVisuals.Output.Select
+  commentId: F:ConsoleAppVisuals.Output.Select
+  id: Select
+  parent: ConsoleAppVisuals.Output
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: Output.Select
+  fullName: ConsoleAppVisuals.Output.Select
+  type: Field
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: Select = 0
+    return:
+      type: ConsoleAppVisuals.Output
+- uid: ConsoleAppVisuals.Output.Delete
+  commentId: F:ConsoleAppVisuals.Output.Delete
+  id: Delete
+  parent: ConsoleAppVisuals.Output
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: Output.Delete
+  fullName: ConsoleAppVisuals.Output.Delete
+  type: Field
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: Delete = 1
+    return:
+      type: ConsoleAppVisuals.Output
+- uid: ConsoleAppVisuals.Output.Exit
+  commentId: F:ConsoleAppVisuals.Output.Exit
+  id: Exit
+  parent: ConsoleAppVisuals.Output
+  langs:
+  - csharp
+  - vb
+  name: Exit
+  nameWithType: Output.Exit
+  fullName: ConsoleAppVisuals.Output.Exit
+  type: Field
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: Exit = 2
+    return:
+      type: ConsoleAppVisuals.Output
+references:
+- uid: ConsoleAppVisuals
+  commentId: N:ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.html
+  name: ConsoleAppVisuals
+  nameWithType: ConsoleAppVisuals
+  fullName: ConsoleAppVisuals
+- uid: ConsoleAppVisuals.Output
+  commentId: T:ConsoleAppVisuals.Output
+  parent: ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.Output.html
+  name: Output
+  nameWithType: Output
+  fullName: ConsoleAppVisuals.Output

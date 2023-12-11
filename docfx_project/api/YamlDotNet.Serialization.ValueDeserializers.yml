@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ValueDeserializers
+  commentId: N:YamlDotNet.Serialization.ValueDeserializers
+  id: YamlDotNet.Serialization.ValueDeserializers
+  children:
+  - YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer
+  - YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.ValueDeserializers
+  nameWithType: YamlDotNet.Serialization.ValueDeserializers
+  fullName: YamlDotNet.Serialization.ValueDeserializers
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer
+  commentId: T:YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer.html
+  name: AliasValueDeserializer
+  nameWithType: AliasValueDeserializer
+  fullName: YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer
+- uid: YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer
+  commentId: T:YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer.html
+  name: NodeValueDeserializer
+  nameWithType: NodeValueDeserializer
+  fullName: YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer

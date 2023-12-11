@@ -23,12 +23,14 @@ references:
 - uid: MotsGlissés.Dictionnaire
   commentId: T:MotsGlissés.Dictionnaire
   parent: MotsGlissés
+  isExternal: true
   href: MotsGlissés.Dictionnaire.html
   name: Dictionnaire
   nameWithType: Dictionnaire
   fullName: MotsGlissés.Dictionnaire
 - uid: MotsGlissés.Extras
   commentId: T:MotsGlissés.Extras
+  isExternal: true
   href: MotsGlissés.Extras.html
   name: Extras
   nameWithType: Extras
@@ -36,6 +38,7 @@ references:
 - uid: MotsGlissés.Extras.Position
   commentId: T:MotsGlissés.Extras.Position
   parent: MotsGlissés
+  isExternal: true
   href: MotsGlissés.Extras.html
   name: Extras.Position
   nameWithType: Extras.Position
@@ -43,27 +46,33 @@ references:
   spec.csharp:
   - uid: MotsGlissés.Extras
     name: Extras
+    isExternal: true
     href: MotsGlissés.Extras.html
   - name: .
   - uid: MotsGlissés.Extras.Position
     name: Position
+    isExternal: true
     href: MotsGlissés.Extras.Position.html
   spec.vb:
   - uid: MotsGlissés.Extras
     name: Extras
+    isExternal: true
     href: MotsGlissés.Extras.html
   - name: .
   - uid: MotsGlissés.Extras.Position
     name: Position
+    isExternal: true
     href: MotsGlissés.Extras.Position.html
 - uid: MotsGlissés.Jeu
   commentId: T:MotsGlissés.Jeu
+  isExternal: true
   href: MotsGlissés.Jeu.html
   name: Jeu
   nameWithType: Jeu
   fullName: MotsGlissés.Jeu
 - uid: MotsGlissés.Joueur
   commentId: T:MotsGlissés.Joueur
+  isExternal: true
   href: MotsGlissés.Joueur.html
   name: Joueur
   nameWithType: Joueur
@@ -71,12 +80,14 @@ references:
 - uid: MotsGlissés.Plateau
   commentId: T:MotsGlissés.Plateau
   parent: MotsGlissés
+  isExternal: true
   href: MotsGlissés.Plateau.html
   name: Plateau
   nameWithType: Plateau
   fullName: MotsGlissés.Plateau
 - uid: MotsGlissés
   commentId: N:MotsGlissés
+  isExternal: true
   href: MotsGlissés.html
   name: MotsGlissés
   nameWithType: MotsGlissés

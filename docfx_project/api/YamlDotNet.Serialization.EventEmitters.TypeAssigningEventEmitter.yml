@@ -1,0 +1,1078 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  commentId: T:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  id: TypeAssigningEventEmitter
+  parent: YamlDotNet.Serialization.EventEmitters
+  children:
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName})
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle,YamlDotNet.Serialization.YamlFormatter)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,YamlDotNet.Core.ScalarStyle)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter
+  nameWithType: TypeAssigningEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: 'public sealed class TypeAssigningEventEmitter : ChainedEventEmitter, IEventEmitter'
+    content.vb: Public NotInheritable Class TypeAssigningEventEmitter Inherits ChainedEventEmitter Implements IEventEmitter
+  inheritance:
+  - System.Object
+  - YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  implements:
+  - YamlDotNet.Serialization.IEventEmitter
+  inheritedMembers:
+  - YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle,YamlDotNet.Serialization.YamlFormatter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle,YamlDotNet.Serialization.YamlFormatter)
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle,YamlDotNet.Serialization.YamlFormatter)'
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, bool, ScalarStyle, YamlFormatter)
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, bool, ScalarStyle, YamlFormatter)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter(YamlDotNet.Serialization.IEventEmitter, bool, System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>, bool, bool, YamlDotNet.Core.ScalarStyle, YamlDotNet.Serialization.YamlFormatter)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: public TypeAssigningEventEmitter(IEventEmitter nextEmitter, bool requireTagWhenStaticAndActualTypesAreDifferent, IDictionary<Type, TagName> tagMappings, bool quoteNecessaryStrings, bool quoteYaml1_1Strings, ScalarStyle defaultScalarStyle, YamlFormatter formatter)
+    parameters:
+    - id: nextEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: requireTagWhenStaticAndActualTypesAreDifferent
+      type: System.Boolean
+    - id: tagMappings
+      type: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+    - id: quoteNecessaryStrings
+      type: System.Boolean
+    - id: quoteYaml1_1Strings
+      type: System.Boolean
+    - id: defaultScalarStyle
+      type: YamlDotNet.Core.ScalarStyle
+    - id: formatter
+      type: YamlDotNet.Serialization.YamlFormatter
+    content.vb: Public Sub New(nextEmitter As IEventEmitter, requireTagWhenStaticAndActualTypesAreDifferent As Boolean, tagMappings As IDictionary(Of Type, TagName), quoteNecessaryStrings As Boolean, quoteYaml1_1Strings As Boolean, defaultScalarStyle As ScalarStyle, formatter As YamlFormatter)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  nameWithType.vb: TypeAssigningEventEmitter.New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, Boolean, ScalarStyle, YamlFormatter)
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New(YamlDotNet.Serialization.IEventEmitter, Boolean, System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName), Boolean, Boolean, YamlDotNet.Core.ScalarStyle, YamlDotNet.Serialization.YamlFormatter)
+  name.vb: New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, Boolean, ScalarStyle, YamlFormatter)
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle)
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean,YamlDotNet.Core.ScalarStyle)'
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, bool, ScalarStyle)
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, bool, ScalarStyle)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter(YamlDotNet.Serialization.IEventEmitter, bool, System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>, bool, bool, YamlDotNet.Core.ScalarStyle)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: public TypeAssigningEventEmitter(IEventEmitter nextEmitter, bool requireTagWhenStaticAndActualTypesAreDifferent, IDictionary<Type, TagName> tagMappings, bool quoteNecessaryStrings, bool quoteYaml1_1Strings, ScalarStyle defaultScalarStyle)
+    parameters:
+    - id: nextEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: requireTagWhenStaticAndActualTypesAreDifferent
+      type: System.Boolean
+    - id: tagMappings
+      type: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+    - id: quoteNecessaryStrings
+      type: System.Boolean
+    - id: quoteYaml1_1Strings
+      type: System.Boolean
+    - id: defaultScalarStyle
+      type: YamlDotNet.Core.ScalarStyle
+    content.vb: Public Sub New(nextEmitter As IEventEmitter, requireTagWhenStaticAndActualTypesAreDifferent As Boolean, tagMappings As IDictionary(Of Type, TagName), quoteNecessaryStrings As Boolean, quoteYaml1_1Strings As Boolean, defaultScalarStyle As ScalarStyle)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  nameWithType.vb: TypeAssigningEventEmitter.New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, Boolean, ScalarStyle)
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New(YamlDotNet.Serialization.IEventEmitter, Boolean, System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName), Boolean, Boolean, YamlDotNet.Core.ScalarStyle)
+  name.vb: New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, Boolean, ScalarStyle)
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,YamlDotNet.Core.ScalarStyle)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,YamlDotNet.Core.ScalarStyle)
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,YamlDotNet.Core.ScalarStyle)'
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, ScalarStyle)
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, ScalarStyle)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter(YamlDotNet.Serialization.IEventEmitter, bool, System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>, bool, YamlDotNet.Core.ScalarStyle)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: public TypeAssigningEventEmitter(IEventEmitter nextEmitter, bool requireTagWhenStaticAndActualTypesAreDifferent, IDictionary<Type, TagName> tagMappings, bool quoteNecessaryStrings, ScalarStyle defaultScalarStyle)
+    parameters:
+    - id: nextEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: requireTagWhenStaticAndActualTypesAreDifferent
+      type: System.Boolean
+    - id: tagMappings
+      type: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+    - id: quoteNecessaryStrings
+      type: System.Boolean
+    - id: defaultScalarStyle
+      type: YamlDotNet.Core.ScalarStyle
+    content.vb: Public Sub New(nextEmitter As IEventEmitter, requireTagWhenStaticAndActualTypesAreDifferent As Boolean, tagMappings As IDictionary(Of Type, TagName), quoteNecessaryStrings As Boolean, defaultScalarStyle As ScalarStyle)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  nameWithType.vb: TypeAssigningEventEmitter.New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, ScalarStyle)
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New(YamlDotNet.Serialization.IEventEmitter, Boolean, System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName), Boolean, YamlDotNet.Core.ScalarStyle)
+  name.vb: New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, ScalarStyle)
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean)
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean,System.Boolean)'
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, bool)
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool, bool)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter(YamlDotNet.Serialization.IEventEmitter, bool, System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>, bool, bool)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: public TypeAssigningEventEmitter(IEventEmitter nextEmitter, bool requireTagWhenStaticAndActualTypesAreDifferent, IDictionary<Type, TagName> tagMappings, bool quoteNecessaryStrings, bool quoteYaml1_1Strings)
+    parameters:
+    - id: nextEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: requireTagWhenStaticAndActualTypesAreDifferent
+      type: System.Boolean
+    - id: tagMappings
+      type: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+    - id: quoteNecessaryStrings
+      type: System.Boolean
+    - id: quoteYaml1_1Strings
+      type: System.Boolean
+    content.vb: Public Sub New(nextEmitter As IEventEmitter, requireTagWhenStaticAndActualTypesAreDifferent As Boolean, tagMappings As IDictionary(Of Type, TagName), quoteNecessaryStrings As Boolean, quoteYaml1_1Strings As Boolean)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  nameWithType.vb: TypeAssigningEventEmitter.New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, Boolean)
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New(YamlDotNet.Serialization.IEventEmitter, Boolean, System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName), Boolean, Boolean)
+  name.vb: New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean, Boolean)
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean)
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName},System.Boolean)'
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool)
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>, bool)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter(YamlDotNet.Serialization.IEventEmitter, bool, System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>, bool)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: public TypeAssigningEventEmitter(IEventEmitter nextEmitter, bool requireTagWhenStaticAndActualTypesAreDifferent, IDictionary<Type, TagName> tagMappings, bool quoteNecessaryStrings)
+    parameters:
+    - id: nextEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: requireTagWhenStaticAndActualTypesAreDifferent
+      type: System.Boolean
+    - id: tagMappings
+      type: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+    - id: quoteNecessaryStrings
+      type: System.Boolean
+    content.vb: Public Sub New(nextEmitter As IEventEmitter, requireTagWhenStaticAndActualTypesAreDifferent As Boolean, tagMappings As IDictionary(Of Type, TagName), quoteNecessaryStrings As Boolean)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  nameWithType.vb: TypeAssigningEventEmitter.New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean)
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New(YamlDotNet.Serialization.IEventEmitter, Boolean, System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName), Boolean)
+  name.vb: New(IEventEmitter, Boolean, IDictionary(Of Type, TagName), Boolean)
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName})
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName})
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter,System.Boolean,System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName})'
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>)
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter(IEventEmitter, bool, IDictionary<Type, TagName>)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter(YamlDotNet.Serialization.IEventEmitter, bool, System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  syntax:
+    content: public TypeAssigningEventEmitter(IEventEmitter nextEmitter, bool requireTagWhenStaticAndActualTypesAreDifferent, IDictionary<Type, TagName> tagMappings)
+    parameters:
+    - id: nextEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: requireTagWhenStaticAndActualTypesAreDifferent
+      type: System.Boolean
+    - id: tagMappings
+      type: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+    content.vb: Public Sub New(nextEmitter As IEventEmitter, requireTagWhenStaticAndActualTypesAreDifferent As Boolean, tagMappings As IDictionary(Of Type, TagName))
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  nameWithType.vb: TypeAssigningEventEmitter.New(IEventEmitter, Boolean, IDictionary(Of Type, TagName))
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New(YamlDotNet.Serialization.IEventEmitter, Boolean, System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName))
+  name.vb: New(IEventEmitter, Boolean, IDictionary(Of Type, TagName))
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(ScalarEventInfo, IEmitter)
+  nameWithType: TypeAssigningEventEmitter.Emit(ScalarEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  example: []
+  syntax:
+    content: public override void Emit(ScalarEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.ScalarEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Public Overrides Sub Emit(eventInfo As ScalarEventInfo, emitter As IEmitter)
+  overridden: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(MappingStartEventInfo, IEmitter)
+  nameWithType: TypeAssigningEventEmitter.Emit(MappingStartEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  example: []
+  syntax:
+    content: public override void Emit(MappingStartEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.MappingStartEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Public Overrides Sub Emit(eventInfo As MappingStartEventInfo, emitter As IEmitter)
+  overridden: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(SequenceStartEventInfo, IEmitter)
+  nameWithType: TypeAssigningEventEmitter.Emit(SequenceStartEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.EventEmitters
+  example: []
+  syntax:
+    content: public override void Emit(SequenceStartEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.SequenceStartEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Public Overrides Sub Emit(eventInfo As SequenceStartEventInfo, emitter As IEmitter)
+  overridden: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  overload: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit*
+references:
+- uid: YamlDotNet.Serialization.EventEmitters
+  commentId: N:YamlDotNet.Serialization.EventEmitters
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.EventEmitters
+  nameWithType: YamlDotNet.Serialization.EventEmitters
+  fullName: YamlDotNet.Serialization.EventEmitters
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.EventEmitters
+    name: EventEmitters
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.EventEmitters
+    name: EventEmitters
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  commentId: T:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  parent: YamlDotNet.Serialization.EventEmitters
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html
+  name: ChainedEventEmitter
+  nameWithType: ChainedEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+- uid: YamlDotNet.Serialization.IEventEmitter
+  commentId: T:YamlDotNet.Serialization.IEventEmitter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IEventEmitter.html
+  name: IEventEmitter
+  nameWithType: IEventEmitter
+  fullName: YamlDotNet.Serialization.IEventEmitter
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_AliasEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit(AliasEventInfo, IEmitter)
+  nameWithType: ChainedEventEmitter.Emit(AliasEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo, YamlDotNet.Core.IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_AliasEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.AliasEventInfo
+    name: AliasEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.AliasEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_AliasEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.AliasEventInfo
+    name: AliasEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.AliasEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_MappingEndEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit(MappingEndEventInfo, IEmitter)
+  nameWithType: ChainedEventEmitter.Emit(MappingEndEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo, YamlDotNet.Core.IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_MappingEndEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.MappingEndEventInfo
+    name: MappingEndEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.MappingEndEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_MappingEndEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.MappingEndEventInfo
+    name: MappingEndEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.MappingEndEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_SequenceEndEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit(SequenceEndEventInfo, IEmitter)
+  nameWithType: ChainedEventEmitter.Emit(SequenceEndEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo, YamlDotNet.Core.IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_SequenceEndEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.SequenceEndEventInfo
+    name: SequenceEndEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.SequenceEndEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_SequenceEndEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.SequenceEndEventInfo
+    name: SequenceEndEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.SequenceEndEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.html#YamlDotNet_Serialization_EventEmitters_TypeAssigningEventEmitter__ctor_YamlDotNet_Serialization_IEventEmitter_System_Boolean_System_Collections_Generic_IDictionary_System_Type_YamlDotNet_Core_TagName__System_Boolean_System_Boolean_YamlDotNet_Core_ScalarStyle_YamlDotNet_Serialization_YamlFormatter_
+  name: TypeAssigningEventEmitter
+  nameWithType: TypeAssigningEventEmitter.TypeAssigningEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.TypeAssigningEventEmitter
+  nameWithType.vb: TypeAssigningEventEmitter.New
+  fullName.vb: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.New
+  name.vb: New
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+  commentId: T:System.Collections.Generic.IDictionary{System.Type,YamlDotNet.Core.TagName}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<Type, TagName>
+  nameWithType: IDictionary<Type, TagName>
+  fullName: System.Collections.Generic.IDictionary<System.Type, YamlDotNet.Core.TagName>
+  nameWithType.vb: IDictionary(Of Type, TagName)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.Type, YamlDotNet.Core.TagName)
+  name.vb: IDictionary(Of Type, TagName)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: )
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ScalarStyle.html
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Serialization.YamlFormatter
+  commentId: T:YamlDotNet.Serialization.YamlFormatter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html
+  name: YamlFormatter
+  nameWithType: YamlFormatter
+  fullName: YamlDotNet.Serialization.YamlFormatter
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_ScalarEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit(ScalarEventInfo, IEmitter)
+  nameWithType: ChainedEventEmitter.Emit(ScalarEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo, YamlDotNet.Core.IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_ScalarEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.ScalarEventInfo
+    name: ScalarEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.ScalarEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_ScalarEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.ScalarEventInfo
+    name: ScalarEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.ScalarEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit*
+  commentId: Overload:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.html#YamlDotNet_Serialization_EventEmitters_TypeAssigningEventEmitter_Emit_YamlDotNet_Serialization_ScalarEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit
+  nameWithType: TypeAssigningEventEmitter.Emit
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.Emit
+- uid: YamlDotNet.Serialization.ScalarEventInfo
+  commentId: T:YamlDotNet.Serialization.ScalarEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ScalarEventInfo.html
+  name: ScalarEventInfo
+  nameWithType: ScalarEventInfo
+  fullName: YamlDotNet.Serialization.ScalarEventInfo
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_MappingStartEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit(MappingStartEventInfo, IEmitter)
+  nameWithType: ChainedEventEmitter.Emit(MappingStartEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo, YamlDotNet.Core.IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_MappingStartEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.MappingStartEventInfo
+    name: MappingStartEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.MappingStartEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_MappingStartEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.MappingStartEventInfo
+    name: MappingStartEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.MappingStartEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: YamlDotNet.Serialization.MappingStartEventInfo
+  commentId: T:YamlDotNet.Serialization.MappingStartEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.MappingStartEventInfo.html
+  name: MappingStartEventInfo
+  nameWithType: MappingStartEventInfo
+  fullName: YamlDotNet.Serialization.MappingStartEventInfo
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_SequenceStartEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit(SequenceStartEventInfo, IEmitter)
+  nameWithType: ChainedEventEmitter.Emit(SequenceStartEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo, YamlDotNet.Core.IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_SequenceStartEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.SequenceStartEventInfo
+    name: SequenceStartEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.SequenceStartEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+    name: Emit
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html#YamlDotNet_Serialization_EventEmitters_ChainedEventEmitter_Emit_YamlDotNet_Serialization_SequenceStartEventInfo_YamlDotNet_Core_IEmitter_
+  - name: (
+  - uid: YamlDotNet.Serialization.SequenceStartEventInfo
+    name: SequenceStartEventInfo
+    isExternal: true
+    href: YamlDotNet.Serialization.SequenceStartEventInfo.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: YamlDotNet.Serialization.SequenceStartEventInfo
+  commentId: T:YamlDotNet.Serialization.SequenceStartEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.SequenceStartEventInfo.html
+  name: SequenceStartEventInfo
+  nameWithType: SequenceStartEventInfo
+  fullName: YamlDotNet.Serialization.SequenceStartEventInfo

@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectFactories
+  commentId: N:YamlDotNet.Serialization.ObjectFactories
+  id: YamlDotNet.Serialization.ObjectFactories
+  children:
+  - YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory
+  - YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  - YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.ObjectFactories
+  nameWithType: YamlDotNet.Serialization.ObjectFactories
+  fullName: YamlDotNet.Serialization.ObjectFactories
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory.html
+  name: DefaultObjectFactory
+  nameWithType: DefaultObjectFactory
+  fullName: YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory
+- uid: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.html
+  name: LambdaObjectFactory
+  nameWithType: LambdaObjectFactory
+  fullName: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  parent: YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html
+  name: ObjectFactoryBase
+  nameWithType: ObjectFactoryBase
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+- uid: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+  parent: YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory.html
+  name: StaticObjectFactory
+  nameWithType: StaticObjectFactory
+  fullName: YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory
+- uid: YamlDotNet.Serialization.ObjectFactories
+  commentId: N:YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectFactories
+  nameWithType: YamlDotNet.Serialization.ObjectFactories
+  fullName: YamlDotNet.Serialization.ObjectFactories
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectFactories
+    name: ObjectFactories
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectFactories
+    name: ObjectFactories
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.html

@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.NodeTypeResolvers
+  commentId: N:YamlDotNet.Serialization.NodeTypeResolvers
+  id: YamlDotNet.Serialization.NodeTypeResolvers
+  children:
+  - YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver
+  - YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver
+  - YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver
+  - YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver
+  - YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver
+  - YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver
+  - YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.NodeTypeResolvers
+  nameWithType: YamlDotNet.Serialization.NodeTypeResolvers
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver.html
+  name: DefaultContainersNodeTypeResolver
+  nameWithType: DefaultContainersNodeTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver.html
+  name: MappingNodeTypeResolver
+  nameWithType: MappingNodeTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver.html
+  name: PreventUnknownTagsNodeTypeResolver
+  nameWithType: PreventUnknownTagsNodeTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver.html
+  name: TagNodeTypeResolver
+  nameWithType: TagNodeTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver.html
+  name: TypeNameInTagNodeTypeResolver
+  nameWithType: TypeNameInTagNodeTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver.html
+  name: YamlConvertibleTypeResolver
+  nameWithType: YamlConvertibleTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver
+- uid: YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver
+  commentId: T:YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver.html
+  name: YamlSerializableTypeResolver
+  nameWithType: YamlSerializableTypeResolver
+  fullName: YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver

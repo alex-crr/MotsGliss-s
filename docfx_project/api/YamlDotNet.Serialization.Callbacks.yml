@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.Callbacks
+  commentId: N:YamlDotNet.Serialization.Callbacks
+  id: YamlDotNet.Serialization.Callbacks
+  children:
+  - YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute
+  - YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute
+  - YamlDotNet.Serialization.Callbacks.OnSerializedAttribute
+  - YamlDotNet.Serialization.Callbacks.OnSerializingAttribute
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.Callbacks
+  nameWithType: YamlDotNet.Serialization.Callbacks
+  fullName: YamlDotNet.Serialization.Callbacks
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute
+  commentId: T:YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute.html
+  name: OnDeserializedAttribute
+  nameWithType: OnDeserializedAttribute
+  fullName: YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute
+- uid: YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute
+  commentId: T:YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute.html
+  name: OnDeserializingAttribute
+  nameWithType: OnDeserializingAttribute
+  fullName: YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute
+- uid: YamlDotNet.Serialization.Callbacks.OnSerializedAttribute
+  commentId: T:YamlDotNet.Serialization.Callbacks.OnSerializedAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.Callbacks.OnSerializedAttribute.html
+  name: OnSerializedAttribute
+  nameWithType: OnSerializedAttribute
+  fullName: YamlDotNet.Serialization.Callbacks.OnSerializedAttribute
+- uid: YamlDotNet.Serialization.Callbacks.OnSerializingAttribute
+  commentId: T:YamlDotNet.Serialization.Callbacks.OnSerializingAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.Callbacks.OnSerializingAttribute.html
+  name: OnSerializingAttribute
+  nameWithType: OnSerializingAttribute
+  fullName: YamlDotNet.Serialization.Callbacks.OnSerializingAttribute

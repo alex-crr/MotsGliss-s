@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.RepresentationModel.YamlNodeType
+  commentId: T:YamlDotNet.RepresentationModel.YamlNodeType
+  id: YamlNodeType
+  parent: YamlDotNet.RepresentationModel
+  children:
+  - YamlDotNet.RepresentationModel.YamlNodeType.Alias
+  - YamlDotNet.RepresentationModel.YamlNodeType.Mapping
+  - YamlDotNet.RepresentationModel.YamlNodeType.Scalar
+  - YamlDotNet.RepresentationModel.YamlNodeType.Sequence
+  langs:
+  - csharp
+  - vb
+  name: YamlNodeType
+  nameWithType: YamlNodeType
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType
+  type: Enum
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public enum YamlNodeType
+    content.vb: Public Enum YamlNodeType
+- uid: YamlDotNet.RepresentationModel.YamlNodeType.Alias
+  commentId: F:YamlDotNet.RepresentationModel.YamlNodeType.Alias
+  id: Alias
+  parent: YamlDotNet.RepresentationModel.YamlNodeType
+  langs:
+  - csharp
+  - vb
+  name: Alias
+  nameWithType: YamlNodeType.Alias
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType.Alias
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: Alias = 0
+    return:
+      type: YamlDotNet.RepresentationModel.YamlNodeType
+- uid: YamlDotNet.RepresentationModel.YamlNodeType.Mapping
+  commentId: F:YamlDotNet.RepresentationModel.YamlNodeType.Mapping
+  id: Mapping
+  parent: YamlDotNet.RepresentationModel.YamlNodeType
+  langs:
+  - csharp
+  - vb
+  name: Mapping
+  nameWithType: YamlNodeType.Mapping
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType.Mapping
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: Mapping = 1
+    return:
+      type: YamlDotNet.RepresentationModel.YamlNodeType
+- uid: YamlDotNet.RepresentationModel.YamlNodeType.Scalar
+  commentId: F:YamlDotNet.RepresentationModel.YamlNodeType.Scalar
+  id: Scalar
+  parent: YamlDotNet.RepresentationModel.YamlNodeType
+  langs:
+  - csharp
+  - vb
+  name: Scalar
+  nameWithType: YamlNodeType.Scalar
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType.Scalar
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: Scalar = 2
+    return:
+      type: YamlDotNet.RepresentationModel.YamlNodeType
+- uid: YamlDotNet.RepresentationModel.YamlNodeType.Sequence
+  commentId: F:YamlDotNet.RepresentationModel.YamlNodeType.Sequence
+  id: Sequence
+  parent: YamlDotNet.RepresentationModel.YamlNodeType
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: YamlNodeType.Sequence
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType.Sequence
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: Sequence = 3
+    return:
+      type: YamlDotNet.RepresentationModel.YamlNodeType
+references:
+- uid: YamlDotNet.RepresentationModel
+  commentId: N:YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.RepresentationModel
+  nameWithType: YamlDotNet.RepresentationModel
+  fullName: YamlDotNet.RepresentationModel
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+- uid: YamlDotNet.RepresentationModel.YamlNodeType
+  commentId: T:YamlDotNet.RepresentationModel.YamlNodeType
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNodeType.html
+  name: YamlNodeType
+  nameWithType: YamlNodeType
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType

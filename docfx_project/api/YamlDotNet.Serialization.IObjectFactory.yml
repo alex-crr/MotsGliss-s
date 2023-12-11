@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IObjectFactory
+  commentId: T:YamlDotNet.Serialization.IObjectFactory
+  id: IObjectFactory
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IObjectFactory.Create(System.Type)
+  - YamlDotNet.Serialization.IObjectFactory.CreatePrimitive(System.Type)
+  - YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized(System.Object)
+  - YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing(System.Object)
+  - YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized(System.Object)
+  - YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing(System.Object)
+  - YamlDotNet.Serialization.IObjectFactory.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  - YamlDotNet.Serialization.IObjectFactory.GetValueType(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: IObjectFactory
+  nameWithType: IObjectFactory
+  fullName: YamlDotNet.Serialization.IObjectFactory
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IObjectFactory
+    content.vb: Public Interface IObjectFactory
+- uid: YamlDotNet.Serialization.IObjectFactory.Create(System.Type)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.Create(System.Type)
+  id: Create(System.Type)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(Type)
+  nameWithType: IObjectFactory.Create(Type)
+  fullName: YamlDotNet.Serialization.IObjectFactory.Create(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object Create(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function Create(type As Type) As Object
+  overload: YamlDotNet.Serialization.IObjectFactory.Create*
+- uid: YamlDotNet.Serialization.IObjectFactory.CreatePrimitive(System.Type)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.CreatePrimitive(System.Type)
+  id: CreatePrimitive(System.Type)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: CreatePrimitive(Type)
+  nameWithType: IObjectFactory.CreatePrimitive(Type)
+  fullName: YamlDotNet.Serialization.IObjectFactory.CreatePrimitive(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? CreatePrimitive(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function CreatePrimitive(type As Type) As Object
+  overload: YamlDotNet.Serialization.IObjectFactory.CreatePrimitive*
+- uid: YamlDotNet.Serialization.IObjectFactory.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  id: GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: GetDictionary(IObjectDescriptor, out IDictionary?, out Type[]?)
+  nameWithType: IObjectFactory.GetDictionary(IObjectDescriptor, out IDictionary?, out Type[]?)
+  fullName: YamlDotNet.Serialization.IObjectFactory.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor, out System.Collections.IDictionary?, out System.Type[]?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: bool GetDictionary(IObjectDescriptor descriptor, out IDictionary? dictionary, out Type[]? genericArguments)
+    parameters:
+    - id: descriptor
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: dictionary
+      type: System.Collections.IDictionary
+    - id: genericArguments
+      type: System.Type[]
+    return:
+      type: System.Boolean
+    content.vb: Function GetDictionary(descriptor As IObjectDescriptor, dictionary As IDictionary, genericArguments As Type()) As Boolean
+  overload: YamlDotNet.Serialization.IObjectFactory.GetDictionary*
+  nameWithType.vb: IObjectFactory.GetDictionary(IObjectDescriptor, IDictionary, Type())
+  fullName.vb: YamlDotNet.Serialization.IObjectFactory.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor, System.Collections.IDictionary, System.Type())
+  name.vb: GetDictionary(IObjectDescriptor, IDictionary, Type())
+- uid: YamlDotNet.Serialization.IObjectFactory.GetValueType(System.Type)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.GetValueType(System.Type)
+  id: GetValueType(System.Type)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: GetValueType(Type)
+  nameWithType: IObjectFactory.GetValueType(Type)
+  fullName: YamlDotNet.Serialization.IObjectFactory.GetValueType(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: Type GetValueType(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Type
+    content.vb: Function GetValueType(type As Type) As Type
+  overload: YamlDotNet.Serialization.IObjectFactory.GetValueType*
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing(System.Object)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing(System.Object)
+  id: ExecuteOnDeserializing(System.Object)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnDeserializing(object)
+  nameWithType: IObjectFactory.ExecuteOnDeserializing(object)
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void ExecuteOnDeserializing(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Sub ExecuteOnDeserializing(value As Object)
+  overload: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing*
+  nameWithType.vb: IObjectFactory.ExecuteOnDeserializing(Object)
+  fullName.vb: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing(Object)
+  name.vb: ExecuteOnDeserializing(Object)
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized(System.Object)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized(System.Object)
+  id: ExecuteOnDeserialized(System.Object)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnDeserialized(object)
+  nameWithType: IObjectFactory.ExecuteOnDeserialized(object)
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void ExecuteOnDeserialized(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Sub ExecuteOnDeserialized(value As Object)
+  overload: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized*
+  nameWithType.vb: IObjectFactory.ExecuteOnDeserialized(Object)
+  fullName.vb: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized(Object)
+  name.vb: ExecuteOnDeserialized(Object)
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing(System.Object)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing(System.Object)
+  id: ExecuteOnSerializing(System.Object)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnSerializing(object)
+  nameWithType: IObjectFactory.ExecuteOnSerializing(object)
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void ExecuteOnSerializing(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Sub ExecuteOnSerializing(value As Object)
+  overload: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing*
+  nameWithType.vb: IObjectFactory.ExecuteOnSerializing(Object)
+  fullName.vb: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing(Object)
+  name.vb: ExecuteOnSerializing(Object)
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized(System.Object)
+  commentId: M:YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized(System.Object)
+  id: ExecuteOnSerialized(System.Object)
+  parent: YamlDotNet.Serialization.IObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: ExecuteOnSerialized(object)
+  nameWithType: IObjectFactory.ExecuteOnSerialized(object)
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void ExecuteOnSerialized(object value)
+    parameters:
+    - id: value
+      type: System.Object
+    content.vb: Sub ExecuteOnSerialized(value As Object)
+  overload: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized*
+  nameWithType.vb: IObjectFactory.ExecuteOnSerialized(Object)
+  fullName.vb: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized(Object)
+  name.vb: ExecuteOnSerialized(Object)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IObjectFactory.Create*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.Create
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_Create_System_Type_
+  name: Create
+  nameWithType: IObjectFactory.Create
+  fullName: YamlDotNet.Serialization.IObjectFactory.Create
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectFactory.CreatePrimitive*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.CreatePrimitive
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_CreatePrimitive_System_Type_
+  name: CreatePrimitive
+  nameWithType: IObjectFactory.CreatePrimitive
+  fullName: YamlDotNet.Serialization.IObjectFactory.CreatePrimitive
+- uid: YamlDotNet.Serialization.IObjectFactory.GetDictionary*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.GetDictionary
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_GetDictionary_YamlDotNet_Serialization_IObjectDescriptor_System_Collections_IDictionary__System_Type____
+  name: GetDictionary
+  nameWithType: IObjectFactory.GetDictionary
+  fullName: YamlDotNet.Serialization.IObjectFactory.GetDictionary
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: System.Collections.IDictionary
+  commentId: T:System.Collections.IDictionary
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.idictionary
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: System.Collections.IDictionary
+- uid: System.Type[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: YamlDotNet.Serialization.IObjectFactory.GetValueType*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.GetValueType
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_GetValueType_System_Type_
+  name: GetValueType
+  nameWithType: IObjectFactory.GetValueType
+  fullName: YamlDotNet.Serialization.IObjectFactory.GetValueType
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_ExecuteOnDeserializing_System_Object_
+  name: ExecuteOnDeserializing
+  nameWithType: IObjectFactory.ExecuteOnDeserializing
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserializing
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_ExecuteOnDeserialized_System_Object_
+  name: ExecuteOnDeserialized
+  nameWithType: IObjectFactory.ExecuteOnDeserialized
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnDeserialized
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_ExecuteOnSerializing_System_Object_
+  name: ExecuteOnSerializing
+  nameWithType: IObjectFactory.ExecuteOnSerializing
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerializing
+- uid: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized*
+  commentId: Overload:YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html#YamlDotNet_Serialization_IObjectFactory_ExecuteOnSerialized_System_Object_
+  name: ExecuteOnSerialized
+  nameWithType: IObjectFactory.ExecuteOnSerialized
+  fullName: YamlDotNet.Serialization.IObjectFactory.ExecuteOnSerialized

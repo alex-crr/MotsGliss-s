@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  id: EmittingObjectGraphVisitor
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors
+  children:
+  - YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.#ctor(YamlDotNet.Serialization.IEventEmitter)
+  langs:
+  - csharp
+  - vb
+  name: EmittingObjectGraphVisitor
+  nameWithType: EmittingObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  syntax:
+    content: 'public sealed class EmittingObjectGraphVisitor : IObjectGraphVisitor<IEmitter>'
+    content.vb: Public NotInheritable Class EmittingObjectGraphVisitor Implements IObjectGraphVisitor(Of IEmitter)
+  inheritance:
+  - System.Object
+  implements:
+  - YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.#ctor(YamlDotNet.Serialization.IEventEmitter)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.#ctor(YamlDotNet.Serialization.IEventEmitter)
+  id: '#ctor(YamlDotNet.Serialization.IEventEmitter)'
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  langs:
+  - csharp
+  - vb
+  name: EmittingObjectGraphVisitor(IEventEmitter)
+  nameWithType: EmittingObjectGraphVisitor.EmittingObjectGraphVisitor(IEventEmitter)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.EmittingObjectGraphVisitor(YamlDotNet.Serialization.IEventEmitter)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  syntax:
+    content: public EmittingObjectGraphVisitor(IEventEmitter eventEmitter)
+    parameters:
+    - id: eventEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    content.vb: Public Sub New(eventEmitter As IEventEmitter)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.#ctor*
+  nameWithType.vb: EmittingObjectGraphVisitor.New(IEventEmitter)
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.New(YamlDotNet.Serialization.IEventEmitter)
+  name.vb: New(IEventEmitter)
+references:
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors
+  commentId: N:YamlDotNet.Serialization.ObjectGraphVisitors
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectGraphVisitors
+  nameWithType: YamlDotNet.Serialization.ObjectGraphVisitors
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors
+    name: ObjectGraphVisitors
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors
+    name: ObjectGraphVisitors
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<IEmitter>
+  nameWithType: IObjectGraphVisitor<IEmitter>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<YamlDotNet.Core.IEmitter>
+  nameWithType.vb: IObjectGraphVisitor(Of IEmitter)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of YamlDotNet.Core.IEmitter)
+  name.vb: IObjectGraphVisitor(Of IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.html#YamlDotNet_Serialization_ObjectGraphVisitors_EmittingObjectGraphVisitor__ctor_YamlDotNet_Serialization_IEventEmitter_
+  name: EmittingObjectGraphVisitor
+  nameWithType: EmittingObjectGraphVisitor.EmittingObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.EmittingObjectGraphVisitor
+  nameWithType.vb: EmittingObjectGraphVisitor.New
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.IEventEmitter
+  commentId: T:YamlDotNet.Serialization.IEventEmitter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IEventEmitter.html
+  name: IEventEmitter
+  nameWithType: IEventEmitter
+  fullName: YamlDotNet.Serialization.IEventEmitter

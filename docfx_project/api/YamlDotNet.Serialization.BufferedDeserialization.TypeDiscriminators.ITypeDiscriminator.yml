@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  id: ITypeDiscriminator
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  children:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  langs:
+  - csharp
+  - vb
+  name: ITypeDiscriminator
+  nameWithType: ITypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  syntax:
+    content: public interface ITypeDiscriminator
+    content.vb: Public Interface ITypeDiscriminator
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  commentId: M:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  id: TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  langs:
+  - csharp
+  - vb
+  name: TryDiscriminate(IParser, out Type?)
+  nameWithType: ITypeDiscriminator.TryDiscriminate(IParser, out Type?)
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser, out System.Type?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  syntax:
+    content: bool TryDiscriminate(IParser buffer, out Type? suggestedType)
+    parameters:
+    - id: buffer
+      type: YamlDotNet.Core.IParser
+    - id: suggestedType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Function TryDiscriminate(buffer As IParser, suggestedType As Type) As Boolean
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate*
+  nameWithType.vb: ITypeDiscriminator.TryDiscriminate(IParser, Type)
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser, System.Type)
+  name.vb: TryDiscriminate(IParser, Type)
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  commentId: P:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  id: BaseType
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  langs:
+  - csharp
+  - vb
+  name: BaseType
+  nameWithType: ITypeDiscriminator.BaseType
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  syntax:
+    content: Type BaseType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property BaseType As Type
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType*
+references:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+    name: TypeDiscriminators
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+    name: TypeDiscriminators
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator_TryDiscriminate_YamlDotNet_Core_IParser_System_Type__
+  name: TryDiscriminate
+  nameWithType: ITypeDiscriminator.TryDiscriminate
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator_BaseType
+  name: BaseType
+  nameWithType: ITypeDiscriminator.BaseType
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType

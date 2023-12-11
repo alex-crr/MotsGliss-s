@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.NamingConventions
+  commentId: N:YamlDotNet.Serialization.NamingConventions
+  id: YamlDotNet.Serialization.NamingConventions
+  children:
+  - YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention
+  - YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention
+  - YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention
+  - YamlDotNet.Serialization.NamingConventions.NullNamingConvention
+  - YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  - YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.NamingConventions
+  nameWithType: YamlDotNet.Serialization.NamingConventions
+  fullName: YamlDotNet.Serialization.NamingConventions
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention.html
+  name: CamelCaseNamingConvention
+  nameWithType: CamelCaseNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention
+- uid: YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention.html
+  name: HyphenatedNamingConvention
+  nameWithType: HyphenatedNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention
+- uid: YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention.html
+  name: LowerCaseNamingConvention
+  nameWithType: LowerCaseNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention
+- uid: YamlDotNet.Serialization.NamingConventions.NullNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.NullNamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.NullNamingConvention.html
+  name: NullNamingConvention
+  nameWithType: NullNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.NullNamingConvention
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.html
+  name: PascalCaseNamingConvention
+  nameWithType: PascalCaseNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+- uid: YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention.html
+  name: UnderscoredNamingConvention
+  nameWithType: UnderscoredNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention

@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.BufferedDeserialization
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization
+  id: YamlDotNet.Serialization.BufferedDeserialization
+  children:
+  - YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions
+  - YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.BufferedDeserialization
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization
+  fullName: YamlDotNet.Serialization.BufferedDeserialization
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions
+  parent: YamlDotNet.Serialization.BufferedDeserialization
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions.html
+  name: ITypeDiscriminatingNodeDeserializerOptions
+  nameWithType: ITypeDiscriminatingNodeDeserializerOptions
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions
+- uid: YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer.html
+  name: ParserBuffer
+  nameWithType: ParserBuffer
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.html
+  name: TypeDiscriminatingNodeDeserializer
+  nameWithType: TypeDiscriminatingNodeDeserializer
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions.html
+  name: TypeDiscriminatingNodeDeserializerOptions
+  nameWithType: TypeDiscriminatingNodeDeserializerOptions
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions
+- uid: YamlDotNet.Serialization.BufferedDeserialization
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.BufferedDeserialization
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization
+  fullName: YamlDotNet.Serialization.BufferedDeserialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html

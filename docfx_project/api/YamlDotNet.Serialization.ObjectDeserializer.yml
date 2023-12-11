@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectDeserializer
+  commentId: T:YamlDotNet.Serialization.ObjectDeserializer
+  id: ObjectDeserializer
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.ObjectDeserializer.#ctor(System.Object,System.IntPtr)
+  - YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke(System.Type,System.AsyncCallback,System.Object)
+  - YamlDotNet.Serialization.ObjectDeserializer.EndInvoke(System.IAsyncResult)
+  - YamlDotNet.Serialization.ObjectDeserializer.Invoke(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: ObjectDeserializer
+  nameWithType: ObjectDeserializer
+  fullName: YamlDotNet.Serialization.ObjectDeserializer
+  type: Delegate
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public delegate object? ObjectDeserializer(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Public Delegate Function ObjectDeserializer(type As Type) As Object
+- uid: YamlDotNet.Serialization.ObjectDeserializer.#ctor(System.Object,System.IntPtr)
+  commentId: M:YamlDotNet.Serialization.ObjectDeserializer.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: YamlDotNet.Serialization.ObjectDeserializer
+  langs:
+  - csharp
+  - vb
+  name: ObjectDeserializer(object, nint)
+  nameWithType: ObjectDeserializer.ObjectDeserializer(object, nint)
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.ObjectDeserializer(object, nint)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public ObjectDeserializer(object @object, nint method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: YamlDotNet.Serialization.ObjectDeserializer.#ctor*
+  nameWithType.vb: ObjectDeserializer.New(Object, IntPtr)
+  fullName.vb: YamlDotNet.Serialization.ObjectDeserializer.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: YamlDotNet.Serialization.ObjectDeserializer.Invoke(System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectDeserializer.Invoke(System.Type)
+  id: Invoke(System.Type)
+  parent: YamlDotNet.Serialization.ObjectDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Invoke(Type)
+  nameWithType: ObjectDeserializer.Invoke(Type)
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.Invoke(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual object? Invoke(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Public Overridable Function Invoke(type As Type) As Object
+  overload: YamlDotNet.Serialization.ObjectDeserializer.Invoke*
+- uid: YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke(System.Type,System.AsyncCallback,System.Object)
+  commentId: M:YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke(System.Type,System.AsyncCallback,System.Object)
+  id: BeginInvoke(System.Type,System.AsyncCallback,System.Object)
+  parent: YamlDotNet.Serialization.ObjectDeserializer
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(Type, AsyncCallback, object)
+  nameWithType: ObjectDeserializer.BeginInvoke(Type, AsyncCallback, object)
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke(System.Type, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(Type type, AsyncCallback callback, object @object)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(type As Type, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke*
+  nameWithType.vb: ObjectDeserializer.BeginInvoke(Type, AsyncCallback, Object)
+  fullName.vb: YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke(System.Type, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(Type, AsyncCallback, Object)
+- uid: YamlDotNet.Serialization.ObjectDeserializer.EndInvoke(System.IAsyncResult)
+  commentId: M:YamlDotNet.Serialization.ObjectDeserializer.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: YamlDotNet.Serialization.ObjectDeserializer
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ObjectDeserializer.EndInvoke(IAsyncResult)
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual object? EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: System.Object
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As Object
+  overload: YamlDotNet.Serialization.ObjectDeserializer.EndInvoke*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.ObjectDeserializer.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectDeserializer.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDeserializer.html#YamlDotNet_Serialization_ObjectDeserializer__ctor_System_Object_System_IntPtr_
+  name: ObjectDeserializer
+  nameWithType: ObjectDeserializer.ObjectDeserializer
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.ObjectDeserializer
+  nameWithType.vb: ObjectDeserializer.New
+  fullName.vb: YamlDotNet.Serialization.ObjectDeserializer.New
+  name.vb: New
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: YamlDotNet.Serialization.ObjectDeserializer.Invoke*
+  commentId: Overload:YamlDotNet.Serialization.ObjectDeserializer.Invoke
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDeserializer.html#YamlDotNet_Serialization_ObjectDeserializer_Invoke_System_Type_
+  name: Invoke
+  nameWithType: ObjectDeserializer.Invoke
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.Invoke
+- uid: YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke*
+  commentId: Overload:YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDeserializer.html#YamlDotNet_Serialization_ObjectDeserializer_BeginInvoke_System_Type_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: ObjectDeserializer.BeginInvoke
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: YamlDotNet.Serialization.ObjectDeserializer.EndInvoke*
+  commentId: Overload:YamlDotNet.Serialization.ObjectDeserializer.EndInvoke
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDeserializer.html#YamlDotNet_Serialization_ObjectDeserializer_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: ObjectDeserializer.EndInvoke
+  fullName: YamlDotNet.Serialization.ObjectDeserializer.EndInvoke

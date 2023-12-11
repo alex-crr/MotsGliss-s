@@ -1,0 +1,1667 @@
+### YamlMime:ManagedReference
+items:
+- uid: ConsoleAppVisuals.Core
+  commentId: T:ConsoleAppVisuals.Core
+  id: Core
+  parent: ConsoleAppVisuals
+  children:
+  - ConsoleAppVisuals.Core.ApplyNegative(System.Boolean)
+  - ConsoleAppVisuals.Core.ChangeBackground(System.ConsoleColor)
+  - ConsoleAppVisuals.Core.ChangeForeground(System.ConsoleColor)
+  - ConsoleAppVisuals.Core.ClearContent
+  - ConsoleAppVisuals.Core.ClearLine(System.Nullable{System.Int32})
+  - ConsoleAppVisuals.Core.ClearMultipleLines(System.Nullable{System.Int32},System.Nullable{System.Int32})
+  - ConsoleAppVisuals.Core.ClearWindow
+  - ConsoleAppVisuals.Core.ContentHeight
+  - ConsoleAppVisuals.Core.ExitProgram(System.String)
+  - ConsoleAppVisuals.Core.FooterHeight
+  - ConsoleAppVisuals.Core.GetColorPanel
+  - ConsoleAppVisuals.Core.HeaderHeight
+  - ConsoleAppVisuals.Core.IsScreenUpdated
+  - ConsoleAppVisuals.Core.LoadingBar(System.String,System.Nullable{System.Int32})
+  - ConsoleAppVisuals.Core.ProcessLoadingBar(System.String,System.Single@,System.Nullable{System.Int32})
+  - ConsoleAppVisuals.Core.ScrollingMenuSelector(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String[])
+  - ConsoleAppVisuals.Core.ScrollingNumberSelector(System.String,System.Single,System.Single,System.Single,System.Single,System.Nullable{System.Int32})
+  - ConsoleAppVisuals.Core.SetDefaultBanner(System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  - ConsoleAppVisuals.Core.SetSelector(System.Char,System.Char)
+  - ConsoleAppVisuals.Core.SetStyler(System.String)
+  - ConsoleAppVisuals.Core.SetTitle(System.String,System.Int32)
+  - ConsoleAppVisuals.Core.TitleHeight
+  - ConsoleAppVisuals.Core.UpdateScreen
+  - ConsoleAppVisuals.Core.WriteBanner(System.Boolean,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  - ConsoleAppVisuals.Core.WriteContinuousString(System.String,System.Nullable{System.Int32},System.Boolean,System.Int32,System.Int32,System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  - ConsoleAppVisuals.Core.WriteFullScreen(System.String,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  - ConsoleAppVisuals.Core.WriteParagraph(System.Boolean,System.Nullable{System.Int32},System.String[])
+  - ConsoleAppVisuals.Core.WritePositionedString(System.String,ConsoleAppVisuals.Placement,System.Boolean,System.Nullable{System.Int32},System.Boolean)
+  - ConsoleAppVisuals.Core.WritePositionedStyledText(System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  - ConsoleAppVisuals.Core.WritePrompt(System.String,System.String,System.Nullable{System.Int32},System.Boolean)
+  - ConsoleAppVisuals.Core.WriteTitle
+  langs:
+  - csharp
+  - vb
+  name: Core
+  nameWithType: Core
+  fullName: ConsoleAppVisuals.Core
+  type: Class
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static class Core
+    content.vb: Public Module Core
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: ConsoleAppVisuals.Core.SetSelector(System.Char,System.Char)
+  commentId: M:ConsoleAppVisuals.Core.SetSelector(System.Char,System.Char)
+  id: SetSelector(System.Char,System.Char)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: SetSelector(char, char)
+  nameWithType: Core.SetSelector(char, char)
+  fullName: ConsoleAppVisuals.Core.SetSelector(char, char)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void SetSelector(char onward, char backward)
+    parameters:
+    - id: onward
+      type: System.Char
+    - id: backward
+      type: System.Char
+    content.vb: Public Shared Sub SetSelector(onward As Char, backward As Char)
+  overload: ConsoleAppVisuals.Core.SetSelector*
+  nameWithType.vb: Core.SetSelector(Char, Char)
+  fullName.vb: ConsoleAppVisuals.Core.SetSelector(Char, Char)
+  name.vb: SetSelector(Char, Char)
+- uid: ConsoleAppVisuals.Core.ChangeForeground(System.ConsoleColor)
+  commentId: M:ConsoleAppVisuals.Core.ChangeForeground(System.ConsoleColor)
+  id: ChangeForeground(System.ConsoleColor)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ChangeForeground(ConsoleColor)
+  nameWithType: Core.ChangeForeground(ConsoleColor)
+  fullName: ConsoleAppVisuals.Core.ChangeForeground(System.ConsoleColor)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ChangeForeground(ConsoleColor color)
+    parameters:
+    - id: color
+      type: System.ConsoleColor
+    content.vb: Public Shared Sub ChangeForeground(color As ConsoleColor)
+  overload: ConsoleAppVisuals.Core.ChangeForeground*
+- uid: ConsoleAppVisuals.Core.ChangeBackground(System.ConsoleColor)
+  commentId: M:ConsoleAppVisuals.Core.ChangeBackground(System.ConsoleColor)
+  id: ChangeBackground(System.ConsoleColor)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ChangeBackground(ConsoleColor)
+  nameWithType: Core.ChangeBackground(ConsoleColor)
+  fullName: ConsoleAppVisuals.Core.ChangeBackground(System.ConsoleColor)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ChangeBackground(ConsoleColor color)
+    parameters:
+    - id: color
+      type: System.ConsoleColor
+    content.vb: Public Shared Sub ChangeBackground(color As ConsoleColor)
+  overload: ConsoleAppVisuals.Core.ChangeBackground*
+- uid: ConsoleAppVisuals.Core.SetTitle(System.String,System.Int32)
+  commentId: M:ConsoleAppVisuals.Core.SetTitle(System.String,System.Int32)
+  id: SetTitle(System.String,System.Int32)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: SetTitle(string, int)
+  nameWithType: Core.SetTitle(string, int)
+  fullName: ConsoleAppVisuals.Core.SetTitle(string, int)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void SetTitle(string str, int margin = 1)
+    parameters:
+    - id: str
+      type: System.String
+    - id: margin
+      type: System.Int32
+    content.vb: Public Shared Sub SetTitle(str As String, margin As Integer = 1)
+  overload: ConsoleAppVisuals.Core.SetTitle*
+  nameWithType.vb: Core.SetTitle(String, Integer)
+  fullName.vb: ConsoleAppVisuals.Core.SetTitle(String, Integer)
+  name.vb: SetTitle(String, Integer)
+- uid: ConsoleAppVisuals.Core.SetStyler(System.String)
+  commentId: M:ConsoleAppVisuals.Core.SetStyler(System.String)
+  id: SetStyler(System.String)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: SetStyler(string)
+  nameWithType: Core.SetStyler(string)
+  fullName: ConsoleAppVisuals.Core.SetStyler(string)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void SetStyler(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Shared Sub SetStyler(path As String)
+  overload: ConsoleAppVisuals.Core.SetStyler*
+  nameWithType.vb: Core.SetStyler(String)
+  fullName.vb: ConsoleAppVisuals.Core.SetStyler(String)
+  name.vb: SetStyler(String)
+- uid: ConsoleAppVisuals.Core.SetDefaultBanner(System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  commentId: M:ConsoleAppVisuals.Core.SetDefaultBanner(System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  id: SetDefaultBanner(System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultBanner((string, string, string)?, (string, string, string)?)
+  nameWithType: Core.SetDefaultBanner((string, string, string)?, (string, string, string)?)
+  fullName: ConsoleAppVisuals.Core.SetDefaultBanner((string, string, string)?, (string, string, string)?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void SetDefaultBanner((string, string, string)? header = null, (string, string, string)? footer = null)
+    parameters:
+    - id: header
+      type: System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+    - id: footer
+      type: System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+    content.vb: Public Shared Sub SetDefaultBanner(header As (String, String, String)? = Nothing, footer As (String, String, String)? = Nothing)
+  overload: ConsoleAppVisuals.Core.SetDefaultBanner*
+  nameWithType.vb: Core.SetDefaultBanner((String, String, String)?, (String, String, String)?)
+  fullName.vb: ConsoleAppVisuals.Core.SetDefaultBanner((String, String, String)?, (String, String, String)?)
+  name.vb: SetDefaultBanner((String, String, String)?, (String, String, String)?)
+- uid: ConsoleAppVisuals.Core.ApplyNegative(System.Boolean)
+  commentId: M:ConsoleAppVisuals.Core.ApplyNegative(System.Boolean)
+  id: ApplyNegative(System.Boolean)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ApplyNegative(bool)
+  nameWithType: Core.ApplyNegative(bool)
+  fullName: ConsoleAppVisuals.Core.ApplyNegative(bool)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ApplyNegative(bool negative = false)
+    parameters:
+    - id: negative
+      type: System.Boolean
+    content.vb: Public Shared Sub ApplyNegative(negative As Boolean = False)
+  overload: ConsoleAppVisuals.Core.ApplyNegative*
+  nameWithType.vb: Core.ApplyNegative(Boolean)
+  fullName.vb: ConsoleAppVisuals.Core.ApplyNegative(Boolean)
+  name.vb: ApplyNegative(Boolean)
+- uid: ConsoleAppVisuals.Core.UpdateScreen
+  commentId: M:ConsoleAppVisuals.Core.UpdateScreen
+  id: UpdateScreen
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: UpdateScreen()
+  nameWithType: Core.UpdateScreen()
+  fullName: ConsoleAppVisuals.Core.UpdateScreen()
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void UpdateScreen()
+    content.vb: Public Shared Sub UpdateScreen()
+  overload: ConsoleAppVisuals.Core.UpdateScreen*
+- uid: ConsoleAppVisuals.Core.ClearLine(System.Nullable{System.Int32})
+  commentId: M:ConsoleAppVisuals.Core.ClearLine(System.Nullable{System.Int32})
+  id: ClearLine(System.Nullable{System.Int32})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ClearLine(int?)
+  nameWithType: Core.ClearLine(int?)
+  fullName: ConsoleAppVisuals.Core.ClearLine(int?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ClearLine(int? line)
+    parameters:
+    - id: line
+      type: System.Nullable{System.Int32}
+    content.vb: Public Shared Sub ClearLine(line As Integer?)
+  overload: ConsoleAppVisuals.Core.ClearLine*
+  nameWithType.vb: Core.ClearLine(Integer?)
+  fullName.vb: ConsoleAppVisuals.Core.ClearLine(Integer?)
+  name.vb: ClearLine(Integer?)
+- uid: ConsoleAppVisuals.Core.ClearMultipleLines(System.Nullable{System.Int32},System.Nullable{System.Int32})
+  commentId: M:ConsoleAppVisuals.Core.ClearMultipleLines(System.Nullable{System.Int32},System.Nullable{System.Int32})
+  id: ClearMultipleLines(System.Nullable{System.Int32},System.Nullable{System.Int32})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ClearMultipleLines(int?, int?)
+  nameWithType: Core.ClearMultipleLines(int?, int?)
+  fullName: ConsoleAppVisuals.Core.ClearMultipleLines(int?, int?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ClearMultipleLines(int? line, int? length)
+    parameters:
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: length
+      type: System.Nullable{System.Int32}
+    content.vb: Public Shared Sub ClearMultipleLines(line As Integer?, length As Integer?)
+  overload: ConsoleAppVisuals.Core.ClearMultipleLines*
+  nameWithType.vb: Core.ClearMultipleLines(Integer?, Integer?)
+  fullName.vb: ConsoleAppVisuals.Core.ClearMultipleLines(Integer?, Integer?)
+  name.vb: ClearMultipleLines(Integer?, Integer?)
+- uid: ConsoleAppVisuals.Core.ClearContent
+  commentId: M:ConsoleAppVisuals.Core.ClearContent
+  id: ClearContent
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ClearContent()
+  nameWithType: Core.ClearContent()
+  fullName: ConsoleAppVisuals.Core.ClearContent()
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ClearContent()
+    content.vb: Public Shared Sub ClearContent()
+  overload: ConsoleAppVisuals.Core.ClearContent*
+- uid: ConsoleAppVisuals.Core.ClearWindow
+  commentId: M:ConsoleAppVisuals.Core.ClearWindow
+  id: ClearWindow
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ClearWindow()
+  nameWithType: Core.ClearWindow()
+  fullName: ConsoleAppVisuals.Core.ClearWindow()
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ClearWindow()
+    content.vb: Public Shared Sub ClearWindow()
+  overload: ConsoleAppVisuals.Core.ClearWindow*
+- uid: ConsoleAppVisuals.Core.WritePositionedString(System.String,ConsoleAppVisuals.Placement,System.Boolean,System.Nullable{System.Int32},System.Boolean)
+  commentId: M:ConsoleAppVisuals.Core.WritePositionedString(System.String,ConsoleAppVisuals.Placement,System.Boolean,System.Nullable{System.Int32},System.Boolean)
+  id: WritePositionedString(System.String,ConsoleAppVisuals.Placement,System.Boolean,System.Nullable{System.Int32},System.Boolean)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WritePositionedString(string, Placement, bool, int?, bool)
+  nameWithType: Core.WritePositionedString(string, Placement, bool, int?, bool)
+  fullName: ConsoleAppVisuals.Core.WritePositionedString(string, ConsoleAppVisuals.Placement, bool, int?, bool)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WritePositionedString(string str, Placement position = Placement.Center, bool negative = false, int? line = null, bool writeLine = false)
+    parameters:
+    - id: str
+      type: System.String
+    - id: position
+      type: ConsoleAppVisuals.Placement
+    - id: negative
+      type: System.Boolean
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: writeLine
+      type: System.Boolean
+    content.vb: Public Shared Sub WritePositionedString(str As String, position As Placement = Placement.Center, negative As Boolean = False, line As Integer? = Nothing, writeLine As Boolean = False)
+  overload: ConsoleAppVisuals.Core.WritePositionedString*
+  nameWithType.vb: Core.WritePositionedString(String, Placement, Boolean, Integer?, Boolean)
+  fullName.vb: ConsoleAppVisuals.Core.WritePositionedString(String, ConsoleAppVisuals.Placement, Boolean, Integer?, Boolean)
+  name.vb: WritePositionedString(String, Placement, Boolean, Integer?, Boolean)
+- uid: ConsoleAppVisuals.Core.WriteContinuousString(System.String,System.Nullable{System.Int32},System.Boolean,System.Int32,System.Int32,System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  commentId: M:ConsoleAppVisuals.Core.WriteContinuousString(System.String,System.Nullable{System.Int32},System.Boolean,System.Int32,System.Int32,System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  id: WriteContinuousString(System.String,System.Nullable{System.Int32},System.Boolean,System.Int32,System.Int32,System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WriteContinuousString(string, int?, bool, int, int, int?, Placement, bool)
+  nameWithType: Core.WriteContinuousString(string, int?, bool, int, int, int?, Placement, bool)
+  fullName: ConsoleAppVisuals.Core.WriteContinuousString(string, int?, bool, int, int, int?, ConsoleAppVisuals.Placement, bool)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WriteContinuousString(string str, int? line, bool negative = false, int printTime = 2000, int additionalTime = 1000, int? length = null, Placement position = Placement.Center, bool writeLine = false)
+    parameters:
+    - id: str
+      type: System.String
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: negative
+      type: System.Boolean
+    - id: printTime
+      type: System.Int32
+    - id: additionalTime
+      type: System.Int32
+    - id: length
+      type: System.Nullable{System.Int32}
+    - id: position
+      type: ConsoleAppVisuals.Placement
+    - id: writeLine
+      type: System.Boolean
+    content.vb: Public Shared Sub WriteContinuousString(str As String, line As Integer?, negative As Boolean = False, printTime As Integer = 2000, additionalTime As Integer = 1000, length As Integer? = Nothing, position As Placement = Placement.Center, writeLine As Boolean = False)
+  overload: ConsoleAppVisuals.Core.WriteContinuousString*
+  nameWithType.vb: Core.WriteContinuousString(String, Integer?, Boolean, Integer, Integer, Integer?, Placement, Boolean)
+  fullName.vb: ConsoleAppVisuals.Core.WriteContinuousString(String, Integer?, Boolean, Integer, Integer, Integer?, ConsoleAppVisuals.Placement, Boolean)
+  name.vb: WriteContinuousString(String, Integer?, Boolean, Integer, Integer, Integer?, Placement, Boolean)
+- uid: ConsoleAppVisuals.Core.WritePositionedStyledText(System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  commentId: M:ConsoleAppVisuals.Core.WritePositionedStyledText(System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  id: WritePositionedStyledText(System.String[],System.Nullable{System.Int32},System.Nullable{System.Int32},System.Nullable{System.Int32},ConsoleAppVisuals.Placement,System.Boolean)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WritePositionedStyledText(string[]?, int?, int?, int?, Placement, bool)
+  nameWithType: Core.WritePositionedStyledText(string[]?, int?, int?, int?, Placement, bool)
+  fullName: ConsoleAppVisuals.Core.WritePositionedStyledText(string[]?, int?, int?, int?, ConsoleAppVisuals.Placement, bool)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WritePositionedStyledText(string[]? text = null, int? line = null, int? width = null, int? margin = null, Placement position = Placement.Center, bool negative = false)
+    parameters:
+    - id: text
+      type: System.String[]
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: width
+      type: System.Nullable{System.Int32}
+    - id: margin
+      type: System.Nullable{System.Int32}
+    - id: position
+      type: ConsoleAppVisuals.Placement
+    - id: negative
+      type: System.Boolean
+    content.vb: Public Shared Sub WritePositionedStyledText(text As String() = Nothing, line As Integer? = Nothing, width As Integer? = Nothing, margin As Integer? = Nothing, position As Placement = Placement.Center, negative As Boolean = False)
+  overload: ConsoleAppVisuals.Core.WritePositionedStyledText*
+  nameWithType.vb: Core.WritePositionedStyledText(String(), Integer?, Integer?, Integer?, Placement, Boolean)
+  fullName.vb: ConsoleAppVisuals.Core.WritePositionedStyledText(String(), Integer?, Integer?, Integer?, ConsoleAppVisuals.Placement, Boolean)
+  name.vb: WritePositionedStyledText(String(), Integer?, Integer?, Integer?, Placement, Boolean)
+- uid: ConsoleAppVisuals.Core.WriteTitle
+  commentId: M:ConsoleAppVisuals.Core.WriteTitle
+  id: WriteTitle
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WriteTitle()
+  nameWithType: Core.WriteTitle()
+  fullName: ConsoleAppVisuals.Core.WriteTitle()
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WriteTitle()
+    content.vb: Public Shared Sub WriteTitle()
+  overload: ConsoleAppVisuals.Core.WriteTitle*
+- uid: ConsoleAppVisuals.Core.WriteBanner(System.Boolean,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  commentId: M:ConsoleAppVisuals.Core.WriteBanner(System.Boolean,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  id: WriteBanner(System.Boolean,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WriteBanner(bool, bool, (string, string, string)?)
+  nameWithType: Core.WriteBanner(bool, bool, (string, string, string)?)
+  fullName: ConsoleAppVisuals.Core.WriteBanner(bool, bool, (string, string, string)?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WriteBanner(bool header = true, bool continuous = true, (string, string, string)? banner = null)
+    parameters:
+    - id: header
+      type: System.Boolean
+    - id: continuous
+      type: System.Boolean
+    - id: banner
+      type: System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+    content.vb: Public Shared Sub WriteBanner(header As Boolean = True, continuous As Boolean = True, banner As (String, String, String)? = Nothing)
+  overload: ConsoleAppVisuals.Core.WriteBanner*
+  nameWithType.vb: Core.WriteBanner(Boolean, Boolean, (String, String, String)?)
+  fullName.vb: ConsoleAppVisuals.Core.WriteBanner(Boolean, Boolean, (String, String, String)?)
+  name.vb: WriteBanner(Boolean, Boolean, (String, String, String)?)
+- uid: ConsoleAppVisuals.Core.WriteParagraph(System.Boolean,System.Nullable{System.Int32},System.String[])
+  commentId: M:ConsoleAppVisuals.Core.WriteParagraph(System.Boolean,System.Nullable{System.Int32},System.String[])
+  id: WriteParagraph(System.Boolean,System.Nullable{System.Int32},System.String[])
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WriteParagraph(bool, int?, params string[])
+  nameWithType: Core.WriteParagraph(bool, int?, params string[])
+  fullName: ConsoleAppVisuals.Core.WriteParagraph(bool, int?, params string[])
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WriteParagraph(bool negative = false, int? line = null, params string[] text)
+    parameters:
+    - id: negative
+      type: System.Boolean
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: text
+      type: System.String[]
+    content.vb: Public Shared Sub WriteParagraph(negative As Boolean = False, line As Integer? = Nothing, ParamArray text As String())
+  overload: ConsoleAppVisuals.Core.WriteParagraph*
+  nameWithType.vb: Core.WriteParagraph(Boolean, Integer?, ParamArray String())
+  fullName.vb: ConsoleAppVisuals.Core.WriteParagraph(Boolean, Integer?, ParamArray String())
+  name.vb: WriteParagraph(Boolean, Integer?, ParamArray String())
+- uid: ConsoleAppVisuals.Core.WritePrompt(System.String,System.String,System.Nullable{System.Int32},System.Boolean)
+  commentId: M:ConsoleAppVisuals.Core.WritePrompt(System.String,System.String,System.Nullable{System.Int32},System.Boolean)
+  id: WritePrompt(System.String,System.String,System.Nullable{System.Int32},System.Boolean)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WritePrompt(string, string?, int?, bool)
+  nameWithType: Core.WritePrompt(string, string?, int?, bool)
+  fullName: ConsoleAppVisuals.Core.WritePrompt(string, string?, int?, bool)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static (Output, string) WritePrompt(string message, string? defaultValue = null, int? line = null, bool continuous = true)
+    parameters:
+    - id: message
+      type: System.String
+    - id: defaultValue
+      type: System.String
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: continuous
+      type: System.Boolean
+    return:
+      type: System.ValueTuple{ConsoleAppVisuals.Output,System.String}
+    content.vb: Public Shared Function WritePrompt(message As String, defaultValue As String = Nothing, line As Integer? = Nothing, continuous As Boolean = True) As (Output, String)
+  overload: ConsoleAppVisuals.Core.WritePrompt*
+  nameWithType.vb: Core.WritePrompt(String, String, Integer?, Boolean)
+  fullName.vb: ConsoleAppVisuals.Core.WritePrompt(String, String, Integer?, Boolean)
+  name.vb: WritePrompt(String, String, Integer?, Boolean)
+- uid: ConsoleAppVisuals.Core.ScrollingMenuSelector(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String[])
+  commentId: M:ConsoleAppVisuals.Core.ScrollingMenuSelector(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String[])
+  id: ScrollingMenuSelector(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String[])
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ScrollingMenuSelector(string, int?, int?, params string[])
+  nameWithType: Core.ScrollingMenuSelector(string, int?, int?, params string[])
+  fullName: ConsoleAppVisuals.Core.ScrollingMenuSelector(string, int?, int?, params string[])
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static (Output, int) ScrollingMenuSelector(string question, int? defaultIndex = null, int? line = null, params string[] choices)
+    parameters:
+    - id: question
+      type: System.String
+    - id: defaultIndex
+      type: System.Nullable{System.Int32}
+    - id: line
+      type: System.Nullable{System.Int32}
+    - id: choices
+      type: System.String[]
+    return:
+      type: System.ValueTuple{ConsoleAppVisuals.Output,System.Int32}
+    content.vb: Public Shared Function ScrollingMenuSelector(question As String, defaultIndex As Integer? = Nothing, line As Integer? = Nothing, ParamArray choices As String()) As (Output, Integer)
+  overload: ConsoleAppVisuals.Core.ScrollingMenuSelector*
+  nameWithType.vb: Core.ScrollingMenuSelector(String, Integer?, Integer?, ParamArray String())
+  fullName.vb: ConsoleAppVisuals.Core.ScrollingMenuSelector(String, Integer?, Integer?, ParamArray String())
+  name.vb: ScrollingMenuSelector(String, Integer?, Integer?, ParamArray String())
+- uid: ConsoleAppVisuals.Core.ScrollingNumberSelector(System.String,System.Single,System.Single,System.Single,System.Single,System.Nullable{System.Int32})
+  commentId: M:ConsoleAppVisuals.Core.ScrollingNumberSelector(System.String,System.Single,System.Single,System.Single,System.Single,System.Nullable{System.Int32})
+  id: ScrollingNumberSelector(System.String,System.Single,System.Single,System.Single,System.Single,System.Nullable{System.Int32})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ScrollingNumberSelector(string, float, float, float, float, int?)
+  nameWithType: Core.ScrollingNumberSelector(string, float, float, float, float, int?)
+  fullName: ConsoleAppVisuals.Core.ScrollingNumberSelector(string, float, float, float, float, int?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static (Output, float) ScrollingNumberSelector(string question, float min, float max, float start = 0, float step = 100, int? line = null)
+    parameters:
+    - id: question
+      type: System.String
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    - id: start
+      type: System.Single
+    - id: step
+      type: System.Single
+    - id: line
+      type: System.Nullable{System.Int32}
+    return:
+      type: System.ValueTuple{ConsoleAppVisuals.Output,System.Single}
+    content.vb: Public Shared Function ScrollingNumberSelector(question As String, min As Single, max As Single, start As Single = 0, [step] As Single = 100, line As Integer? = Nothing) As (Output, Single)
+  overload: ConsoleAppVisuals.Core.ScrollingNumberSelector*
+  nameWithType.vb: Core.ScrollingNumberSelector(String, Single, Single, Single, Single, Integer?)
+  fullName.vb: ConsoleAppVisuals.Core.ScrollingNumberSelector(String, Single, Single, Single, Single, Integer?)
+  name.vb: ScrollingNumberSelector(String, Single, Single, Single, Single, Integer?)
+- uid: ConsoleAppVisuals.Core.LoadingBar(System.String,System.Nullable{System.Int32})
+  commentId: M:ConsoleAppVisuals.Core.LoadingBar(System.String,System.Nullable{System.Int32})
+  id: LoadingBar(System.String,System.Nullable{System.Int32})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: LoadingBar(string, int?)
+  nameWithType: Core.LoadingBar(string, int?)
+  fullName: ConsoleAppVisuals.Core.LoadingBar(string, int?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void LoadingBar(string message = "[ Loading... ]", int? line = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: line
+      type: System.Nullable{System.Int32}
+    content.vb: Public Shared Sub LoadingBar(message As String = "[ Loading... ]", line As Integer? = Nothing)
+  overload: ConsoleAppVisuals.Core.LoadingBar*
+  nameWithType.vb: Core.LoadingBar(String, Integer?)
+  fullName.vb: ConsoleAppVisuals.Core.LoadingBar(String, Integer?)
+  name.vb: LoadingBar(String, Integer?)
+- uid: ConsoleAppVisuals.Core.ProcessLoadingBar(System.String,System.Single@,System.Nullable{System.Int32})
+  commentId: M:ConsoleAppVisuals.Core.ProcessLoadingBar(System.String,System.Single@,System.Nullable{System.Int32})
+  id: ProcessLoadingBar(System.String,System.Single@,System.Nullable{System.Int32})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ProcessLoadingBar(string, ref float, int?)
+  nameWithType: Core.ProcessLoadingBar(string, ref float, int?)
+  fullName: ConsoleAppVisuals.Core.ProcessLoadingBar(string, ref float, int?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ProcessLoadingBar(string message, ref float processPercentage, int? line = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: processPercentage
+      type: System.Single
+    - id: line
+      type: System.Nullable{System.Int32}
+    content.vb: Public Shared Sub ProcessLoadingBar(message As String, processPercentage As Single, line As Integer? = Nothing)
+  overload: ConsoleAppVisuals.Core.ProcessLoadingBar*
+  nameWithType.vb: Core.ProcessLoadingBar(String, Single, Integer?)
+  fullName.vb: ConsoleAppVisuals.Core.ProcessLoadingBar(String, Single, Integer?)
+  name.vb: ProcessLoadingBar(String, Single, Integer?)
+- uid: ConsoleAppVisuals.Core.WriteFullScreen(System.String,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  commentId: M:ConsoleAppVisuals.Core.WriteFullScreen(System.String,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  id: WriteFullScreen(System.String,System.Boolean,System.Nullable{System.ValueTuple{System.String,System.String,System.String}},System.Nullable{System.ValueTuple{System.String,System.String,System.String}})
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: WriteFullScreen(string?, bool, (string, string, string)?, (string, string, string)?)
+  nameWithType: Core.WriteFullScreen(string?, bool, (string, string, string)?, (string, string, string)?)
+  fullName: ConsoleAppVisuals.Core.WriteFullScreen(string?, bool, (string, string, string)?, (string, string, string)?)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void WriteFullScreen(string? title = null, bool continuous = false, (string, string, string)? header = null, (string, string, string)? footer = null)
+    parameters:
+    - id: title
+      type: System.String
+    - id: continuous
+      type: System.Boolean
+    - id: header
+      type: System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+    - id: footer
+      type: System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+    content.vb: Public Shared Sub WriteFullScreen(title As String = Nothing, continuous As Boolean = False, header As (String, String, String)? = Nothing, footer As (String, String, String)? = Nothing)
+  overload: ConsoleAppVisuals.Core.WriteFullScreen*
+  nameWithType.vb: Core.WriteFullScreen(String, Boolean, (String, String, String)?, (String, String, String)?)
+  fullName.vb: ConsoleAppVisuals.Core.WriteFullScreen(String, Boolean, (String, String, String)?, (String, String, String)?)
+  name.vb: WriteFullScreen(String, Boolean, (String, String, String)?, (String, String, String)?)
+- uid: ConsoleAppVisuals.Core.ExitProgram(System.String)
+  commentId: M:ConsoleAppVisuals.Core.ExitProgram(System.String)
+  id: ExitProgram(System.String)
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ExitProgram(string)
+  nameWithType: Core.ExitProgram(string)
+  fullName: ConsoleAppVisuals.Core.ExitProgram(string)
+  type: Method
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static void ExitProgram(string message = "[ Exiting the program... ]")
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub ExitProgram(message As String = "[ Exiting the program... ]")
+  overload: ConsoleAppVisuals.Core.ExitProgram*
+  nameWithType.vb: Core.ExitProgram(String)
+  fullName.vb: ConsoleAppVisuals.Core.ExitProgram(String)
+  name.vb: ExitProgram(String)
+- uid: ConsoleAppVisuals.Core.TitleHeight
+  commentId: P:ConsoleAppVisuals.Core.TitleHeight
+  id: TitleHeight
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: TitleHeight
+  nameWithType: Core.TitleHeight
+  fullName: ConsoleAppVisuals.Core.TitleHeight
+  type: Property
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static int? TitleHeight { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Shared ReadOnly Property TitleHeight As Integer?
+  overload: ConsoleAppVisuals.Core.TitleHeight*
+- uid: ConsoleAppVisuals.Core.HeaderHeight
+  commentId: P:ConsoleAppVisuals.Core.HeaderHeight
+  id: HeaderHeight
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: HeaderHeight
+  nameWithType: Core.HeaderHeight
+  fullName: ConsoleAppVisuals.Core.HeaderHeight
+  type: Property
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static int HeaderHeight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property HeaderHeight As Integer
+  overload: ConsoleAppVisuals.Core.HeaderHeight*
+- uid: ConsoleAppVisuals.Core.FooterHeight
+  commentId: P:ConsoleAppVisuals.Core.FooterHeight
+  id: FooterHeight
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: FooterHeight
+  nameWithType: Core.FooterHeight
+  fullName: ConsoleAppVisuals.Core.FooterHeight
+  type: Property
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static int FooterHeight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property FooterHeight As Integer
+  overload: ConsoleAppVisuals.Core.FooterHeight*
+- uid: ConsoleAppVisuals.Core.ContentHeight
+  commentId: P:ConsoleAppVisuals.Core.ContentHeight
+  id: ContentHeight
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: ContentHeight
+  nameWithType: Core.ContentHeight
+  fullName: ConsoleAppVisuals.Core.ContentHeight
+  type: Property
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static int ContentHeight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property ContentHeight As Integer
+  overload: ConsoleAppVisuals.Core.ContentHeight*
+- uid: ConsoleAppVisuals.Core.GetColorPanel
+  commentId: P:ConsoleAppVisuals.Core.GetColorPanel
+  id: GetColorPanel
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: GetColorPanel
+  nameWithType: Core.GetColorPanel
+  fullName: ConsoleAppVisuals.Core.GetColorPanel
+  type: Property
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static (ConsoleColor, ConsoleColor) GetColorPanel { get; }
+    parameters: []
+    return:
+      type: System.ValueTuple{System.ConsoleColor,System.ConsoleColor}
+    content.vb: Public Shared ReadOnly Property GetColorPanel As (ConsoleColor, ConsoleColor)
+  overload: ConsoleAppVisuals.Core.GetColorPanel*
+- uid: ConsoleAppVisuals.Core.IsScreenUpdated
+  commentId: P:ConsoleAppVisuals.Core.IsScreenUpdated
+  id: IsScreenUpdated
+  parent: ConsoleAppVisuals.Core
+  langs:
+  - csharp
+  - vb
+  name: IsScreenUpdated
+  nameWithType: Core.IsScreenUpdated
+  fullName: ConsoleAppVisuals.Core.IsScreenUpdated
+  type: Property
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public static bool IsScreenUpdated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsScreenUpdated As Boolean
+  overload: ConsoleAppVisuals.Core.IsScreenUpdated*
+references:
+- uid: ConsoleAppVisuals
+  commentId: N:ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.html
+  name: ConsoleAppVisuals
+  nameWithType: ConsoleAppVisuals
+  fullName: ConsoleAppVisuals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ConsoleAppVisuals.Core.SetSelector*
+  commentId: Overload:ConsoleAppVisuals.Core.SetSelector
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_SetSelector_System_Char_System_Char_
+  name: SetSelector
+  nameWithType: Core.SetSelector
+  fullName: ConsoleAppVisuals.Core.SetSelector
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.char
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: ConsoleAppVisuals.Core.ChangeForeground*
+  commentId: Overload:ConsoleAppVisuals.Core.ChangeForeground
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ChangeForeground_System_ConsoleColor_
+  name: ChangeForeground
+  nameWithType: Core.ChangeForeground
+  fullName: ConsoleAppVisuals.Core.ChangeForeground
+- uid: System.ConsoleColor
+  commentId: T:System.ConsoleColor
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  name: ConsoleColor
+  nameWithType: ConsoleColor
+  fullName: System.ConsoleColor
+- uid: ConsoleAppVisuals.Core.ChangeBackground*
+  commentId: Overload:ConsoleAppVisuals.Core.ChangeBackground
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ChangeBackground_System_ConsoleColor_
+  name: ChangeBackground
+  nameWithType: Core.ChangeBackground
+  fullName: ConsoleAppVisuals.Core.ChangeBackground
+- uid: ConsoleAppVisuals.Core.SetTitle*
+  commentId: Overload:ConsoleAppVisuals.Core.SetTitle
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_SetTitle_System_String_System_Int32_
+  name: SetTitle
+  nameWithType: Core.SetTitle
+  fullName: ConsoleAppVisuals.Core.SetTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: ConsoleAppVisuals.Core.SetStyler*
+  commentId: Overload:ConsoleAppVisuals.Core.SetStyler
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_SetStyler_System_String_
+  name: SetStyler
+  nameWithType: Core.SetStyler
+  fullName: ConsoleAppVisuals.Core.SetStyler
+- uid: ConsoleAppVisuals.Core.SetDefaultBanner*
+  commentId: Overload:ConsoleAppVisuals.Core.SetDefaultBanner
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_SetDefaultBanner_System_Nullable_System_ValueTuple_System_String_System_String_System_String___System_Nullable_System_ValueTuple_System_String_System_String_System_String___
+  name: SetDefaultBanner
+  nameWithType: Core.SetDefaultBanner
+  fullName: ConsoleAppVisuals.Core.SetDefaultBanner
+- uid: System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+  commentId: T:System.Nullable{System.ValueTuple{System.String,System.String,System.String}}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string, string, string)?
+  nameWithType: (string, string, string)?
+  fullName: (string, string, string)?
+  nameWithType.vb: (String, String, String)?
+  fullName.vb: (String, String, String)?
+  name.vb: (String, String, String)?
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '?'
+  spec.vb:
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: ConsoleAppVisuals.Core.ApplyNegative*
+  commentId: Overload:ConsoleAppVisuals.Core.ApplyNegative
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ApplyNegative_System_Boolean_
+  name: ApplyNegative
+  nameWithType: Core.ApplyNegative
+  fullName: ConsoleAppVisuals.Core.ApplyNegative
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: ConsoleAppVisuals.Core.UpdateScreen*
+  commentId: Overload:ConsoleAppVisuals.Core.UpdateScreen
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_UpdateScreen
+  name: UpdateScreen
+  nameWithType: Core.UpdateScreen
+  fullName: ConsoleAppVisuals.Core.UpdateScreen
+- uid: ConsoleAppVisuals.Core.ClearLine*
+  commentId: Overload:ConsoleAppVisuals.Core.ClearLine
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ClearLine_System_Nullable_System_Int32__
+  name: ClearLine
+  nameWithType: Core.ClearLine
+  fullName: ConsoleAppVisuals.Core.ClearLine
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: ConsoleAppVisuals.Core.ClearMultipleLines*
+  commentId: Overload:ConsoleAppVisuals.Core.ClearMultipleLines
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ClearMultipleLines_System_Nullable_System_Int32__System_Nullable_System_Int32__
+  name: ClearMultipleLines
+  nameWithType: Core.ClearMultipleLines
+  fullName: ConsoleAppVisuals.Core.ClearMultipleLines
+- uid: ConsoleAppVisuals.Core.ClearContent*
+  commentId: Overload:ConsoleAppVisuals.Core.ClearContent
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ClearContent
+  name: ClearContent
+  nameWithType: Core.ClearContent
+  fullName: ConsoleAppVisuals.Core.ClearContent
+- uid: ConsoleAppVisuals.Core.ClearWindow*
+  commentId: Overload:ConsoleAppVisuals.Core.ClearWindow
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ClearWindow
+  name: ClearWindow
+  nameWithType: Core.ClearWindow
+  fullName: ConsoleAppVisuals.Core.ClearWindow
+- uid: ConsoleAppVisuals.Core.WritePositionedString*
+  commentId: Overload:ConsoleAppVisuals.Core.WritePositionedString
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WritePositionedString_System_String_ConsoleAppVisuals_Placement_System_Boolean_System_Nullable_System_Int32__System_Boolean_
+  name: WritePositionedString
+  nameWithType: Core.WritePositionedString
+  fullName: ConsoleAppVisuals.Core.WritePositionedString
+- uid: ConsoleAppVisuals.Placement
+  commentId: T:ConsoleAppVisuals.Placement
+  parent: ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.Placement.html
+  name: Placement
+  nameWithType: Placement
+  fullName: ConsoleAppVisuals.Placement
+- uid: ConsoleAppVisuals.Core.WriteContinuousString*
+  commentId: Overload:ConsoleAppVisuals.Core.WriteContinuousString
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WriteContinuousString_System_String_System_Nullable_System_Int32__System_Boolean_System_Int32_System_Int32_System_Nullable_System_Int32__ConsoleAppVisuals_Placement_System_Boolean_
+  name: WriteContinuousString
+  nameWithType: Core.WriteContinuousString
+  fullName: ConsoleAppVisuals.Core.WriteContinuousString
+- uid: ConsoleAppVisuals.Core.WritePositionedStyledText*
+  commentId: Overload:ConsoleAppVisuals.Core.WritePositionedStyledText
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WritePositionedStyledText_System_String___System_Nullable_System_Int32__System_Nullable_System_Int32__System_Nullable_System_Int32__ConsoleAppVisuals_Placement_System_Boolean_
+  name: WritePositionedStyledText
+  nameWithType: Core.WritePositionedStyledText
+  fullName: ConsoleAppVisuals.Core.WritePositionedStyledText
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: ConsoleAppVisuals.Core.WriteTitle*
+  commentId: Overload:ConsoleAppVisuals.Core.WriteTitle
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WriteTitle
+  name: WriteTitle
+  nameWithType: Core.WriteTitle
+  fullName: ConsoleAppVisuals.Core.WriteTitle
+- uid: ConsoleAppVisuals.Core.WriteBanner*
+  commentId: Overload:ConsoleAppVisuals.Core.WriteBanner
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WriteBanner_System_Boolean_System_Boolean_System_Nullable_System_ValueTuple_System_String_System_String_System_String___
+  name: WriteBanner
+  nameWithType: Core.WriteBanner
+  fullName: ConsoleAppVisuals.Core.WriteBanner
+- uid: ConsoleAppVisuals.Core.WriteParagraph*
+  commentId: Overload:ConsoleAppVisuals.Core.WriteParagraph
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WriteParagraph_System_Boolean_System_Nullable_System_Int32__System_String___
+  name: WriteParagraph
+  nameWithType: Core.WriteParagraph
+  fullName: ConsoleAppVisuals.Core.WriteParagraph
+- uid: ConsoleAppVisuals.Core.WritePrompt*
+  commentId: Overload:ConsoleAppVisuals.Core.WritePrompt
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WritePrompt_System_String_System_String_System_Nullable_System_Int32__System_Boolean_
+  name: WritePrompt
+  nameWithType: Core.WritePrompt
+  fullName: ConsoleAppVisuals.Core.WritePrompt
+- uid: System.ValueTuple{ConsoleAppVisuals.Output,System.String}
+  commentId: T:System.ValueTuple{ConsoleAppVisuals.Output,System.String}
+  parent: System
+  definition: System.ValueTuple`2
+  href: ConsoleAppVisuals.Output.html
+  name: (Output, string)
+  nameWithType: (Output, string)
+  fullName: (ConsoleAppVisuals.Output, string)
+  nameWithType.vb: (Output, String)
+  fullName.vb: (ConsoleAppVisuals.Output, String)
+  name.vb: (Output, String)
+  spec.csharp:
+  - name: (
+  - uid: ConsoleAppVisuals.Output
+    name: Output
+    isExternal: true
+    href: ConsoleAppVisuals.Output.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: ConsoleAppVisuals.Output
+    name: Output
+    isExternal: true
+    href: ConsoleAppVisuals.Output.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: ConsoleAppVisuals.Core.ScrollingMenuSelector*
+  commentId: Overload:ConsoleAppVisuals.Core.ScrollingMenuSelector
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ScrollingMenuSelector_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String___
+  name: ScrollingMenuSelector
+  nameWithType: Core.ScrollingMenuSelector
+  fullName: ConsoleAppVisuals.Core.ScrollingMenuSelector
+- uid: System.ValueTuple{ConsoleAppVisuals.Output,System.Int32}
+  commentId: T:System.ValueTuple{ConsoleAppVisuals.Output,System.Int32}
+  parent: System
+  definition: System.ValueTuple`2
+  href: ConsoleAppVisuals.Output.html
+  name: (Output, int)
+  nameWithType: (Output, int)
+  fullName: (ConsoleAppVisuals.Output, int)
+  nameWithType.vb: (Output, Integer)
+  fullName.vb: (ConsoleAppVisuals.Output, Integer)
+  name.vb: (Output, Integer)
+  spec.csharp:
+  - name: (
+  - uid: ConsoleAppVisuals.Output
+    name: Output
+    isExternal: true
+    href: ConsoleAppVisuals.Output.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: ConsoleAppVisuals.Output
+    name: Output
+    isExternal: true
+    href: ConsoleAppVisuals.Output.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: ConsoleAppVisuals.Core.ScrollingNumberSelector*
+  commentId: Overload:ConsoleAppVisuals.Core.ScrollingNumberSelector
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ScrollingNumberSelector_System_String_System_Single_System_Single_System_Single_System_Single_System_Nullable_System_Int32__
+  name: ScrollingNumberSelector
+  nameWithType: Core.ScrollingNumberSelector
+  fullName: ConsoleAppVisuals.Core.ScrollingNumberSelector
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.ValueTuple{ConsoleAppVisuals.Output,System.Single}
+  commentId: T:System.ValueTuple{ConsoleAppVisuals.Output,System.Single}
+  parent: System
+  definition: System.ValueTuple`2
+  href: ConsoleAppVisuals.Output.html
+  name: (Output, float)
+  nameWithType: (Output, float)
+  fullName: (ConsoleAppVisuals.Output, float)
+  nameWithType.vb: (Output, Single)
+  fullName.vb: (ConsoleAppVisuals.Output, Single)
+  name.vb: (Output, Single)
+  spec.csharp:
+  - name: (
+  - uid: ConsoleAppVisuals.Output
+    name: Output
+    isExternal: true
+    href: ConsoleAppVisuals.Output.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: ConsoleAppVisuals.Output
+    name: Output
+    isExternal: true
+    href: ConsoleAppVisuals.Output.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: ConsoleAppVisuals.Core.LoadingBar*
+  commentId: Overload:ConsoleAppVisuals.Core.LoadingBar
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_LoadingBar_System_String_System_Nullable_System_Int32__
+  name: LoadingBar
+  nameWithType: Core.LoadingBar
+  fullName: ConsoleAppVisuals.Core.LoadingBar
+- uid: ConsoleAppVisuals.Core.ProcessLoadingBar*
+  commentId: Overload:ConsoleAppVisuals.Core.ProcessLoadingBar
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ProcessLoadingBar_System_String_System_Single__System_Nullable_System_Int32__
+  name: ProcessLoadingBar
+  nameWithType: Core.ProcessLoadingBar
+  fullName: ConsoleAppVisuals.Core.ProcessLoadingBar
+- uid: ConsoleAppVisuals.Core.WriteFullScreen*
+  commentId: Overload:ConsoleAppVisuals.Core.WriteFullScreen
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_WriteFullScreen_System_String_System_Boolean_System_Nullable_System_ValueTuple_System_String_System_String_System_String___System_Nullable_System_ValueTuple_System_String_System_String_System_String___
+  name: WriteFullScreen
+  nameWithType: Core.WriteFullScreen
+  fullName: ConsoleAppVisuals.Core.WriteFullScreen
+- uid: ConsoleAppVisuals.Core.ExitProgram*
+  commentId: Overload:ConsoleAppVisuals.Core.ExitProgram
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ExitProgram_System_String_
+  name: ExitProgram
+  nameWithType: Core.ExitProgram
+  fullName: ConsoleAppVisuals.Core.ExitProgram
+- uid: ConsoleAppVisuals.Core.TitleHeight*
+  commentId: Overload:ConsoleAppVisuals.Core.TitleHeight
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_TitleHeight
+  name: TitleHeight
+  nameWithType: Core.TitleHeight
+  fullName: ConsoleAppVisuals.Core.TitleHeight
+- uid: ConsoleAppVisuals.Core.HeaderHeight*
+  commentId: Overload:ConsoleAppVisuals.Core.HeaderHeight
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_HeaderHeight
+  name: HeaderHeight
+  nameWithType: Core.HeaderHeight
+  fullName: ConsoleAppVisuals.Core.HeaderHeight
+- uid: ConsoleAppVisuals.Core.FooterHeight*
+  commentId: Overload:ConsoleAppVisuals.Core.FooterHeight
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_FooterHeight
+  name: FooterHeight
+  nameWithType: Core.FooterHeight
+  fullName: ConsoleAppVisuals.Core.FooterHeight
+- uid: ConsoleAppVisuals.Core.ContentHeight*
+  commentId: Overload:ConsoleAppVisuals.Core.ContentHeight
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_ContentHeight
+  name: ContentHeight
+  nameWithType: Core.ContentHeight
+  fullName: ConsoleAppVisuals.Core.ContentHeight
+- uid: ConsoleAppVisuals.Core.GetColorPanel*
+  commentId: Overload:ConsoleAppVisuals.Core.GetColorPanel
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_GetColorPanel
+  name: GetColorPanel
+  nameWithType: Core.GetColorPanel
+  fullName: ConsoleAppVisuals.Core.GetColorPanel
+- uid: System.ValueTuple{System.ConsoleColor,System.ConsoleColor}
+  commentId: T:System.ValueTuple{System.ConsoleColor,System.ConsoleColor}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  name: (ConsoleColor, ConsoleColor)
+  nameWithType: (ConsoleColor, ConsoleColor)
+  fullName: (System.ConsoleColor, System.ConsoleColor)
+  spec.csharp:
+  - name: (
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  - name: ','
+  - name: " "
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  - name: ','
+  - name: " "
+  - uid: System.ConsoleColor
+    name: ConsoleColor
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  - name: )
+- uid: ConsoleAppVisuals.Core.IsScreenUpdated*
+  commentId: Overload:ConsoleAppVisuals.Core.IsScreenUpdated
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html#ConsoleAppVisuals_Core_IsScreenUpdated
+  name: IsScreenUpdated
+  nameWithType: Core.IsScreenUpdated
+  fullName: ConsoleAppVisuals.Core.IsScreenUpdated

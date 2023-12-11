@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  commentId: T:YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  id: IPostDeserializationCallback
+  parent: YamlDotNet.Serialization.Utilities
+  children:
+  - YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization
+  langs:
+  - csharp
+  - vb
+  name: IPostDeserializationCallback
+  nameWithType: IPostDeserializationCallback
+  fullName: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.Utilities
+  syntax:
+    content: public interface IPostDeserializationCallback
+    content.vb: Public Interface IPostDeserializationCallback
+- uid: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization
+  commentId: M:YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization
+  id: OnDeserialization
+  parent: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  langs:
+  - csharp
+  - vb
+  name: OnDeserialization()
+  nameWithType: IPostDeserializationCallback.OnDeserialization()
+  fullName: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.Utilities
+  syntax:
+    content: void OnDeserialization()
+    content.vb: Sub OnDeserialization()
+  overload: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization*
+references:
+- uid: YamlDotNet.Serialization.Utilities
+  commentId: N:YamlDotNet.Serialization.Utilities
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.Utilities
+  nameWithType: YamlDotNet.Serialization.Utilities
+  fullName: YamlDotNet.Serialization.Utilities
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Utilities
+    name: Utilities
+    isExternal: true
+    href: YamlDotNet.Serialization.Utilities.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Utilities
+    name: Utilities
+    isExternal: true
+    href: YamlDotNet.Serialization.Utilities.html
+- uid: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization*
+  commentId: Overload:YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.html#YamlDotNet_Serialization_Utilities_IPostDeserializationCallback_OnDeserialization
+  name: OnDeserialization
+  nameWithType: IPostDeserializationCallback.OnDeserialization
+  fullName: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.OnDeserialization

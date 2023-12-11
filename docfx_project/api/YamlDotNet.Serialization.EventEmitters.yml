@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.EventEmitters
+  commentId: N:YamlDotNet.Serialization.EventEmitters
+  id: YamlDotNet.Serialization.EventEmitters
+  children:
+  - YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  - YamlDotNet.Serialization.EventEmitters.JsonEventEmitter
+  - YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  - YamlDotNet.Serialization.EventEmitters.WriterEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.EventEmitters
+  nameWithType: YamlDotNet.Serialization.EventEmitters
+  fullName: YamlDotNet.Serialization.EventEmitters
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  commentId: T:YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+  parent: YamlDotNet.Serialization.EventEmitters
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html
+  name: ChainedEventEmitter
+  nameWithType: ChainedEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter
+- uid: YamlDotNet.Serialization.EventEmitters.JsonEventEmitter
+  commentId: T:YamlDotNet.Serialization.EventEmitters.JsonEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.JsonEventEmitter.html
+  name: JsonEventEmitter
+  nameWithType: JsonEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.JsonEventEmitter
+- uid: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  commentId: T:YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.html
+  name: TypeAssigningEventEmitter
+  nameWithType: TypeAssigningEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter
+- uid: YamlDotNet.Serialization.EventEmitters.WriterEventEmitter
+  commentId: T:YamlDotNet.Serialization.EventEmitters.WriterEventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EventEmitters.WriterEventEmitter.html
+  name: WriterEventEmitter
+  nameWithType: WriterEventEmitter
+  fullName: YamlDotNet.Serialization.EventEmitters.WriterEventEmitter
+- uid: YamlDotNet.Serialization.EventEmitters
+  commentId: N:YamlDotNet.Serialization.EventEmitters
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.EventEmitters
+  nameWithType: YamlDotNet.Serialization.EventEmitters
+  fullName: YamlDotNet.Serialization.EventEmitters
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.EventEmitters
+    name: EventEmitters
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.EventEmitters
+    name: EventEmitters
+    isExternal: true
+    href: YamlDotNet.Serialization.EventEmitters.html

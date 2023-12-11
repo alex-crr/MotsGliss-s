@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Helpers
+  commentId: N:YamlDotNet.Helpers
+  id: YamlDotNet.Helpers
+  children:
+  - YamlDotNet.Helpers.ExpressionExtensions
+  - YamlDotNet.Helpers.IOrderedDictionary`2
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Helpers
+  nameWithType: YamlDotNet.Helpers
+  fullName: YamlDotNet.Helpers
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Helpers.ExpressionExtensions
+  commentId: T:YamlDotNet.Helpers.ExpressionExtensions
+  isExternal: true
+  href: YamlDotNet.Helpers.ExpressionExtensions.html
+  name: ExpressionExtensions
+  nameWithType: ExpressionExtensions
+  fullName: YamlDotNet.Helpers.ExpressionExtensions
+- uid: YamlDotNet.Helpers.IOrderedDictionary`2
+  commentId: T:YamlDotNet.Helpers.IOrderedDictionary`2
+  isExternal: true
+  href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  name: IOrderedDictionary<TKey, TValue>
+  nameWithType: IOrderedDictionary<TKey, TValue>
+  fullName: YamlDotNet.Helpers.IOrderedDictionary<TKey, TValue>
+  nameWithType.vb: IOrderedDictionary(Of TKey, TValue)
+  fullName.vb: YamlDotNet.Helpers.IOrderedDictionary(Of TKey, TValue)
+  name.vb: IOrderedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: YamlDotNet.Helpers.IOrderedDictionary`2
+    name: IOrderedDictionary
+    isExternal: true
+    href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Helpers.IOrderedDictionary`2
+    name: IOrderedDictionary
+    isExternal: true
+    href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )

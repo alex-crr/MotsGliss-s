@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IObjectAccessor
+  commentId: T:YamlDotNet.Serialization.IObjectAccessor
+  id: IObjectAccessor
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IObjectAccessor.Read(System.String,System.Object)
+  - YamlDotNet.Serialization.IObjectAccessor.Set(System.String,System.Object,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IObjectAccessor
+  nameWithType: IObjectAccessor
+  fullName: YamlDotNet.Serialization.IObjectAccessor
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IObjectAccessor
+    content.vb: Public Interface IObjectAccessor
+- uid: YamlDotNet.Serialization.IObjectAccessor.Set(System.String,System.Object,System.Object)
+  commentId: M:YamlDotNet.Serialization.IObjectAccessor.Set(System.String,System.Object,System.Object)
+  id: Set(System.String,System.Object,System.Object)
+  parent: YamlDotNet.Serialization.IObjectAccessor
+  langs:
+  - csharp
+  - vb
+  name: Set(string, object, object)
+  nameWithType: IObjectAccessor.Set(string, object, object)
+  fullName: YamlDotNet.Serialization.IObjectAccessor.Set(string, object, object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Set(string name, object target, object value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: target
+      type: System.Object
+    - id: value
+      type: System.Object
+    content.vb: Sub [Set](name As String, target As Object, value As Object)
+  overload: YamlDotNet.Serialization.IObjectAccessor.Set*
+  nameWithType.vb: IObjectAccessor.Set(String, Object, Object)
+  fullName.vb: YamlDotNet.Serialization.IObjectAccessor.Set(String, Object, Object)
+  name.vb: Set(String, Object, Object)
+- uid: YamlDotNet.Serialization.IObjectAccessor.Read(System.String,System.Object)
+  commentId: M:YamlDotNet.Serialization.IObjectAccessor.Read(System.String,System.Object)
+  id: Read(System.String,System.Object)
+  parent: YamlDotNet.Serialization.IObjectAccessor
+  langs:
+  - csharp
+  - vb
+  name: Read(string, object)
+  nameWithType: IObjectAccessor.Read(string, object)
+  fullName: YamlDotNet.Serialization.IObjectAccessor.Read(string, object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Read(string name, object target)
+    parameters:
+    - id: name
+      type: System.String
+    - id: target
+      type: System.Object
+    return:
+      type: System.Object
+    content.vb: Function Read(name As String, target As Object) As Object
+  overload: YamlDotNet.Serialization.IObjectAccessor.Read*
+  nameWithType.vb: IObjectAccessor.Read(String, Object)
+  fullName.vb: YamlDotNet.Serialization.IObjectAccessor.Read(String, Object)
+  name.vb: Read(String, Object)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IObjectAccessor.Set*
+  commentId: Overload:YamlDotNet.Serialization.IObjectAccessor.Set
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectAccessor.html#YamlDotNet_Serialization_IObjectAccessor_Set_System_String_System_Object_System_Object_
+  name: Set
+  nameWithType: IObjectAccessor.Set
+  fullName: YamlDotNet.Serialization.IObjectAccessor.Set
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectAccessor.Read*
+  commentId: Overload:YamlDotNet.Serialization.IObjectAccessor.Read
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectAccessor.html#YamlDotNet_Serialization_IObjectAccessor_Read_System_String_System_Object_
+  name: Read
+  nameWithType: IObjectAccessor.Read
+  fullName: YamlDotNet.Serialization.IObjectAccessor.Read

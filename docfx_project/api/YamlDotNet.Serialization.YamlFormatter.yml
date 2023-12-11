@@ -1,0 +1,651 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.YamlFormatter
+  commentId: T:YamlDotNet.Serialization.YamlFormatter
+  id: YamlFormatter
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.YamlFormatter.#ctor
+  - YamlDotNet.Serialization.YamlFormatter.Default
+  - YamlDotNet.Serialization.YamlFormatter.FormatBoolean(System.Object)
+  - YamlDotNet.Serialization.YamlFormatter.FormatDateTime(System.Object)
+  - YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Double)
+  - YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Object)
+  - YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Single)
+  - YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan(System.Object)
+  - YamlDotNet.Serialization.YamlFormatter.NumberFormat
+  langs:
+  - csharp
+  - vb
+  name: YamlFormatter
+  nameWithType: YamlFormatter
+  fullName: YamlDotNet.Serialization.YamlFormatter
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public class YamlFormatter
+    content.vb: Public Class YamlFormatter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Object)
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Object)
+  id: FormatNumber(System.Object)
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatNumber(object)
+  nameWithType: YamlFormatter.FormatNumber(object)
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatNumber(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public string FormatNumber(object number)
+    parameters:
+    - id: number
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Function FormatNumber(number As Object) As String
+  overload: YamlDotNet.Serialization.YamlFormatter.FormatNumber*
+  nameWithType.vb: YamlFormatter.FormatNumber(Object)
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.FormatNumber(Object)
+  name.vb: FormatNumber(Object)
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Double)
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Double)
+  id: FormatNumber(System.Double)
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatNumber(double)
+  nameWithType: YamlFormatter.FormatNumber(double)
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatNumber(double)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public string FormatNumber(double number)
+    parameters:
+    - id: number
+      type: System.Double
+    return:
+      type: System.String
+    content.vb: Public Function FormatNumber(number As Double) As String
+  overload: YamlDotNet.Serialization.YamlFormatter.FormatNumber*
+  nameWithType.vb: YamlFormatter.FormatNumber(Double)
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.FormatNumber(Double)
+  name.vb: FormatNumber(Double)
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Single)
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.FormatNumber(System.Single)
+  id: FormatNumber(System.Single)
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatNumber(float)
+  nameWithType: YamlFormatter.FormatNumber(float)
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatNumber(float)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public string FormatNumber(float number)
+    parameters:
+    - id: number
+      type: System.Single
+    return:
+      type: System.String
+    content.vb: Public Function FormatNumber(number As Single) As String
+  overload: YamlDotNet.Serialization.YamlFormatter.FormatNumber*
+  nameWithType.vb: YamlFormatter.FormatNumber(Single)
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.FormatNumber(Single)
+  name.vb: FormatNumber(Single)
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatBoolean(System.Object)
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.FormatBoolean(System.Object)
+  id: FormatBoolean(System.Object)
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatBoolean(object)
+  nameWithType: YamlFormatter.FormatBoolean(object)
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatBoolean(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public string FormatBoolean(object boolean)
+    parameters:
+    - id: boolean
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Function FormatBoolean([boolean] As Object) As String
+  overload: YamlDotNet.Serialization.YamlFormatter.FormatBoolean*
+  nameWithType.vb: YamlFormatter.FormatBoolean(Object)
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.FormatBoolean(Object)
+  name.vb: FormatBoolean(Object)
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatDateTime(System.Object)
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.FormatDateTime(System.Object)
+  id: FormatDateTime(System.Object)
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatDateTime(object)
+  nameWithType: YamlFormatter.FormatDateTime(object)
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatDateTime(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public string FormatDateTime(object dateTime)
+    parameters:
+    - id: dateTime
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Function FormatDateTime(dateTime As Object) As String
+  overload: YamlDotNet.Serialization.YamlFormatter.FormatDateTime*
+  nameWithType.vb: YamlFormatter.FormatDateTime(Object)
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.FormatDateTime(Object)
+  name.vb: FormatDateTime(Object)
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan(System.Object)
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan(System.Object)
+  id: FormatTimeSpan(System.Object)
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatTimeSpan(object)
+  nameWithType: YamlFormatter.FormatTimeSpan(object)
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public string FormatTimeSpan(object timeSpan)
+    parameters:
+    - id: timeSpan
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Function FormatTimeSpan(timeSpan As Object) As String
+  overload: YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan*
+  nameWithType.vb: YamlFormatter.FormatTimeSpan(Object)
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan(Object)
+  name.vb: FormatTimeSpan(Object)
+- uid: YamlDotNet.Serialization.YamlFormatter.#ctor
+  commentId: M:YamlDotNet.Serialization.YamlFormatter.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: YamlFormatter()
+  nameWithType: YamlFormatter.YamlFormatter()
+  fullName: YamlDotNet.Serialization.YamlFormatter.YamlFormatter()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public YamlFormatter()
+    content.vb: Public Sub New()
+  overload: YamlDotNet.Serialization.YamlFormatter.#ctor*
+  nameWithType.vb: YamlFormatter.New()
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.New()
+  name.vb: New()
+- uid: YamlDotNet.Serialization.YamlFormatter.Default
+  commentId: P:YamlDotNet.Serialization.YamlFormatter.Default
+  id: Default
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: YamlFormatter.Default
+  fullName: YamlDotNet.Serialization.YamlFormatter.Default
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public static YamlFormatter Default { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Serialization.YamlFormatter
+    content.vb: Public Shared ReadOnly Property [Default] As YamlFormatter
+  overload: YamlDotNet.Serialization.YamlFormatter.Default*
+- uid: YamlDotNet.Serialization.YamlFormatter.NumberFormat
+  commentId: P:YamlDotNet.Serialization.YamlFormatter.NumberFormat
+  id: NumberFormat
+  parent: YamlDotNet.Serialization.YamlFormatter
+  langs:
+  - csharp
+  - vb
+  name: NumberFormat
+  nameWithType: YamlFormatter.NumberFormat
+  fullName: YamlDotNet.Serialization.YamlFormatter.NumberFormat
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public NumberFormatInfo NumberFormat { get; set; }
+    parameters: []
+    return:
+      type: System.Globalization.NumberFormatInfo
+    content.vb: Public Property NumberFormat As NumberFormatInfo
+  overload: YamlDotNet.Serialization.YamlFormatter.NumberFormat*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatNumber*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.FormatNumber
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter_FormatNumber_System_Object_
+  name: FormatNumber
+  nameWithType: YamlFormatter.FormatNumber
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatNumber
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatBoolean*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.FormatBoolean
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter_FormatBoolean_System_Object_
+  name: FormatBoolean
+  nameWithType: YamlFormatter.FormatBoolean
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatBoolean
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatDateTime*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.FormatDateTime
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter_FormatDateTime_System_Object_
+  name: FormatDateTime
+  nameWithType: YamlFormatter.FormatDateTime
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatDateTime
+- uid: YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter_FormatTimeSpan_System_Object_
+  name: FormatTimeSpan
+  nameWithType: YamlFormatter.FormatTimeSpan
+  fullName: YamlDotNet.Serialization.YamlFormatter.FormatTimeSpan
+- uid: YamlDotNet.Serialization.YamlFormatter.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter__ctor
+  name: YamlFormatter
+  nameWithType: YamlFormatter.YamlFormatter
+  fullName: YamlDotNet.Serialization.YamlFormatter.YamlFormatter
+  nameWithType.vb: YamlFormatter.New
+  fullName.vb: YamlDotNet.Serialization.YamlFormatter.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.YamlFormatter.Default*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.Default
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter_Default
+  name: Default
+  nameWithType: YamlFormatter.Default
+  fullName: YamlDotNet.Serialization.YamlFormatter.Default
+- uid: YamlDotNet.Serialization.YamlFormatter
+  commentId: T:YamlDotNet.Serialization.YamlFormatter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html
+  name: YamlFormatter
+  nameWithType: YamlFormatter
+  fullName: YamlDotNet.Serialization.YamlFormatter
+- uid: YamlDotNet.Serialization.YamlFormatter.NumberFormat*
+  commentId: Overload:YamlDotNet.Serialization.YamlFormatter.NumberFormat
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html#YamlDotNet_Serialization_YamlFormatter_NumberFormat
+  name: NumberFormat
+  nameWithType: YamlFormatter.NumberFormat
+  fullName: YamlDotNet.Serialization.YamlFormatter.NumberFormat
+- uid: System.Globalization.NumberFormatInfo
+  commentId: T:System.Globalization.NumberFormatInfo
+  parent: System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.globalization.numberformatinfo
+  name: NumberFormatInfo
+  nameWithType: NumberFormatInfo
+  fullName: System.Globalization.NumberFormatInfo
+- uid: System.Globalization
+  commentId: N:System.Globalization
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Globalization
+  nameWithType: System.Globalization
+  fullName: System.Globalization
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Globalization
+    name: Globalization
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.globalization

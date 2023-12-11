@@ -1,0 +1,391 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  id: ObjectGraphTraversalStrategyFactory
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.#ctor(System.Object,System.IntPtr)
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32,System.AsyncCallback,System.Object)
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke(System.IAsyncResult)
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ObjectGraphTraversalStrategyFactory
+  nameWithType: ObjectGraphTraversalStrategyFactory
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  type: Delegate
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public delegate IObjectGraphTraversalStrategy ObjectGraphTraversalStrategyFactory(ITypeInspector typeInspector, ITypeResolver typeResolver, IEnumerable<IYamlTypeConverter> typeConverters, int maximumRecursion)
+    parameters:
+    - id: typeInspector
+      type: YamlDotNet.Serialization.ITypeInspector
+    - id: typeResolver
+      type: YamlDotNet.Serialization.ITypeResolver
+    - id: typeConverters
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+    - id: maximumRecursion
+      type: System.Int32
+    return:
+      type: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+    content.vb: Public Delegate Function ObjectGraphTraversalStrategyFactory(typeInspector As ITypeInspector, typeResolver As ITypeResolver, typeConverters As IEnumerable(Of IYamlTypeConverter), maximumRecursion As Integer) As IObjectGraphTraversalStrategy
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.#ctor(System.Object,System.IntPtr)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  langs:
+  - csharp
+  - vb
+  name: ObjectGraphTraversalStrategyFactory(object, nint)
+  nameWithType: ObjectGraphTraversalStrategyFactory.ObjectGraphTraversalStrategyFactory(object, nint)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.ObjectGraphTraversalStrategyFactory(object, nint)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public ObjectGraphTraversalStrategyFactory(object @object, nint method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.#ctor*
+  nameWithType.vb: ObjectGraphTraversalStrategyFactory.New(Object, IntPtr)
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32)
+  id: Invoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32)
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  langs:
+  - csharp
+  - vb
+  name: Invoke(ITypeInspector, ITypeResolver, IEnumerable<IYamlTypeConverter>, int)
+  nameWithType: ObjectGraphTraversalStrategyFactory.Invoke(ITypeInspector, ITypeResolver, IEnumerable<IYamlTypeConverter>, int)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke(YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeResolver, System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>, int)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual IObjectGraphTraversalStrategy Invoke(ITypeInspector typeInspector, ITypeResolver typeResolver, IEnumerable<IYamlTypeConverter> typeConverters, int maximumRecursion)
+    parameters:
+    - id: typeInspector
+      type: YamlDotNet.Serialization.ITypeInspector
+    - id: typeResolver
+      type: YamlDotNet.Serialization.ITypeResolver
+    - id: typeConverters
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+    - id: maximumRecursion
+      type: System.Int32
+    return:
+      type: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+    content.vb: Public Overridable Function Invoke(typeInspector As ITypeInspector, typeResolver As ITypeResolver, typeConverters As IEnumerable(Of IYamlTypeConverter), maximumRecursion As Integer) As IObjectGraphTraversalStrategy
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke*
+  nameWithType.vb: ObjectGraphTraversalStrategyFactory.Invoke(ITypeInspector, ITypeResolver, IEnumerable(Of IYamlTypeConverter), Integer)
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke(YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeResolver, System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter), Integer)
+  name.vb: Invoke(ITypeInspector, ITypeResolver, IEnumerable(Of IYamlTypeConverter), Integer)
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32,System.AsyncCallback,System.Object)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32,System.AsyncCallback,System.Object)
+  id: BeginInvoke(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},System.Int32,System.AsyncCallback,System.Object)
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(ITypeInspector, ITypeResolver, IEnumerable<IYamlTypeConverter>, int, AsyncCallback, object)
+  nameWithType: ObjectGraphTraversalStrategyFactory.BeginInvoke(ITypeInspector, ITypeResolver, IEnumerable<IYamlTypeConverter>, int, AsyncCallback, object)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke(YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeResolver, System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>, int, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(ITypeInspector typeInspector, ITypeResolver typeResolver, IEnumerable<IYamlTypeConverter> typeConverters, int maximumRecursion, AsyncCallback callback, object @object)
+    parameters:
+    - id: typeInspector
+      type: YamlDotNet.Serialization.ITypeInspector
+    - id: typeResolver
+      type: YamlDotNet.Serialization.ITypeResolver
+    - id: typeConverters
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+    - id: maximumRecursion
+      type: System.Int32
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(typeInspector As ITypeInspector, typeResolver As ITypeResolver, typeConverters As IEnumerable(Of IYamlTypeConverter), maximumRecursion As Integer, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke*
+  nameWithType.vb: ObjectGraphTraversalStrategyFactory.BeginInvoke(ITypeInspector, ITypeResolver, IEnumerable(Of IYamlTypeConverter), Integer, AsyncCallback, Object)
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke(YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeResolver, System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter), Integer, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(ITypeInspector, ITypeResolver, IEnumerable(Of IYamlTypeConverter), Integer, AsyncCallback, Object)
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke(System.IAsyncResult)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: ObjectGraphTraversalStrategyFactory.EndInvoke(IAsyncResult)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual IObjectGraphTraversalStrategy EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As IObjectGraphTraversalStrategy
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ITypeInspector
+  commentId: T:YamlDotNet.Serialization.ITypeInspector
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeInspector.html
+  name: ITypeInspector
+  nameWithType: ITypeInspector
+  fullName: YamlDotNet.Serialization.ITypeInspector
+- uid: YamlDotNet.Serialization.ITypeResolver
+  commentId: T:YamlDotNet.Serialization.ITypeResolver
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeResolver.html
+  name: ITypeResolver
+  nameWithType: ITypeResolver
+  fullName: YamlDotNet.Serialization.ITypeResolver
+- uid: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+  commentId: T:System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IYamlTypeConverter>
+  nameWithType: IEnumerable<IYamlTypeConverter>
+  fullName: System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>
+  nameWithType.vb: IEnumerable(Of IYamlTypeConverter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter)
+  name.vb: IEnumerable(Of IYamlTypeConverter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.html
+  name: IObjectGraphTraversalStrategy
+  nameWithType: IObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategyFactory__ctor_System_Object_System_IntPtr_
+  name: ObjectGraphTraversalStrategyFactory
+  nameWithType: ObjectGraphTraversalStrategyFactory.ObjectGraphTraversalStrategyFactory
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.ObjectGraphTraversalStrategyFactory
+  nameWithType.vb: ObjectGraphTraversalStrategyFactory.New
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategyFactory_Invoke_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeResolver_System_Collections_Generic_IEnumerable_YamlDotNet_Serialization_IYamlTypeConverter__System_Int32_
+  name: Invoke
+  nameWithType: ObjectGraphTraversalStrategyFactory.Invoke
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.Invoke
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategyFactory_BeginInvoke_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeResolver_System_Collections_Generic_IEnumerable_YamlDotNet_Serialization_IYamlTypeConverter__System_Int32_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: ObjectGraphTraversalStrategyFactory.BeginInvoke
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategyFactory_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: ObjectGraphTraversalStrategyFactory.EndInvoke
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.EndInvoke

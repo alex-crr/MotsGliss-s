@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.Utilities
+  commentId: N:YamlDotNet.Serialization.Utilities
+  id: YamlDotNet.Serialization.Utilities
+  children:
+  - YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  - YamlDotNet.Serialization.Utilities.ITypeConverter
+  - YamlDotNet.Serialization.Utilities.NullTypeConverter
+  - YamlDotNet.Serialization.Utilities.ReflectionTypeConverter
+  - YamlDotNet.Serialization.Utilities.SerializerState
+  - YamlDotNet.Serialization.Utilities.TypeConverter
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.Utilities
+  nameWithType: YamlDotNet.Serialization.Utilities
+  fullName: YamlDotNet.Serialization.Utilities
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  commentId: T:YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.html
+  name: IPostDeserializationCallback
+  nameWithType: IPostDeserializationCallback
+  fullName: YamlDotNet.Serialization.Utilities.IPostDeserializationCallback
+- uid: YamlDotNet.Serialization.Utilities.ITypeConverter
+  commentId: T:YamlDotNet.Serialization.Utilities.ITypeConverter
+  parent: YamlDotNet.Serialization.Utilities
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.ITypeConverter.html
+  name: ITypeConverter
+  nameWithType: ITypeConverter
+  fullName: YamlDotNet.Serialization.Utilities.ITypeConverter
+- uid: YamlDotNet.Serialization.Utilities.NullTypeConverter
+  commentId: T:YamlDotNet.Serialization.Utilities.NullTypeConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.NullTypeConverter.html
+  name: NullTypeConverter
+  nameWithType: NullTypeConverter
+  fullName: YamlDotNet.Serialization.Utilities.NullTypeConverter
+- uid: YamlDotNet.Serialization.Utilities.ReflectionTypeConverter
+  commentId: T:YamlDotNet.Serialization.Utilities.ReflectionTypeConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.ReflectionTypeConverter.html
+  name: ReflectionTypeConverter
+  nameWithType: ReflectionTypeConverter
+  fullName: YamlDotNet.Serialization.Utilities.ReflectionTypeConverter
+- uid: YamlDotNet.Serialization.Utilities.SerializerState
+  commentId: T:YamlDotNet.Serialization.Utilities.SerializerState
+  parent: YamlDotNet.Serialization.Utilities
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.SerializerState.html
+  name: SerializerState
+  nameWithType: SerializerState
+  fullName: YamlDotNet.Serialization.Utilities.SerializerState
+- uid: YamlDotNet.Serialization.Utilities.TypeConverter
+  commentId: T:YamlDotNet.Serialization.Utilities.TypeConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Utilities.TypeConverter.html
+  name: TypeConverter
+  nameWithType: TypeConverter
+  fullName: YamlDotNet.Serialization.Utilities.TypeConverter
+- uid: YamlDotNet.Serialization.Utilities
+  commentId: N:YamlDotNet.Serialization.Utilities
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.Utilities
+  nameWithType: YamlDotNet.Serialization.Utilities
+  fullName: YamlDotNet.Serialization.Utilities
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Utilities
+    name: Utilities
+    isExternal: true
+    href: YamlDotNet.Serialization.Utilities.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Utilities
+    name: Utilities
+    isExternal: true
+    href: YamlDotNet.Serialization.Utilities.html

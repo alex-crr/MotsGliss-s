@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.NodeDeserializers
+  commentId: N:YamlDotNet.Serialization.NodeDeserializers
+  id: YamlDotNet.Serialization.NodeDeserializers
+  children:
+  - YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer
+  - YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.NodeDeserializers
+  nameWithType: YamlDotNet.Serialization.NodeDeserializers
+  fullName: YamlDotNet.Serialization.NodeDeserializers
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer.html
+  name: ArrayNodeDeserializer
+  nameWithType: ArrayNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer.html
+  name: CollectionDeserializer
+  nameWithType: CollectionDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer.html
+  name: CollectionNodeDeserializer
+  nameWithType: CollectionNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer
+  parent: YamlDotNet.Serialization.NodeDeserializers
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer.html
+  name: DictionaryDeserializer
+  nameWithType: DictionaryDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer.html
+  name: DictionaryNodeDeserializer
+  nameWithType: DictionaryNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer.html
+  name: EnumerableNodeDeserializer
+  nameWithType: EnumerableNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer.html
+  name: NullNodeDeserializer
+  nameWithType: NullNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer.html
+  name: ObjectNodeDeserializer
+  nameWithType: ObjectNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer.html
+  name: ScalarNodeDeserializer
+  nameWithType: ScalarNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer.html
+  name: StaticArrayNodeDeserializer
+  nameWithType: StaticArrayNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer.html
+  name: StaticCollectionNodeDeserializer
+  nameWithType: StaticCollectionNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer.html
+  name: StaticDictionaryNodeDeserializer
+  nameWithType: StaticDictionaryNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer.html
+  name: TypeConverterNodeDeserializer
+  nameWithType: TypeConverterNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer.html
+  name: YamlConvertibleNodeDeserializer
+  nameWithType: YamlConvertibleNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer.html
+  name: YamlSerializableNodeDeserializer
+  nameWithType: YamlSerializableNodeDeserializer
+  fullName: YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer
+- uid: YamlDotNet.Serialization.NodeDeserializers
+  commentId: N:YamlDotNet.Serialization.NodeDeserializers
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.NodeDeserializers
+  nameWithType: YamlDotNet.Serialization.NodeDeserializers
+  fullName: YamlDotNet.Serialization.NodeDeserializers
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.NodeDeserializers
+    name: NodeDeserializers
+    isExternal: true
+    href: YamlDotNet.Serialization.NodeDeserializers.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.NodeDeserializers
+    name: NodeDeserializers
+    isExternal: true
+    href: YamlDotNet.Serialization.NodeDeserializers.html

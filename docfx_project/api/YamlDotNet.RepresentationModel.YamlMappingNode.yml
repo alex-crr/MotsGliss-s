@@ -1,0 +1,1568 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlMappingNode
+  id: YamlMappingNode
+  parent: YamlDotNet.RepresentationModel
+  children:
+  - YamlDotNet.RepresentationModel.YamlMappingNode.#ctor
+  - YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}})
+  - YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode})
+  - YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}[])
+  - YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(YamlDotNet.RepresentationModel.YamlNode[])
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Add(System.String,System.String)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Add(System.String,YamlDotNet.RepresentationModel.YamlNode)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode,System.String)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Children
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Equals(System.Object)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.FromObject(System.Object)
+  - YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator
+  - YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode
+  - YamlDotNet.RepresentationModel.YamlMappingNode.NodeType
+  - YamlDotNet.RepresentationModel.YamlMappingNode.Style
+  langs:
+  - csharp
+  - vb
+  name: YamlMappingNode
+  nameWithType: YamlMappingNode
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: 'public sealed class YamlMappingNode : YamlNode, IEnumerable<KeyValuePair<YamlNode, YamlNode>>, IEnumerable, IYamlConvertible'
+    content.vb: Public NotInheritable Class YamlMappingNode Inherits YamlNode Implements IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode)), IEnumerable, IYamlConvertible
+  inheritance:
+  - System.Object
+  - YamlDotNet.RepresentationModel.YamlNode
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+  - System.Collections.IEnumerable
+  - YamlDotNet.Serialization.IYamlConvertible
+  inheritedMembers:
+  - YamlDotNet.RepresentationModel.YamlNode.ToString
+  - YamlDotNet.RepresentationModel.YamlNode.Anchor
+  - YamlDotNet.RepresentationModel.YamlNode.Tag
+  - YamlDotNet.RepresentationModel.YamlNode.Start
+  - YamlDotNet.RepresentationModel.YamlNode.End
+  - YamlDotNet.RepresentationModel.YamlNode.AllNodes
+  - YamlDotNet.RepresentationModel.YamlNode.Item(System.Int32)
+  - YamlDotNet.RepresentationModel.YamlNode.Item(YamlDotNet.RepresentationModel.YamlNode)
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: YamlMappingNode()
+  nameWithType: YamlMappingNode.YamlMappingNode()
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.YamlMappingNode()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public YamlMappingNode()
+    content.vb: Public Sub New()
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor*
+  nameWithType.vb: YamlMappingNode.New()
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.New()
+  name.vb: New()
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}[])
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}[])
+  id: '#ctor(System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}[])'
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: YamlMappingNode(params KeyValuePair<YamlNode, YamlNode>[])
+  nameWithType: YamlMappingNode.YamlMappingNode(params KeyValuePair<YamlNode, YamlNode>[])
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.YamlMappingNode(params System.Collections.Generic.KeyValuePair<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>[])
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public YamlMappingNode(params KeyValuePair<YamlNode, YamlNode>[] children)
+    parameters:
+    - id: children
+      type: System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}[]
+    content.vb: Public Sub New(ParamArray children As KeyValuePair(Of YamlNode, YamlNode)())
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor*
+  nameWithType.vb: YamlMappingNode.New(ParamArray KeyValuePair(Of YamlNode, YamlNode)())
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.New(ParamArray System.Collections.Generic.KeyValuePair(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode)())
+  name.vb: New(ParamArray KeyValuePair(Of YamlNode, YamlNode)())
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}})
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}})
+  id: '#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}})'
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: YamlMappingNode(IEnumerable<KeyValuePair<YamlNode, YamlNode>>)
+  nameWithType: YamlMappingNode.YamlMappingNode(IEnumerable<KeyValuePair<YamlNode, YamlNode>>)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.YamlMappingNode(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>>)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public YamlMappingNode(IEnumerable<KeyValuePair<YamlNode, YamlNode>> children)
+    parameters:
+    - id: children
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+    content.vb: Public Sub New(children As IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode)))
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor*
+  nameWithType.vb: YamlMappingNode.New(IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode)))
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.New(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode)))
+  name.vb: New(IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode)))
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(YamlDotNet.RepresentationModel.YamlNode[])
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(YamlDotNet.RepresentationModel.YamlNode[])
+  id: '#ctor(YamlDotNet.RepresentationModel.YamlNode[])'
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: YamlMappingNode(params YamlNode[])
+  nameWithType: YamlMappingNode.YamlMappingNode(params YamlNode[])
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.YamlMappingNode(params YamlDotNet.RepresentationModel.YamlNode[])
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public YamlMappingNode(params YamlNode[] children)
+    parameters:
+    - id: children
+      type: YamlDotNet.RepresentationModel.YamlNode[]
+    content.vb: Public Sub New(ParamArray children As YamlNode())
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor*
+  nameWithType.vb: YamlMappingNode.New(ParamArray YamlNode())
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.New(ParamArray YamlDotNet.RepresentationModel.YamlNode())
+  name.vb: New(ParamArray YamlNode())
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode})
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode})
+  id: '#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode})'
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: YamlMappingNode(IEnumerable<YamlNode>)
+  nameWithType: YamlMappingNode.YamlMappingNode(IEnumerable<YamlNode>)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.YamlMappingNode(System.Collections.Generic.IEnumerable<YamlDotNet.RepresentationModel.YamlNode>)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public YamlMappingNode(IEnumerable<YamlNode> children)
+    parameters:
+    - id: children
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode}
+    content.vb: Public Sub New(children As IEnumerable(Of YamlNode))
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor*
+  nameWithType.vb: YamlMappingNode.New(IEnumerable(Of YamlNode))
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.New(System.Collections.Generic.IEnumerable(Of YamlDotNet.RepresentationModel.YamlNode))
+  name.vb: New(IEnumerable(Of YamlNode))
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode)
+  id: Add(YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Add(YamlNode, YamlNode)
+  nameWithType: YamlMappingNode.Add(YamlNode, YamlNode)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public void Add(YamlNode key, YamlNode value)
+    parameters:
+    - id: key
+      type: YamlDotNet.RepresentationModel.YamlNode
+    - id: value
+      type: YamlDotNet.RepresentationModel.YamlNode
+    content.vb: Public Sub Add(key As YamlNode, value As YamlNode)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Add*
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Add(System.String,YamlDotNet.RepresentationModel.YamlNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.Add(System.String,YamlDotNet.RepresentationModel.YamlNode)
+  id: Add(System.String,YamlDotNet.RepresentationModel.YamlNode)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Add(string, YamlNode)
+  nameWithType: YamlMappingNode.Add(string, YamlNode)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Add(string, YamlDotNet.RepresentationModel.YamlNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public void Add(string key, YamlNode value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: YamlDotNet.RepresentationModel.YamlNode
+    content.vb: Public Sub Add(key As String, value As YamlNode)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Add*
+  nameWithType.vb: YamlMappingNode.Add(String, YamlNode)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.Add(String, YamlDotNet.RepresentationModel.YamlNode)
+  name.vb: Add(String, YamlNode)
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode,System.String)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode,System.String)
+  id: Add(YamlDotNet.RepresentationModel.YamlNode,System.String)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Add(YamlNode, string)
+  nameWithType: YamlMappingNode.Add(YamlNode, string)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode, string)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public void Add(YamlNode key, string value)
+    parameters:
+    - id: key
+      type: YamlDotNet.RepresentationModel.YamlNode
+    - id: value
+      type: System.String
+    content.vb: Public Sub Add(key As YamlNode, value As String)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Add*
+  nameWithType.vb: YamlMappingNode.Add(YamlNode, String)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.Add(YamlDotNet.RepresentationModel.YamlNode, String)
+  name.vb: Add(YamlNode, String)
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Add(System.String,System.String)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.Add(System.String,System.String)
+  id: Add(System.String,System.String)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Add(string, string)
+  nameWithType: YamlMappingNode.Add(string, string)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Add(string, string)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public void Add(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub Add(key As String, value As String)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Add*
+  nameWithType.vb: YamlMappingNode.Add(String, String)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.Add(String, String)
+  name.vb: Add(String, String)
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  id: Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Accept(IYamlVisitor)
+  nameWithType: YamlMappingNode.Accept(IYamlVisitor)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  example: []
+  syntax:
+    content: public override void Accept(IYamlVisitor visitor)
+    parameters:
+    - id: visitor
+      type: YamlDotNet.RepresentationModel.IYamlVisitor
+    content.vb: Public Overrides Sub Accept(visitor As IYamlVisitor)
+  overridden: YamlDotNet.RepresentationModel.YamlNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Accept*
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Equals(System.Object)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: YamlMappingNode.Equals(object?)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Equals(object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Equals*
+  nameWithType.vb: YamlMappingNode.Equals(Object)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.Equals(Object)
+  name.vb: Equals(Object)
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode
+  id: GetHashCode
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: YamlMappingNode.GetHashCode()
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode*
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator
+  id: GetEnumerator
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: YamlMappingNode.GetEnumerator()
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  example: []
+  syntax:
+    content: public IEnumerator<KeyValuePair<YamlNode, YamlNode>> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of KeyValuePair(Of YamlNode, YamlNode))
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}.GetEnumerator
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.FromObject(System.Object)
+  commentId: M:YamlDotNet.RepresentationModel.YamlMappingNode.FromObject(System.Object)
+  id: FromObject(System.Object)
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: FromObject(object)
+  nameWithType: YamlMappingNode.FromObject(object)
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.FromObject(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public static YamlMappingNode FromObject(object mapping)
+    parameters:
+    - id: mapping
+      type: System.Object
+    return:
+      type: YamlDotNet.RepresentationModel.YamlMappingNode
+    content.vb: Public Shared Function FromObject(mapping As Object) As YamlMappingNode
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.FromObject*
+  nameWithType.vb: YamlMappingNode.FromObject(Object)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.FromObject(Object)
+  name.vb: FromObject(Object)
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Children
+  commentId: P:YamlDotNet.RepresentationModel.YamlMappingNode.Children
+  id: Children
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: YamlMappingNode.Children
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Children
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public IOrderedDictionary<YamlNode, YamlNode> Children { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Helpers.IOrderedDictionary{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}
+    content.vb: Public ReadOnly Property Children As IOrderedDictionary(Of YamlNode, YamlNode)
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Children*
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Style
+  commentId: P:YamlDotNet.RepresentationModel.YamlMappingNode.Style
+  id: Style
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: YamlMappingNode.Style
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Style
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: public MappingStyle Style { get; set; }
+    parameters: []
+    return:
+      type: YamlDotNet.Core.Events.MappingStyle
+    content.vb: Public Property Style As MappingStyle
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.Style*
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.NodeType
+  commentId: P:YamlDotNet.RepresentationModel.YamlMappingNode.NodeType
+  id: NodeType
+  parent: YamlDotNet.RepresentationModel.YamlMappingNode
+  langs:
+  - csharp
+  - vb
+  name: NodeType
+  nameWithType: YamlMappingNode.NodeType
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.NodeType
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  example: []
+  syntax:
+    content: public override YamlNodeType NodeType { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.RepresentationModel.YamlNodeType
+    content.vb: Public Overrides ReadOnly Property NodeType As YamlNodeType
+  overridden: YamlDotNet.RepresentationModel.YamlNode.NodeType
+  overload: YamlDotNet.RepresentationModel.YamlMappingNode.NodeType*
+references:
+- uid: YamlDotNet.RepresentationModel
+  commentId: N:YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.RepresentationModel
+  nameWithType: YamlDotNet.RepresentationModel
+  fullName: YamlDotNet.RepresentationModel
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.RepresentationModel.YamlNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html
+  name: YamlNode
+  nameWithType: YamlNode
+  fullName: YamlDotNet.RepresentationModel.YamlNode
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<KeyValuePair<YamlNode, YamlNode>>
+  nameWithType: IEnumerable<KeyValuePair<YamlNode, YamlNode>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>>
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode))
+  name.vb: IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: )
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: YamlDotNet.Serialization.IYamlConvertible
+  commentId: T:YamlDotNet.Serialization.IYamlConvertible
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IYamlConvertible.html
+  name: IYamlConvertible
+  nameWithType: IYamlConvertible
+  fullName: YamlDotNet.Serialization.IYamlConvertible
+- uid: YamlDotNet.RepresentationModel.YamlNode.ToString
+  commentId: M:YamlDotNet.RepresentationModel.YamlNode.ToString
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_ToString
+  name: ToString()
+  nameWithType: YamlNode.ToString()
+  fullName: YamlDotNet.RepresentationModel.YamlNode.ToString()
+  spec.csharp:
+  - uid: YamlDotNet.RepresentationModel.YamlNode.ToString
+    name: ToString
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.RepresentationModel.YamlNode.ToString
+    name: ToString
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_ToString
+  - name: (
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlNode.Anchor
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.Anchor
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Anchor
+  name: Anchor
+  nameWithType: YamlNode.Anchor
+  fullName: YamlDotNet.RepresentationModel.YamlNode.Anchor
+- uid: YamlDotNet.RepresentationModel.YamlNode.Tag
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.Tag
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Tag
+  name: Tag
+  nameWithType: YamlNode.Tag
+  fullName: YamlDotNet.RepresentationModel.YamlNode.Tag
+- uid: YamlDotNet.RepresentationModel.YamlNode.Start
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.Start
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Start
+  name: Start
+  nameWithType: YamlNode.Start
+  fullName: YamlDotNet.RepresentationModel.YamlNode.Start
+- uid: YamlDotNet.RepresentationModel.YamlNode.End
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.End
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_End
+  name: End
+  nameWithType: YamlNode.End
+  fullName: YamlDotNet.RepresentationModel.YamlNode.End
+- uid: YamlDotNet.RepresentationModel.YamlNode.AllNodes
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.AllNodes
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_AllNodes
+  name: AllNodes
+  nameWithType: YamlNode.AllNodes
+  fullName: YamlDotNet.RepresentationModel.YamlNode.AllNodes
+- uid: YamlDotNet.RepresentationModel.YamlNode.Item(System.Int32)
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.Item(System.Int32)
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: YamlNode.this[int]
+  fullName: YamlDotNet.RepresentationModel.YamlNode.this[int]
+  nameWithType.vb: YamlNode.this[](Integer)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlNode.this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: YamlDotNet.RepresentationModel.YamlNode.Item(System.Int32)
+    name: this[]
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlNode.Item(YamlDotNet.RepresentationModel.YamlNode)
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.Item(YamlDotNet.RepresentationModel.YamlNode)
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html
+  name: this[YamlNode]
+  nameWithType: YamlNode.this[YamlNode]
+  fullName: YamlDotNet.RepresentationModel.YamlNode.this[YamlDotNet.RepresentationModel.YamlNode]
+  nameWithType.vb: YamlNode.this[](YamlNode)
+  fullName.vb: YamlDotNet.RepresentationModel.YamlNode.this[](YamlDotNet.RepresentationModel.YamlNode)
+  name.vb: this[](YamlNode)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ']'
+  spec.vb:
+  - uid: YamlDotNet.RepresentationModel.YamlNode.Item(YamlDotNet.RepresentationModel.YamlNode)
+    name: this[]
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Item_YamlDotNet_RepresentationModel_YamlNode_
+  - name: (
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.#ctor*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.#ctor
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode__ctor
+  name: YamlMappingNode
+  nameWithType: YamlMappingNode.YamlMappingNode
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.YamlMappingNode
+  nameWithType.vb: YamlMappingNode.New
+  fullName.vb: YamlDotNet.RepresentationModel.YamlMappingNode.New
+  name.vb: New
+- uid: System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  name: KeyValuePair<YamlNode, YamlNode>[]
+  nameWithType: KeyValuePair<YamlNode, YamlNode>[]
+  fullName: System.Collections.Generic.KeyValuePair<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>[]
+  nameWithType.vb: KeyValuePair(Of YamlNode, YamlNode)()
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode)()
+  name.vb: KeyValuePair(Of YamlNode, YamlNode)()
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: '>'
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: )
+  - name: (
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlNode[]
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html
+  name: YamlNode[]
+  nameWithType: YamlNode[]
+  fullName: YamlDotNet.RepresentationModel.YamlNode[]
+  nameWithType.vb: YamlNode()
+  fullName.vb: YamlDotNet.RepresentationModel.YamlNode()
+  name.vb: YamlNode()
+  spec.csharp:
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode}
+  commentId: T:System.Collections.Generic.IEnumerable{YamlDotNet.RepresentationModel.YamlNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<YamlNode>
+  nameWithType: IEnumerable<YamlNode>
+  fullName: System.Collections.Generic.IEnumerable<YamlDotNet.RepresentationModel.YamlNode>
+  nameWithType.vb: IEnumerable(Of YamlNode)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of YamlDotNet.RepresentationModel.YamlNode)
+  name.vb: IEnumerable(Of YamlNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Add*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.Add
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_Add_YamlDotNet_RepresentationModel_YamlNode_YamlDotNet_RepresentationModel_YamlNode_
+  name: Add
+  nameWithType: YamlMappingNode.Add
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Add
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: YamlDotNet.RepresentationModel.YamlNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  commentId: M:YamlDotNet.RepresentationModel.YamlNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Accept_YamlDotNet_RepresentationModel_IYamlVisitor_
+  name: Accept(IYamlVisitor)
+  nameWithType: YamlNode.Accept(IYamlVisitor)
+  fullName: YamlDotNet.RepresentationModel.YamlNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+  spec.csharp:
+  - uid: YamlDotNet.RepresentationModel.YamlNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+    name: Accept
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Accept_YamlDotNet_RepresentationModel_IYamlVisitor_
+  - name: (
+  - uid: YamlDotNet.RepresentationModel.IYamlVisitor
+    name: IYamlVisitor
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.IYamlVisitor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.RepresentationModel.YamlNode.Accept(YamlDotNet.RepresentationModel.IYamlVisitor)
+    name: Accept
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_Accept_YamlDotNet_RepresentationModel_IYamlVisitor_
+  - name: (
+  - uid: YamlDotNet.RepresentationModel.IYamlVisitor
+    name: IYamlVisitor
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.IYamlVisitor.html
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Accept*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.Accept
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_Accept_YamlDotNet_RepresentationModel_IYamlVisitor_
+  name: Accept
+  nameWithType: YamlMappingNode.Accept
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Accept
+- uid: YamlDotNet.RepresentationModel.IYamlVisitor
+  commentId: T:YamlDotNet.RepresentationModel.IYamlVisitor
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.IYamlVisitor.html
+  name: IYamlVisitor
+  nameWithType: IYamlVisitor
+  fullName: YamlDotNet.RepresentationModel.IYamlVisitor
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Equals*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.Equals
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_Equals_System_Object_
+  name: Equals
+  nameWithType: YamlMappingNode.Equals
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_GetHashCode
+  name: GetHashCode
+  nameWithType: YamlMappingNode.GetHashCode
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_GetEnumerator
+  name: GetEnumerator
+  nameWithType: YamlMappingNode.GetEnumerator
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<KeyValuePair<YamlNode, YamlNode>>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of KeyValuePair(Of YamlNode, YamlNode)).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode)).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<KeyValuePair<YamlNode, YamlNode>>
+  nameWithType: IEnumerator<KeyValuePair<YamlNode, YamlNode>>
+  fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of YamlNode, YamlNode))
+  fullName.vb: System.Collections.Generic.IEnumerator(Of System.Collections.Generic.KeyValuePair(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode))
+  name.vb: IEnumerator(Of KeyValuePair(Of YamlNode, YamlNode))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: <
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.FromObject*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.FromObject
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_FromObject_System_Object_
+  name: FromObject
+  nameWithType: YamlMappingNode.FromObject
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.FromObject
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlMappingNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html
+  name: YamlMappingNode
+  nameWithType: YamlMappingNode
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Children*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.Children
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_Children
+  name: Children
+  nameWithType: YamlMappingNode.Children
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Children
+- uid: YamlDotNet.Helpers.IOrderedDictionary{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}
+  commentId: T:YamlDotNet.Helpers.IOrderedDictionary{YamlDotNet.RepresentationModel.YamlNode,YamlDotNet.RepresentationModel.YamlNode}
+  parent: YamlDotNet.Helpers
+  definition: YamlDotNet.Helpers.IOrderedDictionary`2
+  href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  name: IOrderedDictionary<YamlNode, YamlNode>
+  nameWithType: IOrderedDictionary<YamlNode, YamlNode>
+  fullName: YamlDotNet.Helpers.IOrderedDictionary<YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode>
+  nameWithType.vb: IOrderedDictionary(Of YamlNode, YamlNode)
+  fullName.vb: YamlDotNet.Helpers.IOrderedDictionary(Of YamlDotNet.RepresentationModel.YamlNode, YamlDotNet.RepresentationModel.YamlNode)
+  name.vb: IOrderedDictionary(Of YamlNode, YamlNode)
+  spec.csharp:
+  - uid: YamlDotNet.Helpers.IOrderedDictionary`2
+    name: IOrderedDictionary
+    isExternal: true
+    href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  - name: <
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Helpers.IOrderedDictionary`2
+    name: IOrderedDictionary
+    isExternal: true
+    href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.RepresentationModel.YamlNode
+    name: YamlNode
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.YamlNode.html
+  - name: )
+- uid: YamlDotNet.Helpers.IOrderedDictionary`2
+  commentId: T:YamlDotNet.Helpers.IOrderedDictionary`2
+  isExternal: true
+  href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  name: IOrderedDictionary<TKey, TValue>
+  nameWithType: IOrderedDictionary<TKey, TValue>
+  fullName: YamlDotNet.Helpers.IOrderedDictionary<TKey, TValue>
+  nameWithType.vb: IOrderedDictionary(Of TKey, TValue)
+  fullName.vb: YamlDotNet.Helpers.IOrderedDictionary(Of TKey, TValue)
+  name.vb: IOrderedDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: YamlDotNet.Helpers.IOrderedDictionary`2
+    name: IOrderedDictionary
+    isExternal: true
+    href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Helpers.IOrderedDictionary`2
+    name: IOrderedDictionary
+    isExternal: true
+    href: YamlDotNet.Helpers.IOrderedDictionary-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: YamlDotNet.Helpers
+  commentId: N:YamlDotNet.Helpers
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Helpers
+  nameWithType: YamlDotNet.Helpers
+  fullName: YamlDotNet.Helpers
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Helpers
+    name: Helpers
+    isExternal: true
+    href: YamlDotNet.Helpers.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Helpers
+    name: Helpers
+    isExternal: true
+    href: YamlDotNet.Helpers.html
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.Style*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.Style
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_Style
+  name: Style
+  nameWithType: YamlMappingNode.Style
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.Style
+- uid: YamlDotNet.Core.Events.MappingStyle
+  commentId: T:YamlDotNet.Core.Events.MappingStyle
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingStyle.html
+  name: MappingStyle
+  nameWithType: MappingStyle
+  fullName: YamlDotNet.Core.Events.MappingStyle
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+- uid: YamlDotNet.RepresentationModel.YamlNode.NodeType
+  commentId: P:YamlDotNet.RepresentationModel.YamlNode.NodeType
+  parent: YamlDotNet.RepresentationModel.YamlNode
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html#YamlDotNet_RepresentationModel_YamlNode_NodeType
+  name: NodeType
+  nameWithType: YamlNode.NodeType
+  fullName: YamlDotNet.RepresentationModel.YamlNode.NodeType
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode.NodeType*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlMappingNode.NodeType
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html#YamlDotNet_RepresentationModel_YamlMappingNode_NodeType
+  name: NodeType
+  nameWithType: YamlMappingNode.NodeType
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode.NodeType
+- uid: YamlDotNet.RepresentationModel.YamlNodeType
+  commentId: T:YamlDotNet.RepresentationModel.YamlNodeType
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNodeType.html
+  name: YamlNodeType
+  nameWithType: YamlNodeType
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType

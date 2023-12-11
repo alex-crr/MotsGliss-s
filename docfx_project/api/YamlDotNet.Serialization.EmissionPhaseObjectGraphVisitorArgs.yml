@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  commentId: T:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  id: EmissionPhaseObjectGraphVisitorArgs
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.#ctor(YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter},YamlDotNet.Serialization.IEventEmitter,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}},System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},YamlDotNet.Serialization.ObjectSerializer)
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor``1
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  langs:
+  - csharp
+  - vb
+  name: EmissionPhaseObjectGraphVisitorArgs
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public sealed class EmissionPhaseObjectGraphVisitorArgs
+    content.vb: Public NotInheritable Class EmissionPhaseObjectGraphVisitorArgs
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.#ctor(YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter},YamlDotNet.Serialization.IEventEmitter,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}},System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},YamlDotNet.Serialization.ObjectSerializer)
+  commentId: M:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.#ctor(YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter},YamlDotNet.Serialization.IEventEmitter,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}},System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},YamlDotNet.Serialization.ObjectSerializer)
+  id: '#ctor(YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter},YamlDotNet.Serialization.IEventEmitter,System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}},System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter},YamlDotNet.Serialization.ObjectSerializer)'
+  parent: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  langs:
+  - csharp
+  - vb
+  name: EmissionPhaseObjectGraphVisitorArgs(IObjectGraphVisitor<IEmitter>, IEventEmitter, IEnumerable<IObjectGraphVisitor<Nothing>>, IEnumerable<IYamlTypeConverter>, ObjectSerializer)
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.EmissionPhaseObjectGraphVisitorArgs(IObjectGraphVisitor<IEmitter>, IEventEmitter, IEnumerable<IObjectGraphVisitor<Nothing>>, IEnumerable<IYamlTypeConverter>, ObjectSerializer)
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EmissionPhaseObjectGraphVisitorArgs(YamlDotNet.Serialization.IObjectGraphVisitor<YamlDotNet.Core.IEmitter>, YamlDotNet.Serialization.IEventEmitter, System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IObjectGraphVisitor<YamlDotNet.Serialization.Nothing>>, System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>, YamlDotNet.Serialization.ObjectSerializer)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public EmissionPhaseObjectGraphVisitorArgs(IObjectGraphVisitor<IEmitter> innerVisitor, IEventEmitter eventEmitter, IEnumerable<IObjectGraphVisitor<Nothing>> preProcessingPhaseVisitors, IEnumerable<IYamlTypeConverter> typeConverters, ObjectSerializer nestedObjectSerializer)
+    parameters:
+    - id: innerVisitor
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+    - id: eventEmitter
+      type: YamlDotNet.Serialization.IEventEmitter
+    - id: preProcessingPhaseVisitors
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}}
+    - id: typeConverters
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+    - id: nestedObjectSerializer
+      type: YamlDotNet.Serialization.ObjectSerializer
+    content.vb: Public Sub New(innerVisitor As IObjectGraphVisitor(Of IEmitter), eventEmitter As IEventEmitter, preProcessingPhaseVisitors As IEnumerable(Of IObjectGraphVisitor(Of [Nothing])), typeConverters As IEnumerable(Of IYamlTypeConverter), nestedObjectSerializer As ObjectSerializer)
+  overload: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.#ctor*
+  nameWithType.vb: EmissionPhaseObjectGraphVisitorArgs.New(IObjectGraphVisitor(Of IEmitter), IEventEmitter, IEnumerable(Of IObjectGraphVisitor(Of Nothing)), IEnumerable(Of IYamlTypeConverter), ObjectSerializer)
+  fullName.vb: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.New(YamlDotNet.Serialization.IObjectGraphVisitor(Of YamlDotNet.Core.IEmitter), YamlDotNet.Serialization.IEventEmitter, System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IObjectGraphVisitor(Of YamlDotNet.Serialization.Nothing)), System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter), YamlDotNet.Serialization.ObjectSerializer)
+  name.vb: New(IObjectGraphVisitor(Of IEmitter), IEventEmitter, IEnumerable(Of IObjectGraphVisitor(Of Nothing)), IEnumerable(Of IYamlTypeConverter), ObjectSerializer)
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor``1
+  commentId: M:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor``1
+  id: GetPreProcessingPhaseObjectGraphVisitor``1
+  parent: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  langs:
+  - csharp
+  - vb
+  name: GetPreProcessingPhaseObjectGraphVisitor<T>()
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor<T>()
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor<T>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public T GetPreProcessingPhaseObjectGraphVisitor<T>() where T : IObjectGraphVisitor<Nothing>'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetPreProcessingPhaseObjectGraphVisitor(Of T As IObjectGraphVisitor(Of [Nothing]))() As T
+  overload: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor*
+  nameWithType.vb: EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor(Of T)()
+  fullName.vb: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor(Of T)()
+  name.vb: GetPreProcessingPhaseObjectGraphVisitor(Of T)()
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  commentId: P:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  id: InnerVisitor
+  parent: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  langs:
+  - csharp
+  - vb
+  name: InnerVisitor
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public IObjectGraphVisitor<IEmitter> InnerVisitor { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+    content.vb: Public ReadOnly Property InnerVisitor As IObjectGraphVisitor(Of IEmitter)
+  overload: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor*
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  commentId: P:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  id: EventEmitter
+  parent: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  langs:
+  - csharp
+  - vb
+  name: EventEmitter
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public IEventEmitter EventEmitter { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Serialization.IEventEmitter
+    content.vb: Public ReadOnly Property EventEmitter As IEventEmitter
+  overload: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter*
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  commentId: P:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  id: NestedObjectSerializer
+  parent: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  langs:
+  - csharp
+  - vb
+  name: NestedObjectSerializer
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public ObjectSerializer NestedObjectSerializer { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Serialization.ObjectSerializer
+    content.vb: Public ReadOnly Property NestedObjectSerializer As ObjectSerializer
+  overload: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer*
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  commentId: P:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  id: TypeConverters
+  parent: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  langs:
+  - csharp
+  - vb
+  name: TypeConverters
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public IEnumerable<IYamlTypeConverter> TypeConverters { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+    content.vb: Public ReadOnly Property TypeConverters As IEnumerable(Of IYamlTypeConverter)
+  overload: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html#YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs__ctor_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Core_IEmitter__YamlDotNet_Serialization_IEventEmitter_System_Collections_Generic_IEnumerable_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Serialization_Nothing___System_Collections_Generic_IEnumerable_YamlDotNet_Serialization_IYamlTypeConverter__YamlDotNet_Serialization_ObjectSerializer_
+  name: EmissionPhaseObjectGraphVisitorArgs
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.EmissionPhaseObjectGraphVisitorArgs
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EmissionPhaseObjectGraphVisitorArgs
+  nameWithType.vb: EmissionPhaseObjectGraphVisitorArgs.New
+  fullName.vb: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<IEmitter>
+  nameWithType: IObjectGraphVisitor<IEmitter>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<YamlDotNet.Core.IEmitter>
+  nameWithType.vb: IObjectGraphVisitor(Of IEmitter)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of YamlDotNet.Core.IEmitter)
+  name.vb: IObjectGraphVisitor(Of IEmitter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Core.IEmitter
+    name: IEmitter
+    isExternal: true
+    href: YamlDotNet.Core.IEmitter.html
+  - name: )
+- uid: YamlDotNet.Serialization.IEventEmitter
+  commentId: T:YamlDotNet.Serialization.IEventEmitter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IEventEmitter.html
+  name: IEventEmitter
+  nameWithType: IEventEmitter
+  fullName: YamlDotNet.Serialization.IEventEmitter
+- uid: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}}
+  commentId: T:System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IObjectGraphVisitor<Nothing>>
+  nameWithType: IEnumerable<IObjectGraphVisitor<Nothing>>
+  fullName: System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IObjectGraphVisitor<YamlDotNet.Serialization.Nothing>>
+  nameWithType.vb: IEnumerable(Of IObjectGraphVisitor(Of Nothing))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IObjectGraphVisitor(Of YamlDotNet.Serialization.Nothing))
+  name.vb: IEnumerable(Of IObjectGraphVisitor(Of Nothing))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.Nothing
+    name: Nothing
+    isExternal: true
+    href: YamlDotNet.Serialization.Nothing.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.Nothing
+    name: Nothing
+    isExternal: true
+    href: YamlDotNet.Serialization.Nothing.html
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+  commentId: T:System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IYamlTypeConverter>
+  nameWithType: IEnumerable<IYamlTypeConverter>
+  fullName: System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>
+  nameWithType.vb: IEnumerable(Of IYamlTypeConverter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter)
+  name.vb: IEnumerable(Of IYamlTypeConverter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectSerializer
+  commentId: T:YamlDotNet.Serialization.ObjectSerializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectSerializer.html
+  name: ObjectSerializer
+  nameWithType: ObjectSerializer
+  fullName: YamlDotNet.Serialization.ObjectSerializer
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor*
+  commentId: Overload:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html#YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs_GetPreProcessingPhaseObjectGraphVisitor__1
+  name: GetPreProcessingPhaseObjectGraphVisitor
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.GetPreProcessingPhaseObjectGraphVisitor
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor*
+  commentId: Overload:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html#YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs_InnerVisitor
+  name: InnerVisitor
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.InnerVisitor
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter*
+  commentId: Overload:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html#YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs_EventEmitter
+  name: EventEmitter
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.EventEmitter
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer*
+  commentId: Overload:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html#YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs_NestedObjectSerializer
+  name: NestedObjectSerializer
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.NestedObjectSerializer
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters*
+  commentId: Overload:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html#YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs_TypeConverters
+  name: TypeConverters
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs.TypeConverters
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.TypeConverters

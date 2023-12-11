@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  id: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  children:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html
+  name: ITypeDiscriminator
+  nameWithType: ITypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator.html
+  name: KeyValueTypeDiscriminator
+  nameWithType: KeyValueTypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.html
+  name: UniqueKeyTypeDiscriminator
+  nameWithType: UniqueKeyTypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+    name: TypeDiscriminators
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+    name: TypeDiscriminators
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html

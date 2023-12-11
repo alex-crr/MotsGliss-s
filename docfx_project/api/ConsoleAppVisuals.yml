@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: ConsoleAppVisuals
+  commentId: N:ConsoleAppVisuals
+  id: ConsoleAppVisuals
+  children:
+  - ConsoleAppVisuals.Core
+  - ConsoleAppVisuals.Extensions
+  - ConsoleAppVisuals.FontYamlFile
+  - ConsoleAppVisuals.Output
+  - ConsoleAppVisuals.Placement
+  - ConsoleAppVisuals.Position
+  - ConsoleAppVisuals.Table`1
+  - ConsoleAppVisuals.TextStyler
+  langs:
+  - csharp
+  - vb
+  name: ConsoleAppVisuals
+  nameWithType: ConsoleAppVisuals
+  fullName: ConsoleAppVisuals
+  type: Namespace
+  assemblies:
+  - ConsoleAppVisuals
+references:
+- uid: ConsoleAppVisuals.Core
+  commentId: T:ConsoleAppVisuals.Core
+  isExternal: true
+  href: ConsoleAppVisuals.Core.html
+  name: Core
+  nameWithType: Core
+  fullName: ConsoleAppVisuals.Core
+- uid: ConsoleAppVisuals.Extensions
+  commentId: T:ConsoleAppVisuals.Extensions
+  isExternal: true
+  href: ConsoleAppVisuals.Extensions.html
+  name: Extensions
+  nameWithType: Extensions
+  fullName: ConsoleAppVisuals.Extensions
+- uid: ConsoleAppVisuals.FontYamlFile
+  commentId: T:ConsoleAppVisuals.FontYamlFile
+  isExternal: true
+  href: ConsoleAppVisuals.FontYamlFile.html
+  name: FontYamlFile
+  nameWithType: FontYamlFile
+  fullName: ConsoleAppVisuals.FontYamlFile
+- uid: ConsoleAppVisuals.Output
+  commentId: T:ConsoleAppVisuals.Output
+  parent: ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.Output.html
+  name: Output
+  nameWithType: Output
+  fullName: ConsoleAppVisuals.Output
+- uid: ConsoleAppVisuals.Placement
+  commentId: T:ConsoleAppVisuals.Placement
+  parent: ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.Placement.html
+  name: Placement
+  nameWithType: Placement
+  fullName: ConsoleAppVisuals.Placement
+- uid: ConsoleAppVisuals.Position
+  commentId: T:ConsoleAppVisuals.Position
+  parent: ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.Position.html
+  name: Position
+  nameWithType: Position
+  fullName: ConsoleAppVisuals.Position
+- uid: ConsoleAppVisuals.Table`1
+  commentId: T:ConsoleAppVisuals.Table`1
+  isExternal: true
+  href: ConsoleAppVisuals.Table-1.html
+  name: Table<T>
+  nameWithType: Table<T>
+  fullName: ConsoleAppVisuals.Table<T>
+  nameWithType.vb: Table(Of T)
+  fullName.vb: ConsoleAppVisuals.Table(Of T)
+  name.vb: Table(Of T)
+  spec.csharp:
+  - uid: ConsoleAppVisuals.Table`1
+    name: Table
+    isExternal: true
+    href: ConsoleAppVisuals.Table-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: ConsoleAppVisuals.Table`1
+    name: Table
+    isExternal: true
+    href: ConsoleAppVisuals.Table-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: ConsoleAppVisuals.TextStyler
+  commentId: T:ConsoleAppVisuals.TextStyler
+  isExternal: true
+  href: ConsoleAppVisuals.TextStyler.html
+  name: TextStyler
+  nameWithType: TextStyler
+  fullName: ConsoleAppVisuals.TextStyler
+- uid: ConsoleAppVisuals
+  commentId: N:ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.html
+  name: ConsoleAppVisuals
+  nameWithType: ConsoleAppVisuals
+  fullName: ConsoleAppVisuals

@@ -1,7 +1,7 @@
 {
   "metadata": [{
     "src": [{
-      "files": ["bin/**/*.dll"],
+      "files": ["bin/Debug/net7.0/MotsGlissés.dll"],
       "src": "../"
     }],
     "dest": "api",

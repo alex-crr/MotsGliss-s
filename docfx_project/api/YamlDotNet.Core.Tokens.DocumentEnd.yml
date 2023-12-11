@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Tokens.DocumentEnd
+  commentId: T:YamlDotNet.Core.Tokens.DocumentEnd
+  id: DocumentEnd
+  parent: YamlDotNet.Core.Tokens
+  children:
+  - YamlDotNet.Core.Tokens.DocumentEnd.#ctor
+  - YamlDotNet.Core.Tokens.DocumentEnd.#ctor(YamlDotNet.Core.Mark@,YamlDotNet.Core.Mark@)
+  langs:
+  - csharp
+  - vb
+  name: DocumentEnd
+  nameWithType: DocumentEnd
+  fullName: YamlDotNet.Core.Tokens.DocumentEnd
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Tokens
+  syntax:
+    content: 'public sealed class DocumentEnd : Token'
+    content.vb: Public NotInheritable Class DocumentEnd Inherits Token
+  inheritance:
+  - System.Object
+  - YamlDotNet.Core.Tokens.Token
+  inheritedMembers:
+  - YamlDotNet.Core.Tokens.Token.Start
+  - YamlDotNet.Core.Tokens.Token.End
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Core.Tokens.DocumentEnd.#ctor
+  commentId: M:YamlDotNet.Core.Tokens.DocumentEnd.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.Core.Tokens.DocumentEnd
+  langs:
+  - csharp
+  - vb
+  name: DocumentEnd()
+  nameWithType: DocumentEnd.DocumentEnd()
+  fullName: YamlDotNet.Core.Tokens.DocumentEnd.DocumentEnd()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Tokens
+  syntax:
+    content: public DocumentEnd()
+    content.vb: Public Sub New()
+  overload: YamlDotNet.Core.Tokens.DocumentEnd.#ctor*
+  nameWithType.vb: DocumentEnd.New()
+  fullName.vb: YamlDotNet.Core.Tokens.DocumentEnd.New()
+  name.vb: New()
+- uid: YamlDotNet.Core.Tokens.DocumentEnd.#ctor(YamlDotNet.Core.Mark@,YamlDotNet.Core.Mark@)
+  commentId: M:YamlDotNet.Core.Tokens.DocumentEnd.#ctor(YamlDotNet.Core.Mark@,YamlDotNet.Core.Mark@)
+  id: '#ctor(YamlDotNet.Core.Mark@,YamlDotNet.Core.Mark@)'
+  parent: YamlDotNet.Core.Tokens.DocumentEnd
+  langs:
+  - csharp
+  - vb
+  name: DocumentEnd(in Mark, in Mark)
+  nameWithType: DocumentEnd.DocumentEnd(in Mark, in Mark)
+  fullName: YamlDotNet.Core.Tokens.DocumentEnd.DocumentEnd(in YamlDotNet.Core.Mark, in YamlDotNet.Core.Mark)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Tokens
+  syntax:
+    content: public DocumentEnd(in Mark start, in Mark end)
+    parameters:
+    - id: start
+      type: YamlDotNet.Core.Mark
+    - id: end
+      type: YamlDotNet.Core.Mark
+    content.vb: Public Sub New(start As Mark, [end] As Mark)
+  overload: YamlDotNet.Core.Tokens.DocumentEnd.#ctor*
+  nameWithType.vb: DocumentEnd.New(Mark, Mark)
+  fullName.vb: YamlDotNet.Core.Tokens.DocumentEnd.New(YamlDotNet.Core.Mark, YamlDotNet.Core.Mark)
+  name.vb: New(Mark, Mark)
+references:
+- uid: YamlDotNet.Core.Tokens
+  commentId: N:YamlDotNet.Core.Tokens
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Tokens
+  nameWithType: YamlDotNet.Core.Tokens
+  fullName: YamlDotNet.Core.Tokens
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Tokens
+    name: Tokens
+    isExternal: true
+    href: YamlDotNet.Core.Tokens.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Tokens
+    name: Tokens
+    isExternal: true
+    href: YamlDotNet.Core.Tokens.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Core.Tokens.Token
+  commentId: T:YamlDotNet.Core.Tokens.Token
+  parent: YamlDotNet.Core.Tokens
+  isExternal: true
+  href: YamlDotNet.Core.Tokens.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: YamlDotNet.Core.Tokens.Token
+- uid: YamlDotNet.Core.Tokens.Token.Start
+  commentId: P:YamlDotNet.Core.Tokens.Token.Start
+  parent: YamlDotNet.Core.Tokens.Token
+  isExternal: true
+  href: YamlDotNet.Core.Tokens.Token.html#YamlDotNet_Core_Tokens_Token_Start
+  name: Start
+  nameWithType: Token.Start
+  fullName: YamlDotNet.Core.Tokens.Token.Start
+- uid: YamlDotNet.Core.Tokens.Token.End
+  commentId: P:YamlDotNet.Core.Tokens.Token.End
+  parent: YamlDotNet.Core.Tokens.Token
+  isExternal: true
+  href: YamlDotNet.Core.Tokens.Token.html#YamlDotNet_Core_Tokens_Token_End
+  name: End
+  nameWithType: Token.End
+  fullName: YamlDotNet.Core.Tokens.Token.End
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Core.Tokens.DocumentEnd.#ctor*
+  commentId: Overload:YamlDotNet.Core.Tokens.DocumentEnd.#ctor
+  isExternal: true
+  href: YamlDotNet.Core.Tokens.DocumentEnd.html#YamlDotNet_Core_Tokens_DocumentEnd__ctor
+  name: DocumentEnd
+  nameWithType: DocumentEnd.DocumentEnd
+  fullName: YamlDotNet.Core.Tokens.DocumentEnd.DocumentEnd
+  nameWithType.vb: DocumentEnd.New
+  fullName.vb: YamlDotNet.Core.Tokens.DocumentEnd.New
+  name.vb: New
+- uid: YamlDotNet.Core.Mark
+  commentId: T:YamlDotNet.Core.Mark
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.Mark.html
+  name: Mark
+  nameWithType: Mark
+  fullName: YamlDotNet.Core.Mark
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html

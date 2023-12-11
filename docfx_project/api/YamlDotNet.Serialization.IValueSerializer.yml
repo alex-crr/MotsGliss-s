@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IValueSerializer
+  commentId: T:YamlDotNet.Serialization.IValueSerializer
+  id: IValueSerializer
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IValueSerializer.SerializeValue(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: IValueSerializer
+  nameWithType: IValueSerializer
+  fullName: YamlDotNet.Serialization.IValueSerializer
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IValueSerializer
+    content.vb: Public Interface IValueSerializer
+- uid: YamlDotNet.Serialization.IValueSerializer.SerializeValue(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  commentId: M:YamlDotNet.Serialization.IValueSerializer.SerializeValue(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  id: SerializeValue(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  parent: YamlDotNet.Serialization.IValueSerializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeValue(IEmitter, object?, Type?)
+  nameWithType: IValueSerializer.SerializeValue(IEmitter, object?, Type?)
+  fullName: YamlDotNet.Serialization.IValueSerializer.SerializeValue(YamlDotNet.Core.IEmitter, object?, System.Type?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void SerializeValue(IEmitter emitter, object? value, Type? type)
+    parameters:
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    - id: value
+      type: System.Object
+    - id: type
+      type: System.Type
+    content.vb: Sub SerializeValue(emitter As IEmitter, value As Object, type As Type)
+  overload: YamlDotNet.Serialization.IValueSerializer.SerializeValue*
+  nameWithType.vb: IValueSerializer.SerializeValue(IEmitter, Object, Type)
+  fullName.vb: YamlDotNet.Serialization.IValueSerializer.SerializeValue(YamlDotNet.Core.IEmitter, Object, System.Type)
+  name.vb: SerializeValue(IEmitter, Object, Type)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IValueSerializer.SerializeValue*
+  commentId: Overload:YamlDotNet.Serialization.IValueSerializer.SerializeValue
+  isExternal: true
+  href: YamlDotNet.Serialization.IValueSerializer.html#YamlDotNet_Serialization_IValueSerializer_SerializeValue_YamlDotNet_Core_IEmitter_System_Object_System_Type_
+  name: SerializeValue
+  nameWithType: IValueSerializer.SerializeValue
+  fullName: YamlDotNet.Serialization.IValueSerializer.SerializeValue
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

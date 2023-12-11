@@ -1,0 +1,197 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  id: YamlDotNet.Core.Events
+  children:
+  - YamlDotNet.Core.Events.AnchorAlias
+  - YamlDotNet.Core.Events.Comment
+  - YamlDotNet.Core.Events.DocumentEnd
+  - YamlDotNet.Core.Events.DocumentStart
+  - YamlDotNet.Core.Events.IParsingEventVisitor
+  - YamlDotNet.Core.Events.MappingEnd
+  - YamlDotNet.Core.Events.MappingStart
+  - YamlDotNet.Core.Events.MappingStyle
+  - YamlDotNet.Core.Events.NodeEvent
+  - YamlDotNet.Core.Events.ParsingEvent
+  - YamlDotNet.Core.Events.Scalar
+  - YamlDotNet.Core.Events.SequenceEnd
+  - YamlDotNet.Core.Events.SequenceStart
+  - YamlDotNet.Core.Events.SequenceStyle
+  - YamlDotNet.Core.Events.StreamEnd
+  - YamlDotNet.Core.Events.StreamStart
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Core.Events.AnchorAlias
+  commentId: T:YamlDotNet.Core.Events.AnchorAlias
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.AnchorAlias.html
+  name: AnchorAlias
+  nameWithType: AnchorAlias
+  fullName: YamlDotNet.Core.Events.AnchorAlias
+- uid: YamlDotNet.Core.Events.Comment
+  commentId: T:YamlDotNet.Core.Events.Comment
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.Comment.html
+  name: Comment
+  nameWithType: Comment
+  fullName: YamlDotNet.Core.Events.Comment
+- uid: YamlDotNet.Core.Events.DocumentEnd
+  commentId: T:YamlDotNet.Core.Events.DocumentEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.DocumentEnd.html
+  name: DocumentEnd
+  nameWithType: DocumentEnd
+  fullName: YamlDotNet.Core.Events.DocumentEnd
+- uid: YamlDotNet.Core.Events.DocumentStart
+  commentId: T:YamlDotNet.Core.Events.DocumentStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.DocumentStart.html
+  name: DocumentStart
+  nameWithType: DocumentStart
+  fullName: YamlDotNet.Core.Events.DocumentStart
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor
+  commentId: T:YamlDotNet.Core.Events.IParsingEventVisitor
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.IParsingEventVisitor.html
+  name: IParsingEventVisitor
+  nameWithType: IParsingEventVisitor
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor
+- uid: YamlDotNet.Core.Events.MappingEnd
+  commentId: T:YamlDotNet.Core.Events.MappingEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingEnd.html
+  name: MappingEnd
+  nameWithType: MappingEnd
+  fullName: YamlDotNet.Core.Events.MappingEnd
+- uid: YamlDotNet.Core.Events.MappingStart
+  commentId: T:YamlDotNet.Core.Events.MappingStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingStart.html
+  name: MappingStart
+  nameWithType: MappingStart
+  fullName: YamlDotNet.Core.Events.MappingStart
+- uid: YamlDotNet.Core.Events.MappingStyle
+  commentId: T:YamlDotNet.Core.Events.MappingStyle
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingStyle.html
+  name: MappingStyle
+  nameWithType: MappingStyle
+  fullName: YamlDotNet.Core.Events.MappingStyle
+- uid: YamlDotNet.Core.Events.NodeEvent
+  commentId: T:YamlDotNet.Core.Events.NodeEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.NodeEvent.html
+  name: NodeEvent
+  nameWithType: NodeEvent
+  fullName: YamlDotNet.Core.Events.NodeEvent
+- uid: YamlDotNet.Core.Events.ParsingEvent
+  commentId: T:YamlDotNet.Core.Events.ParsingEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html
+  name: ParsingEvent
+  nameWithType: ParsingEvent
+  fullName: YamlDotNet.Core.Events.ParsingEvent
+- uid: YamlDotNet.Core.Events.Scalar
+  commentId: T:YamlDotNet.Core.Events.Scalar
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html
+  name: Scalar
+  nameWithType: Scalar
+  fullName: YamlDotNet.Core.Events.Scalar
+- uid: YamlDotNet.Core.Events.SequenceEnd
+  commentId: T:YamlDotNet.Core.Events.SequenceEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.SequenceEnd.html
+  name: SequenceEnd
+  nameWithType: SequenceEnd
+  fullName: YamlDotNet.Core.Events.SequenceEnd
+- uid: YamlDotNet.Core.Events.SequenceStart
+  commentId: T:YamlDotNet.Core.Events.SequenceStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.SequenceStart.html
+  name: SequenceStart
+  nameWithType: SequenceStart
+  fullName: YamlDotNet.Core.Events.SequenceStart
+- uid: YamlDotNet.Core.Events.SequenceStyle
+  commentId: T:YamlDotNet.Core.Events.SequenceStyle
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.SequenceStyle.html
+  name: SequenceStyle
+  nameWithType: SequenceStyle
+  fullName: YamlDotNet.Core.Events.SequenceStyle
+- uid: YamlDotNet.Core.Events.StreamEnd
+  commentId: T:YamlDotNet.Core.Events.StreamEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.StreamEnd.html
+  name: StreamEnd
+  nameWithType: StreamEnd
+  fullName: YamlDotNet.Core.Events.StreamEnd
+- uid: YamlDotNet.Core.Events.StreamStart
+  commentId: T:YamlDotNet.Core.Events.StreamStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.StreamStart.html
+  name: StreamStart
+  nameWithType: StreamStart
+  fullName: YamlDotNet.Core.Events.StreamStart
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html

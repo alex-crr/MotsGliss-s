@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Version
+  commentId: T:YamlDotNet.Core.Version
+  id: Version
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.Version.#ctor(System.Int32,System.Int32)
+  - YamlDotNet.Core.Version.Equals(System.Object)
+  - YamlDotNet.Core.Version.GetHashCode
+  - YamlDotNet.Core.Version.Major
+  - YamlDotNet.Core.Version.Minor
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: Version
+  fullName: YamlDotNet.Core.Version
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public sealed class Version
+    content.vb: Public NotInheritable Class Version
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: YamlDotNet.Core.Version.#ctor(System.Int32,System.Int32)
+  commentId: M:YamlDotNet.Core.Version.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: YamlDotNet.Core.Version
+  langs:
+  - csharp
+  - vb
+  name: Version(int, int)
+  nameWithType: Version.Version(int, int)
+  fullName: YamlDotNet.Core.Version.Version(int, int)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public Version(int major, int minor)
+    parameters:
+    - id: major
+      type: System.Int32
+    - id: minor
+      type: System.Int32
+    content.vb: Public Sub New(major As Integer, minor As Integer)
+  overload: YamlDotNet.Core.Version.#ctor*
+  nameWithType.vb: Version.New(Integer, Integer)
+  fullName.vb: YamlDotNet.Core.Version.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: YamlDotNet.Core.Version.Equals(System.Object)
+  commentId: M:YamlDotNet.Core.Version.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: YamlDotNet.Core.Version
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Version.Equals(object?)
+  fullName: YamlDotNet.Core.Version.Equals(object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: YamlDotNet.Core.Version.Equals*
+  nameWithType.vb: Version.Equals(Object)
+  fullName.vb: YamlDotNet.Core.Version.Equals(Object)
+  name.vb: Equals(Object)
+- uid: YamlDotNet.Core.Version.GetHashCode
+  commentId: M:YamlDotNet.Core.Version.GetHashCode
+  id: GetHashCode
+  parent: YamlDotNet.Core.Version
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: Version.GetHashCode()
+  fullName: YamlDotNet.Core.Version.GetHashCode()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.Object.GetHashCode
+  overload: YamlDotNet.Core.Version.GetHashCode*
+- uid: YamlDotNet.Core.Version.Major
+  commentId: P:YamlDotNet.Core.Version.Major
+  id: Major
+  parent: YamlDotNet.Core.Version
+  langs:
+  - csharp
+  - vb
+  name: Major
+  nameWithType: Version.Major
+  fullName: YamlDotNet.Core.Version.Major
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public int Major { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Major As Integer
+  overload: YamlDotNet.Core.Version.Major*
+- uid: YamlDotNet.Core.Version.Minor
+  commentId: P:YamlDotNet.Core.Version.Minor
+  id: Minor
+  parent: YamlDotNet.Core.Version
+  langs:
+  - csharp
+  - vb
+  name: Minor
+  nameWithType: Version.Minor
+  fullName: YamlDotNet.Core.Version.Minor
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public int Minor { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Minor As Integer
+  overload: YamlDotNet.Core.Version.Minor*
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Core.Version.#ctor*
+  commentId: Overload:YamlDotNet.Core.Version.#ctor
+  isExternal: true
+  href: YamlDotNet.Core.Version.html#YamlDotNet_Core_Version__ctor_System_Int32_System_Int32_
+  name: Version
+  nameWithType: Version.Version
+  fullName: YamlDotNet.Core.Version.Version
+  nameWithType.vb: Version.New
+  fullName.vb: YamlDotNet.Core.Version.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Core.Version.Equals*
+  commentId: Overload:YamlDotNet.Core.Version.Equals
+  isExternal: true
+  href: YamlDotNet.Core.Version.html#YamlDotNet_Core_Version_Equals_System_Object_
+  name: Equals
+  nameWithType: Version.Equals
+  fullName: YamlDotNet.Core.Version.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: YamlDotNet.Core.Version.GetHashCode*
+  commentId: Overload:YamlDotNet.Core.Version.GetHashCode
+  isExternal: true
+  href: YamlDotNet.Core.Version.html#YamlDotNet_Core_Version_GetHashCode
+  name: GetHashCode
+  nameWithType: Version.GetHashCode
+  fullName: YamlDotNet.Core.Version.GetHashCode
+- uid: YamlDotNet.Core.Version.Major*
+  commentId: Overload:YamlDotNet.Core.Version.Major
+  isExternal: true
+  href: YamlDotNet.Core.Version.html#YamlDotNet_Core_Version_Major
+  name: Major
+  nameWithType: Version.Major
+  fullName: YamlDotNet.Core.Version.Major
+- uid: YamlDotNet.Core.Version.Minor*
+  commentId: Overload:YamlDotNet.Core.Version.Minor
+  isExternal: true
+  href: YamlDotNet.Core.Version.html#YamlDotNet_Core_Version_Minor
+  name: Minor
+  nameWithType: Version.Minor
+  fullName: YamlDotNet.Core.Version.Minor
