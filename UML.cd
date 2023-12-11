@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MotsGlissés.Dictionnaire">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAIAAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dictionnaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotsGlissés.Extras">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="MotsGlissés.Extras.Position" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Extras.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Extras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotsGlissés.Jeu">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAAgAAAAAAAAAAAAAAAACCAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Jeu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotsGlissés.Joueur">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAggAAAAABAAQBCAAgAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Joueur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MotsGlissés.Plateau">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAACAAAABABAACAAABAEAAAAIBoAAAAEA=</HashCode>
+      <FileName>Plateau.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
