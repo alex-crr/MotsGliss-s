@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: MotsGlissés
+  commentId: N:MotsGlissés
+  id: MotsGlissés
+  children:
+  - MotsGlissés.Dictionnaire
+  - MotsGlissés.Extras
+  - MotsGlissés.Extras.Position
+  - MotsGlissés.Jeu
+  - MotsGlissés.Joueur
+  - MotsGlissés.Plateau
+  langs:
+  - csharp
+  - vb
+  name: MotsGlissés
+  nameWithType: MotsGlissés
+  fullName: MotsGlissés
+  type: Namespace
+  assemblies:
+  - MotsGlissés
+references:
+- uid: MotsGlissés.Dictionnaire
+  commentId: T:MotsGlissés.Dictionnaire
+  parent: MotsGlissés
+  href: MotsGlissés.Dictionnaire.html
+  name: Dictionnaire
+  nameWithType: Dictionnaire
+  fullName: MotsGlissés.Dictionnaire
+- uid: MotsGlissés.Extras
+  commentId: T:MotsGlissés.Extras
+  href: MotsGlissés.Extras.html
+  name: Extras
+  nameWithType: Extras
+  fullName: MotsGlissés.Extras
+- uid: MotsGlissés.Extras.Position
+  commentId: T:MotsGlissés.Extras.Position
+  parent: MotsGlissés
+  href: MotsGlissés.Extras.html
+  name: Extras.Position
+  nameWithType: Extras.Position
+  fullName: MotsGlissés.Extras.Position
+  spec.csharp:
+  - uid: MotsGlissés.Extras
+    name: Extras
+    href: MotsGlissés.Extras.html
+  - name: .
+  - uid: MotsGlissés.Extras.Position
+    name: Position
+    href: MotsGlissés.Extras.Position.html
+  spec.vb:
+  - uid: MotsGlissés.Extras
+    name: Extras
+    href: MotsGlissés.Extras.html
+  - name: .
+  - uid: MotsGlissés.Extras.Position
+    name: Position
+    href: MotsGlissés.Extras.Position.html
+- uid: MotsGlissés.Jeu
+  commentId: T:MotsGlissés.Jeu
+  href: MotsGlissés.Jeu.html
+  name: Jeu
+  nameWithType: Jeu
+  fullName: MotsGlissés.Jeu
+- uid: MotsGlissés.Joueur
+  commentId: T:MotsGlissés.Joueur
+  href: MotsGlissés.Joueur.html
+  name: Joueur
+  nameWithType: Joueur
+  fullName: MotsGlissés.Joueur
+- uid: MotsGlissés.Plateau
+  commentId: T:MotsGlissés.Plateau
+  parent: MotsGlissés
+  href: MotsGlissés.Plateau.html
+  name: Plateau
+  nameWithType: Plateau
+  fullName: MotsGlissés.Plateau
+- uid: MotsGlissés
+  commentId: N:MotsGlissés
+  href: MotsGlissés.html
+  name: MotsGlissés
+  nameWithType: MotsGlissés
+  fullName: MotsGlissés

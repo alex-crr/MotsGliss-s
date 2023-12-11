@@ -1,0 +1,525 @@
+### YamlMime:ManagedReference
+items:
+- uid: MotsGlissés.Extras
+  commentId: T:MotsGlissés.Extras
+  id: Extras
+  parent: MotsGlissés
+  children:
+  - MotsGlissés.Extras.Fusion(System.String[])
+  - MotsGlissés.Extras.ReadLine(System.TimeSpan)
+  - MotsGlissés.Extras.Split(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Extras
+  nameWithType: Extras
+  fullName: MotsGlissés.Extras
+  type: Class
+  source:
+    remote:
+      path: Extras.cs
+      branch: master
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: Extras
+    path: ../Extras.cs
+    startLine: 5
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Classe contenant des méthodes supplémentaires. Elles sont statiques et ne nécessitent pas d'instanciation.
+  example: []
+  syntax:
+    content: public class Extras
+    content.vb: Public Class Extras
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MotsGlissés.Extras.Split(System.String[])
+  commentId: M:MotsGlissés.Extras.Split(System.String[])
+  id: Split(System.String[])
+  parent: MotsGlissés.Extras
+  langs:
+  - csharp
+  - vb
+  name: Split(string[])
+  nameWithType: Extras.Split(string[])
+  fullName: MotsGlissés.Extras.Split(string[])
+  type: Method
+  source:
+    remote:
+      path: Extras.cs
+      branch: master
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: Split
+    path: ../Extras.cs
+    startLine: 13
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: >-
+    Coupe un tableau de string en deux parties 
+
+    Le polymorphisme n'a pas été implémenté
+  example: []
+  syntax:
+    content: public static (string[], string[]) Split(string[] tab)
+    parameters:
+    - id: tab
+      type: System.String[]
+      description: Tableau à couper
+    return:
+      type: System.ValueTuple{System.String[],System.String[]}
+      description: "(string[], string []): les tableaux coupés, dans l'ordre de coupe"
+    content.vb: Public Shared Function Split(tab As String()) As (String(), String())
+  overload: MotsGlissés.Extras.Split*
+  nameWithType.vb: Extras.Split(String())
+  fullName.vb: MotsGlissés.Extras.Split(String())
+  name.vb: Split(String())
+- uid: MotsGlissés.Extras.Fusion(System.String[])
+  commentId: M:MotsGlissés.Extras.Fusion(System.String[])
+  id: Fusion(System.String[])
+  parent: MotsGlissés.Extras
+  langs:
+  - csharp
+  - vb
+  name: Fusion(string[])
+  nameWithType: Extras.Fusion(string[])
+  fullName: MotsGlissés.Extras.Fusion(string[])
+  type: Method
+  source:
+    remote:
+      path: Extras.cs
+      branch: master
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: Fusion
+    path: ../Extras.cs
+    startLine: 27
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Implémentation simple du Tri fusion
+  example: []
+  syntax:
+    content: public static string[] Fusion(string[] tab)
+    parameters:
+    - id: tab
+      type: System.String[]
+      description: Tableau de string à trier
+    return:
+      type: System.String[]
+      description: string[] tableau d'entrée trié
+    content.vb: Public Shared Function Fusion(tab As String()) As String()
+  overload: MotsGlissés.Extras.Fusion*
+  nameWithType.vb: Extras.Fusion(String())
+  fullName.vb: MotsGlissés.Extras.Fusion(String())
+  name.vb: Fusion(String())
+- uid: MotsGlissés.Extras.ReadLine(System.TimeSpan)
+  commentId: M:MotsGlissés.Extras.ReadLine(System.TimeSpan)
+  id: ReadLine(System.TimeSpan)
+  parent: MotsGlissés.Extras
+  langs:
+  - csharp
+  - vb
+  name: ReadLine(TimeSpan)
+  nameWithType: Extras.ReadLine(TimeSpan)
+  fullName: MotsGlissés.Extras.ReadLine(System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Extras.cs
+      branch: master
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: ReadLine
+    path: ../Extras.cs
+    startLine: 166
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Equivalent de ReadLine mais avec un timeout
+  example: []
+  syntax:
+    content: public static string? ReadLine(TimeSpan timeout)
+    parameters:
+    - id: timeout
+      type: System.TimeSpan
+      description: La durée maximale d'attente pour une entrée.
+    return:
+      type: System.String
+      description: La chaîne de caractères saisie par l'utilisateur, ou null si aucune saisie n'a été effectuée dans le délai imparti.
+    content.vb: Public Shared Function ReadLine(timeout As TimeSpan) As String
+  overload: MotsGlissés.Extras.ReadLine*
+references:
+- uid: MotsGlissés
+  commentId: N:MotsGlissés
+  href: MotsGlissés.html
+  name: MotsGlissés
+  nameWithType: MotsGlissés
+  fullName: MotsGlissés
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MotsGlissés.Extras.Split*
+  commentId: Overload:MotsGlissés.Extras.Split
+  href: MotsGlissés.Extras.html#MotsGlissés_Extras_Split_System_String___
+  name: Split
+  nameWithType: Extras.Split
+  fullName: MotsGlissés.Extras.Split
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+- uid: System.ValueTuple{System.String[],System.String[]}
+  commentId: T:System.ValueTuple{System.String[],System.String[]}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: (string[], string[])
+  nameWithType: (string[], string[])
+  fullName: (string[], string[])
+  nameWithType.vb: (String(), String())
+  fullName.vb: (String(), String())
+  name.vb: (String(), String())
+  spec.csharp:
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: MotsGlissés.Extras.Fusion*
+  commentId: Overload:MotsGlissés.Extras.Fusion
+  href: MotsGlissés.Extras.html#MotsGlissés_Extras_Fusion_System_String___
+  name: Fusion
+  nameWithType: Extras.Fusion
+  fullName: MotsGlissés.Extras.Fusion
+- uid: MotsGlissés.Extras.ReadLine*
+  commentId: Overload:MotsGlissés.Extras.ReadLine
+  href: MotsGlissés.Extras.html#MotsGlissés_Extras_ReadLine_System_TimeSpan_
+  name: ReadLine
+  nameWithType: Extras.ReadLine
+  fullName: MotsGlissés.Extras.ReadLine
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

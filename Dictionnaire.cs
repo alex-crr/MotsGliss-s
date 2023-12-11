@@ -3,9 +3,23 @@ using System.Text.RegularExpressions;
 
 namespace MotsGlissés
 {
+    /// <summary>
+    /// Représente un dictionnaire, qui est un ensemble de mots triés par ordre alphabétique organisé par ligne dans un fichier texte.
+    /// </summary>
     public class Dictionnaire
     {
+<<<<<<< Updated upstream
         string _chemin;
+=======
+        // attributs
+        string _chemin; // chemin vers le fichier contenant le dictionnaire
+
+        /// <summary>
+        /// Constructeur d'un dictionnaire à partir d'un chemin vers un fichier texte
+        /// </summary>
+        /// <param name="chemin"> chemin vers le fichier, utile pour lecture du fichier</param>
+        /// <exception cref="FileNotFoundException">Exception renvoyée si le fichier n'existe pas</exception>
+>>>>>>> Stashed changes
         public Dictionnaire(string chemin)
         {
             if (!File.Exists(chemin))
@@ -37,7 +51,7 @@ namespace MotsGlissés
                 input = input.ToUpper();
                 using (StreamReader sr = new StreamReader(_chemin))
                 {
-                    string line;
+                    string? line;
                     int cpt = 0;
                     while ((line = sr.ReadLine()) != null && cpt < 26)
                     {
@@ -68,7 +82,7 @@ namespace MotsGlissés
         {
             using(StreamReader sr = new StreamReader(_chemin))
             {
-                string line;
+                string? line;
                 int cpt = 65;
                 string res = "Langue Française\n";
                 while((line = sr.ReadLine()) != null)
