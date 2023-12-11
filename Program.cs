@@ -5,7 +5,10 @@ namespace MotsGlissés
     {
         static void Main(string[] args)
         {
-            Core.WriteFullScreen("MotGlissé", footer: ("Alexandre COURRIEU", "2023-2024", "Adrien Scazzola"));
+            Console.WriteLine("Please put the console in fullscreen mode for the best experience");
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
+            Core.WriteFullScreen("MotGlissé",header: ("","",""), footer: ("Alexandre COURRIEU", "2023-2024", "Adrien Scazzola"));
             Core.ChangeForeground(ConsoleColor.Blue);
             Core.WriteContinuousString("A long time ago in a galaxy far, far away....", 10);
             Core.ChangeForeground(ConsoleColor.White);
