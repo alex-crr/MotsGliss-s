@@ -1,0 +1,18 @@
+### YamlMime:TableOfContent
+items:
+- uid: MotsGlissés
+  name: MotsGlissés
+  items:
+  - uid: MotsGlissés.Dictionnaire
+    name: Dictionnaire
+  - uid: MotsGlissés.Extras
+    name: Extras
+  - uid: MotsGlissés.Extras.Position
+    name: Extras.Position
+  - uid: MotsGlissés.Jeu
+    name: Jeu
+  - uid: MotsGlissés.Joueur
+    name: Joueur
+  - uid: MotsGlissés.Plateau
+    name: Plateau
+memberLayout: SamePage
