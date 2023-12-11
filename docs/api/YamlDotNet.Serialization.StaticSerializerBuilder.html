@@ -1,0 +1,1424 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class StaticSerializerBuilder
+ | Mots Gliss&#233;s </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class StaticSerializerBuilder
+ | Mots Gliss&#233;s ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Mots Gliss&#233;s">
+            Mots Gliss&#233;s
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="YamlDotNet.Serialization.StaticSerializerBuilder">
+
+
+
+  <h1 id="YamlDotNet_Serialization_StaticSerializerBuilder" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder" class="text-break">
+    Class StaticSerializerBuilder
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="YamlDotNet.html">YamlDotNet</a>.<a class="xref" href="YamlDotNet.Serialization.html">Serialization</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>YamlDotNet.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class StaticSerializerBuilder : StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html">StaticBuilderSkeleton</a>&lt;<a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a>&gt;</div>
+      <div><span class="xref">StaticSerializerBuilder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithNamingConvention(INamingConvention)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeResolver(ITypeResolver)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeConverter(IYamlTypeConverter)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeConverter(IYamlTypeConverter, Action&lt;IRegistrationLocationSelectionSyntax&lt;IYamlTypeConverter&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeConverter&lt;TYamlTypeConverter&gt;(WrapperFactory&lt;IYamlTypeConverter, IYamlTypeConverter&gt;, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IYamlTypeConverter&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithoutTypeConverter__1">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithoutTypeConverter&lt;TYamlTypeConverter&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithoutTypeConverter_System_Type_">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithoutTypeConverter(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeInspector&lt;TTypeInspector&gt;(Func&lt;ITypeInspector, TTypeInspector&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeInspector&lt;TTypeInspector&gt;(Func&lt;ITypeInspector, TTypeInspector&gt;, Action&lt;IRegistrationLocationSelectionSyntax&lt;ITypeInspector&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithTypeInspector&lt;TTypeInspector&gt;(WrapperFactory&lt;ITypeInspector, ITypeInspector, TTypeInspector&gt;, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;ITypeInspector&gt;&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithoutTypeInspector__1">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithoutTypeInspector&lt;TTypeInspector&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithoutTypeInspector_System_Type_">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithoutTypeInspector(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="YamlDotNet.Serialization.StaticBuilderSkeleton-1.html#YamlDotNet_Serialization_StaticBuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_">StaticBuilderSkeleton&lt;StaticSerializerBuilder&gt;.WithYamlFormatter(YamlFormatter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder__ctor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.#ctor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder__ctor_YamlDotNet_Serialization_StaticContext_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.#ctor(YamlDotNet.Serialization.StaticContext)">
+  StaticSerializerBuilder(StaticContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder(StaticContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="YamlDotNet.Serialization.StaticContext.html">StaticContext</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_Self_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.Self*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_Self" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.Self">
+  Self
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override StaticSerializerBuilder Self { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_Build_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.Build*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_Build" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.Build">
+  Build()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISerializer Build()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.ISerializer.html">ISerializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_BuildValueSerializer_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.BuildValueSerializer*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_BuildValueSerializer" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.BuildValueSerializer">
+  BuildValueSerializer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IValueSerializer BuildValueSerializer()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.IValueSerializer.html">IValueSerializer</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_ConfigureDefaultValuesHandling_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.ConfigureDefaultValuesHandling*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_ConfigureDefaultValuesHandling_YamlDotNet_Serialization_DefaultValuesHandling_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.ConfigureDefaultValuesHandling(YamlDotNet.Serialization.DefaultValuesHandling)">
+  ConfigureDefaultValuesHandling(DefaultValuesHandling)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder ConfigureDefaultValuesHandling(DefaultValuesHandling configuration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configuration</code> <a class="xref" href="YamlDotNet.Serialization.DefaultValuesHandling.html">DefaultValuesHandling</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_DisableAliases_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.DisableAliases*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_DisableAliases" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.DisableAliases">
+  DisableAliases()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder DisableAliases()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_EmitDefaults_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.EmitDefaults*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_EmitDefaults" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.EmitDefaults">
+  EmitDefaults()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The default behavior is now to always emit default values, thefore calling this method has no effect. This behavior is now controlled by ConfigureDefaultValuesHandling.&quot;, true)]
+public StaticSerializerBuilder EmitDefaults()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_EnsureRoundtrip_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.EnsureRoundtrip*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_EnsureRoundtrip" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.EnsureRoundtrip">
+  EnsureRoundtrip()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder EnsureRoundtrip()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_JsonCompatible_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.JsonCompatible*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_JsonCompatible" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.JsonCompatible">
+  JsonCompatible()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder JsonCompatible()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithDefaultScalarStyle_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithDefaultScalarStyle*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithDefaultScalarStyle_YamlDotNet_Core_ScalarStyle_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithDefaultScalarStyle(YamlDotNet.Core.ScalarStyle)">
+  WithDefaultScalarStyle(ScalarStyle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithDefaultScalarStyle(ScalarStyle style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>style</code> <a class="xref" href="YamlDotNet.Core.ScalarStyle.html">ScalarStyle</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEmissionPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEmissionPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEmissionPhaseObjectGraphVisitor__1_System_Func_YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs___0__" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEmissionPhaseObjectGraphVisitor``1(System.Func{YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs,``0})">
+  WithEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(Func&lt;EmissionPhaseObjectGraphVisitorArgs, TObjectGraphVisitor&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(Func&lt;EmissionPhaseObjectGraphVisitorArgs, TObjectGraphVisitor&gt; objectGraphVisitorFactory) where TObjectGraphVisitor : IObjectGraphVisitor&lt;IEmitter&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitorFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html">EmissionPhaseObjectGraphVisitorArgs</a>, TObjectGraphVisitor&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEmissionPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEmissionPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEmissionPhaseObjectGraphVisitor__1_System_Func_YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Core_IEmitter____" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEmissionPhaseObjectGraphVisitor``1(System.Func{YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}}})">
+  WithEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(Func&lt;EmissionPhaseObjectGraphVisitorArgs, TObjectGraphVisitor&gt;, Action&lt;IRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;IEmitter&gt;&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(Func&lt;EmissionPhaseObjectGraphVisitorArgs, TObjectGraphVisitor&gt; objectGraphVisitorFactory, Action&lt;IRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;IEmitter&gt;&gt;&gt; where) where TObjectGraphVisitor : IObjectGraphVisitor&lt;IEmitter&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitorFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html">EmissionPhaseObjectGraphVisitorArgs</a>, TObjectGraphVisitor&gt;</dt>
+    <dd></dd>
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html">IRegistrationLocationSelectionSyntax</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IObjectGraphVisitor-1.html">IObjectGraphVisitor</a>&lt;<a class="xref" href="YamlDotNet.Core.IEmitter.html">IEmitter</a>&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEmissionPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEmissionPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEmissionPhaseObjectGraphVisitor__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_EmissionPhaseObjectGraphVisitorArgs_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Core_IEmitter____0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Core_IEmitter____" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEmissionPhaseObjectGraphVisitor``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs,YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter},``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Core.IEmitter}}})">
+  WithEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(WrapperFactory&lt;EmissionPhaseObjectGraphVisitorArgs, IObjectGraphVisitor&lt;IEmitter&gt;, TObjectGraphVisitor&gt;, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;IEmitter&gt;&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(WrapperFactory&lt;EmissionPhaseObjectGraphVisitorArgs, IObjectGraphVisitor&lt;IEmitter&gt;, TObjectGraphVisitor&gt; objectGraphVisitorFactory, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;IEmitter&gt;&gt;&gt; where) where TObjectGraphVisitor : IObjectGraphVisitor&lt;IEmitter&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitorFactory</code> <a class="xref" href="YamlDotNet.Serialization.WrapperFactory-3.html">WrapperFactory</a>&lt;<a class="xref" href="YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html">EmissionPhaseObjectGraphVisitorArgs</a>, <a class="xref" href="YamlDotNet.Serialization.IObjectGraphVisitor-1.html">IObjectGraphVisitor</a>&lt;<a class="xref" href="YamlDotNet.Core.IEmitter.html">IEmitter</a>&gt;, TObjectGraphVisitor&gt;</dt>
+    <dd></dd>
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html">ITrackingRegistrationLocationSelectionSyntax</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IObjectGraphVisitor-1.html">IObjectGraphVisitor</a>&lt;<a class="xref" href="YamlDotNet.Core.IEmitter.html">IEmitter</a>&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEventEmitter_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEventEmitter*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEventEmitter__1_System_Func_YamlDotNet_Serialization_IEventEmitter___0__" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEventEmitter``1(System.Func{YamlDotNet.Serialization.IEventEmitter,``0})">
+  WithEventEmitter&lt;TEventEmitter&gt;(Func&lt;IEventEmitter, TEventEmitter&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithEventEmitter&lt;TEventEmitter&gt;(Func&lt;IEventEmitter, TEventEmitter&gt; eventEmitterFactory) where TEventEmitter : IEventEmitter</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventEmitterFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IEventEmitter.html">IEventEmitter</a>, TEventEmitter&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEventEmitter</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEventEmitter_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEventEmitter*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEventEmitter__1_System_Func_YamlDotNet_Serialization_IEventEmitter___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IEventEmitter___" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEventEmitter``1(System.Func{YamlDotNet.Serialization.IEventEmitter,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IEventEmitter}})">
+  WithEventEmitter&lt;TEventEmitter&gt;(Func&lt;IEventEmitter, TEventEmitter&gt;, Action&lt;IRegistrationLocationSelectionSyntax&lt;IEventEmitter&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithEventEmitter&lt;TEventEmitter&gt;(Func&lt;IEventEmitter, TEventEmitter&gt; eventEmitterFactory, Action&lt;IRegistrationLocationSelectionSyntax&lt;IEventEmitter&gt;&gt; where) where TEventEmitter : IEventEmitter</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventEmitterFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IEventEmitter.html">IEventEmitter</a>, TEventEmitter&gt;</dt>
+    <dd></dd>
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html">IRegistrationLocationSelectionSyntax</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IEventEmitter.html">IEventEmitter</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEventEmitter</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEventEmitter_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEventEmitter*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithEventEmitter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IEventEmitter_YamlDotNet_Serialization_IEventEmitter___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IEventEmitter___" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithEventEmitter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IEventEmitter,YamlDotNet.Serialization.IEventEmitter,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IEventEmitter}})">
+  WithEventEmitter&lt;TEventEmitter&gt;(WrapperFactory&lt;IEventEmitter, IEventEmitter, TEventEmitter&gt;, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IEventEmitter&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithEventEmitter&lt;TEventEmitter&gt;(WrapperFactory&lt;IEventEmitter, IEventEmitter, TEventEmitter&gt; eventEmitterFactory, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IEventEmitter&gt;&gt; where) where TEventEmitter : IEventEmitter</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventEmitterFactory</code> <a class="xref" href="YamlDotNet.Serialization.WrapperFactory-3.html">WrapperFactory</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IEventEmitter.html">IEventEmitter</a>, <a class="xref" href="YamlDotNet.Serialization.IEventEmitter.html">IEventEmitter</a>, TEventEmitter&gt;</dt>
+    <dd></dd>
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html">ITrackingRegistrationLocationSelectionSyntax</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IEventEmitter.html">IEventEmitter</a>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEventEmitter</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithIndentedSequences_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithIndentedSequences*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithIndentedSequences" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithIndentedSequences">
+  WithIndentedSequences()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithIndentedSequences()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithMaximumRecursion_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithMaximumRecursion*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithMaximumRecursion_System_Int32_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithMaximumRecursion(System.Int32)">
+  WithMaximumRecursion(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithMaximumRecursion(int maximumRecursion)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maximumRecursion</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithNewLine_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithNewLine*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithNewLine_System_String_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithNewLine(System.String)">
+  WithNewLine(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithNewLine(string newLine)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>newLine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithObjectGraphTraversalStrategyFactory_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithObjectGraphTraversalStrategyFactory*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithObjectGraphTraversalStrategyFactory_YamlDotNet_Serialization_ObjectGraphTraversalStrategyFactory_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithObjectGraphTraversalStrategyFactory(YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory)">
+  WithObjectGraphTraversalStrategyFactory(ObjectGraphTraversalStrategyFactory)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithObjectGraphTraversalStrategyFactory(ObjectGraphTraversalStrategyFactory objectGraphTraversalStrategyFactory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphTraversalStrategyFactory</code> <a class="xref" href="YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html">ObjectGraphTraversalStrategyFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithPreProcessingPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithPreProcessingPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithPreProcessingPhaseObjectGraphVisitor__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Serialization_Nothing____0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Serialization_Nothing____" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithPreProcessingPhaseObjectGraphVisitor``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing},``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}}})">
+  WithPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(WrapperFactory&lt;IObjectGraphVisitor&lt;Nothing&gt;, TObjectGraphVisitor&gt;, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;Nothing&gt;&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(WrapperFactory&lt;IObjectGraphVisitor&lt;Nothing&gt;, TObjectGraphVisitor&gt; objectGraphVisitorFactory, Action&lt;ITrackingRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;Nothing&gt;&gt;&gt; where) where TObjectGraphVisitor : IObjectGraphVisitor&lt;Nothing&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitorFactory</code> <a class="xref" href="YamlDotNet.Serialization.WrapperFactory-2.html">WrapperFactory</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IObjectGraphVisitor-1.html">IObjectGraphVisitor</a>&lt;<a class="xref" href="YamlDotNet.Serialization.Nothing.html">Nothing</a>&gt;, TObjectGraphVisitor&gt;</dt>
+    <dd></dd>
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html">ITrackingRegistrationLocationSelectionSyntax</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IObjectGraphVisitor-1.html">IObjectGraphVisitor</a>&lt;<a class="xref" href="YamlDotNet.Serialization.Nothing.html">Nothing</a>&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithPreProcessingPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithPreProcessingPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithPreProcessingPhaseObjectGraphVisitor__1___0_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithPreProcessingPhaseObjectGraphVisitor``1(``0)">
+  WithPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(TObjectGraphVisitor)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(TObjectGraphVisitor objectGraphVisitor) where TObjectGraphVisitor : IObjectGraphVisitor&lt;Nothing&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitor</code> <span class="xref">TObjectGraphVisitor</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithPreProcessingPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithPreProcessingPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithPreProcessingPhaseObjectGraphVisitor__1___0_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IObjectGraphVisitor_YamlDotNet_Serialization_Nothing____" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithPreProcessingPhaseObjectGraphVisitor``1(``0,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}}})">
+  WithPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(TObjectGraphVisitor, Action&lt;IRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;Nothing&gt;&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;(TObjectGraphVisitor objectGraphVisitor, Action&lt;IRegistrationLocationSelectionSyntax&lt;IObjectGraphVisitor&lt;Nothing&gt;&gt;&gt; where) where TObjectGraphVisitor : IObjectGraphVisitor&lt;Nothing&gt;</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitor</code> <span class="xref">TObjectGraphVisitor</span></dt>
+    <dd></dd>
+    <dt><code>where</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html">IRegistrationLocationSelectionSyntax</a>&lt;<a class="xref" href="YamlDotNet.Serialization.IObjectGraphVisitor-1.html">IObjectGraphVisitor</a>&lt;<a class="xref" href="YamlDotNet.Serialization.Nothing.html">Nothing</a>&gt;&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithQuotingNecessaryStrings_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithQuotingNecessaryStrings*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithQuotingNecessaryStrings" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithQuotingNecessaryStrings">
+  WithQuotingNecessaryStrings()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithQuotingNecessaryStrings()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithQuotingNecessaryStrings_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithQuotingNecessaryStrings*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithQuotingNecessaryStrings_System_Boolean_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithQuotingNecessaryStrings(System.Boolean)">
+  WithQuotingNecessaryStrings(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithQuotingNecessaryStrings(bool quoteYaml1_1Strings = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>quoteYaml1_1Strings</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithTagMapping_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithTagMapping*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithTagMapping_YamlDotNet_Core_TagName_System_Type_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithTagMapping(YamlDotNet.Core.TagName,System.Type)">
+  WithTagMapping(TagName, Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override StaticSerializerBuilder WithTagMapping(TagName tag, Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tag</code> <a class="xref" href="YamlDotNet.Core.TagName.html">TagName</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEmissionPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEmissionPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEmissionPhaseObjectGraphVisitor_System_Type_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEmissionPhaseObjectGraphVisitor(System.Type)">
+  WithoutEmissionPhaseObjectGraphVisitor(Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutEmissionPhaseObjectGraphVisitor(Type objectGraphVisitorType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitorType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEmissionPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEmissionPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEmissionPhaseObjectGraphVisitor__1" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEmissionPhaseObjectGraphVisitor``1">
+  WithoutEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutEmissionPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;() where TObjectGraphVisitor : IObjectGraphVisitor&lt;IEmitter&gt;</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEventEmitter_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEventEmitter*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEventEmitter_System_Type_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEventEmitter(System.Type)">
+  WithoutEventEmitter(Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutEventEmitter(Type eventEmitterType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>eventEmitterType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEventEmitter_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEventEmitter*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutEventEmitter__1" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutEventEmitter``1">
+  WithoutEventEmitter&lt;TEventEmitter&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutEventEmitter&lt;TEventEmitter&gt;() where TEventEmitter : IEventEmitter</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEventEmitter</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutPreProcessingPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutPreProcessingPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutPreProcessingPhaseObjectGraphVisitor_System_Type_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutPreProcessingPhaseObjectGraphVisitor(System.Type)">
+  WithoutPreProcessingPhaseObjectGraphVisitor(Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutPreProcessingPhaseObjectGraphVisitor(Type objectGraphVisitorType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>objectGraphVisitorType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutPreProcessingPhaseObjectGraphVisitor_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutPreProcessingPhaseObjectGraphVisitor*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutPreProcessingPhaseObjectGraphVisitor__1" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutPreProcessingPhaseObjectGraphVisitor``1">
+  WithoutPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutPreProcessingPhaseObjectGraphVisitor&lt;TObjectGraphVisitor&gt;() where TObjectGraphVisitor : IObjectGraphVisitor&lt;Nothing&gt;</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TObjectGraphVisitor</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutTagMapping_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutTagMapping*"></a>
+
+  <h3 id="YamlDotNet_Serialization_StaticSerializerBuilder_WithoutTagMapping_System_Type_" data-uid="YamlDotNet.Serialization.StaticSerializerBuilder.WithoutTagMapping(System.Type)">
+  WithoutTagMapping(Type)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StaticSerializerBuilder WithoutTagMapping(Type type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="YamlDotNet.Serialization.StaticSerializerBuilder.html">StaticSerializerBuilder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
