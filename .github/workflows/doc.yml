@@ -3,7 +3,6 @@ on:
   push:
     branches:
     - master
-    - I'll-kill-myself
 jobs:
   publish-docs:
     runs-on: ubuntu-latest
