@@ -1,0 +1,294 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  id: IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle
+  - YamlDotNet.Serialization.IObjectDescriptor.StaticType
+  - YamlDotNet.Serialization.IObjectDescriptor.Type
+  - YamlDotNet.Serialization.IObjectDescriptor.Value
+  langs:
+  - csharp
+  - vb
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IObjectDescriptor
+    content.vb: Public Interface IObjectDescriptor
+  extensionMethods:
+  - YamlDotNet.Serialization.IObjectDescriptor.YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue
+- uid: YamlDotNet.Serialization.IObjectDescriptor.Value
+  commentId: P:YamlDotNet.Serialization.IObjectDescriptor.Value
+  id: Value
+  parent: YamlDotNet.Serialization.IObjectDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IObjectDescriptor.Value
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.Value
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: ReadOnly Property Value As Object
+  overload: YamlDotNet.Serialization.IObjectDescriptor.Value*
+- uid: YamlDotNet.Serialization.IObjectDescriptor.Type
+  commentId: P:YamlDotNet.Serialization.IObjectDescriptor.Type
+  id: Type
+  parent: YamlDotNet.Serialization.IObjectDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IObjectDescriptor.Type
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.Type
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: Type Type { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property Type As Type
+  overload: YamlDotNet.Serialization.IObjectDescriptor.Type*
+- uid: YamlDotNet.Serialization.IObjectDescriptor.StaticType
+  commentId: P:YamlDotNet.Serialization.IObjectDescriptor.StaticType
+  id: StaticType
+  parent: YamlDotNet.Serialization.IObjectDescriptor
+  langs:
+  - csharp
+  - vb
+  name: StaticType
+  nameWithType: IObjectDescriptor.StaticType
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.StaticType
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: Type StaticType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: ReadOnly Property StaticType As Type
+  overload: YamlDotNet.Serialization.IObjectDescriptor.StaticType*
+- uid: YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle
+  commentId: P:YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle
+  id: ScalarStyle
+  parent: YamlDotNet.Serialization.IObjectDescriptor
+  langs:
+  - csharp
+  - vb
+  name: ScalarStyle
+  nameWithType: IObjectDescriptor.ScalarStyle
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: ScalarStyle ScalarStyle { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+    content.vb: ReadOnly Property ScalarStyle As ScalarStyle
+  overload: YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IObjectDescriptor.YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue
+  commentId: M:YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectDescriptorExtensions
+  definition: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+  href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html#YamlDotNet_Serialization_ObjectDescriptorExtensions_NonNullValue_YamlDotNet_Serialization_IObjectDescriptor_
+  name: NonNullValue(IObjectDescriptor)
+  nameWithType: ObjectDescriptorExtensions.NonNullValue(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+    name: NonNullValue
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html#YamlDotNet_Serialization_ObjectDescriptorExtensions_NonNullValue_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+    name: NonNullValue
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html#YamlDotNet_Serialization_ObjectDescriptorExtensions_NonNullValue_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html#YamlDotNet_Serialization_ObjectDescriptorExtensions_NonNullValue_YamlDotNet_Serialization_IObjectDescriptor_
+  name: NonNullValue(IObjectDescriptor)
+  nameWithType: ObjectDescriptorExtensions.NonNullValue(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+    name: NonNullValue
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html#YamlDotNet_Serialization_ObjectDescriptorExtensions_NonNullValue_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectDescriptorExtensions.NonNullValue(YamlDotNet.Serialization.IObjectDescriptor)
+    name: NonNullValue
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html#YamlDotNet_Serialization_ObjectDescriptorExtensions_NonNullValue_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectDescriptorExtensions
+  commentId: T:YamlDotNet.Serialization.ObjectDescriptorExtensions
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html
+  name: ObjectDescriptorExtensions
+  nameWithType: ObjectDescriptorExtensions
+  fullName: YamlDotNet.Serialization.ObjectDescriptorExtensions
+- uid: YamlDotNet.Serialization.IObjectDescriptor.Value*
+  commentId: Overload:YamlDotNet.Serialization.IObjectDescriptor.Value
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html#YamlDotNet_Serialization_IObjectDescriptor_Value
+  name: Value
+  nameWithType: IObjectDescriptor.Value
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.Value
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectDescriptor.Type*
+  commentId: Overload:YamlDotNet.Serialization.IObjectDescriptor.Type
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html#YamlDotNet_Serialization_IObjectDescriptor_Type
+  name: Type
+  nameWithType: IObjectDescriptor.Type
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.Type
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Serialization.IObjectDescriptor.StaticType*
+  commentId: Overload:YamlDotNet.Serialization.IObjectDescriptor.StaticType
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html#YamlDotNet_Serialization_IObjectDescriptor_StaticType
+  name: StaticType
+  nameWithType: IObjectDescriptor.StaticType
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.StaticType
+- uid: YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle*
+  commentId: Overload:YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html#YamlDotNet_Serialization_IObjectDescriptor_ScalarStyle
+  name: ScalarStyle
+  nameWithType: IObjectDescriptor.ScalarStyle
+  fullName: YamlDotNet.Serialization.IObjectDescriptor.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ScalarStyle.html
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html

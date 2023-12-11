@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.Schemas
+  commentId: N:YamlDotNet.Serialization.Schemas
+  id: YamlDotNet.Serialization.Schemas
+  children:
+  - YamlDotNet.Serialization.Schemas.CoreSchema
+  - YamlDotNet.Serialization.Schemas.CoreSchema.Tags
+  - YamlDotNet.Serialization.Schemas.DefaultSchema
+  - YamlDotNet.Serialization.Schemas.DefaultSchema.Tags
+  - YamlDotNet.Serialization.Schemas.FailsafeSchema
+  - YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags
+  - YamlDotNet.Serialization.Schemas.JsonSchema
+  - YamlDotNet.Serialization.Schemas.JsonSchema.Tags
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.Schemas
+  nameWithType: YamlDotNet.Serialization.Schemas
+  fullName: YamlDotNet.Serialization.Schemas
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.Schemas.FailsafeSchema
+  commentId: T:YamlDotNet.Serialization.Schemas.FailsafeSchema
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.FailsafeSchema.html
+  name: FailsafeSchema
+  nameWithType: FailsafeSchema
+  fullName: YamlDotNet.Serialization.Schemas.FailsafeSchema
+- uid: YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags
+  commentId: T:YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.FailsafeSchema.html
+  name: FailsafeSchema.Tags
+  nameWithType: FailsafeSchema.Tags
+  fullName: YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.Schemas.FailsafeSchema
+    name: FailsafeSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.FailsafeSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags.html
+  spec.vb:
+  - uid: YamlDotNet.Serialization.Schemas.FailsafeSchema
+    name: FailsafeSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.FailsafeSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags.html
+- uid: YamlDotNet.Serialization.Schemas.JsonSchema
+  commentId: T:YamlDotNet.Serialization.Schemas.JsonSchema
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.JsonSchema.html
+  name: JsonSchema
+  nameWithType: JsonSchema
+  fullName: YamlDotNet.Serialization.Schemas.JsonSchema
+- uid: YamlDotNet.Serialization.Schemas.JsonSchema.Tags
+  commentId: T:YamlDotNet.Serialization.Schemas.JsonSchema.Tags
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.JsonSchema.html
+  name: JsonSchema.Tags
+  nameWithType: JsonSchema.Tags
+  fullName: YamlDotNet.Serialization.Schemas.JsonSchema.Tags
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.Schemas.JsonSchema
+    name: JsonSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.JsonSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.JsonSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.JsonSchema.Tags.html
+  spec.vb:
+  - uid: YamlDotNet.Serialization.Schemas.JsonSchema
+    name: JsonSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.JsonSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.JsonSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.JsonSchema.Tags.html
+- uid: YamlDotNet.Serialization.Schemas.CoreSchema
+  commentId: T:YamlDotNet.Serialization.Schemas.CoreSchema
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.CoreSchema.html
+  name: CoreSchema
+  nameWithType: CoreSchema
+  fullName: YamlDotNet.Serialization.Schemas.CoreSchema
+- uid: YamlDotNet.Serialization.Schemas.CoreSchema.Tags
+  commentId: T:YamlDotNet.Serialization.Schemas.CoreSchema.Tags
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.CoreSchema.html
+  name: CoreSchema.Tags
+  nameWithType: CoreSchema.Tags
+  fullName: YamlDotNet.Serialization.Schemas.CoreSchema.Tags
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.Schemas.CoreSchema
+    name: CoreSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.CoreSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.CoreSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.CoreSchema.Tags.html
+  spec.vb:
+  - uid: YamlDotNet.Serialization.Schemas.CoreSchema
+    name: CoreSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.CoreSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.CoreSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.CoreSchema.Tags.html
+- uid: YamlDotNet.Serialization.Schemas.DefaultSchema
+  commentId: T:YamlDotNet.Serialization.Schemas.DefaultSchema
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.DefaultSchema.html
+  name: DefaultSchema
+  nameWithType: DefaultSchema
+  fullName: YamlDotNet.Serialization.Schemas.DefaultSchema
+- uid: YamlDotNet.Serialization.Schemas.DefaultSchema.Tags
+  commentId: T:YamlDotNet.Serialization.Schemas.DefaultSchema.Tags
+  isExternal: true
+  href: YamlDotNet.Serialization.Schemas.DefaultSchema.html
+  name: DefaultSchema.Tags
+  nameWithType: DefaultSchema.Tags
+  fullName: YamlDotNet.Serialization.Schemas.DefaultSchema.Tags
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.Schemas.DefaultSchema
+    name: DefaultSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.DefaultSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.DefaultSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.DefaultSchema.Tags.html
+  spec.vb:
+  - uid: YamlDotNet.Serialization.Schemas.DefaultSchema
+    name: DefaultSchema
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.DefaultSchema.html
+  - name: .
+  - uid: YamlDotNet.Serialization.Schemas.DefaultSchema.Tags
+    name: Tags
+    isExternal: true
+    href: YamlDotNet.Serialization.Schemas.DefaultSchema.Tags.html

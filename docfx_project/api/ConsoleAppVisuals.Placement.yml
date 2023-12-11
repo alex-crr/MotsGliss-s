@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: ConsoleAppVisuals.Placement
+  commentId: T:ConsoleAppVisuals.Placement
+  id: Placement
+  parent: ConsoleAppVisuals
+  children:
+  - ConsoleAppVisuals.Placement.Center
+  - ConsoleAppVisuals.Placement.Left
+  - ConsoleAppVisuals.Placement.Right
+  langs:
+  - csharp
+  - vb
+  name: Placement
+  nameWithType: Placement
+  fullName: ConsoleAppVisuals.Placement
+  type: Enum
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: public enum Placement
+    content.vb: Public Enum Placement
+- uid: ConsoleAppVisuals.Placement.Left
+  commentId: F:ConsoleAppVisuals.Placement.Left
+  id: Left
+  parent: ConsoleAppVisuals.Placement
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: Placement.Left
+  fullName: ConsoleAppVisuals.Placement.Left
+  type: Field
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: Left = 0
+    return:
+      type: ConsoleAppVisuals.Placement
+- uid: ConsoleAppVisuals.Placement.Center
+  commentId: F:ConsoleAppVisuals.Placement.Center
+  id: Center
+  parent: ConsoleAppVisuals.Placement
+  langs:
+  - csharp
+  - vb
+  name: Center
+  nameWithType: Placement.Center
+  fullName: ConsoleAppVisuals.Placement.Center
+  type: Field
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: Center = 1
+    return:
+      type: ConsoleAppVisuals.Placement
+- uid: ConsoleAppVisuals.Placement.Right
+  commentId: F:ConsoleAppVisuals.Placement.Right
+  id: Right
+  parent: ConsoleAppVisuals.Placement
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: Placement.Right
+  fullName: ConsoleAppVisuals.Placement.Right
+  type: Field
+  assemblies:
+  - ConsoleAppVisuals
+  namespace: ConsoleAppVisuals
+  syntax:
+    content: Right = 2
+    return:
+      type: ConsoleAppVisuals.Placement
+references:
+- uid: ConsoleAppVisuals
+  commentId: N:ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.html
+  name: ConsoleAppVisuals
+  nameWithType: ConsoleAppVisuals
+  fullName: ConsoleAppVisuals
+- uid: ConsoleAppVisuals.Placement
+  commentId: T:ConsoleAppVisuals.Placement
+  parent: ConsoleAppVisuals
+  isExternal: true
+  href: ConsoleAppVisuals.Placement.html
+  name: Placement
+  nameWithType: Placement
+  fullName: ConsoleAppVisuals.Placement

@@ -1,0 +1,777 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  id: LambdaObjectFactory
+  parent: YamlDotNet.Serialization.ObjectFactories
+  children:
+  - YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.#ctor(System.Func{System.Type,System.Object})
+  - YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: LambdaObjectFactory
+  nameWithType: LambdaObjectFactory
+  fullName: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectFactories
+  syntax:
+    content: 'public sealed class LambdaObjectFactory : ObjectFactoryBase, IObjectFactory'
+    content.vb: Public NotInheritable Class LambdaObjectFactory Inherits ObjectFactoryBase Implements IObjectFactory
+  inheritance:
+  - System.Object
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  implements:
+  - YamlDotNet.Serialization.IObjectFactory
+  inheritedMembers:
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.CreatePrimitive(System.Type)
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(System.Object)
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(System.Object)
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(System.Object)
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(System.Object)
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  - YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetValueType(System.Type)
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.#ctor(System.Func{System.Type,System.Object})
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.#ctor(System.Func{System.Type,System.Object})
+  id: '#ctor(System.Func{System.Type,System.Object})'
+  parent: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: LambdaObjectFactory(Func<Type, object>)
+  nameWithType: LambdaObjectFactory.LambdaObjectFactory(Func<Type, object>)
+  fullName: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.LambdaObjectFactory(System.Func<System.Type, object>)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectFactories
+  syntax:
+    content: public LambdaObjectFactory(Func<Type, object> factory)
+    parameters:
+    - id: factory
+      type: System.Func{System.Type,System.Object}
+    content.vb: Public Sub New(factory As Func(Of Type, Object))
+  overload: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.#ctor*
+  nameWithType.vb: LambdaObjectFactory.New(Func(Of Type, Object))
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.New(System.Func(Of System.Type, Object))
+  name.vb: New(Func(Of Type, Object))
+- uid: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create(System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create(System.Type)
+  id: Create(System.Type)
+  parent: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(Type)
+  nameWithType: LambdaObjectFactory.Create(Type)
+  fullName: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectFactories
+  example: []
+  syntax:
+    content: public override object Create(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Public Overrides Function Create(type As Type) As Object
+  overridden: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.Create(System.Type)
+  overload: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create*
+references:
+- uid: YamlDotNet.Serialization.ObjectFactories
+  commentId: N:YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectFactories
+  nameWithType: YamlDotNet.Serialization.ObjectFactories
+  fullName: YamlDotNet.Serialization.ObjectFactories
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectFactories
+    name: ObjectFactories
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectFactories
+    name: ObjectFactories
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  commentId: T:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  parent: YamlDotNet.Serialization.ObjectFactories
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html
+  name: ObjectFactoryBase
+  nameWithType: ObjectFactoryBase
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+- uid: YamlDotNet.Serialization.IObjectFactory
+  commentId: T:YamlDotNet.Serialization.IObjectFactory
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html
+  name: IObjectFactory
+  nameWithType: IObjectFactory
+  fullName: YamlDotNet.Serialization.IObjectFactory
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.CreatePrimitive(System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.CreatePrimitive(System.Type)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_CreatePrimitive_System_Type_
+  name: CreatePrimitive(Type)
+  nameWithType: ObjectFactoryBase.CreatePrimitive(Type)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.CreatePrimitive(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.CreatePrimitive(System.Type)
+    name: CreatePrimitive
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_CreatePrimitive_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.CreatePrimitive(System.Type)
+    name: CreatePrimitive
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_CreatePrimitive_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(System.Object)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(System.Object)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnDeserialized_System_Object_
+  name: ExecuteOnDeserialized(object)
+  nameWithType: ObjectFactoryBase.ExecuteOnDeserialized(object)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(object)
+  nameWithType.vb: ObjectFactoryBase.ExecuteOnDeserialized(Object)
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(Object)
+  name.vb: ExecuteOnDeserialized(Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(System.Object)
+    name: ExecuteOnDeserialized
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnDeserialized_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserialized(System.Object)
+    name: ExecuteOnDeserialized
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnDeserialized_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(System.Object)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(System.Object)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnDeserializing_System_Object_
+  name: ExecuteOnDeserializing(object)
+  nameWithType: ObjectFactoryBase.ExecuteOnDeserializing(object)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(object)
+  nameWithType.vb: ObjectFactoryBase.ExecuteOnDeserializing(Object)
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(Object)
+  name.vb: ExecuteOnDeserializing(Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(System.Object)
+    name: ExecuteOnDeserializing
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnDeserializing_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnDeserializing(System.Object)
+    name: ExecuteOnDeserializing
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnDeserializing_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(System.Object)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(System.Object)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnSerialized_System_Object_
+  name: ExecuteOnSerialized(object)
+  nameWithType: ObjectFactoryBase.ExecuteOnSerialized(object)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(object)
+  nameWithType.vb: ObjectFactoryBase.ExecuteOnSerialized(Object)
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(Object)
+  name.vb: ExecuteOnSerialized(Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(System.Object)
+    name: ExecuteOnSerialized
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnSerialized_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerialized(System.Object)
+    name: ExecuteOnSerialized
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnSerialized_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(System.Object)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(System.Object)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnSerializing_System_Object_
+  name: ExecuteOnSerializing(object)
+  nameWithType: ObjectFactoryBase.ExecuteOnSerializing(object)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(object)
+  nameWithType.vb: ObjectFactoryBase.ExecuteOnSerializing(Object)
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(Object)
+  name.vb: ExecuteOnSerializing(Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(System.Object)
+    name: ExecuteOnSerializing
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnSerializing_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.ExecuteOnSerializing(System.Object)
+    name: ExecuteOnSerializing
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_ExecuteOnSerializing_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_GetDictionary_YamlDotNet_Serialization_IObjectDescriptor_System_Collections_IDictionary__System_Type____
+  name: GetDictionary(IObjectDescriptor, out IDictionary, out Type[])
+  nameWithType: ObjectFactoryBase.GetDictionary(IObjectDescriptor, out IDictionary, out Type[])
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor, out System.Collections.IDictionary, out System.Type[])
+  nameWithType.vb: ObjectFactoryBase.GetDictionary(IObjectDescriptor, IDictionary, Type())
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor, System.Collections.IDictionary, System.Type())
+  name.vb: GetDictionary(IObjectDescriptor, IDictionary, Type())
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+    name: GetDictionary
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_GetDictionary_YamlDotNet_Serialization_IObjectDescriptor_System_Collections_IDictionary__System_Type____
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.idictionary
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetDictionary(YamlDotNet.Serialization.IObjectDescriptor,System.Collections.IDictionary@,System.Type[]@)
+    name: GetDictionary
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_GetDictionary_YamlDotNet_Serialization_IObjectDescriptor_System_Collections_IDictionary__System_Type____
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.idictionary
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: (
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetValueType(System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetValueType(System.Type)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_GetValueType_System_Type_
+  name: GetValueType(Type)
+  nameWithType: ObjectFactoryBase.GetValueType(Type)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetValueType(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetValueType(System.Type)
+    name: GetValueType
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_GetValueType_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.GetValueType(System.Type)
+    name: GetValueType
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_GetValueType_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.html#YamlDotNet_Serialization_ObjectFactories_LambdaObjectFactory__ctor_System_Func_System_Type_System_Object__
+  name: LambdaObjectFactory
+  nameWithType: LambdaObjectFactory.LambdaObjectFactory
+  fullName: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.LambdaObjectFactory
+  nameWithType.vb: LambdaObjectFactory.New
+  fullName.vb: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.New
+  name.vb: New
+- uid: System.Func{System.Type,System.Object}
+  commentId: T:System.Func{System.Type,System.Object}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<Type, object>
+  nameWithType: Func<Type, object>
+  fullName: System.Func<System.Type, object>
+  nameWithType.vb: Func(Of Type, Object)
+  fullName.vb: System.Func(Of System.Type, Object)
+  name.vb: Func(Of Type, Object)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.Create(System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.Create(System.Type)
+  parent: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_Create_System_Type_
+  name: Create(Type)
+  nameWithType: ObjectFactoryBase.Create(Type)
+  fullName: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.Create(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.Create(System.Type)
+    name: Create
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_Create_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.Create(System.Type)
+    name: Create
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html#YamlDotNet_Serialization_ObjectFactories_ObjectFactoryBase_Create_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create*
+  commentId: Overload:YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.html#YamlDotNet_Serialization_ObjectFactories_LambdaObjectFactory_Create_System_Type_
+  name: Create
+  nameWithType: LambdaObjectFactory.Create
+  fullName: YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.Create
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

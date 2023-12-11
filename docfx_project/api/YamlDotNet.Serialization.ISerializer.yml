@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ISerializer
+  commentId: T:YamlDotNet.Serialization.ISerializer
+  id: ISerializer
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter,System.Object)
+  - YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter,System.Object,System.Type)
+  - YamlDotNet.Serialization.ISerializer.Serialize(System.Object)
+  - YamlDotNet.Serialization.ISerializer.Serialize(System.Object,System.Type)
+  - YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter,System.Object)
+  - YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: YamlDotNet.Serialization.ISerializer
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface ISerializer
+    content.vb: Public Interface ISerializer
+- uid: YamlDotNet.Serialization.ISerializer.Serialize(System.Object)
+  commentId: M:YamlDotNet.Serialization.ISerializer.Serialize(System.Object)
+  id: Serialize(System.Object)
+  parent: YamlDotNet.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(object?)
+  nameWithType: ISerializer.Serialize(object?)
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize(object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: string Serialize(object? graph)
+    parameters:
+    - id: graph
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Function Serialize(graph As Object) As String
+  overload: YamlDotNet.Serialization.ISerializer.Serialize*
+  nameWithType.vb: ISerializer.Serialize(Object)
+  fullName.vb: YamlDotNet.Serialization.ISerializer.Serialize(Object)
+  name.vb: Serialize(Object)
+- uid: YamlDotNet.Serialization.ISerializer.Serialize(System.Object,System.Type)
+  commentId: M:YamlDotNet.Serialization.ISerializer.Serialize(System.Object,System.Type)
+  id: Serialize(System.Object,System.Type)
+  parent: YamlDotNet.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(object?, Type)
+  nameWithType: ISerializer.Serialize(object?, Type)
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize(object?, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: string Serialize(object? graph, Type type)
+    parameters:
+    - id: graph
+      type: System.Object
+    - id: type
+      type: System.Type
+    return:
+      type: System.String
+    content.vb: Function Serialize(graph As Object, type As Type) As String
+  overload: YamlDotNet.Serialization.ISerializer.Serialize*
+  nameWithType.vb: ISerializer.Serialize(Object, Type)
+  fullName.vb: YamlDotNet.Serialization.ISerializer.Serialize(Object, System.Type)
+  name.vb: Serialize(Object, Type)
+- uid: YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter,System.Object)
+  commentId: M:YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter,System.Object)
+  id: Serialize(System.IO.TextWriter,System.Object)
+  parent: YamlDotNet.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(TextWriter, object?)
+  nameWithType: ISerializer.Serialize(TextWriter, object?)
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter, object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Serialize(TextWriter writer, object? graph)
+    parameters:
+    - id: writer
+      type: System.IO.TextWriter
+    - id: graph
+      type: System.Object
+    content.vb: Sub Serialize(writer As TextWriter, graph As Object)
+  overload: YamlDotNet.Serialization.ISerializer.Serialize*
+  nameWithType.vb: ISerializer.Serialize(TextWriter, Object)
+  fullName.vb: YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter, Object)
+  name.vb: Serialize(TextWriter, Object)
+- uid: YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter,System.Object,System.Type)
+  commentId: M:YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter,System.Object,System.Type)
+  id: Serialize(System.IO.TextWriter,System.Object,System.Type)
+  parent: YamlDotNet.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(TextWriter, object?, Type)
+  nameWithType: ISerializer.Serialize(TextWriter, object?, Type)
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter, object?, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Serialize(TextWriter writer, object? graph, Type type)
+    parameters:
+    - id: writer
+      type: System.IO.TextWriter
+    - id: graph
+      type: System.Object
+    - id: type
+      type: System.Type
+    content.vb: Sub Serialize(writer As TextWriter, graph As Object, type As Type)
+  overload: YamlDotNet.Serialization.ISerializer.Serialize*
+  nameWithType.vb: ISerializer.Serialize(TextWriter, Object, Type)
+  fullName.vb: YamlDotNet.Serialization.ISerializer.Serialize(System.IO.TextWriter, Object, System.Type)
+  name.vb: Serialize(TextWriter, Object, Type)
+- uid: YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter,System.Object)
+  commentId: M:YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter,System.Object)
+  id: Serialize(YamlDotNet.Core.IEmitter,System.Object)
+  parent: YamlDotNet.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(IEmitter, object?)
+  nameWithType: ISerializer.Serialize(IEmitter, object?)
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter, object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Serialize(IEmitter emitter, object? graph)
+    parameters:
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    - id: graph
+      type: System.Object
+    content.vb: Sub Serialize(emitter As IEmitter, graph As Object)
+  overload: YamlDotNet.Serialization.ISerializer.Serialize*
+  nameWithType.vb: ISerializer.Serialize(IEmitter, Object)
+  fullName.vb: YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter, Object)
+  name.vb: Serialize(IEmitter, Object)
+- uid: YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  commentId: M:YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  id: Serialize(YamlDotNet.Core.IEmitter,System.Object,System.Type)
+  parent: YamlDotNet.Serialization.ISerializer
+  langs:
+  - csharp
+  - vb
+  name: Serialize(IEmitter, object?, Type)
+  nameWithType: ISerializer.Serialize(IEmitter, object?, Type)
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter, object?, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Serialize(IEmitter emitter, object? graph, Type type)
+    parameters:
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    - id: graph
+      type: System.Object
+    - id: type
+      type: System.Type
+    content.vb: Sub Serialize(emitter As IEmitter, graph As Object, type As Type)
+  overload: YamlDotNet.Serialization.ISerializer.Serialize*
+  nameWithType.vb: ISerializer.Serialize(IEmitter, Object, Type)
+  fullName.vb: YamlDotNet.Serialization.ISerializer.Serialize(YamlDotNet.Core.IEmitter, Object, System.Type)
+  name.vb: Serialize(IEmitter, Object, Type)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ISerializer.Serialize*
+  commentId: Overload:YamlDotNet.Serialization.ISerializer.Serialize
+  isExternal: true
+  href: YamlDotNet.Serialization.ISerializer.html#YamlDotNet_Serialization_ISerializer_Serialize_System_Object_
+  name: Serialize
+  nameWithType: ISerializer.Serialize
+  fullName: YamlDotNet.Serialization.ISerializer.Serialize
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.IO.TextWriter
+  commentId: T:System.IO.TextWriter
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
+  name: TextWriter
+  nameWithType: TextWriter
+  fullName: System.IO.TextWriter
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html

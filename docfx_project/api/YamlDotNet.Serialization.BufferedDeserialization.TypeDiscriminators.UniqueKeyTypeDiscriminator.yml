@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  id: UniqueKeyTypeDiscriminator
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  children:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.#ctor(System.Type,System.Collections.Generic.IDictionary{System.String,System.Type})
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  langs:
+  - csharp
+  - vb
+  name: UniqueKeyTypeDiscriminator
+  nameWithType: UniqueKeyTypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  syntax:
+    content: 'public class UniqueKeyTypeDiscriminator : ITypeDiscriminator'
+    content.vb: Public Class UniqueKeyTypeDiscriminator Implements ITypeDiscriminator
+  inheritance:
+  - System.Object
+  implements:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.#ctor(System.Type,System.Collections.Generic.IDictionary{System.String,System.Type})
+  commentId: M:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.#ctor(System.Type,System.Collections.Generic.IDictionary{System.String,System.Type})
+  id: '#ctor(System.Type,System.Collections.Generic.IDictionary{System.String,System.Type})'
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  langs:
+  - csharp
+  - vb
+  name: UniqueKeyTypeDiscriminator(Type, IDictionary<string, Type>)
+  nameWithType: UniqueKeyTypeDiscriminator.UniqueKeyTypeDiscriminator(Type, IDictionary<string, Type>)
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.UniqueKeyTypeDiscriminator(System.Type, System.Collections.Generic.IDictionary<string, System.Type>)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  syntax:
+    content: public UniqueKeyTypeDiscriminator(Type baseType, IDictionary<string, Type> typeMapping)
+    parameters:
+    - id: baseType
+      type: System.Type
+    - id: typeMapping
+      type: System.Collections.Generic.IDictionary{System.String,System.Type}
+    content.vb: Public Sub New(baseType As Type, typeMapping As IDictionary(Of String, Type))
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.#ctor*
+  nameWithType.vb: UniqueKeyTypeDiscriminator.New(Type, IDictionary(Of String, Type))
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.New(System.Type, System.Collections.Generic.IDictionary(Of String, System.Type))
+  name.vb: New(Type, IDictionary(Of String, Type))
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  commentId: M:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  id: TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  langs:
+  - csharp
+  - vb
+  name: TryDiscriminate(IParser, out Type?)
+  nameWithType: UniqueKeyTypeDiscriminator.TryDiscriminate(IParser, out Type?)
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser, out System.Type?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  example: []
+  syntax:
+    content: public bool TryDiscriminate(IParser parser, out Type? suggestedType)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    - id: suggestedType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryDiscriminate(parser As IParser, suggestedType As Type) As Boolean
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate*
+  implements:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  nameWithType.vb: UniqueKeyTypeDiscriminator.TryDiscriminate(IParser, Type)
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser, System.Type)
+  name.vb: TryDiscriminate(IParser, Type)
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType
+  commentId: P:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType
+  id: BaseType
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator
+  langs:
+  - csharp
+  - vb
+  name: BaseType
+  nameWithType: UniqueKeyTypeDiscriminator.BaseType
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  example: []
+  syntax:
+    content: public Type BaseType { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Property BaseType As Type
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType*
+  implements:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+references:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+    name: TypeDiscriminators
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+    name: TypeDiscriminators
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html
+  name: ITypeDiscriminator
+  nameWithType: ITypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_UniqueKeyTypeDiscriminator__ctor_System_Type_System_Collections_Generic_IDictionary_System_String_System_Type__
+  name: UniqueKeyTypeDiscriminator
+  nameWithType: UniqueKeyTypeDiscriminator.UniqueKeyTypeDiscriminator
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.UniqueKeyTypeDiscriminator
+  nameWithType.vb: UniqueKeyTypeDiscriminator.New
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.New
+  name.vb: New
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Collections.Generic.IDictionary{System.String,System.Type}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<string, Type>
+  nameWithType: IDictionary<string, Type>
+  fullName: System.Collections.Generic.IDictionary<string, System.Type>
+  nameWithType.vb: IDictionary(Of String, Type)
+  fullName.vb: System.Collections.Generic.IDictionary(Of String, System.Type)
+  name.vb: IDictionary(Of String, Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_UniqueKeyTypeDiscriminator_TryDiscriminate_YamlDotNet_Core_IParser_System_Type__
+  name: TryDiscriminate
+  nameWithType: UniqueKeyTypeDiscriminator.TryDiscriminate
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.TryDiscriminate
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  commentId: M:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator_TryDiscriminate_YamlDotNet_Core_IParser_System_Type__
+  name: TryDiscriminate(IParser, out Type)
+  nameWithType: ITypeDiscriminator.TryDiscriminate(IParser, out Type)
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser, out System.Type)
+  nameWithType.vb: ITypeDiscriminator.TryDiscriminate(IParser, Type)
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser, System.Type)
+  name.vb: TryDiscriminate(IParser, Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+    name: TryDiscriminate
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator_TryDiscriminate_YamlDotNet_Core_IParser_System_Type__
+  - name: (
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.TryDiscriminate(YamlDotNet.Core.IParser,System.Type@)
+    name: TryDiscriminate
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator_TryDiscriminate_YamlDotNet_Core_IParser_System_Type__
+  - name: (
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_UniqueKeyTypeDiscriminator_BaseType
+  name: BaseType
+  nameWithType: UniqueKeyTypeDiscriminator.BaseType
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.BaseType
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  commentId: P:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator_BaseType
+  name: BaseType
+  nameWithType: ITypeDiscriminator.BaseType
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.BaseType

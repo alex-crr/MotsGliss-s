@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  id: ScalarStyle
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.ScalarStyle.Any
+  - YamlDotNet.Core.ScalarStyle.DoubleQuoted
+  - YamlDotNet.Core.ScalarStyle.Folded
+  - YamlDotNet.Core.ScalarStyle.Literal
+  - YamlDotNet.Core.ScalarStyle.Plain
+  - YamlDotNet.Core.ScalarStyle.SingleQuoted
+  langs:
+  - csharp
+  - vb
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle
+  type: Enum
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public enum ScalarStyle
+    content.vb: Public Enum ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle.Any
+  commentId: F:YamlDotNet.Core.ScalarStyle.Any
+  id: Any
+  parent: YamlDotNet.Core.ScalarStyle
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: ScalarStyle.Any
+  fullName: YamlDotNet.Core.ScalarStyle.Any
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: Any = 0
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle.Plain
+  commentId: F:YamlDotNet.Core.ScalarStyle.Plain
+  id: Plain
+  parent: YamlDotNet.Core.ScalarStyle
+  langs:
+  - csharp
+  - vb
+  name: Plain
+  nameWithType: ScalarStyle.Plain
+  fullName: YamlDotNet.Core.ScalarStyle.Plain
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: Plain = 1
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle.SingleQuoted
+  commentId: F:YamlDotNet.Core.ScalarStyle.SingleQuoted
+  id: SingleQuoted
+  parent: YamlDotNet.Core.ScalarStyle
+  langs:
+  - csharp
+  - vb
+  name: SingleQuoted
+  nameWithType: ScalarStyle.SingleQuoted
+  fullName: YamlDotNet.Core.ScalarStyle.SingleQuoted
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: SingleQuoted = 2
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle.DoubleQuoted
+  commentId: F:YamlDotNet.Core.ScalarStyle.DoubleQuoted
+  id: DoubleQuoted
+  parent: YamlDotNet.Core.ScalarStyle
+  langs:
+  - csharp
+  - vb
+  name: DoubleQuoted
+  nameWithType: ScalarStyle.DoubleQuoted
+  fullName: YamlDotNet.Core.ScalarStyle.DoubleQuoted
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: DoubleQuoted = 3
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle.Literal
+  commentId: F:YamlDotNet.Core.ScalarStyle.Literal
+  id: Literal
+  parent: YamlDotNet.Core.ScalarStyle
+  langs:
+  - csharp
+  - vb
+  name: Literal
+  nameWithType: ScalarStyle.Literal
+  fullName: YamlDotNet.Core.ScalarStyle.Literal
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: Literal = 4
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle.Folded
+  commentId: F:YamlDotNet.Core.ScalarStyle.Folded
+  id: Folded
+  parent: YamlDotNet.Core.ScalarStyle
+  langs:
+  - csharp
+  - vb
+  name: Folded
+  nameWithType: ScalarStyle.Folded
+  fullName: YamlDotNet.Core.ScalarStyle.Folded
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: Folded = 5
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ScalarStyle.html
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle

@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IYamlSerializable
+  commentId: T:YamlDotNet.Serialization.IYamlSerializable
+  id: IYamlSerializable
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IYamlSerializable.ReadYaml(YamlDotNet.Core.IParser)
+  - YamlDotNet.Serialization.IYamlSerializable.WriteYaml(YamlDotNet.Core.IEmitter)
+  langs:
+  - csharp
+  - vb
+  name: IYamlSerializable
+  nameWithType: IYamlSerializable
+  fullName: YamlDotNet.Serialization.IYamlSerializable
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: >-
+      [Obsolete("Please use IYamlConvertible instead")]
+
+      public interface IYamlSerializable
+    content.vb: >-
+      <Obsolete("Please use IYamlConvertible instead")>
+
+      Public Interface IYamlSerializable
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Please use IYamlConvertible instead
+- uid: YamlDotNet.Serialization.IYamlSerializable.ReadYaml(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Serialization.IYamlSerializable.ReadYaml(YamlDotNet.Core.IParser)
+  id: ReadYaml(YamlDotNet.Core.IParser)
+  parent: YamlDotNet.Serialization.IYamlSerializable
+  langs:
+  - csharp
+  - vb
+  name: ReadYaml(IParser)
+  nameWithType: IYamlSerializable.ReadYaml(IParser)
+  fullName: YamlDotNet.Serialization.IYamlSerializable.ReadYaml(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void ReadYaml(IParser parser)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    content.vb: Sub ReadYaml(parser As IParser)
+  overload: YamlDotNet.Serialization.IYamlSerializable.ReadYaml*
+- uid: YamlDotNet.Serialization.IYamlSerializable.WriteYaml(YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IYamlSerializable.WriteYaml(YamlDotNet.Core.IEmitter)
+  id: WriteYaml(YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IYamlSerializable
+  langs:
+  - csharp
+  - vb
+  name: WriteYaml(IEmitter)
+  nameWithType: IYamlSerializable.WriteYaml(IEmitter)
+  fullName: YamlDotNet.Serialization.IYamlSerializable.WriteYaml(YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void WriteYaml(IEmitter emitter)
+    parameters:
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub WriteYaml(emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IYamlSerializable.WriteYaml*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IYamlSerializable.ReadYaml*
+  commentId: Overload:YamlDotNet.Serialization.IYamlSerializable.ReadYaml
+  isExternal: true
+  href: YamlDotNet.Serialization.IYamlSerializable.html#YamlDotNet_Serialization_IYamlSerializable_ReadYaml_YamlDotNet_Core_IParser_
+  name: ReadYaml
+  nameWithType: IYamlSerializable.ReadYaml
+  fullName: YamlDotNet.Serialization.IYamlSerializable.ReadYaml
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Serialization.IYamlSerializable.WriteYaml*
+  commentId: Overload:YamlDotNet.Serialization.IYamlSerializable.WriteYaml
+  isExternal: true
+  href: YamlDotNet.Serialization.IYamlSerializable.html#YamlDotNet_Serialization_IYamlSerializable_WriteYaml_YamlDotNet_Core_IEmitter_
+  name: WriteYaml
+  nameWithType: IYamlSerializable.WriteYaml
+  fullName: YamlDotNet.Serialization.IYamlSerializable.WriteYaml
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter

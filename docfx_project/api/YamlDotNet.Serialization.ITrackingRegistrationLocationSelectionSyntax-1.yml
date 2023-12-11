@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+  commentId: T:YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+  id: ITrackingRegistrationLocationSelectionSyntax`1
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1.InsteadOf``1
+  langs:
+  - csharp
+  - vb
+  name: ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  nameWithType: ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  fullName: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+    typeParameters:
+    - id: TBaseRegistrationType
+    content.vb: Public Interface ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  nameWithType.vb: ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  fullName.vb: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  name.vb: ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+- uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1.InsteadOf``1
+  commentId: M:YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1.InsteadOf``1
+  id: InsteadOf``1
+  parent: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+  langs:
+  - csharp
+  - vb
+  name: InsteadOf<TRegistrationType>()
+  nameWithType: ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf<TRegistrationType>()
+  fullName: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf<TRegistrationType>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'void InsteadOf<TRegistrationType>() where TRegistrationType : TBaseRegistrationType'
+    typeParameters:
+    - id: TRegistrationType
+    content.vb: Sub InsteadOf(Of TRegistrationType As TBaseRegistrationType)()
+  overload: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1.InsteadOf*
+  nameWithType.vb: ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf(Of TRegistrationType)()
+  fullName.vb: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf(Of TRegistrationType)()
+  name.vb: InsteadOf(Of TRegistrationType)()
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1.InsteadOf*
+  commentId: Overload:YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1.InsteadOf
+  isExternal: true
+  href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html#YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_1_InsteadOf__1
+  name: InsteadOf
+  nameWithType: ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf
+  fullName: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf
+  nameWithType.vb: ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf
+  fullName.vb: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf

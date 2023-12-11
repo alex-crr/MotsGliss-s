@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.INodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.INodeTypeResolver
+  id: INodeTypeResolver
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.INodeTypeResolver.Resolve(YamlDotNet.Core.Events.NodeEvent,System.Type@)
+  langs:
+  - csharp
+  - vb
+  name: INodeTypeResolver
+  nameWithType: INodeTypeResolver
+  fullName: YamlDotNet.Serialization.INodeTypeResolver
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface INodeTypeResolver
+    content.vb: Public Interface INodeTypeResolver
+- uid: YamlDotNet.Serialization.INodeTypeResolver.Resolve(YamlDotNet.Core.Events.NodeEvent,System.Type@)
+  commentId: M:YamlDotNet.Serialization.INodeTypeResolver.Resolve(YamlDotNet.Core.Events.NodeEvent,System.Type@)
+  id: Resolve(YamlDotNet.Core.Events.NodeEvent,System.Type@)
+  parent: YamlDotNet.Serialization.INodeTypeResolver
+  langs:
+  - csharp
+  - vb
+  name: Resolve(NodeEvent?, ref Type)
+  nameWithType: INodeTypeResolver.Resolve(NodeEvent?, ref Type)
+  fullName: YamlDotNet.Serialization.INodeTypeResolver.Resolve(YamlDotNet.Core.Events.NodeEvent?, ref System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: bool Resolve(NodeEvent? nodeEvent, ref Type currentType)
+    parameters:
+    - id: nodeEvent
+      type: YamlDotNet.Core.Events.NodeEvent
+    - id: currentType
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Function Resolve(nodeEvent As NodeEvent, currentType As Type) As Boolean
+  overload: YamlDotNet.Serialization.INodeTypeResolver.Resolve*
+  nameWithType.vb: INodeTypeResolver.Resolve(NodeEvent, Type)
+  fullName.vb: YamlDotNet.Serialization.INodeTypeResolver.Resolve(YamlDotNet.Core.Events.NodeEvent, System.Type)
+  name.vb: Resolve(NodeEvent, Type)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.INodeTypeResolver.Resolve*
+  commentId: Overload:YamlDotNet.Serialization.INodeTypeResolver.Resolve
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeTypeResolver.html#YamlDotNet_Serialization_INodeTypeResolver_Resolve_YamlDotNet_Core_Events_NodeEvent_System_Type__
+  name: Resolve
+  nameWithType: INodeTypeResolver.Resolve
+  fullName: YamlDotNet.Serialization.INodeTypeResolver.Resolve
+- uid: YamlDotNet.Core.Events.NodeEvent
+  commentId: T:YamlDotNet.Core.Events.NodeEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.NodeEvent.html
+  name: NodeEvent
+  nameWithType: NodeEvent
+  fullName: YamlDotNet.Core.Events.NodeEvent
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

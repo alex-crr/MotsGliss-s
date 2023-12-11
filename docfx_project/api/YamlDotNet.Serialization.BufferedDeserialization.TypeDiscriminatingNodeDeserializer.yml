@@ -1,0 +1,834 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  commentId: T:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  id: TypeDiscriminatingNodeDeserializer
+  parent: YamlDotNet.Serialization.BufferedDeserialization
+  children:
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.#ctor(System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer},System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator},System.Int32,System.Int32)
+  - YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: TypeDiscriminatingNodeDeserializer
+  nameWithType: TypeDiscriminatingNodeDeserializer
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization
+  syntax:
+    content: 'public class TypeDiscriminatingNodeDeserializer : INodeDeserializer'
+    content.vb: Public Class TypeDiscriminatingNodeDeserializer Implements INodeDeserializer
+  inheritance:
+  - System.Object
+  implements:
+  - YamlDotNet.Serialization.INodeDeserializer
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.#ctor(System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer},System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator},System.Int32,System.Int32)
+  commentId: M:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.#ctor(System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer},System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator},System.Int32,System.Int32)
+  id: '#ctor(System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer},System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator},System.Int32,System.Int32)'
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  langs:
+  - csharp
+  - vb
+  name: TypeDiscriminatingNodeDeserializer(IList<INodeDeserializer>, IList<ITypeDiscriminator>, int, int)
+  nameWithType: TypeDiscriminatingNodeDeserializer.TypeDiscriminatingNodeDeserializer(IList<INodeDeserializer>, IList<ITypeDiscriminator>, int, int)
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.TypeDiscriminatingNodeDeserializer(System.Collections.Generic.IList<YamlDotNet.Serialization.INodeDeserializer>, System.Collections.Generic.IList<YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator>, int, int)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization
+  syntax:
+    content: public TypeDiscriminatingNodeDeserializer(IList<INodeDeserializer> innerDeserializers, IList<ITypeDiscriminator> typeDiscriminators, int maxDepthToBuffer, int maxLengthToBuffer)
+    parameters:
+    - id: innerDeserializers
+      type: System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer}
+    - id: typeDiscriminators
+      type: System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator}
+    - id: maxDepthToBuffer
+      type: System.Int32
+    - id: maxLengthToBuffer
+      type: System.Int32
+    content.vb: Public Sub New(innerDeserializers As IList(Of INodeDeserializer), typeDiscriminators As IList(Of ITypeDiscriminator), maxDepthToBuffer As Integer, maxLengthToBuffer As Integer)
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.#ctor*
+  nameWithType.vb: TypeDiscriminatingNodeDeserializer.New(IList(Of INodeDeserializer), IList(Of ITypeDiscriminator), Integer, Integer)
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.New(System.Collections.Generic.IList(Of YamlDotNet.Serialization.INodeDeserializer), System.Collections.Generic.IList(Of YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator), Integer, Integer)
+  name.vb: New(IList(Of INodeDeserializer), IList(Of ITypeDiscriminator), Integer, Integer)
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  commentId: M:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  id: Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  parent: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(IParser, Type, Func<IParser, Type, object?>, out object?)
+  nameWithType: TypeDiscriminatingNodeDeserializer.Deserialize(IParser, Type, Func<IParser, Type, object?>, out object?)
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize(YamlDotNet.Core.IParser, System.Type, System.Func<YamlDotNet.Core.IParser, System.Type, object?>, out object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.BufferedDeserialization
+  example: []
+  syntax:
+    content: public bool Deserialize(IParser reader, Type expectedType, Func<IParser, Type, object?> nestedObjectDeserializer, out object? value)
+    parameters:
+    - id: reader
+      type: YamlDotNet.Core.IParser
+    - id: expectedType
+      type: System.Type
+    - id: nestedObjectDeserializer
+      type: System.Func{YamlDotNet.Core.IParser,System.Type,System.Object}
+    - id: value
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Function Deserialize(reader As IParser, expectedType As Type, nestedObjectDeserializer As Func(Of IParser, Type, Object), value As Object) As Boolean
+  overload: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize*
+  implements:
+  - YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  nameWithType.vb: TypeDiscriminatingNodeDeserializer.Deserialize(IParser, Type, Func(Of IParser, Type, Object), Object)
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize(YamlDotNet.Core.IParser, System.Type, System.Func(Of YamlDotNet.Core.IParser, System.Type, Object), Object)
+  name.vb: Deserialize(IParser, Type, Func(Of IParser, Type, Object), Object)
+references:
+- uid: YamlDotNet.Serialization.BufferedDeserialization
+  commentId: N:YamlDotNet.Serialization.BufferedDeserialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.BufferedDeserialization
+  nameWithType: YamlDotNet.Serialization.BufferedDeserialization
+  fullName: YamlDotNet.Serialization.BufferedDeserialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.BufferedDeserialization
+    name: BufferedDeserialization
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.INodeDeserializer
+  commentId: T:YamlDotNet.Serialization.INodeDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeDeserializer.html
+  name: INodeDeserializer
+  nameWithType: INodeDeserializer
+  fullName: YamlDotNet.Serialization.INodeDeserializer
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminatingNodeDeserializer__ctor_System_Collections_Generic_IList_YamlDotNet_Serialization_INodeDeserializer__System_Collections_Generic_IList_YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminators_ITypeDiscriminator__System_Int32_System_Int32_
+  name: TypeDiscriminatingNodeDeserializer
+  nameWithType: TypeDiscriminatingNodeDeserializer.TypeDiscriminatingNodeDeserializer
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.TypeDiscriminatingNodeDeserializer
+  nameWithType.vb: TypeDiscriminatingNodeDeserializer.New
+  fullName.vb: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.New
+  name.vb: New
+- uid: System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer}
+  commentId: T:System.Collections.Generic.IList{YamlDotNet.Serialization.INodeDeserializer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<INodeDeserializer>
+  nameWithType: IList<INodeDeserializer>
+  fullName: System.Collections.Generic.IList<YamlDotNet.Serialization.INodeDeserializer>
+  nameWithType.vb: IList(Of INodeDeserializer)
+  fullName.vb: System.Collections.Generic.IList(Of YamlDotNet.Serialization.INodeDeserializer)
+  name.vb: IList(Of INodeDeserializer)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: )
+- uid: System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator}
+  commentId: T:System.Collections.Generic.IList{YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<ITypeDiscriminator>
+  nameWithType: IList<ITypeDiscriminator>
+  fullName: System.Collections.Generic.IList<YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator>
+  nameWithType.vb: IList(Of ITypeDiscriminator)
+  fullName.vb: System.Collections.Generic.IList(Of YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator)
+  name.vb: IList(Of ITypeDiscriminator)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+    name: ITypeDiscriminator
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator
+    name: ITypeDiscriminator
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize*
+  commentId: Overload:YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize
+  isExternal: true
+  href: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.html#YamlDotNet_Serialization_BufferedDeserialization_TypeDiscriminatingNodeDeserializer_Deserialize_YamlDotNet_Core_IParser_System_Type_System_Func_YamlDotNet_Core_IParser_System_Type_System_Object__System_Object__
+  name: Deserialize
+  nameWithType: TypeDiscriminatingNodeDeserializer.Deserialize
+  fullName: YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.Deserialize
+- uid: YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  commentId: M:YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+  parent: YamlDotNet.Serialization.INodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeDeserializer.html#YamlDotNet_Serialization_INodeDeserializer_Deserialize_YamlDotNet_Core_IParser_System_Type_System_Func_YamlDotNet_Core_IParser_System_Type_System_Object__System_Object__
+  name: Deserialize(IParser, Type, Func<IParser, Type, object>, out object)
+  nameWithType: INodeDeserializer.Deserialize(IParser, Type, Func<IParser, Type, object>, out object)
+  fullName: YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser, System.Type, System.Func<YamlDotNet.Core.IParser, System.Type, object>, out object)
+  nameWithType.vb: INodeDeserializer.Deserialize(IParser, Type, Func(Of IParser, Type, Object), Object)
+  fullName.vb: YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser, System.Type, System.Func(Of YamlDotNet.Core.IParser, System.Type, Object), Object)
+  name.vb: Deserialize(IParser, Type, Func(Of IParser, Type, Object), Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+    name: Deserialize
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html#YamlDotNet_Serialization_INodeDeserializer_Deserialize_YamlDotNet_Core_IParser_System_Type_System_Func_YamlDotNet_Core_IParser_System_Type_System_Object__System_Object__
+  - name: (
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.INodeDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type,System.Func{YamlDotNet.Core.IParser,System.Type,System.Object},System.Object@)
+    name: Deserialize
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html#YamlDotNet_Serialization_INodeDeserializer_Deserialize_YamlDotNet_Core_IParser_System_Type_System_Func_YamlDotNet_Core_IParser_System_Type_System_Object__System_Object__
+  - name: (
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Func{YamlDotNet.Core.IParser,System.Type,System.Object}
+  commentId: T:System.Func{YamlDotNet.Core.IParser,System.Type,System.Object}
+  parent: System
+  definition: System.Func`3
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<IParser, Type, object>
+  nameWithType: Func<IParser, Type, object>
+  fullName: System.Func<YamlDotNet.Core.IParser, System.Type, object>
+  nameWithType.vb: Func(Of IParser, Type, Object)
+  fullName.vb: System.Func(Of YamlDotNet.Core.IParser, System.Type, Object)
+  name.vb: Func(Of IParser, Type, Object)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Core.IParser
+    name: IParser
+    isExternal: true
+    href: YamlDotNet.Core.IParser.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-3
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-3
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )

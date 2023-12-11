@@ -1,0 +1,415 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IDeserializer
+  commentId: T:YamlDotNet.Serialization.IDeserializer
+  id: IDeserializer
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader,System.Type)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize(System.String)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize(System.String,System.Type)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize``1(System.IO.TextReader)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize``1(System.String)
+  - YamlDotNet.Serialization.IDeserializer.Deserialize``1(YamlDotNet.Core.IParser)
+  langs:
+  - csharp
+  - vb
+  name: IDeserializer
+  nameWithType: IDeserializer
+  fullName: YamlDotNet.Serialization.IDeserializer
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IDeserializer
+    content.vb: Public Interface IDeserializer
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize``1(System.String)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize``1(System.String)
+  id: Deserialize``1(System.String)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(string)
+  nameWithType: IDeserializer.Deserialize<T>(string)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize<T>(string)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: T Deserialize<T>(string input)
+    parameters:
+    - id: input
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function Deserialize(Of T)(input As String) As T
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+  nameWithType.vb: IDeserializer.Deserialize(Of T)(String)
+  fullName.vb: YamlDotNet.Serialization.IDeserializer.Deserialize(Of T)(String)
+  name.vb: Deserialize(Of T)(String)
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize``1(System.IO.TextReader)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize``1(System.IO.TextReader)
+  id: Deserialize``1(System.IO.TextReader)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(TextReader)
+  nameWithType: IDeserializer.Deserialize<T>(TextReader)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize<T>(System.IO.TextReader)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: T Deserialize<T>(TextReader input)
+    parameters:
+    - id: input
+      type: System.IO.TextReader
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function Deserialize(Of T)(input As TextReader) As T
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+  nameWithType.vb: IDeserializer.Deserialize(Of T)(TextReader)
+  fullName.vb: YamlDotNet.Serialization.IDeserializer.Deserialize(Of T)(System.IO.TextReader)
+  name.vb: Deserialize(Of T)(TextReader)
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize``1(YamlDotNet.Core.IParser)
+  id: Deserialize``1(YamlDotNet.Core.IParser)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize<T>(IParser)
+  nameWithType: IDeserializer.Deserialize<T>(IParser)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: T Deserialize<T>(IParser parser)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function Deserialize(Of T)(parser As IParser) As T
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+  nameWithType.vb: IDeserializer.Deserialize(Of T)(IParser)
+  fullName.vb: YamlDotNet.Serialization.IDeserializer.Deserialize(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Deserialize(Of T)(IParser)
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize(System.String)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize(System.String)
+  id: Deserialize(System.String)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(string)
+  nameWithType: IDeserializer.Deserialize(string)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize(string)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Deserialize(string input)
+    parameters:
+    - id: input
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(input As String) As Object
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+  nameWithType.vb: IDeserializer.Deserialize(String)
+  fullName.vb: YamlDotNet.Serialization.IDeserializer.Deserialize(String)
+  name.vb: Deserialize(String)
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader)
+  id: Deserialize(System.IO.TextReader)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(TextReader)
+  nameWithType: IDeserializer.Deserialize(TextReader)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Deserialize(TextReader input)
+    parameters:
+    - id: input
+      type: System.IO.TextReader
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(input As TextReader) As Object
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser)
+  id: Deserialize(YamlDotNet.Core.IParser)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(IParser)
+  nameWithType: IDeserializer.Deserialize(IParser)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Deserialize(IParser parser)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(parser As IParser) As Object
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize(System.String,System.Type)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize(System.String,System.Type)
+  id: Deserialize(System.String,System.Type)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(string, Type)
+  nameWithType: IDeserializer.Deserialize(string, Type)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize(string, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Deserialize(string input, Type type)
+    parameters:
+    - id: input
+      type: System.String
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(input As String, type As Type) As Object
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+  nameWithType.vb: IDeserializer.Deserialize(String, Type)
+  fullName.vb: YamlDotNet.Serialization.IDeserializer.Deserialize(String, System.Type)
+  name.vb: Deserialize(String, Type)
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader,System.Type)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader,System.Type)
+  id: Deserialize(System.IO.TextReader,System.Type)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(TextReader, Type)
+  nameWithType: IDeserializer.Deserialize(TextReader, Type)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize(System.IO.TextReader, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Deserialize(TextReader input, Type type)
+    parameters:
+    - id: input
+      type: System.IO.TextReader
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(input As TextReader, type As Type) As Object
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type)
+  commentId: M:YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser,System.Type)
+  id: Deserialize(YamlDotNet.Core.IParser,System.Type)
+  parent: YamlDotNet.Serialization.IDeserializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(IParser, Type)
+  nameWithType: IDeserializer.Deserialize(IParser, Type)
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize(YamlDotNet.Core.IParser, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: object? Deserialize(IParser parser, Type type)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: Function Deserialize(parser As IParser, type As Type) As Object
+  overload: YamlDotNet.Serialization.IDeserializer.Deserialize*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IDeserializer.Deserialize*
+  commentId: Overload:YamlDotNet.Serialization.IDeserializer.Deserialize
+  isExternal: true
+  href: YamlDotNet.Serialization.IDeserializer.html#YamlDotNet_Serialization_IDeserializer_Deserialize__1_System_String_
+  name: Deserialize
+  nameWithType: IDeserializer.Deserialize
+  fullName: YamlDotNet.Serialization.IDeserializer.Deserialize
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.IO.TextReader
+  commentId: T:System.IO.TextReader
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.textreader
+  name: TextReader
+  nameWithType: TextReader
+  fullName: System.IO.TextReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

@@ -1,0 +1,3551 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.DeserializerBuilder
+  commentId: T:YamlDotNet.Serialization.DeserializerBuilder
+  id: DeserializerBuilder
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.DeserializerBuilder.#ctor
+  - YamlDotNet.Serialization.DeserializerBuilder.Build
+  - YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer
+  - YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties
+  - YamlDotNet.Serialization.DeserializerBuilder.Self
+  - YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization
+  - YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking
+  - YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  - YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  - YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  - YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  - YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(System.Func{System.Type,System.Object})
+  - YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(YamlDotNet.Serialization.IObjectFactory)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions},System.Int32,System.Int32)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping``2
+  - YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer(System.Type)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer``1
+  - YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver(System.Type)
+  - YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver``1
+  - YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping(YamlDotNet.Core.TagName)
+  langs:
+  - csharp
+  - vb
+  name: DeserializerBuilder
+  nameWithType: DeserializerBuilder
+  fullName: YamlDotNet.Serialization.DeserializerBuilder
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public sealed class DeserializerBuilder : BuilderSkeleton<DeserializerBuilder>'
+    content.vb: Public NotInheritable Class DeserializerBuilder Inherits BuilderSkeleton(Of DeserializerBuilder)
+  inheritance:
+  - System.Object
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  inheritedMembers:
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IgnoreFields
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IncludeNonPublicProperties
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.EnablePrivateConstructors
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{{TClass},System.Object}},System.Attribute)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride(System.Type,System.String,System.Attribute)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter``1
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter(System.Type)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,{TTypeInspector}})
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,{TTypeInspector}},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,{TTypeInspector}},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector``1
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector(System.Type)
+  - YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.DeserializerBuilder.#ctor
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: DeserializerBuilder()
+  nameWithType: DeserializerBuilder.DeserializerBuilder()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.DeserializerBuilder()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder()
+    content.vb: Public Sub New()
+  overload: YamlDotNet.Serialization.DeserializerBuilder.#ctor*
+  nameWithType.vb: DeserializerBuilder.New()
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.New()
+  name.vb: New()
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization
+  id: WithAttemptingUnquotedStringTypeDeserialization
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithAttemptingUnquotedStringTypeDeserialization()
+  nameWithType: DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithAttemptingUnquotedStringTypeDeserialization()
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithAttemptingUnquotedStringTypeDeserialization() As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(YamlDotNet.Serialization.IObjectFactory)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(YamlDotNet.Serialization.IObjectFactory)
+  id: WithObjectFactory(YamlDotNet.Serialization.IObjectFactory)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithObjectFactory(IObjectFactory)
+  nameWithType: DeserializerBuilder.WithObjectFactory(IObjectFactory)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(YamlDotNet.Serialization.IObjectFactory)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithObjectFactory(IObjectFactory objectFactory)
+    parameters:
+    - id: objectFactory
+      type: YamlDotNet.Serialization.IObjectFactory
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithObjectFactory(objectFactory As IObjectFactory) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(System.Func{System.Type,System.Object})
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(System.Func{System.Type,System.Object})
+  id: WithObjectFactory(System.Func{System.Type,System.Object})
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithObjectFactory(Func<Type, object>)
+  nameWithType: DeserializerBuilder.WithObjectFactory(Func<Type, object>)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(System.Func<System.Type, object>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithObjectFactory(Func<Type, object> objectFactory)
+    parameters:
+    - id: objectFactory
+      type: System.Func{System.Type,System.Object}
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithObjectFactory(objectFactory As Func(Of Type, Object)) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory*
+  nameWithType.vb: DeserializerBuilder.WithObjectFactory(Func(Of Type, Object))
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory(System.Func(Of System.Type, Object))
+  name.vb: WithObjectFactory(Func(Of Type, Object))
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer)
+  id: WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNodeDeserializer(INodeDeserializer)
+  nameWithType: DeserializerBuilder.WithNodeDeserializer(INodeDeserializer)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithNodeDeserializer(INodeDeserializer nodeDeserializer)
+    parameters:
+    - id: nodeDeserializer
+      type: YamlDotNet.Serialization.INodeDeserializer
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithNodeDeserializer(nodeDeserializer As INodeDeserializer) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  id: WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNodeDeserializer(INodeDeserializer, Action<IRegistrationLocationSelectionSyntax<INodeDeserializer>>)
+  nameWithType: DeserializerBuilder.WithNodeDeserializer(INodeDeserializer, Action<IRegistrationLocationSelectionSyntax<INodeDeserializer>>)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer, System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeDeserializer>>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithNodeDeserializer(INodeDeserializer nodeDeserializer, Action<IRegistrationLocationSelectionSyntax<INodeDeserializer>> where)
+    parameters:
+    - id: nodeDeserializer
+      type: YamlDotNet.Serialization.INodeDeserializer
+    - id: where
+      type: System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}}
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithNodeDeserializer(nodeDeserializer As INodeDeserializer, where As Action(Of IRegistrationLocationSelectionSyntax(Of INodeDeserializer))) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer*
+  nameWithType.vb: DeserializerBuilder.WithNodeDeserializer(INodeDeserializer, Action(Of IRegistrationLocationSelectionSyntax(Of INodeDeserializer)))
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(YamlDotNet.Serialization.INodeDeserializer, System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeDeserializer)))
+  name.vb: WithNodeDeserializer(INodeDeserializer, Action(Of IRegistrationLocationSelectionSyntax(Of INodeDeserializer)))
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  id: WithNodeDeserializer``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}})
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNodeDeserializer<TNodeDeserializer>(WrapperFactory<INodeDeserializer, TNodeDeserializer>, Action<ITrackingRegistrationLocationSelectionSyntax<INodeDeserializer>>)
+  nameWithType: DeserializerBuilder.WithNodeDeserializer<TNodeDeserializer>(WrapperFactory<INodeDeserializer, TNodeDeserializer>, Action<ITrackingRegistrationLocationSelectionSyntax<INodeDeserializer>>)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer<TNodeDeserializer>(YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.INodeDeserializer, TNodeDeserializer>, System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeDeserializer>>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public DeserializerBuilder WithNodeDeserializer<TNodeDeserializer>(WrapperFactory<INodeDeserializer, TNodeDeserializer> nodeDeserializerFactory, Action<ITrackingRegistrationLocationSelectionSyntax<INodeDeserializer>> where) where TNodeDeserializer : INodeDeserializer'
+    parameters:
+    - id: nodeDeserializerFactory
+      type: YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,{TNodeDeserializer}}
+    - id: where
+      type: System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}}
+    typeParameters:
+    - id: TNodeDeserializer
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithNodeDeserializer(Of TNodeDeserializer As INodeDeserializer)(nodeDeserializerFactory As WrapperFactory(Of INodeDeserializer, TNodeDeserializer), where As Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeDeserializer))) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer*
+  nameWithType.vb: DeserializerBuilder.WithNodeDeserializer(Of TNodeDeserializer)(WrapperFactory(Of INodeDeserializer, TNodeDeserializer), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeDeserializer)))
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer(Of TNodeDeserializer)(YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.INodeDeserializer, TNodeDeserializer), System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeDeserializer)))
+  name.vb: WithNodeDeserializer(Of TNodeDeserializer)(WrapperFactory(Of INodeDeserializer, TNodeDeserializer), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeDeserializer)))
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer``1
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer``1
+  id: WithoutNodeDeserializer``1
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithoutNodeDeserializer<TNodeDeserializer>()
+  nameWithType: DeserializerBuilder.WithoutNodeDeserializer<TNodeDeserializer>()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer<TNodeDeserializer>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public DeserializerBuilder WithoutNodeDeserializer<TNodeDeserializer>() where TNodeDeserializer : INodeDeserializer'
+    typeParameters:
+    - id: TNodeDeserializer
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithoutNodeDeserializer(Of TNodeDeserializer As INodeDeserializer)() As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer*
+  nameWithType.vb: DeserializerBuilder.WithoutNodeDeserializer(Of TNodeDeserializer)()
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer(Of TNodeDeserializer)()
+  name.vb: WithoutNodeDeserializer(Of TNodeDeserializer)()
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer(System.Type)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer(System.Type)
+  id: WithoutNodeDeserializer(System.Type)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithoutNodeDeserializer(Type)
+  nameWithType: DeserializerBuilder.WithoutNodeDeserializer(Type)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithoutNodeDeserializer(Type nodeDeserializerType)
+    parameters:
+    - id: nodeDeserializerType
+      type: System.Type
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithoutNodeDeserializer(nodeDeserializerType As Type) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions},System.Int32,System.Int32)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions},System.Int32,System.Int32)
+  id: WithTypeDiscriminatingNodeDeserializer(System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions},System.Int32,System.Int32)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithTypeDiscriminatingNodeDeserializer(Action<ITypeDiscriminatingNodeDeserializerOptions>, int, int)
+  nameWithType: DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(Action<ITypeDiscriminatingNodeDeserializerOptions>, int, int)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(System.Action<YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions>, int, int)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithTypeDiscriminatingNodeDeserializer(Action<ITypeDiscriminatingNodeDeserializerOptions> configureTypeDiscriminatingNodeDeserializerOptions, int maxDepth = -1, int maxLength = -1)
+    parameters:
+    - id: configureTypeDiscriminatingNodeDeserializerOptions
+      type: System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions}
+    - id: maxDepth
+      type: System.Int32
+    - id: maxLength
+      type: System.Int32
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithTypeDiscriminatingNodeDeserializer(configureTypeDiscriminatingNodeDeserializerOptions As Action(Of ITypeDiscriminatingNodeDeserializerOptions), maxDepth As Integer = -1, maxLength As Integer = -1) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer*
+  nameWithType.vb: DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(Action(Of ITypeDiscriminatingNodeDeserializerOptions), Integer, Integer)
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer(System.Action(Of YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions), Integer, Integer)
+  name.vb: WithTypeDiscriminatingNodeDeserializer(Action(Of ITypeDiscriminatingNodeDeserializerOptions), Integer, Integer)
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver)
+  id: WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNodeTypeResolver(INodeTypeResolver)
+  nameWithType: DeserializerBuilder.WithNodeTypeResolver(INodeTypeResolver)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithNodeTypeResolver(INodeTypeResolver nodeTypeResolver)
+    parameters:
+    - id: nodeTypeResolver
+      type: YamlDotNet.Serialization.INodeTypeResolver
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithNodeTypeResolver(nodeTypeResolver As INodeTypeResolver) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  id: WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNodeTypeResolver(INodeTypeResolver, Action<IRegistrationLocationSelectionSyntax<INodeTypeResolver>>)
+  nameWithType: DeserializerBuilder.WithNodeTypeResolver(INodeTypeResolver, Action<IRegistrationLocationSelectionSyntax<INodeTypeResolver>>)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver, System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeTypeResolver>>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithNodeTypeResolver(INodeTypeResolver nodeTypeResolver, Action<IRegistrationLocationSelectionSyntax<INodeTypeResolver>> where)
+    parameters:
+    - id: nodeTypeResolver
+      type: YamlDotNet.Serialization.INodeTypeResolver
+    - id: where
+      type: System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}}
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithNodeTypeResolver(nodeTypeResolver As INodeTypeResolver, where As Action(Of IRegistrationLocationSelectionSyntax(Of INodeTypeResolver))) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver*
+  nameWithType.vb: DeserializerBuilder.WithNodeTypeResolver(INodeTypeResolver, Action(Of IRegistrationLocationSelectionSyntax(Of INodeTypeResolver)))
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(YamlDotNet.Serialization.INodeTypeResolver, System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeTypeResolver)))
+  name.vb: WithNodeTypeResolver(INodeTypeResolver, Action(Of IRegistrationLocationSelectionSyntax(Of INodeTypeResolver)))
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  id: WithNodeTypeResolver``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}})
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithNodeTypeResolver<TNodeTypeResolver>(WrapperFactory<INodeTypeResolver, TNodeTypeResolver>, Action<ITrackingRegistrationLocationSelectionSyntax<INodeTypeResolver>>)
+  nameWithType: DeserializerBuilder.WithNodeTypeResolver<TNodeTypeResolver>(WrapperFactory<INodeTypeResolver, TNodeTypeResolver>, Action<ITrackingRegistrationLocationSelectionSyntax<INodeTypeResolver>>)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver<TNodeTypeResolver>(YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.INodeTypeResolver, TNodeTypeResolver>, System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeTypeResolver>>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public DeserializerBuilder WithNodeTypeResolver<TNodeTypeResolver>(WrapperFactory<INodeTypeResolver, TNodeTypeResolver> nodeTypeResolverFactory, Action<ITrackingRegistrationLocationSelectionSyntax<INodeTypeResolver>> where) where TNodeTypeResolver : INodeTypeResolver'
+    parameters:
+    - id: nodeTypeResolverFactory
+      type: YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,{TNodeTypeResolver}}
+    - id: where
+      type: System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}}
+    typeParameters:
+    - id: TNodeTypeResolver
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithNodeTypeResolver(Of TNodeTypeResolver As INodeTypeResolver)(nodeTypeResolverFactory As WrapperFactory(Of INodeTypeResolver, TNodeTypeResolver), where As Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeTypeResolver))) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver*
+  nameWithType.vb: DeserializerBuilder.WithNodeTypeResolver(Of TNodeTypeResolver)(WrapperFactory(Of INodeTypeResolver, TNodeTypeResolver), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeTypeResolver)))
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver(Of TNodeTypeResolver)(YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.INodeTypeResolver, TNodeTypeResolver), System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeTypeResolver)))
+  name.vb: WithNodeTypeResolver(Of TNodeTypeResolver)(WrapperFactory(Of INodeTypeResolver, TNodeTypeResolver), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeTypeResolver)))
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver``1
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver``1
+  id: WithoutNodeTypeResolver``1
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithoutNodeTypeResolver<TNodeTypeResolver>()
+  nameWithType: DeserializerBuilder.WithoutNodeTypeResolver<TNodeTypeResolver>()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver<TNodeTypeResolver>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public DeserializerBuilder WithoutNodeTypeResolver<TNodeTypeResolver>() where TNodeTypeResolver : INodeTypeResolver'
+    typeParameters:
+    - id: TNodeTypeResolver
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithoutNodeTypeResolver(Of TNodeTypeResolver As INodeTypeResolver)() As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver*
+  nameWithType.vb: DeserializerBuilder.WithoutNodeTypeResolver(Of TNodeTypeResolver)()
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver(Of TNodeTypeResolver)()
+  name.vb: WithoutNodeTypeResolver(Of TNodeTypeResolver)()
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver(System.Type)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver(System.Type)
+  id: WithoutNodeTypeResolver(System.Type)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithoutNodeTypeResolver(Type)
+  nameWithType: DeserializerBuilder.WithoutNodeTypeResolver(Type)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver(System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithoutNodeTypeResolver(Type nodeTypeResolverType)
+    parameters:
+    - id: nodeTypeResolverType
+      type: System.Type
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithoutNodeTypeResolver(nodeTypeResolverType As Type) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  id: WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithTagMapping(TagName, Type)
+  nameWithType: DeserializerBuilder.WithTagMapping(TagName, Type)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping(YamlDotNet.Core.TagName, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public override DeserializerBuilder WithTagMapping(TagName tag, Type type)
+    parameters:
+    - id: tag
+      type: YamlDotNet.Core.TagName
+    - id: type
+      type: System.Type
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Overrides Function WithTagMapping(tag As TagName, type As Type) As DeserializerBuilder
+  overridden: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping``2
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping``2
+  id: WithTypeMapping``2
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithTypeMapping<TInterface, TConcrete>()
+  nameWithType: DeserializerBuilder.WithTypeMapping<TInterface, TConcrete>()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping<TInterface, TConcrete>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public DeserializerBuilder WithTypeMapping<TInterface, TConcrete>() where TConcrete : TInterface'
+    typeParameters:
+    - id: TInterface
+    - id: TConcrete
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithTypeMapping(Of TInterface, TConcrete As TInterface)() As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping*
+  nameWithType.vb: DeserializerBuilder.WithTypeMapping(Of TInterface, TConcrete)()
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping(Of TInterface, TConcrete)()
+  name.vb: WithTypeMapping(Of TInterface, TConcrete)()
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping(YamlDotNet.Core.TagName)
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping(YamlDotNet.Core.TagName)
+  id: WithoutTagMapping(YamlDotNet.Core.TagName)
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithoutTagMapping(TagName)
+  nameWithType: DeserializerBuilder.WithoutTagMapping(TagName)
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping(YamlDotNet.Core.TagName)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithoutTagMapping(TagName tag)
+    parameters:
+    - id: tag
+      type: YamlDotNet.Core.TagName
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithoutTagMapping(tag As TagName) As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties
+  id: IgnoreUnmatchedProperties
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: IgnoreUnmatchedProperties()
+  nameWithType: DeserializerBuilder.IgnoreUnmatchedProperties()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder IgnoreUnmatchedProperties()
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function IgnoreUnmatchedProperties() As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking
+  id: WithDuplicateKeyChecking
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: WithDuplicateKeyChecking()
+  nameWithType: DeserializerBuilder.WithDuplicateKeyChecking()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public DeserializerBuilder WithDuplicateKeyChecking()
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Public Function WithDuplicateKeyChecking() As DeserializerBuilder
+  overload: YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.Build
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.Build
+  id: Build
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: Build()
+  nameWithType: DeserializerBuilder.Build()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.Build()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public IDeserializer Build()
+    return:
+      type: YamlDotNet.Serialization.IDeserializer
+    content.vb: Public Function Build() As IDeserializer
+  overload: YamlDotNet.Serialization.DeserializerBuilder.Build*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer
+  commentId: M:YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer
+  id: BuildValueDeserializer
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: BuildValueDeserializer()
+  nameWithType: DeserializerBuilder.BuildValueDeserializer()
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public IValueDeserializer BuildValueDeserializer()
+    return:
+      type: YamlDotNet.Serialization.IValueDeserializer
+    content.vb: Public Function BuildValueDeserializer() As IValueDeserializer
+  overload: YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer*
+- uid: YamlDotNet.Serialization.DeserializerBuilder.Self
+  commentId: P:YamlDotNet.Serialization.DeserializerBuilder.Self
+  id: Self
+  parent: YamlDotNet.Serialization.DeserializerBuilder
+  langs:
+  - csharp
+  - vb
+  name: Self
+  nameWithType: DeserializerBuilder.Self
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.Self
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: protected override DeserializerBuilder Self { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Serialization.DeserializerBuilder
+    content.vb: Protected Overrides ReadOnly Property Self As DeserializerBuilder
+  overridden: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.Self
+  overload: YamlDotNet.Serialization.DeserializerBuilder.Self*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  commentId: T:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  name: BuilderSkeleton<DeserializerBuilder>
+  nameWithType: BuilderSkeleton<DeserializerBuilder>
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder)
+  name.vb: BuilderSkeleton(Of DeserializerBuilder)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1
+    name: BuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.DeserializerBuilder
+    name: DeserializerBuilder
+    isExternal: true
+    href: YamlDotNet.Serialization.DeserializerBuilder.html
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1
+    name: BuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.DeserializerBuilder
+    name: DeserializerBuilder
+    isExternal: true
+    href: YamlDotNet.Serialization.DeserializerBuilder.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IgnoreFields
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IgnoreFields
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.IgnoreFields
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IgnoreFields
+  name: IgnoreFields()
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.IgnoreFields()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.IgnoreFields()
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).IgnoreFields()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).IgnoreFields()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IgnoreFields
+    name: IgnoreFields
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IgnoreFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IgnoreFields
+    name: IgnoreFields
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IgnoreFields
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IncludeNonPublicProperties
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IncludeNonPublicProperties
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.IncludeNonPublicProperties
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IncludeNonPublicProperties
+  name: IncludeNonPublicProperties()
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.IncludeNonPublicProperties()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.IncludeNonPublicProperties()
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).IncludeNonPublicProperties()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).IncludeNonPublicProperties()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IncludeNonPublicProperties
+    name: IncludeNonPublicProperties
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IncludeNonPublicProperties
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.IncludeNonPublicProperties
+    name: IncludeNonPublicProperties
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IncludeNonPublicProperties
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.EnablePrivateConstructors
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.EnablePrivateConstructors
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.EnablePrivateConstructors
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_EnablePrivateConstructors
+  name: EnablePrivateConstructors()
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.EnablePrivateConstructors()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.EnablePrivateConstructors()
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).EnablePrivateConstructors()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).EnablePrivateConstructors()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.EnablePrivateConstructors
+    name: EnablePrivateConstructors
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_EnablePrivateConstructors
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.EnablePrivateConstructors
+    name: EnablePrivateConstructors
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_EnablePrivateConstructors
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_
+  name: WithNamingConvention(INamingConvention)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithNamingConvention(INamingConvention)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithNamingConvention(INamingConvention)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+    name: WithNamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_
+  - name: (
+  - uid: YamlDotNet.Serialization.INamingConvention
+    name: INamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.INamingConvention.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+    name: WithNamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_
+  - name: (
+  - uid: YamlDotNet.Serialization.INamingConvention
+    name: INamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.INamingConvention.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_
+  name: WithTypeResolver(ITypeResolver)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeResolver(ITypeResolver)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeResolver(ITypeResolver)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+    name: WithTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_
+  - name: (
+  - uid: YamlDotNet.Serialization.ITypeResolver
+    name: ITypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeResolver.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+    name: WithTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_
+  - name: (
+  - uid: YamlDotNet.Serialization.ITypeResolver
+    name: ITypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeResolver.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{{TClass},System.Object}},System.Attribute)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Attribute_
+  name: WithAttributeOverride<TClass>(Expression<Func<TClass, object>>, Attribute)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithAttributeOverride<TClass>(Expression<Func<TClass, object>>, Attribute)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithAttributeOverride<TClass>(System.Linq.Expressions.Expression<System.Func<TClass, object>>, System.Attribute)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithAttributeOverride(Of TClass)(Expression(Of Func(Of TClass, Object)), Attribute)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithAttributeOverride(Of TClass)(System.Linq.Expressions.Expression(Of System.Func(Of TClass, Object)), System.Attribute)
+  name.vb: WithAttributeOverride(Of TClass)(Expression(Of Func(Of TClass, Object)), Attribute)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Attribute_
+  - name: <
+  - name: TClass
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TClass
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Attribute_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TClass
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TClass
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride(System.Type,System.String,System.Attribute)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride(System.Type,System.String,System.Attribute)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride(System.Type,System.String,System.Attribute)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride_System_Type_System_String_System_Attribute_
+  name: WithAttributeOverride(Type, string, Attribute)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithAttributeOverride(Type, string, Attribute)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithAttributeOverride(System.Type, string, System.Attribute)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithAttributeOverride(Type, String, Attribute)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithAttributeOverride(System.Type, String, System.Attribute)
+  name.vb: WithAttributeOverride(Type, String, Attribute)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride(System.Type,System.String,System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride_System_Type_System_String_System_Attribute_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithAttributeOverride(System.Type,System.String,System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride_System_Type_System_String_System_Attribute_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_
+  name: WithTypeConverter(IYamlTypeConverter)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeConverter(IYamlTypeConverter)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeConverter(IYamlTypeConverter)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  name: WithTypeConverter(IYamlTypeConverter, Action<IRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeConverter(IYamlTypeConverter, Action<IRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter, System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.IYamlTypeConverter>>)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeConverter(IYamlTypeConverter, Action(Of IRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter, System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.IYamlTypeConverter)))
+  name.vb: WithTypeConverter(IYamlTypeConverter, Action(Of IRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  name: WithTypeConverter<TYamlTypeConverter>(WrapperFactory<IYamlTypeConverter, IYamlTypeConverter>, Action<ITrackingRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeConverter<TYamlTypeConverter>(WrapperFactory<IYamlTypeConverter, IYamlTypeConverter>, Action<ITrackingRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeConverter<TYamlTypeConverter>(YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.IYamlTypeConverter, YamlDotNet.Serialization.IYamlTypeConverter>, System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.IYamlTypeConverter>>)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeConverter(Of TYamlTypeConverter)(WrapperFactory(Of IYamlTypeConverter, IYamlTypeConverter), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeConverter(Of TYamlTypeConverter)(YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.IYamlTypeConverter, YamlDotNet.Serialization.IYamlTypeConverter), System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.IYamlTypeConverter)))
+  name.vb: WithTypeConverter(Of TYamlTypeConverter)(WrapperFactory(Of IYamlTypeConverter, IYamlTypeConverter), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: <
+  - name: TYamlTypeConverter
+  - name: '>'
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TYamlTypeConverter
+  - name: )
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter``1
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter``1
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter``1
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter__1
+  name: WithoutTypeConverter<TYamlTypeConverter>()
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithoutTypeConverter<TYamlTypeConverter>()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithoutTypeConverter<TYamlTypeConverter>()
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithoutTypeConverter(Of TYamlTypeConverter)()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithoutTypeConverter(Of TYamlTypeConverter)()
+  name.vb: WithoutTypeConverter(Of TYamlTypeConverter)()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter``1
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter__1
+  - name: <
+  - name: TYamlTypeConverter
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter``1
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TYamlTypeConverter
+  - name: )
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter(System.Type)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter(System.Type)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter(System.Type)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter_System_Type_
+  name: WithoutTypeConverter(Type)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithoutTypeConverter(Type)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithoutTypeConverter(System.Type)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithoutTypeConverter(Type)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithoutTypeConverter(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter(System.Type)
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeConverter(System.Type)
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,{TTypeInspector}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__
+  name: WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeInspector<TTypeInspector>(System.Func<YamlDotNet.Serialization.ITypeInspector, TTypeInspector>)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeInspector(Of TTypeInspector)(System.Func(Of YamlDotNet.Serialization.ITypeInspector, TTypeInspector))
+  name.vb: WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,{TTypeInspector}},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  name: WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>, Action<IRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>, Action<IRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeInspector<TTypeInspector>(System.Func<YamlDotNet.Serialization.ITypeInspector, TTypeInspector>, System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.ITypeInspector>>)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector), Action(Of IRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeInspector(Of TTypeInspector)(System.Func(Of YamlDotNet.Serialization.ITypeInspector, TTypeInspector), System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.ITypeInspector)))
+  name.vb: WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector), Action(Of IRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,{TTypeInspector}},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  name: WithTypeInspector<TTypeInspector>(WrapperFactory<ITypeInspector, ITypeInspector, TTypeInspector>, Action<ITrackingRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTypeInspector<TTypeInspector>(WrapperFactory<ITypeInspector, ITypeInspector, TTypeInspector>, Action<ITrackingRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTypeInspector<TTypeInspector>(YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeInspector, TTypeInspector>, System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.ITypeInspector>>)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTypeInspector(Of TTypeInspector)(WrapperFactory(Of ITypeInspector, ITypeInspector, TTypeInspector), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTypeInspector(Of TTypeInspector)(YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeInspector, TTypeInspector), System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.ITypeInspector)))
+  name.vb: WithTypeInspector(Of TTypeInspector)(WrapperFactory(Of ITypeInspector, ITypeInspector, TTypeInspector), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`3
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-3.html
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`3
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector``1
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector``1
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector``1
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector__1
+  name: WithoutTypeInspector<TTypeInspector>()
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithoutTypeInspector<TTypeInspector>()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithoutTypeInspector<TTypeInspector>()
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithoutTypeInspector(Of TTypeInspector)()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithoutTypeInspector(Of TTypeInspector)()
+  name.vb: WithoutTypeInspector(Of TTypeInspector)()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector``1
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector__1
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector``1
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector(System.Type)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector(System.Type)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector(System.Type)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector_System_Type_
+  name: WithoutTypeInspector(Type)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithoutTypeInspector(Type)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithoutTypeInspector(System.Type)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithoutTypeInspector(Type)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithoutTypeInspector(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector(System.Type)
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithoutTypeInspector(System.Type)
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_
+  name: WithYamlFormatter(YamlFormatter)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithYamlFormatter(YamlFormatter)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithYamlFormatter(YamlFormatter)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+    name: WithYamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_
+  - name: (
+  - uid: YamlDotNet.Serialization.YamlFormatter
+    name: YamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlFormatter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+    name: WithYamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_
+  - name: (
+  - uid: YamlDotNet.Serialization.YamlFormatter
+    name: YamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlFormatter.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1
+  commentId: T:YamlDotNet.Serialization.BuilderSkeleton`1
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  name: BuilderSkeleton<TBuilder>
+  nameWithType: BuilderSkeleton<TBuilder>
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>
+  nameWithType.vb: BuilderSkeleton(Of TBuilder)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder)
+  name.vb: BuilderSkeleton(Of TBuilder)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1
+    name: BuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  - name: <
+  - name: TBuilder
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1
+    name: BuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBuilder
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.IgnoreFields
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.IgnoreFields
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IgnoreFields
+  name: IgnoreFields()
+  nameWithType: BuilderSkeleton<TBuilder>.IgnoreFields()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.IgnoreFields()
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).IgnoreFields()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).IgnoreFields()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.IgnoreFields
+    name: IgnoreFields
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IgnoreFields
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.IgnoreFields
+    name: IgnoreFields
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IgnoreFields
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.IncludeNonPublicProperties
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.IncludeNonPublicProperties
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IncludeNonPublicProperties
+  name: IncludeNonPublicProperties()
+  nameWithType: BuilderSkeleton<TBuilder>.IncludeNonPublicProperties()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.IncludeNonPublicProperties()
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).IncludeNonPublicProperties()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).IncludeNonPublicProperties()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.IncludeNonPublicProperties
+    name: IncludeNonPublicProperties
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IncludeNonPublicProperties
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.IncludeNonPublicProperties
+    name: IncludeNonPublicProperties
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_IncludeNonPublicProperties
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.EnablePrivateConstructors
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.EnablePrivateConstructors
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_EnablePrivateConstructors
+  name: EnablePrivateConstructors()
+  nameWithType: BuilderSkeleton<TBuilder>.EnablePrivateConstructors()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.EnablePrivateConstructors()
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).EnablePrivateConstructors()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).EnablePrivateConstructors()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.EnablePrivateConstructors
+    name: EnablePrivateConstructors
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_EnablePrivateConstructors
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.EnablePrivateConstructors
+    name: EnablePrivateConstructors
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_EnablePrivateConstructors
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_
+  name: WithNamingConvention(INamingConvention)
+  nameWithType: BuilderSkeleton<TBuilder>.WithNamingConvention(INamingConvention)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithNamingConvention(INamingConvention)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+    name: WithNamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_
+  - name: (
+  - uid: YamlDotNet.Serialization.INamingConvention
+    name: INamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.INamingConvention.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithNamingConvention(YamlDotNet.Serialization.INamingConvention)
+    name: WithNamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithNamingConvention_YamlDotNet_Serialization_INamingConvention_
+  - name: (
+  - uid: YamlDotNet.Serialization.INamingConvention
+    name: INamingConvention
+    isExternal: true
+    href: YamlDotNet.Serialization.INamingConvention.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_
+  name: WithTypeResolver(ITypeResolver)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeResolver(ITypeResolver)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeResolver(ITypeResolver)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+    name: WithTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_
+  - name: (
+  - uid: YamlDotNet.Serialization.ITypeResolver
+    name: ITypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeResolver.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeResolver(YamlDotNet.Serialization.ITypeResolver)
+    name: WithTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeResolver_YamlDotNet_Serialization_ITypeResolver_
+  - name: (
+  - uid: YamlDotNet.Serialization.ITypeResolver
+    name: ITypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeResolver.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Attribute_
+  name: WithAttributeOverride<TClass>(Expression<Func<TClass, object>>, Attribute)
+  nameWithType: BuilderSkeleton<TBuilder>.WithAttributeOverride<TClass>(Expression<Func<TClass, object>>, Attribute)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithAttributeOverride<TClass>(System.Linq.Expressions.Expression<System.Func<TClass, object>>, System.Attribute)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithAttributeOverride(Of TClass)(Expression(Of Func(Of TClass, Object)), Attribute)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithAttributeOverride(Of TClass)(System.Linq.Expressions.Expression(Of System.Func(Of TClass, Object)), System.Attribute)
+  name.vb: WithAttributeOverride(Of TClass)(Expression(Of Func(Of TClass, Object)), Attribute)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Attribute_
+  - name: <
+  - name: TClass
+  - name: '>'
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TClass
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___System_Attribute_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TClass
+  - name: )
+  - name: (
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TClass
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride(System.Type,System.String,System.Attribute)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride(System.Type,System.String,System.Attribute)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride_System_Type_System_String_System_Attribute_
+  name: WithAttributeOverride(Type, string, Attribute)
+  nameWithType: BuilderSkeleton<TBuilder>.WithAttributeOverride(Type, string, Attribute)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithAttributeOverride(System.Type, string, System.Attribute)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithAttributeOverride(Type, String, Attribute)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithAttributeOverride(System.Type, String, System.Attribute)
+  name.vb: WithAttributeOverride(Type, String, Attribute)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride(System.Type,System.String,System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride_System_Type_System_String_System_Attribute_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithAttributeOverride(System.Type,System.String,System.Attribute)
+    name: WithAttributeOverride
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithAttributeOverride_System_Type_System_String_System_Attribute_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Attribute
+    name: Attribute
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.attribute
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_
+  name: WithTypeConverter(IYamlTypeConverter)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeConverter(IYamlTypeConverter)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeConverter(IYamlTypeConverter)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter)
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  name: WithTypeConverter(IYamlTypeConverter, Action<IRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeConverter(IYamlTypeConverter, Action<IRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter, System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.IYamlTypeConverter>>)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeConverter(IYamlTypeConverter, Action(Of IRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter, System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.IYamlTypeConverter)))
+  name.vb: WithTypeConverter(IYamlTypeConverter, Action(Of IRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter(YamlDotNet.Serialization.IYamlTypeConverter,System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter_System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: (
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  name: WithTypeConverter<TYamlTypeConverter>(WrapperFactory<IYamlTypeConverter, IYamlTypeConverter>, Action<ITrackingRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeConverter<TYamlTypeConverter>(WrapperFactory<IYamlTypeConverter, IYamlTypeConverter>, Action<ITrackingRegistrationLocationSelectionSyntax<IYamlTypeConverter>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeConverter<TYamlTypeConverter>(YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.IYamlTypeConverter, YamlDotNet.Serialization.IYamlTypeConverter>, System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.IYamlTypeConverter>>)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeConverter(Of TYamlTypeConverter)(WrapperFactory(Of IYamlTypeConverter, IYamlTypeConverter), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeConverter(Of TYamlTypeConverter)(YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.IYamlTypeConverter, YamlDotNet.Serialization.IYamlTypeConverter), System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.IYamlTypeConverter)))
+  name.vb: WithTypeConverter(Of TYamlTypeConverter)(WrapperFactory(Of IYamlTypeConverter, IYamlTypeConverter), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of IYamlTypeConverter)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: <
+  - name: TYamlTypeConverter
+  - name: '>'
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeConverter``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.IYamlTypeConverter,YamlDotNet.Serialization.IYamlTypeConverter},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.IYamlTypeConverter}})
+    name: WithTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeConverter__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_IYamlTypeConverter_YamlDotNet_Serialization_IYamlTypeConverter__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_IYamlTypeConverter___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TYamlTypeConverter
+  - name: )
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter``1
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter``1
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter__1
+  name: WithoutTypeConverter<TYamlTypeConverter>()
+  nameWithType: BuilderSkeleton<TBuilder>.WithoutTypeConverter<TYamlTypeConverter>()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithoutTypeConverter<TYamlTypeConverter>()
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithoutTypeConverter(Of TYamlTypeConverter)()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithoutTypeConverter(Of TYamlTypeConverter)()
+  name.vb: WithoutTypeConverter(Of TYamlTypeConverter)()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter``1
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter__1
+  - name: <
+  - name: TYamlTypeConverter
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter``1
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TYamlTypeConverter
+  - name: )
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter(System.Type)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter(System.Type)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter_System_Type_
+  name: WithoutTypeConverter(Type)
+  nameWithType: BuilderSkeleton<TBuilder>.WithoutTypeConverter(Type)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithoutTypeConverter(System.Type)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithoutTypeConverter(Type)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithoutTypeConverter(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter(System.Type)
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeConverter(System.Type)
+    name: WithoutTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeConverter_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__
+  name: WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeInspector<TTypeInspector>(System.Func<YamlDotNet.Serialization.ITypeInspector, TTypeInspector>)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeInspector(Of TTypeInspector)(System.Func(Of YamlDotNet.Serialization.ITypeInspector, TTypeInspector))
+  name.vb: WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  name: WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>, Action<IRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeInspector<TTypeInspector>(Func<ITypeInspector, TTypeInspector>, Action<IRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeInspector<TTypeInspector>(System.Func<YamlDotNet.Serialization.ITypeInspector, TTypeInspector>, System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.ITypeInspector>>)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector), Action(Of IRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeInspector(Of TTypeInspector)(System.Func(Of YamlDotNet.Serialization.ITypeInspector, TTypeInspector), System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.ITypeInspector)))
+  name.vb: WithTypeInspector(Of TTypeInspector)(Func(Of ITypeInspector, TTypeInspector), Action(Of IRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(System.Func{YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_System_Func_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  name: WithTypeInspector<TTypeInspector>(WrapperFactory<ITypeInspector, ITypeInspector, TTypeInspector>, Action<ITrackingRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTypeInspector<TTypeInspector>(WrapperFactory<ITypeInspector, ITypeInspector, TTypeInspector>, Action<ITrackingRegistrationLocationSelectionSyntax<ITypeInspector>>)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTypeInspector<TTypeInspector>(YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeInspector, TTypeInspector>, System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.ITypeInspector>>)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTypeInspector(Of TTypeInspector)(WrapperFactory(Of ITypeInspector, ITypeInspector, TTypeInspector), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTypeInspector(Of TTypeInspector)(YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeInspector, TTypeInspector), System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.ITypeInspector)))
+  name.vb: WithTypeInspector(Of TTypeInspector)(WrapperFactory(Of ITypeInspector, ITypeInspector, TTypeInspector), Action(Of ITrackingRegistrationLocationSelectionSyntax(Of ITypeInspector)))
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`3
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-3.html
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTypeInspector``1(YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeInspector,``0},System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.ITypeInspector}})
+    name: WithTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTypeInspector__1_YamlDotNet_Serialization_WrapperFactory_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeInspector___0__System_Action_YamlDotNet_Serialization_ITrackingRegistrationLocationSelectionSyntax_YamlDotNet_Serialization_ITypeInspector___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - uid: YamlDotNet.Serialization.WrapperFactory`3
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: ','
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITypeInspector
+    name: ITypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.ITypeInspector.html
+  - name: )
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector``1
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector``1
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector__1
+  name: WithoutTypeInspector<TTypeInspector>()
+  nameWithType: BuilderSkeleton<TBuilder>.WithoutTypeInspector<TTypeInspector>()
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithoutTypeInspector<TTypeInspector>()
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithoutTypeInspector(Of TTypeInspector)()
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithoutTypeInspector(Of TTypeInspector)()
+  name.vb: WithoutTypeInspector(Of TTypeInspector)()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector``1
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector__1
+  - name: <
+  - name: TTypeInspector
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector``1
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTypeInspector
+  - name: )
+  - name: (
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector(System.Type)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector(System.Type)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector_System_Type_
+  name: WithoutTypeInspector(Type)
+  nameWithType: BuilderSkeleton<TBuilder>.WithoutTypeInspector(Type)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithoutTypeInspector(System.Type)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithoutTypeInspector(Type)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithoutTypeInspector(System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector(System.Type)
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithoutTypeInspector(System.Type)
+    name: WithoutTypeInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithoutTypeInspector_System_Type_
+  - name: (
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_
+  name: WithYamlFormatter(YamlFormatter)
+  nameWithType: BuilderSkeleton<TBuilder>.WithYamlFormatter(YamlFormatter)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithYamlFormatter(YamlFormatter)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+    name: WithYamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_
+  - name: (
+  - uid: YamlDotNet.Serialization.YamlFormatter
+    name: YamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlFormatter.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithYamlFormatter(YamlDotNet.Serialization.YamlFormatter)
+    name: WithYamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithYamlFormatter_YamlDotNet_Serialization_YamlFormatter_
+  - name: (
+  - uid: YamlDotNet.Serialization.YamlFormatter
+    name: YamlFormatter
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlFormatter.html
+  - name: )
+- uid: YamlDotNet.Serialization.DeserializerBuilder.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder__ctor
+  name: DeserializerBuilder
+  nameWithType: DeserializerBuilder.DeserializerBuilder
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.DeserializerBuilder
+  nameWithType.vb: DeserializerBuilder.New
+  fullName.vb: YamlDotNet.Serialization.DeserializerBuilder.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithAttemptingUnquotedStringTypeDeserialization
+  name: WithAttemptingUnquotedStringTypeDeserialization
+  nameWithType: DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithAttemptingUnquotedStringTypeDeserialization
+- uid: YamlDotNet.Serialization.DeserializerBuilder
+  commentId: T:YamlDotNet.Serialization.DeserializerBuilder
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html
+  name: DeserializerBuilder
+  nameWithType: DeserializerBuilder
+  fullName: YamlDotNet.Serialization.DeserializerBuilder
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithObjectFactory_YamlDotNet_Serialization_IObjectFactory_
+  name: WithObjectFactory
+  nameWithType: DeserializerBuilder.WithObjectFactory
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithObjectFactory
+- uid: YamlDotNet.Serialization.IObjectFactory
+  commentId: T:YamlDotNet.Serialization.IObjectFactory
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html
+  name: IObjectFactory
+  nameWithType: IObjectFactory
+  fullName: YamlDotNet.Serialization.IObjectFactory
+- uid: System.Func{System.Type,System.Object}
+  commentId: T:System.Func{System.Type,System.Object}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<Type, object>
+  nameWithType: Func<Type, object>
+  fullName: System.Func<System.Type, object>
+  nameWithType.vb: Func(Of Type, Object)
+  fullName.vb: System.Func(Of System.Type, Object)
+  name.vb: Func(Of Type, Object)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithNodeDeserializer_YamlDotNet_Serialization_INodeDeserializer_
+  name: WithNodeDeserializer
+  nameWithType: DeserializerBuilder.WithNodeDeserializer
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeDeserializer
+- uid: YamlDotNet.Serialization.INodeDeserializer
+  commentId: T:YamlDotNet.Serialization.INodeDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeDeserializer.html
+  name: INodeDeserializer
+  nameWithType: INodeDeserializer
+  fullName: YamlDotNet.Serialization.INodeDeserializer
+- uid: System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}}
+  commentId: T:System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IRegistrationLocationSelectionSyntax<INodeDeserializer>>
+  nameWithType: Action<IRegistrationLocationSelectionSyntax<INodeDeserializer>>
+  fullName: System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeDeserializer>>
+  nameWithType.vb: Action(Of IRegistrationLocationSelectionSyntax(Of INodeDeserializer))
+  fullName.vb: System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeDeserializer))
+  name.vb: Action(Of IRegistrationLocationSelectionSyntax(Of INodeDeserializer))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: )
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,{TNodeDeserializer}}
+  commentId: T:YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeDeserializer,``0}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.WrapperFactory`2
+  href: YamlDotNet.Serialization.WrapperFactory-2.html
+  name: WrapperFactory<INodeDeserializer, TNodeDeserializer>
+  nameWithType: WrapperFactory<INodeDeserializer, TNodeDeserializer>
+  fullName: YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.INodeDeserializer, TNodeDeserializer>
+  nameWithType.vb: WrapperFactory(Of INodeDeserializer, TNodeDeserializer)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.INodeDeserializer, TNodeDeserializer)
+  name.vb: WrapperFactory(Of INodeDeserializer, TNodeDeserializer)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: ','
+  - name: " "
+  - name: TNodeDeserializer
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: ','
+  - name: " "
+  - name: TNodeDeserializer
+  - name: )
+- uid: System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}}
+  commentId: T:System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeDeserializer}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ITrackingRegistrationLocationSelectionSyntax<INodeDeserializer>>
+  nameWithType: Action<ITrackingRegistrationLocationSelectionSyntax<INodeDeserializer>>
+  fullName: System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeDeserializer>>
+  nameWithType.vb: Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeDeserializer))
+  fullName.vb: System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeDeserializer))
+  name.vb: Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeDeserializer))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeDeserializer
+    name: INodeDeserializer
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeDeserializer.html
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.WrapperFactory`2
+  commentId: T:YamlDotNet.Serialization.WrapperFactory`2
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-2.html
+  name: WrapperFactory<TComponentBase, TComponent>
+  nameWithType: WrapperFactory<TComponentBase, TComponent>
+  fullName: YamlDotNet.Serialization.WrapperFactory<TComponentBase, TComponent>
+  nameWithType.vb: WrapperFactory(Of TComponentBase, TComponent)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TComponentBase, TComponent)
+  name.vb: WrapperFactory(Of TComponentBase, TComponent)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: <
+  - name: TComponentBase
+  - name: ','
+  - name: " "
+  - name: TComponent
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TComponentBase
+  - name: ','
+  - name: " "
+  - name: TComponent
+  - name: )
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithoutNodeDeserializer__1
+  name: WithoutNodeDeserializer
+  nameWithType: DeserializerBuilder.WithoutNodeDeserializer
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeDeserializer
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithTypeDiscriminatingNodeDeserializer_System_Action_YamlDotNet_Serialization_BufferedDeserialization_ITypeDiscriminatingNodeDeserializerOptions__System_Int32_System_Int32_
+  name: WithTypeDiscriminatingNodeDeserializer
+  nameWithType: DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithTypeDiscriminatingNodeDeserializer
+- uid: System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions}
+  commentId: T:System.Action{YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ITypeDiscriminatingNodeDeserializerOptions>
+  nameWithType: Action<ITypeDiscriminatingNodeDeserializerOptions>
+  fullName: System.Action<YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions>
+  nameWithType.vb: Action(Of ITypeDiscriminatingNodeDeserializerOptions)
+  fullName.vb: System.Action(Of YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions)
+  name.vb: Action(Of ITypeDiscriminatingNodeDeserializerOptions)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions
+    name: ITypeDiscriminatingNodeDeserializerOptions
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions
+    name: ITypeDiscriminatingNodeDeserializerOptions
+    isExternal: true
+    href: YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithNodeTypeResolver_YamlDotNet_Serialization_INodeTypeResolver_
+  name: WithNodeTypeResolver
+  nameWithType: DeserializerBuilder.WithNodeTypeResolver
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithNodeTypeResolver
+- uid: YamlDotNet.Serialization.INodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.INodeTypeResolver
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeTypeResolver.html
+  name: INodeTypeResolver
+  nameWithType: INodeTypeResolver
+  fullName: YamlDotNet.Serialization.INodeTypeResolver
+- uid: System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}}
+  commentId: T:System.Action{YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<IRegistrationLocationSelectionSyntax<INodeTypeResolver>>
+  nameWithType: Action<IRegistrationLocationSelectionSyntax<INodeTypeResolver>>
+  fullName: System.Action<YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeTypeResolver>>
+  nameWithType.vb: Action(Of IRegistrationLocationSelectionSyntax(Of INodeTypeResolver))
+  fullName.vb: System.Action(Of YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeTypeResolver))
+  name.vb: Action(Of IRegistrationLocationSelectionSyntax(Of INodeTypeResolver))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeTypeResolver
+    name: INodeTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeTypeResolver.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeTypeResolver
+    name: INodeTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeTypeResolver.html
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,{TNodeTypeResolver}}
+  commentId: T:YamlDotNet.Serialization.WrapperFactory{YamlDotNet.Serialization.INodeTypeResolver,``0}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.WrapperFactory`2
+  href: YamlDotNet.Serialization.WrapperFactory-2.html
+  name: WrapperFactory<INodeTypeResolver, TNodeTypeResolver>
+  nameWithType: WrapperFactory<INodeTypeResolver, TNodeTypeResolver>
+  fullName: YamlDotNet.Serialization.WrapperFactory<YamlDotNet.Serialization.INodeTypeResolver, TNodeTypeResolver>
+  nameWithType.vb: WrapperFactory(Of INodeTypeResolver, TNodeTypeResolver)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of YamlDotNet.Serialization.INodeTypeResolver, TNodeTypeResolver)
+  name.vb: WrapperFactory(Of INodeTypeResolver, TNodeTypeResolver)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeTypeResolver
+    name: INodeTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeTypeResolver.html
+  - name: ','
+  - name: " "
+  - name: TNodeTypeResolver
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeTypeResolver
+    name: INodeTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeTypeResolver.html
+  - name: ','
+  - name: " "
+  - name: TNodeTypeResolver
+  - name: )
+- uid: System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}}
+  commentId: T:System.Action{YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax{YamlDotNet.Serialization.INodeTypeResolver}}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<ITrackingRegistrationLocationSelectionSyntax<INodeTypeResolver>>
+  nameWithType: Action<ITrackingRegistrationLocationSelectionSyntax<INodeTypeResolver>>
+  fullName: System.Action<YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<YamlDotNet.Serialization.INodeTypeResolver>>
+  nameWithType.vb: Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeTypeResolver))
+  fullName.vb: System.Action(Of YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of YamlDotNet.Serialization.INodeTypeResolver))
+  name.vb: Action(Of ITrackingRegistrationLocationSelectionSyntax(Of INodeTypeResolver))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.INodeTypeResolver
+    name: INodeTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeTypeResolver.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.INodeTypeResolver
+    name: INodeTypeResolver
+    isExternal: true
+    href: YamlDotNet.Serialization.INodeTypeResolver.html
+  - name: )
+  - name: )
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithoutNodeTypeResolver__1
+  name: WithoutNodeTypeResolver
+  nameWithType: DeserializerBuilder.WithoutNodeTypeResolver
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutNodeTypeResolver
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  name: WithTagMapping(TagName, Type)
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.WithTagMapping(TagName, Type)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.WithTagMapping(YamlDotNet.Core.TagName, System.Type)
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).WithTagMapping(TagName, Type)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).WithTagMapping(YamlDotNet.Core.TagName, System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+    name: WithTagMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  - name: (
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+    name: WithTagMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  - name: (
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  name: WithTagMapping
+  nameWithType: DeserializerBuilder.WithTagMapping
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithTagMapping
+- uid: YamlDotNet.Core.TagName
+  commentId: T:YamlDotNet.Core.TagName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html
+  name: TagName
+  nameWithType: TagName
+  fullName: YamlDotNet.Core.TagName
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  commentId: M:YamlDotNet.Serialization.BuilderSkeleton`1.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  name: WithTagMapping(TagName, Type)
+  nameWithType: BuilderSkeleton<TBuilder>.WithTagMapping(TagName, Type)
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.WithTagMapping(YamlDotNet.Core.TagName, System.Type)
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).WithTagMapping(TagName, Type)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).WithTagMapping(YamlDotNet.Core.TagName, System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+    name: WithTagMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  - name: (
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1.WithTagMapping(YamlDotNet.Core.TagName,System.Type)
+    name: WithTagMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_WithTagMapping_YamlDotNet_Core_TagName_System_Type_
+  - name: (
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithTypeMapping__2
+  name: WithTypeMapping
+  nameWithType: DeserializerBuilder.WithTypeMapping
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithTypeMapping
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithoutTagMapping_YamlDotNet_Core_TagName_
+  name: WithoutTagMapping
+  nameWithType: DeserializerBuilder.WithoutTagMapping
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithoutTagMapping
+- uid: YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_IgnoreUnmatchedProperties
+  name: IgnoreUnmatchedProperties
+  nameWithType: DeserializerBuilder.IgnoreUnmatchedProperties
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.IgnoreUnmatchedProperties
+- uid: YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_WithDuplicateKeyChecking
+  name: WithDuplicateKeyChecking
+  nameWithType: DeserializerBuilder.WithDuplicateKeyChecking
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.WithDuplicateKeyChecking
+- uid: YamlDotNet.Serialization.DeserializerBuilder.Build*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.Build
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_Build
+  name: Build
+  nameWithType: DeserializerBuilder.Build
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.Build
+- uid: YamlDotNet.Serialization.IDeserializer
+  commentId: T:YamlDotNet.Serialization.IDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IDeserializer.html
+  name: IDeserializer
+  nameWithType: IDeserializer
+  fullName: YamlDotNet.Serialization.IDeserializer
+- uid: YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_BuildValueDeserializer
+  name: BuildValueDeserializer
+  nameWithType: DeserializerBuilder.BuildValueDeserializer
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.BuildValueDeserializer
+- uid: YamlDotNet.Serialization.IValueDeserializer
+  commentId: T:YamlDotNet.Serialization.IValueDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IValueDeserializer.html
+  name: IValueDeserializer
+  nameWithType: IValueDeserializer
+  fullName: YamlDotNet.Serialization.IValueDeserializer
+- uid: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.Self
+  commentId: P:YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}.Self
+  parent: YamlDotNet.Serialization.BuilderSkeleton{YamlDotNet.Serialization.DeserializerBuilder}
+  definition: YamlDotNet.Serialization.BuilderSkeleton`1.Self
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_Self
+  name: Self
+  nameWithType: BuilderSkeleton<DeserializerBuilder>.Self
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<YamlDotNet.Serialization.DeserializerBuilder>.Self
+  nameWithType.vb: BuilderSkeleton(Of DeserializerBuilder).Self
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of YamlDotNet.Serialization.DeserializerBuilder).Self
+- uid: YamlDotNet.Serialization.DeserializerBuilder.Self*
+  commentId: Overload:YamlDotNet.Serialization.DeserializerBuilder.Self
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html#YamlDotNet_Serialization_DeserializerBuilder_Self
+  name: Self
+  nameWithType: DeserializerBuilder.Self
+  fullName: YamlDotNet.Serialization.DeserializerBuilder.Self
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1.Self
+  commentId: P:YamlDotNet.Serialization.BuilderSkeleton`1.Self
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html#YamlDotNet_Serialization_BuilderSkeleton_1_Self
+  name: Self
+  nameWithType: BuilderSkeleton<TBuilder>.Self
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>.Self
+  nameWithType.vb: BuilderSkeleton(Of TBuilder).Self
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder).Self

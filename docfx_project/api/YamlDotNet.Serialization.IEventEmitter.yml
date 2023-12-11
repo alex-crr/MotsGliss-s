@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IEventEmitter
+  commentId: T:YamlDotNet.Serialization.IEventEmitter
+  id: IEventEmitter
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  - YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  langs:
+  - csharp
+  - vb
+  name: IEventEmitter
+  nameWithType: IEventEmitter
+  fullName: YamlDotNet.Serialization.IEventEmitter
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IEventEmitter
+    content.vb: Public Interface IEventEmitter
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.AliasEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(AliasEventInfo, IEmitter)
+  nameWithType: IEventEmitter.Emit(AliasEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.AliasEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Emit(AliasEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.AliasEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub Emit(eventInfo As AliasEventInfo, emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.ScalarEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(ScalarEventInfo, IEmitter)
+  nameWithType: IEventEmitter.Emit(ScalarEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.ScalarEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Emit(ScalarEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.ScalarEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub Emit(eventInfo As ScalarEventInfo, emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.MappingStartEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(MappingStartEventInfo, IEmitter)
+  nameWithType: IEventEmitter.Emit(MappingStartEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingStartEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Emit(MappingStartEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.MappingStartEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub Emit(eventInfo As MappingStartEventInfo, emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.MappingEndEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(MappingEndEventInfo, IEmitter)
+  nameWithType: IEventEmitter.Emit(MappingEndEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.MappingEndEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Emit(MappingEndEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.MappingEndEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub Emit(eventInfo As MappingEndEventInfo, emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.SequenceStartEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(SequenceStartEventInfo, IEmitter)
+  nameWithType: IEventEmitter.Emit(SequenceStartEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceStartEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Emit(SequenceStartEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.SequenceStartEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub Emit(eventInfo As SequenceStartEventInfo, emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IEventEmitter.Emit*
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  commentId: M:YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  id: Emit(YamlDotNet.Serialization.SequenceEndEventInfo,YamlDotNet.Core.IEmitter)
+  parent: YamlDotNet.Serialization.IEventEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(SequenceEndEventInfo, IEmitter)
+  nameWithType: IEventEmitter.Emit(SequenceEndEventInfo, IEmitter)
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit(YamlDotNet.Serialization.SequenceEndEventInfo, YamlDotNet.Core.IEmitter)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Emit(SequenceEndEventInfo eventInfo, IEmitter emitter)
+    parameters:
+    - id: eventInfo
+      type: YamlDotNet.Serialization.SequenceEndEventInfo
+    - id: emitter
+      type: YamlDotNet.Core.IEmitter
+    content.vb: Sub Emit(eventInfo As SequenceEndEventInfo, emitter As IEmitter)
+  overload: YamlDotNet.Serialization.IEventEmitter.Emit*
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IEventEmitter.Emit*
+  commentId: Overload:YamlDotNet.Serialization.IEventEmitter.Emit
+  isExternal: true
+  href: YamlDotNet.Serialization.IEventEmitter.html#YamlDotNet_Serialization_IEventEmitter_Emit_YamlDotNet_Serialization_AliasEventInfo_YamlDotNet_Core_IEmitter_
+  name: Emit
+  nameWithType: IEventEmitter.Emit
+  fullName: YamlDotNet.Serialization.IEventEmitter.Emit
+- uid: YamlDotNet.Serialization.AliasEventInfo
+  commentId: T:YamlDotNet.Serialization.AliasEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.AliasEventInfo.html
+  name: AliasEventInfo
+  nameWithType: AliasEventInfo
+  fullName: YamlDotNet.Serialization.AliasEventInfo
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Serialization.ScalarEventInfo
+  commentId: T:YamlDotNet.Serialization.ScalarEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ScalarEventInfo.html
+  name: ScalarEventInfo
+  nameWithType: ScalarEventInfo
+  fullName: YamlDotNet.Serialization.ScalarEventInfo
+- uid: YamlDotNet.Serialization.MappingStartEventInfo
+  commentId: T:YamlDotNet.Serialization.MappingStartEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.MappingStartEventInfo.html
+  name: MappingStartEventInfo
+  nameWithType: MappingStartEventInfo
+  fullName: YamlDotNet.Serialization.MappingStartEventInfo
+- uid: YamlDotNet.Serialization.MappingEndEventInfo
+  commentId: T:YamlDotNet.Serialization.MappingEndEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.MappingEndEventInfo.html
+  name: MappingEndEventInfo
+  nameWithType: MappingEndEventInfo
+  fullName: YamlDotNet.Serialization.MappingEndEventInfo
+- uid: YamlDotNet.Serialization.SequenceStartEventInfo
+  commentId: T:YamlDotNet.Serialization.SequenceStartEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.SequenceStartEventInfo.html
+  name: SequenceStartEventInfo
+  nameWithType: SequenceStartEventInfo
+  fullName: YamlDotNet.Serialization.SequenceStartEventInfo
+- uid: YamlDotNet.Serialization.SequenceEndEventInfo
+  commentId: T:YamlDotNet.Serialization.SequenceEndEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.SequenceEndEventInfo.html
+  name: SequenceEndEventInfo
+  nameWithType: SequenceEndEventInfo
+  fullName: YamlDotNet.Serialization.SequenceEndEventInfo

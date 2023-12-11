@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.RepresentationModel
+  commentId: N:YamlDotNet.RepresentationModel
+  id: YamlDotNet.RepresentationModel
+  children:
+  - YamlDotNet.RepresentationModel.IYamlVisitor
+  - YamlDotNet.RepresentationModel.LibYamlEventStream
+  - YamlDotNet.RepresentationModel.YamlDocument
+  - YamlDotNet.RepresentationModel.YamlMappingNode
+  - YamlDotNet.RepresentationModel.YamlNode
+  - YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer
+  - YamlDotNet.RepresentationModel.YamlNodeType
+  - YamlDotNet.RepresentationModel.YamlScalarNode
+  - YamlDotNet.RepresentationModel.YamlSequenceNode
+  - YamlDotNet.RepresentationModel.YamlStream
+  - YamlDotNet.RepresentationModel.YamlVisitor
+  - YamlDotNet.RepresentationModel.YamlVisitorBase
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.RepresentationModel
+  nameWithType: YamlDotNet.RepresentationModel
+  fullName: YamlDotNet.RepresentationModel
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.RepresentationModel.IYamlVisitor
+  commentId: T:YamlDotNet.RepresentationModel.IYamlVisitor
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.IYamlVisitor.html
+  name: IYamlVisitor
+  nameWithType: IYamlVisitor
+  fullName: YamlDotNet.RepresentationModel.IYamlVisitor
+- uid: YamlDotNet.RepresentationModel.LibYamlEventStream
+  commentId: T:YamlDotNet.RepresentationModel.LibYamlEventStream
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.LibYamlEventStream.html
+  name: LibYamlEventStream
+  nameWithType: LibYamlEventStream
+  fullName: YamlDotNet.RepresentationModel.LibYamlEventStream
+- uid: YamlDotNet.RepresentationModel.YamlDocument
+  commentId: T:YamlDotNet.RepresentationModel.YamlDocument
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlDocument.html
+  name: YamlDocument
+  nameWithType: YamlDocument
+  fullName: YamlDotNet.RepresentationModel.YamlDocument
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlMappingNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html
+  name: YamlMappingNode
+  nameWithType: YamlMappingNode
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode
+- uid: YamlDotNet.RepresentationModel.YamlNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNode.html
+  name: YamlNode
+  nameWithType: YamlNode
+  fullName: YamlDotNet.RepresentationModel.YamlNode
+- uid: YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer
+  commentId: T:YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer.html
+  name: YamlNodeIdentityEqualityComparer
+  nameWithType: YamlNodeIdentityEqualityComparer
+  fullName: YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer
+- uid: YamlDotNet.RepresentationModel.YamlNodeType
+  commentId: T:YamlDotNet.RepresentationModel.YamlNodeType
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlNodeType.html
+  name: YamlNodeType
+  nameWithType: YamlNodeType
+  fullName: YamlDotNet.RepresentationModel.YamlNodeType
+- uid: YamlDotNet.RepresentationModel.YamlScalarNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlScalarNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlScalarNode.html
+  name: YamlScalarNode
+  nameWithType: YamlScalarNode
+  fullName: YamlDotNet.RepresentationModel.YamlScalarNode
+- uid: YamlDotNet.RepresentationModel.YamlSequenceNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlSequenceNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlSequenceNode.html
+  name: YamlSequenceNode
+  nameWithType: YamlSequenceNode
+  fullName: YamlDotNet.RepresentationModel.YamlSequenceNode
+- uid: YamlDotNet.RepresentationModel.YamlStream
+  commentId: T:YamlDotNet.RepresentationModel.YamlStream
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlStream.html
+  name: YamlStream
+  nameWithType: YamlStream
+  fullName: YamlDotNet.RepresentationModel.YamlStream
+- uid: YamlDotNet.RepresentationModel.YamlVisitor
+  commentId: T:YamlDotNet.RepresentationModel.YamlVisitor
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlVisitor.html
+  name: YamlVisitor
+  nameWithType: YamlVisitor
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor
+- uid: YamlDotNet.RepresentationModel.YamlVisitorBase
+  commentId: T:YamlDotNet.RepresentationModel.YamlVisitorBase
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlVisitorBase.html
+  name: YamlVisitorBase
+  nameWithType: YamlVisitorBase
+  fullName: YamlDotNet.RepresentationModel.YamlVisitorBase
+- uid: YamlDotNet.RepresentationModel
+  commentId: N:YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.RepresentationModel
+  nameWithType: YamlDotNet.RepresentationModel
+  fullName: YamlDotNet.RepresentationModel
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html

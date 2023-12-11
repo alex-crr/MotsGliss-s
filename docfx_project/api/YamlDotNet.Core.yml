@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  id: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.AnchorName
+  - YamlDotNet.Core.AnchorNotFoundException
+  - YamlDotNet.Core.Constants
+  - YamlDotNet.Core.Cursor
+  - YamlDotNet.Core.Emitter
+  - YamlDotNet.Core.EmitterSettings
+  - YamlDotNet.Core.ForwardAnchorNotSupportedException
+  - YamlDotNet.Core.IEmitter
+  - YamlDotNet.Core.IParser
+  - YamlDotNet.Core.IScanner
+  - YamlDotNet.Core.InsertionQueue`1
+  - YamlDotNet.Core.LookAheadBuffer
+  - YamlDotNet.Core.Mark
+  - YamlDotNet.Core.MaximumRecursionLevelReachedException
+  - YamlDotNet.Core.MergingParser
+  - YamlDotNet.Core.Parser
+  - YamlDotNet.Core.ParserExtensions
+  - YamlDotNet.Core.ScalarStyle
+  - YamlDotNet.Core.Scanner
+  - YamlDotNet.Core.SemanticErrorException
+  - YamlDotNet.Core.SyntaxErrorException
+  - YamlDotNet.Core.TagDirectiveCollection
+  - YamlDotNet.Core.TagName
+  - YamlDotNet.Core.Version
+  - YamlDotNet.Core.YamlException
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Core.AnchorName
+  commentId: T:YamlDotNet.Core.AnchorName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.AnchorName.html
+  name: AnchorName
+  nameWithType: AnchorName
+  fullName: YamlDotNet.Core.AnchorName
+- uid: YamlDotNet.Core.AnchorNotFoundException
+  commentId: T:YamlDotNet.Core.AnchorNotFoundException
+  isExternal: true
+  href: YamlDotNet.Core.AnchorNotFoundException.html
+  name: AnchorNotFoundException
+  nameWithType: AnchorNotFoundException
+  fullName: YamlDotNet.Core.AnchorNotFoundException
+- uid: YamlDotNet.Core.Constants
+  commentId: T:YamlDotNet.Core.Constants
+  isExternal: true
+  href: YamlDotNet.Core.Constants.html
+  name: Constants
+  nameWithType: Constants
+  fullName: YamlDotNet.Core.Constants
+- uid: YamlDotNet.Core.Cursor
+  commentId: T:YamlDotNet.Core.Cursor
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.Cursor.html
+  name: Cursor
+  nameWithType: Cursor
+  fullName: YamlDotNet.Core.Cursor
+- uid: YamlDotNet.Core.Emitter
+  commentId: T:YamlDotNet.Core.Emitter
+  isExternal: true
+  href: YamlDotNet.Core.Emitter.html
+  name: Emitter
+  nameWithType: Emitter
+  fullName: YamlDotNet.Core.Emitter
+- uid: YamlDotNet.Core.EmitterSettings
+  commentId: T:YamlDotNet.Core.EmitterSettings
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.EmitterSettings.html
+  name: EmitterSettings
+  nameWithType: EmitterSettings
+  fullName: YamlDotNet.Core.EmitterSettings
+- uid: YamlDotNet.Core.ForwardAnchorNotSupportedException
+  commentId: T:YamlDotNet.Core.ForwardAnchorNotSupportedException
+  isExternal: true
+  href: YamlDotNet.Core.ForwardAnchorNotSupportedException.html
+  name: ForwardAnchorNotSupportedException
+  nameWithType: ForwardAnchorNotSupportedException
+  fullName: YamlDotNet.Core.ForwardAnchorNotSupportedException
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter
+- uid: YamlDotNet.Core.InsertionQueue`1
+  commentId: T:YamlDotNet.Core.InsertionQueue`1
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html
+  name: InsertionQueue<T>
+  nameWithType: InsertionQueue<T>
+  fullName: YamlDotNet.Core.InsertionQueue<T>
+  nameWithType.vb: InsertionQueue(Of T)
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T)
+  name.vb: InsertionQueue(Of T)
+  spec.csharp:
+  - uid: YamlDotNet.Core.InsertionQueue`1
+    name: InsertionQueue
+    isExternal: true
+    href: YamlDotNet.Core.InsertionQueue-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Core.InsertionQueue`1
+    name: InsertionQueue
+    isExternal: true
+    href: YamlDotNet.Core.InsertionQueue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: YamlDotNet.Core.IScanner
+  commentId: T:YamlDotNet.Core.IScanner
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IScanner.html
+  name: IScanner
+  nameWithType: IScanner
+  fullName: YamlDotNet.Core.IScanner
+- uid: YamlDotNet.Core.LookAheadBuffer
+  commentId: T:YamlDotNet.Core.LookAheadBuffer
+  isExternal: true
+  href: YamlDotNet.Core.LookAheadBuffer.html
+  name: LookAheadBuffer
+  nameWithType: LookAheadBuffer
+  fullName: YamlDotNet.Core.LookAheadBuffer
+- uid: YamlDotNet.Core.Mark
+  commentId: T:YamlDotNet.Core.Mark
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.Mark.html
+  name: Mark
+  nameWithType: Mark
+  fullName: YamlDotNet.Core.Mark
+- uid: YamlDotNet.Core.MaximumRecursionLevelReachedException
+  commentId: T:YamlDotNet.Core.MaximumRecursionLevelReachedException
+  isExternal: true
+  href: YamlDotNet.Core.MaximumRecursionLevelReachedException.html
+  name: MaximumRecursionLevelReachedException
+  nameWithType: MaximumRecursionLevelReachedException
+  fullName: YamlDotNet.Core.MaximumRecursionLevelReachedException
+- uid: YamlDotNet.Core.MergingParser
+  commentId: T:YamlDotNet.Core.MergingParser
+  isExternal: true
+  href: YamlDotNet.Core.MergingParser.html
+  name: MergingParser
+  nameWithType: MergingParser
+  fullName: YamlDotNet.Core.MergingParser
+- uid: YamlDotNet.Core.Parser
+  commentId: T:YamlDotNet.Core.Parser
+  isExternal: true
+  href: YamlDotNet.Core.Parser.html
+  name: Parser
+  nameWithType: Parser
+  fullName: YamlDotNet.Core.Parser
+- uid: YamlDotNet.Core.ParserExtensions
+  commentId: T:YamlDotNet.Core.ParserExtensions
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html
+  name: ParserExtensions
+  nameWithType: ParserExtensions
+  fullName: YamlDotNet.Core.ParserExtensions
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ScalarStyle.html
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core.Scanner
+  commentId: T:YamlDotNet.Core.Scanner
+  isExternal: true
+  href: YamlDotNet.Core.Scanner.html
+  name: Scanner
+  nameWithType: Scanner
+  fullName: YamlDotNet.Core.Scanner
+- uid: YamlDotNet.Core.SemanticErrorException
+  commentId: T:YamlDotNet.Core.SemanticErrorException
+  isExternal: true
+  href: YamlDotNet.Core.SemanticErrorException.html
+  name: SemanticErrorException
+  nameWithType: SemanticErrorException
+  fullName: YamlDotNet.Core.SemanticErrorException
+- uid: YamlDotNet.Core.SyntaxErrorException
+  commentId: T:YamlDotNet.Core.SyntaxErrorException
+  isExternal: true
+  href: YamlDotNet.Core.SyntaxErrorException.html
+  name: SyntaxErrorException
+  nameWithType: SyntaxErrorException
+  fullName: YamlDotNet.Core.SyntaxErrorException
+- uid: YamlDotNet.Core.TagDirectiveCollection
+  commentId: T:YamlDotNet.Core.TagDirectiveCollection
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.TagDirectiveCollection.html
+  name: TagDirectiveCollection
+  nameWithType: TagDirectiveCollection
+  fullName: YamlDotNet.Core.TagDirectiveCollection
+- uid: YamlDotNet.Core.TagName
+  commentId: T:YamlDotNet.Core.TagName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html
+  name: TagName
+  nameWithType: TagName
+  fullName: YamlDotNet.Core.TagName
+- uid: YamlDotNet.Core.Version
+  commentId: T:YamlDotNet.Core.Version
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.Version.html
+  name: Version
+  nameWithType: Version
+  fullName: YamlDotNet.Core.Version
+- uid: YamlDotNet.Core.YamlException
+  commentId: T:YamlDotNet.Core.YamlException
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.YamlException.html
+  name: YamlException
+  nameWithType: YamlException
+  fullName: YamlDotNet.Core.YamlException
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html

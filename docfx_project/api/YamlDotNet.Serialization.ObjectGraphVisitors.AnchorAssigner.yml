@@ -1,0 +1,1117 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  id: AnchorAssigner
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors
+  children:
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter})
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: AnchorAssigner
+  nameWithType: AnchorAssigner
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  syntax:
+    content: 'public sealed class AnchorAssigner : PreProcessingPhaseObjectGraphVisitorSkeleton, IObjectGraphVisitor<Nothing>, IAliasProvider'
+    content.vb: Public NotInheritable Class AnchorAssigner Inherits PreProcessingPhaseObjectGraphVisitorSkeleton Implements IObjectGraphVisitor(Of Nothing), IAliasProvider
+  inheritance:
+  - System.Object
+  - YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  implements:
+  - YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}
+  - YamlDotNet.Serialization.IAliasProvider
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter})
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter})
+  id: '#ctor(System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter})'
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: AnchorAssigner(IEnumerable<IYamlTypeConverter>)
+  nameWithType: AnchorAssigner.AnchorAssigner(IEnumerable<IYamlTypeConverter>)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.AnchorAssigner(System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  syntax:
+    content: public AnchorAssigner(IEnumerable<IYamlTypeConverter> typeConverters)
+    parameters:
+    - id: typeConverters
+      type: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+    content.vb: Public Sub New(typeConverters As IEnumerable(Of IYamlTypeConverter))
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.#ctor*
+  nameWithType.vb: AnchorAssigner.New(IEnumerable(Of IYamlTypeConverter))
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.New(System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter))
+  name.vb: New(IEnumerable(Of IYamlTypeConverter))
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  id: Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: Enter(IObjectDescriptor)
+  nameWithType: AnchorAssigner.Enter(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override bool Enter(IObjectDescriptor value)
+    parameters:
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function Enter(value As IObjectDescriptor) As Boolean
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  id: EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: EnterMapping(IObjectDescriptor, IObjectDescriptor)
+  nameWithType: AnchorAssigner.EnterMapping(IObjectDescriptor, IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectDescriptor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override bool EnterMapping(IObjectDescriptor key, IObjectDescriptor value)
+    parameters:
+    - id: key
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function EnterMapping(key As IObjectDescriptor, value As IObjectDescriptor) As Boolean
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  id: EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: EnterMapping(IPropertyDescriptor, IObjectDescriptor)
+  nameWithType: AnchorAssigner.EnterMapping(IPropertyDescriptor, IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor, YamlDotNet.Serialization.IObjectDescriptor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override bool EnterMapping(IPropertyDescriptor key, IObjectDescriptor value)
+    parameters:
+    - id: key
+      type: YamlDotNet.Serialization.IPropertyDescriptor
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function EnterMapping(key As IPropertyDescriptor, value As IObjectDescriptor) As Boolean
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  id: VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: VisitScalar(IObjectDescriptor)
+  nameWithType: AnchorAssigner.VisitScalar(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override void VisitScalar(IObjectDescriptor scalar)
+    parameters:
+    - id: scalar
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    content.vb: Protected Overrides Sub VisitScalar(scalar As IObjectDescriptor)
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  id: VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: VisitMappingStart(IObjectDescriptor, Type, Type)
+  nameWithType: AnchorAssigner.VisitMappingStart(IObjectDescriptor, Type, Type)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override void VisitMappingStart(IObjectDescriptor mapping, Type keyType, Type valueType)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: keyType
+      type: System.Type
+    - id: valueType
+      type: System.Type
+    content.vb: Protected Overrides Sub VisitMappingStart(mapping As IObjectDescriptor, keyType As Type, valueType As Type)
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  id: VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: VisitMappingEnd(IObjectDescriptor)
+  nameWithType: AnchorAssigner.VisitMappingEnd(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override void VisitMappingEnd(IObjectDescriptor mapping)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    content.vb: Protected Overrides Sub VisitMappingEnd(mapping As IObjectDescriptor)
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  id: VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: VisitSequenceStart(IObjectDescriptor, Type)
+  nameWithType: AnchorAssigner.VisitSequenceStart(IObjectDescriptor, Type)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override void VisitSequenceStart(IObjectDescriptor sequence, Type elementType)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: elementType
+      type: System.Type
+    content.vb: Protected Overrides Sub VisitSequenceStart(sequence As IObjectDescriptor, elementType As Type)
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart*
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  id: VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  langs:
+  - csharp
+  - vb
+  name: VisitSequenceEnd(IObjectDescriptor)
+  nameWithType: AnchorAssigner.VisitSequenceEnd(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphVisitors
+  example: []
+  syntax:
+    content: protected override void VisitSequenceEnd(IObjectDescriptor sequence)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    content.vb: Protected Overrides Sub VisitSequenceEnd(sequence As IObjectDescriptor)
+  overridden: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd*
+references:
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors
+  commentId: N:YamlDotNet.Serialization.ObjectGraphVisitors
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectGraphVisitors
+  nameWithType: YamlDotNet.Serialization.ObjectGraphVisitors
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors
+    name: ObjectGraphVisitors
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors
+    name: ObjectGraphVisitors
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html
+  name: PreProcessingPhaseObjectGraphVisitorSkeleton
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor{YamlDotNet.Serialization.Nothing}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<Nothing>
+  nameWithType: IObjectGraphVisitor<Nothing>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<YamlDotNet.Serialization.Nothing>
+  nameWithType.vb: IObjectGraphVisitor(Of Nothing)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of YamlDotNet.Serialization.Nothing)
+  name.vb: IObjectGraphVisitor(Of Nothing)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - uid: YamlDotNet.Serialization.Nothing
+    name: Nothing
+    isExternal: true
+    href: YamlDotNet.Serialization.Nothing.html
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.Nothing
+    name: Nothing
+    isExternal: true
+    href: YamlDotNet.Serialization.Nothing.html
+  - name: )
+- uid: YamlDotNet.Serialization.IAliasProvider
+  commentId: T:YamlDotNet.Serialization.IAliasProvider
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IAliasProvider.html
+  name: IAliasProvider
+  nameWithType: IAliasProvider
+  fullName: YamlDotNet.Serialization.IAliasProvider
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner__ctor_System_Collections_Generic_IEnumerable_YamlDotNet_Serialization_IYamlTypeConverter__
+  name: AnchorAssigner
+  nameWithType: AnchorAssigner.AnchorAssigner
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.AnchorAssigner
+  nameWithType.vb: AnchorAssigner.New
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.New
+  name.vb: New
+- uid: System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+  commentId: T:System.Collections.Generic.IEnumerable{YamlDotNet.Serialization.IYamlTypeConverter}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IYamlTypeConverter>
+  nameWithType: IEnumerable<IYamlTypeConverter>
+  fullName: System.Collections.Generic.IEnumerable<YamlDotNet.Serialization.IYamlTypeConverter>
+  nameWithType.vb: IEnumerable(Of IYamlTypeConverter)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of YamlDotNet.Serialization.IYamlTypeConverter)
+  name.vb: IEnumerable(Of IYamlTypeConverter)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.IYamlTypeConverter
+    name: IYamlTypeConverter
+    isExternal: true
+    href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_Enter_YamlDotNet_Serialization_IObjectDescriptor_
+  name: Enter(IObjectDescriptor)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+    name: Enter
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_Enter_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.Enter(YamlDotNet.Serialization.IObjectDescriptor)
+    name: Enter
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_Enter_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_Enter_YamlDotNet_Serialization_IObjectDescriptor_
+  name: Enter
+  nameWithType: AnchorAssigner.Enter
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.Enter
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_EnterMapping_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  name: EnterMapping(IObjectDescriptor, IObjectDescriptor)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(IObjectDescriptor, IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+    name: EnterMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_EnterMapping_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+    name: EnterMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_EnterMapping_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_EnterMapping_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  name: EnterMapping
+  nameWithType: AnchorAssigner.EnterMapping
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.EnterMapping
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_EnterMapping_YamlDotNet_Serialization_IPropertyDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  name: EnterMapping(IPropertyDescriptor, IObjectDescriptor)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(IPropertyDescriptor, IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor, YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+    name: EnterMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_EnterMapping_YamlDotNet_Serialization_IPropertyDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor
+    name: IPropertyDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor)
+    name: EnterMapping
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_EnterMapping_YamlDotNet_Serialization_IPropertyDescriptor_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor
+    name: IPropertyDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.IPropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.IPropertyDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html
+  name: IPropertyDescriptor
+  nameWithType: IPropertyDescriptor
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitScalar_YamlDotNet_Serialization_IObjectDescriptor_
+  name: VisitScalar(IObjectDescriptor)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+    name: VisitScalar
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitScalar_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor)
+    name: VisitScalar
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitScalar_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_VisitScalar_YamlDotNet_Serialization_IObjectDescriptor_
+  name: VisitScalar
+  nameWithType: AnchorAssigner.VisitScalar
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitScalar
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitMappingStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_System_Type_
+  name: VisitMappingStart(IObjectDescriptor, Type, Type)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(IObjectDescriptor, Type, Type)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type, System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+    name: VisitMappingStart
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitMappingStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_System_Type_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type)
+    name: VisitMappingStart
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitMappingStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_System_Type_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_VisitMappingStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_System_Type_
+  name: VisitMappingStart
+  nameWithType: AnchorAssigner.VisitMappingStart
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingStart
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitMappingEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  name: VisitMappingEnd(IObjectDescriptor)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+    name: VisitMappingEnd
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitMappingEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor)
+    name: VisitMappingEnd
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitMappingEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_VisitMappingEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  name: VisitMappingEnd
+  nameWithType: AnchorAssigner.VisitMappingEnd
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitMappingEnd
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitSequenceStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_
+  name: VisitSequenceStart(IObjectDescriptor, Type)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(IObjectDescriptor, Type)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+    name: VisitSequenceStart
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitSequenceStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type)
+    name: VisitSequenceStart
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitSequenceStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: ','
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.type
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_VisitSequenceStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_
+  name: VisitSequenceStart
+  nameWithType: AnchorAssigner.VisitSequenceStart
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceStart
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitSequenceEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  name: VisitSequenceEnd(IObjectDescriptor)
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+    name: VisitSequenceEnd
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitSequenceEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor)
+    name: VisitSequenceEnd
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html#YamlDotNet_Serialization_ObjectGraphVisitors_PreProcessingPhaseObjectGraphVisitorSkeleton_VisitSequenceEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  - name: (
+  - uid: YamlDotNet.Serialization.IObjectDescriptor
+    name: IObjectDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectDescriptor.html
+  - name: )
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html#YamlDotNet_Serialization_ObjectGraphVisitors_AnchorAssigner_VisitSequenceEnd_YamlDotNet_Serialization_IObjectDescriptor_
+  name: VisitSequenceEnd
+  nameWithType: AnchorAssigner.VisitSequenceEnd
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.VisitSequenceEnd

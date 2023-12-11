@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.INamingConvention
+  commentId: T:YamlDotNet.Serialization.INamingConvention
+  id: INamingConvention
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+  langs:
+  - csharp
+  - vb
+  name: INamingConvention
+  nameWithType: INamingConvention
+  fullName: YamlDotNet.Serialization.INamingConvention
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface INamingConvention
+    content.vb: Public Interface INamingConvention
+- uid: YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+  commentId: M:YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+  id: Apply(System.String)
+  parent: YamlDotNet.Serialization.INamingConvention
+  langs:
+  - csharp
+  - vb
+  name: Apply(string)
+  nameWithType: INamingConvention.Apply(string)
+  fullName: YamlDotNet.Serialization.INamingConvention.Apply(string)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: string Apply(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function Apply(value As String) As String
+  overload: YamlDotNet.Serialization.INamingConvention.Apply*
+  nameWithType.vb: INamingConvention.Apply(String)
+  fullName.vb: YamlDotNet.Serialization.INamingConvention.Apply(String)
+  name.vb: Apply(String)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.INamingConvention.Apply*
+  commentId: Overload:YamlDotNet.Serialization.INamingConvention.Apply
+  isExternal: true
+  href: YamlDotNet.Serialization.INamingConvention.html#YamlDotNet_Serialization_INamingConvention_Apply_System_String_
+  name: Apply
+  nameWithType: INamingConvention.Apply
+  fullName: YamlDotNet.Serialization.INamingConvention.Apply
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

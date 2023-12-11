@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  id: FullObjectGraphTraversalStrategy.ObjectPathSegment
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  children:
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.#ctor(System.Object,YamlDotNet.Serialization.IObjectDescriptor)
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Name
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Value
+  langs:
+  - csharp
+  - vb
+  name: FullObjectGraphTraversalStrategy.ObjectPathSegment
+  nameWithType: FullObjectGraphTraversalStrategy.ObjectPathSegment
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  type: Struct
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: protected struct FullObjectGraphTraversalStrategy.ObjectPathSegment
+    content.vb: Protected Structure FullObjectGraphTraversalStrategy.ObjectPathSegment
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Name
+  commentId: F:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Name
+  id: Name
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FullObjectGraphTraversalStrategy.ObjectPathSegment.Name
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Name
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: public readonly object Name
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Name As Object
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Value
+  commentId: F:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Value
+  id: Value
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: FullObjectGraphTraversalStrategy.ObjectPathSegment.Value
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.Value
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: public readonly IObjectDescriptor Value
+    return:
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    content.vb: Public ReadOnly Value As IObjectDescriptor
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.#ctor(System.Object,YamlDotNet.Serialization.IObjectDescriptor)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.#ctor(System.Object,YamlDotNet.Serialization.IObjectDescriptor)
+  id: '#ctor(System.Object,YamlDotNet.Serialization.IObjectDescriptor)'
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+  langs:
+  - csharp
+  - vb
+  name: ObjectPathSegment(object, IObjectDescriptor)
+  nameWithType: FullObjectGraphTraversalStrategy.ObjectPathSegment.ObjectPathSegment(object, IObjectDescriptor)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.ObjectPathSegment(object, YamlDotNet.Serialization.IObjectDescriptor)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: public ObjectPathSegment(object name, IObjectDescriptor value)
+    parameters:
+    - id: name
+      type: System.Object
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    content.vb: Public Sub New(name As Object, value As IObjectDescriptor)
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.#ctor*
+  nameWithType.vb: FullObjectGraphTraversalStrategy.ObjectPathSegment.New(Object, IObjectDescriptor)
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.New(Object, YamlDotNet.Serialization.IObjectDescriptor)
+  name.vb: New(Object, IObjectDescriptor)
+references:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  commentId: N:YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  nameWithType: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+    name: ObjectGraphTraversalStrategies
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+    name: ObjectGraphTraversalStrategies
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_ObjectPathSegment__ctor_System_Object_YamlDotNet_Serialization_IObjectDescriptor_
+  name: ObjectPathSegment
+  nameWithType: FullObjectGraphTraversalStrategy.ObjectPathSegment.ObjectPathSegment
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.ObjectPathSegment
+  nameWithType.vb: FullObjectGraphTraversalStrategy.ObjectPathSegment.New
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.New
+  name.vb: New

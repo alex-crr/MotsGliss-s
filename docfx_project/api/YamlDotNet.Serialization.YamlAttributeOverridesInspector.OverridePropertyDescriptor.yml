@@ -1,0 +1,882 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  id: YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.#ctor(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.YamlAttributeOverrides,System.Type)
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute``1
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(System.Object)
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(System.Object,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public sealed class YamlAttributeOverridesInspector.OverridePropertyDescriptor : IPropertyDescriptor'
+    content.vb: Public NotInheritable Class YamlAttributeOverridesInspector.OverridePropertyDescriptor Implements IPropertyDescriptor
+  inheritance:
+  - System.Object
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.#ctor(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.YamlAttributeOverrides,System.Type)
+  commentId: M:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.#ctor(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.YamlAttributeOverrides,System.Type)
+  id: '#ctor(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.YamlAttributeOverrides,System.Type)'
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: OverridePropertyDescriptor(IPropertyDescriptor, YamlAttributeOverrides, Type)
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.OverridePropertyDescriptor(IPropertyDescriptor, YamlAttributeOverrides, Type)
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.OverridePropertyDescriptor(YamlDotNet.Serialization.IPropertyDescriptor, YamlDotNet.Serialization.YamlAttributeOverrides, System.Type)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public OverridePropertyDescriptor(IPropertyDescriptor baseDescriptor, YamlAttributeOverrides overrides, Type classType)
+    parameters:
+    - id: baseDescriptor
+      type: YamlDotNet.Serialization.IPropertyDescriptor
+    - id: overrides
+      type: YamlDotNet.Serialization.YamlAttributeOverrides
+    - id: classType
+      type: System.Type
+    content.vb: Public Sub New(baseDescriptor As IPropertyDescriptor, [overrides] As YamlAttributeOverrides, classType As Type)
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.#ctor*
+  nameWithType.vb: YamlAttributeOverridesInspector.OverridePropertyDescriptor.New(IPropertyDescriptor, YamlAttributeOverrides, Type)
+  fullName.vb: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.New(YamlDotNet.Serialization.IPropertyDescriptor, YamlDotNet.Serialization.YamlAttributeOverrides, System.Type)
+  name.vb: New(IPropertyDescriptor, YamlAttributeOverrides, Type)
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(System.Object,System.Object)
+  commentId: M:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(System.Object,System.Object)
+  id: Write(System.Object,System.Object)
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Write(object, object?)
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(object, object?)
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(object, object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public void Write(object target, object? value)
+    parameters:
+    - id: target
+      type: System.Object
+    - id: value
+      type: System.Object
+    content.vb: Public Sub Write(target As Object, value As Object)
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.Write(System.Object,System.Object)
+  nameWithType.vb: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(Object, Object)
+  fullName.vb: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write(Object, Object)
+  name.vb: Write(Object, Object)
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute``1
+  commentId: M:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute``1
+  id: GetCustomAttribute``1
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: GetCustomAttribute<T>()
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute<T>()
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute<T>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: 'public T? GetCustomAttribute<T>() where T : Attribute'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetCustomAttribute(Of T As Attribute)() As T
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute``1
+  nameWithType.vb: YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute(Of T)()
+  fullName.vb: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute(Of T)()
+  name.vb: GetCustomAttribute(Of T)()
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(System.Object)
+  commentId: M:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(System.Object)
+  id: Read(System.Object)
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Read(object)
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(object)
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public IObjectDescriptor Read(object target)
+    parameters:
+    - id: target
+      type: System.Object
+    return:
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    content.vb: Public Function Read(target As Object) As IObjectDescriptor
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.Read(System.Object)
+  nameWithType.vb: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(Object)
+  fullName.vb: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read(Object)
+  name.vb: Read(Object)
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  commentId: P:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  id: Name
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.Name
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  commentId: P:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  id: CanWrite
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: CanWrite
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public bool CanWrite { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CanWrite As Boolean
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.CanWrite
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  commentId: P:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  id: Type
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public Type Type { get; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public ReadOnly Property Type As Type
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.Type
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  commentId: P:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  id: TypeOverride
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: TypeOverride
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public Type? TypeOverride { get; set; }
+    parameters: []
+    return:
+      type: System.Type
+    content.vb: Public Property TypeOverride As Type
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.TypeOverride
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  commentId: P:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  id: Order
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public int Order { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Order As Integer
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.Order
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  commentId: P:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  id: ScalarStyle
+  parent: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  langs:
+  - csharp
+  - vb
+  name: ScalarStyle
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  example: []
+  syntax:
+    content: public ScalarStyle ScalarStyle { get; set; }
+    parameters: []
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+    content.vb: Public Property ScalarStyle As ScalarStyle
+  overload: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle*
+  implements:
+  - YamlDotNet.Serialization.IPropertyDescriptor.ScalarStyle
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.IPropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.IPropertyDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html
+  name: IPropertyDescriptor
+  nameWithType: IPropertyDescriptor
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor__ctor_YamlDotNet_Serialization_IPropertyDescriptor_YamlDotNet_Serialization_YamlAttributeOverrides_System_Type_
+  name: OverridePropertyDescriptor
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.OverridePropertyDescriptor
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.OverridePropertyDescriptor
+  nameWithType.vb: YamlAttributeOverridesInspector.OverridePropertyDescriptor.New
+  fullName.vb: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.YamlAttributeOverrides
+  commentId: T:YamlDotNet.Serialization.YamlAttributeOverrides
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverrides.html
+  name: YamlAttributeOverrides
+  nameWithType: YamlAttributeOverrides
+  fullName: YamlDotNet.Serialization.YamlAttributeOverrides
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_Write_System_Object_System_Object_
+  name: Write
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Write
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.Write(System.Object,System.Object)
+  commentId: M:YamlDotNet.Serialization.IPropertyDescriptor.Write(System.Object,System.Object)
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Write_System_Object_System_Object_
+  name: Write(object, object)
+  nameWithType: IPropertyDescriptor.Write(object, object)
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.Write(object, object)
+  nameWithType.vb: IPropertyDescriptor.Write(Object, Object)
+  fullName.vb: YamlDotNet.Serialization.IPropertyDescriptor.Write(Object, Object)
+  name.vb: Write(Object, Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor.Write(System.Object,System.Object)
+    name: Write
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Write_System_Object_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor.Write(System.Object,System.Object)
+    name: Write
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Write_System_Object_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_GetCustomAttribute__1
+  name: GetCustomAttribute
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.GetCustomAttribute
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute``1
+  commentId: M:YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute``1
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_GetCustomAttribute__1
+  name: GetCustomAttribute<T>()
+  nameWithType: IPropertyDescriptor.GetCustomAttribute<T>()
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute<T>()
+  nameWithType.vb: IPropertyDescriptor.GetCustomAttribute(Of T)()
+  fullName.vb: YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute(Of T)()
+  name.vb: GetCustomAttribute(Of T)()
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute``1
+    name: GetCustomAttribute
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_GetCustomAttribute__1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor.GetCustomAttribute``1
+    name: GetCustomAttribute
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_GetCustomAttribute__1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_Read_System_Object_
+  name: Read
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Read
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.Read(System.Object)
+  commentId: M:YamlDotNet.Serialization.IPropertyDescriptor.Read(System.Object)
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Read_System_Object_
+  name: Read(object)
+  nameWithType: IPropertyDescriptor.Read(object)
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.Read(object)
+  nameWithType.vb: IPropertyDescriptor.Read(Object)
+  fullName.vb: YamlDotNet.Serialization.IPropertyDescriptor.Read(Object)
+  name.vb: Read(Object)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor.Read(System.Object)
+    name: Read
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Read_System_Object_
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IPropertyDescriptor.Read(System.Object)
+    name: Read
+    isExternal: true
+    href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Read_System_Object_
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_Name
+  name: Name
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Name
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.Name
+  commentId: P:YamlDotNet.Serialization.IPropertyDescriptor.Name
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Name
+  name: Name
+  nameWithType: IPropertyDescriptor.Name
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_CanWrite
+  name: CanWrite
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.CanWrite
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.CanWrite
+  commentId: P:YamlDotNet.Serialization.IPropertyDescriptor.CanWrite
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_CanWrite
+  name: CanWrite
+  nameWithType: IPropertyDescriptor.CanWrite
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.CanWrite
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_Type
+  name: Type
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Type
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.Type
+  commentId: P:YamlDotNet.Serialization.IPropertyDescriptor.Type
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Type
+  name: Type
+  nameWithType: IPropertyDescriptor.Type
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.Type
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_TypeOverride
+  name: TypeOverride
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.TypeOverride
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.TypeOverride
+  commentId: P:YamlDotNet.Serialization.IPropertyDescriptor.TypeOverride
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_TypeOverride
+  name: TypeOverride
+  nameWithType: IPropertyDescriptor.TypeOverride
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.TypeOverride
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_Order
+  name: Order
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.Order
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.Order
+  commentId: P:YamlDotNet.Serialization.IPropertyDescriptor.Order
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_Order
+  name: Order
+  nameWithType: IPropertyDescriptor.Order
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.Order
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle*
+  commentId: Overload:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html#YamlDotNet_Serialization_YamlAttributeOverridesInspector_OverridePropertyDescriptor_ScalarStyle
+  name: ScalarStyle
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.ScalarStyle
+- uid: YamlDotNet.Serialization.IPropertyDescriptor.ScalarStyle
+  commentId: P:YamlDotNet.Serialization.IPropertyDescriptor.ScalarStyle
+  parent: YamlDotNet.Serialization.IPropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html#YamlDotNet_Serialization_IPropertyDescriptor_ScalarStyle
+  name: ScalarStyle
+  nameWithType: IPropertyDescriptor.ScalarStyle
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor.ScalarStyle
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ScalarStyle.html
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html

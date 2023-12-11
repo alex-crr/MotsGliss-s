@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors
+  commentId: N:YamlDotNet.Serialization.ObjectGraphVisitors
+  id: YamlDotNet.Serialization.ObjectGraphVisitors
+  children:
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  - YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  - YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.ObjectGraphVisitors
+  nameWithType: YamlDotNet.Serialization.ObjectGraphVisitors
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html
+  name: AnchorAssigner
+  nameWithType: AnchorAssigner
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor.html
+  name: AnchorAssigningObjectGraphVisitor
+  nameWithType: AnchorAssigningObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor.html
+  name: ChainedObjectGraphVisitor
+  nameWithType: ChainedObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor.html
+  name: CommentsObjectGraphVisitor
+  nameWithType: CommentsObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor.html
+  name: CustomSerializationObjectGraphVisitor
+  nameWithType: CustomSerializationObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor.html
+  name: DefaultExclusiveObjectGraphVisitor
+  nameWithType: DefaultExclusiveObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor.html
+  name: DefaultValuesObjectGraphVisitor
+  nameWithType: DefaultValuesObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.html
+  name: EmittingObjectGraphVisitor
+  nameWithType: EmittingObjectGraphVisitor
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  commentId: T:YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+  parent: YamlDotNet.Serialization.ObjectGraphVisitors
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html
+  name: PreProcessingPhaseObjectGraphVisitorSkeleton
+  nameWithType: PreProcessingPhaseObjectGraphVisitorSkeleton
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton
+- uid: YamlDotNet.Serialization.ObjectGraphVisitors
+  commentId: N:YamlDotNet.Serialization.ObjectGraphVisitors
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectGraphVisitors
+  nameWithType: YamlDotNet.Serialization.ObjectGraphVisitors
+  fullName: YamlDotNet.Serialization.ObjectGraphVisitors
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors
+    name: ObjectGraphVisitors
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphVisitors
+    name: ObjectGraphVisitors
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphVisitors.html

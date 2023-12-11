@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.TypeResolvers
+  commentId: N:YamlDotNet.Serialization.TypeResolvers
+  id: YamlDotNet.Serialization.TypeResolvers
+  children:
+  - YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver
+  - YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.TypeResolvers
+  nameWithType: YamlDotNet.Serialization.TypeResolvers
+  fullName: YamlDotNet.Serialization.TypeResolvers
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver
+  commentId: T:YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver.html
+  name: DynamicTypeResolver
+  nameWithType: DynamicTypeResolver
+  fullName: YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver
+- uid: YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver
+  commentId: T:YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver
+  isExternal: true
+  href: YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver.html
+  name: StaticTypeResolver
+  nameWithType: StaticTypeResolver
+  fullName: YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver

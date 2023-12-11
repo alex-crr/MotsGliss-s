@@ -1,0 +1,873 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Events.Scalar
+  commentId: T:YamlDotNet.Core.Events.Scalar
+  id: Scalar
+  parent: YamlDotNet.Core.Events
+  children:
+  - YamlDotNet.Core.Events.Scalar.#ctor(System.String)
+  - YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String)
+  - YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean)
+  - YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean,YamlDotNet.Core.Mark,YamlDotNet.Core.Mark,System.Boolean)
+  - YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.TagName,System.String)
+  - YamlDotNet.Core.Events.Scalar.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  - YamlDotNet.Core.Events.Scalar.IsCanonical
+  - YamlDotNet.Core.Events.Scalar.IsKey
+  - YamlDotNet.Core.Events.Scalar.IsPlainImplicit
+  - YamlDotNet.Core.Events.Scalar.IsQuotedImplicit
+  - YamlDotNet.Core.Events.Scalar.Style
+  - YamlDotNet.Core.Events.Scalar.ToString
+  - YamlDotNet.Core.Events.Scalar.Value
+  langs:
+  - csharp
+  - vb
+  name: Scalar
+  nameWithType: Scalar
+  fullName: YamlDotNet.Core.Events.Scalar
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: 'public sealed class Scalar : NodeEvent'
+    content.vb: Public NotInheritable Class Scalar Inherits NodeEvent
+  inheritance:
+  - System.Object
+  - YamlDotNet.Core.Events.ParsingEvent
+  - YamlDotNet.Core.Events.NodeEvent
+  inheritedMembers:
+  - YamlDotNet.Core.Events.NodeEvent.Anchor
+  - YamlDotNet.Core.Events.NodeEvent.Tag
+  - YamlDotNet.Core.Events.ParsingEvent.NestingIncrease
+  - YamlDotNet.Core.Events.ParsingEvent.Start
+  - YamlDotNet.Core.Events.ParsingEvent.End
+  - System.Object.GetType
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean,YamlDotNet.Core.Mark,YamlDotNet.Core.Mark,System.Boolean)
+  commentId: M:YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean,YamlDotNet.Core.Mark,YamlDotNet.Core.Mark,System.Boolean)
+  id: '#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean,YamlDotNet.Core.Mark,YamlDotNet.Core.Mark,System.Boolean)'
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Scalar(AnchorName, TagName, string, ScalarStyle, bool, bool, Mark, Mark, bool)
+  nameWithType: Scalar.Scalar(AnchorName, TagName, string, ScalarStyle, bool, bool, Mark, Mark, bool)
+  fullName: YamlDotNet.Core.Events.Scalar.Scalar(YamlDotNet.Core.AnchorName, YamlDotNet.Core.TagName, string, YamlDotNet.Core.ScalarStyle, bool, bool, YamlDotNet.Core.Mark, YamlDotNet.Core.Mark, bool)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public Scalar(AnchorName anchor, TagName tag, string value, ScalarStyle style, bool isPlainImplicit, bool isQuotedImplicit, Mark start, Mark end, bool isKey = false)
+    parameters:
+    - id: anchor
+      type: YamlDotNet.Core.AnchorName
+    - id: tag
+      type: YamlDotNet.Core.TagName
+    - id: value
+      type: System.String
+    - id: style
+      type: YamlDotNet.Core.ScalarStyle
+    - id: isPlainImplicit
+      type: System.Boolean
+    - id: isQuotedImplicit
+      type: System.Boolean
+    - id: start
+      type: YamlDotNet.Core.Mark
+    - id: end
+      type: YamlDotNet.Core.Mark
+    - id: isKey
+      type: System.Boolean
+    content.vb: Public Sub New(anchor As AnchorName, tag As TagName, value As String, style As ScalarStyle, isPlainImplicit As Boolean, isQuotedImplicit As Boolean, start As Mark, [end] As Mark, isKey As Boolean = False)
+  overload: YamlDotNet.Core.Events.Scalar.#ctor*
+  nameWithType.vb: Scalar.New(AnchorName, TagName, String, ScalarStyle, Boolean, Boolean, Mark, Mark, Boolean)
+  fullName.vb: YamlDotNet.Core.Events.Scalar.New(YamlDotNet.Core.AnchorName, YamlDotNet.Core.TagName, String, YamlDotNet.Core.ScalarStyle, Boolean, Boolean, YamlDotNet.Core.Mark, YamlDotNet.Core.Mark, Boolean)
+  name.vb: New(AnchorName, TagName, String, ScalarStyle, Boolean, Boolean, Mark, Mark, Boolean)
+- uid: YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean)
+  commentId: M:YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean)
+  id: '#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String,YamlDotNet.Core.ScalarStyle,System.Boolean,System.Boolean)'
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Scalar(AnchorName, TagName, string, ScalarStyle, bool, bool)
+  nameWithType: Scalar.Scalar(AnchorName, TagName, string, ScalarStyle, bool, bool)
+  fullName: YamlDotNet.Core.Events.Scalar.Scalar(YamlDotNet.Core.AnchorName, YamlDotNet.Core.TagName, string, YamlDotNet.Core.ScalarStyle, bool, bool)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public Scalar(AnchorName anchor, TagName tag, string value, ScalarStyle style, bool isPlainImplicit, bool isQuotedImplicit)
+    parameters:
+    - id: anchor
+      type: YamlDotNet.Core.AnchorName
+    - id: tag
+      type: YamlDotNet.Core.TagName
+    - id: value
+      type: System.String
+    - id: style
+      type: YamlDotNet.Core.ScalarStyle
+    - id: isPlainImplicit
+      type: System.Boolean
+    - id: isQuotedImplicit
+      type: System.Boolean
+    content.vb: Public Sub New(anchor As AnchorName, tag As TagName, value As String, style As ScalarStyle, isPlainImplicit As Boolean, isQuotedImplicit As Boolean)
+  overload: YamlDotNet.Core.Events.Scalar.#ctor*
+  nameWithType.vb: Scalar.New(AnchorName, TagName, String, ScalarStyle, Boolean, Boolean)
+  fullName.vb: YamlDotNet.Core.Events.Scalar.New(YamlDotNet.Core.AnchorName, YamlDotNet.Core.TagName, String, YamlDotNet.Core.ScalarStyle, Boolean, Boolean)
+  name.vb: New(AnchorName, TagName, String, ScalarStyle, Boolean, Boolean)
+- uid: YamlDotNet.Core.Events.Scalar.#ctor(System.String)
+  commentId: M:YamlDotNet.Core.Events.Scalar.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Scalar(string)
+  nameWithType: Scalar.Scalar(string)
+  fullName: YamlDotNet.Core.Events.Scalar.Scalar(string)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public Scalar(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(value As String)
+  overload: YamlDotNet.Core.Events.Scalar.#ctor*
+  nameWithType.vb: Scalar.New(String)
+  fullName.vb: YamlDotNet.Core.Events.Scalar.New(String)
+  name.vb: New(String)
+- uid: YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.TagName,System.String)
+  commentId: M:YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.TagName,System.String)
+  id: '#ctor(YamlDotNet.Core.TagName,System.String)'
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Scalar(TagName, string)
+  nameWithType: Scalar.Scalar(TagName, string)
+  fullName: YamlDotNet.Core.Events.Scalar.Scalar(YamlDotNet.Core.TagName, string)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public Scalar(TagName tag, string value)
+    parameters:
+    - id: tag
+      type: YamlDotNet.Core.TagName
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(tag As TagName, value As String)
+  overload: YamlDotNet.Core.Events.Scalar.#ctor*
+  nameWithType.vb: Scalar.New(TagName, String)
+  fullName.vb: YamlDotNet.Core.Events.Scalar.New(YamlDotNet.Core.TagName, String)
+  name.vb: New(TagName, String)
+- uid: YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String)
+  commentId: M:YamlDotNet.Core.Events.Scalar.#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String)
+  id: '#ctor(YamlDotNet.Core.AnchorName,YamlDotNet.Core.TagName,System.String)'
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Scalar(AnchorName, TagName, string)
+  nameWithType: Scalar.Scalar(AnchorName, TagName, string)
+  fullName: YamlDotNet.Core.Events.Scalar.Scalar(YamlDotNet.Core.AnchorName, YamlDotNet.Core.TagName, string)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public Scalar(AnchorName anchor, TagName tag, string value)
+    parameters:
+    - id: anchor
+      type: YamlDotNet.Core.AnchorName
+    - id: tag
+      type: YamlDotNet.Core.TagName
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(anchor As AnchorName, tag As TagName, value As String)
+  overload: YamlDotNet.Core.Events.Scalar.#ctor*
+  nameWithType.vb: Scalar.New(AnchorName, TagName, String)
+  fullName.vb: YamlDotNet.Core.Events.Scalar.New(YamlDotNet.Core.AnchorName, YamlDotNet.Core.TagName, String)
+  name.vb: New(AnchorName, TagName, String)
+- uid: YamlDotNet.Core.Events.Scalar.ToString
+  commentId: M:YamlDotNet.Core.Events.Scalar.ToString
+  id: ToString
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Scalar.ToString()
+  fullName: YamlDotNet.Core.Events.Scalar.ToString()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: YamlDotNet.Core.Events.Scalar.ToString*
+- uid: YamlDotNet.Core.Events.Scalar.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  commentId: M:YamlDotNet.Core.Events.Scalar.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  id: Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Accept(IParsingEventVisitor)
+  nameWithType: Scalar.Accept(IParsingEventVisitor)
+  fullName: YamlDotNet.Core.Events.Scalar.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  example: []
+  syntax:
+    content: public override void Accept(IParsingEventVisitor visitor)
+    parameters:
+    - id: visitor
+      type: YamlDotNet.Core.Events.IParsingEventVisitor
+    content.vb: Public Overrides Sub Accept(visitor As IParsingEventVisitor)
+  overridden: YamlDotNet.Core.Events.ParsingEvent.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  overload: YamlDotNet.Core.Events.Scalar.Accept*
+- uid: YamlDotNet.Core.Events.Scalar.Value
+  commentId: P:YamlDotNet.Core.Events.Scalar.Value
+  id: Value
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Scalar.Value
+  fullName: YamlDotNet.Core.Events.Scalar.Value
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Value As String
+  overload: YamlDotNet.Core.Events.Scalar.Value*
+- uid: YamlDotNet.Core.Events.Scalar.Style
+  commentId: P:YamlDotNet.Core.Events.Scalar.Style
+  id: Style
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: Style
+  nameWithType: Scalar.Style
+  fullName: YamlDotNet.Core.Events.Scalar.Style
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public ScalarStyle Style { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Core.ScalarStyle
+    content.vb: Public ReadOnly Property Style As ScalarStyle
+  overload: YamlDotNet.Core.Events.Scalar.Style*
+- uid: YamlDotNet.Core.Events.Scalar.IsPlainImplicit
+  commentId: P:YamlDotNet.Core.Events.Scalar.IsPlainImplicit
+  id: IsPlainImplicit
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: IsPlainImplicit
+  nameWithType: Scalar.IsPlainImplicit
+  fullName: YamlDotNet.Core.Events.Scalar.IsPlainImplicit
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public bool IsPlainImplicit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPlainImplicit As Boolean
+  overload: YamlDotNet.Core.Events.Scalar.IsPlainImplicit*
+- uid: YamlDotNet.Core.Events.Scalar.IsQuotedImplicit
+  commentId: P:YamlDotNet.Core.Events.Scalar.IsQuotedImplicit
+  id: IsQuotedImplicit
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: IsQuotedImplicit
+  nameWithType: Scalar.IsQuotedImplicit
+  fullName: YamlDotNet.Core.Events.Scalar.IsQuotedImplicit
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public bool IsQuotedImplicit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsQuotedImplicit As Boolean
+  overload: YamlDotNet.Core.Events.Scalar.IsQuotedImplicit*
+- uid: YamlDotNet.Core.Events.Scalar.IsCanonical
+  commentId: P:YamlDotNet.Core.Events.Scalar.IsCanonical
+  id: IsCanonical
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: IsCanonical
+  nameWithType: Scalar.IsCanonical
+  fullName: YamlDotNet.Core.Events.Scalar.IsCanonical
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  example: []
+  syntax:
+    content: public override bool IsCanonical { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsCanonical As Boolean
+  overridden: YamlDotNet.Core.Events.NodeEvent.IsCanonical
+  overload: YamlDotNet.Core.Events.Scalar.IsCanonical*
+- uid: YamlDotNet.Core.Events.Scalar.IsKey
+  commentId: P:YamlDotNet.Core.Events.Scalar.IsKey
+  id: IsKey
+  parent: YamlDotNet.Core.Events.Scalar
+  langs:
+  - csharp
+  - vb
+  name: IsKey
+  nameWithType: Scalar.IsKey
+  fullName: YamlDotNet.Core.Events.Scalar.IsKey
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public bool IsKey { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsKey As Boolean
+  overload: YamlDotNet.Core.Events.Scalar.IsKey*
+references:
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Core.Events.ParsingEvent
+  commentId: T:YamlDotNet.Core.Events.ParsingEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html
+  name: ParsingEvent
+  nameWithType: ParsingEvent
+  fullName: YamlDotNet.Core.Events.ParsingEvent
+- uid: YamlDotNet.Core.Events.NodeEvent
+  commentId: T:YamlDotNet.Core.Events.NodeEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.NodeEvent.html
+  name: NodeEvent
+  nameWithType: NodeEvent
+  fullName: YamlDotNet.Core.Events.NodeEvent
+- uid: YamlDotNet.Core.Events.NodeEvent.Anchor
+  commentId: P:YamlDotNet.Core.Events.NodeEvent.Anchor
+  parent: YamlDotNet.Core.Events.NodeEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.NodeEvent.html#YamlDotNet_Core_Events_NodeEvent_Anchor
+  name: Anchor
+  nameWithType: NodeEvent.Anchor
+  fullName: YamlDotNet.Core.Events.NodeEvent.Anchor
+- uid: YamlDotNet.Core.Events.NodeEvent.Tag
+  commentId: P:YamlDotNet.Core.Events.NodeEvent.Tag
+  parent: YamlDotNet.Core.Events.NodeEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.NodeEvent.html#YamlDotNet_Core_Events_NodeEvent_Tag
+  name: Tag
+  nameWithType: NodeEvent.Tag
+  fullName: YamlDotNet.Core.Events.NodeEvent.Tag
+- uid: YamlDotNet.Core.Events.ParsingEvent.NestingIncrease
+  commentId: P:YamlDotNet.Core.Events.ParsingEvent.NestingIncrease
+  parent: YamlDotNet.Core.Events.ParsingEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html#YamlDotNet_Core_Events_ParsingEvent_NestingIncrease
+  name: NestingIncrease
+  nameWithType: ParsingEvent.NestingIncrease
+  fullName: YamlDotNet.Core.Events.ParsingEvent.NestingIncrease
+- uid: YamlDotNet.Core.Events.ParsingEvent.Start
+  commentId: P:YamlDotNet.Core.Events.ParsingEvent.Start
+  parent: YamlDotNet.Core.Events.ParsingEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html#YamlDotNet_Core_Events_ParsingEvent_Start
+  name: Start
+  nameWithType: ParsingEvent.Start
+  fullName: YamlDotNet.Core.Events.ParsingEvent.Start
+- uid: YamlDotNet.Core.Events.ParsingEvent.End
+  commentId: P:YamlDotNet.Core.Events.ParsingEvent.End
+  parent: YamlDotNet.Core.Events.ParsingEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html#YamlDotNet_Core_Events_ParsingEvent_End
+  name: End
+  nameWithType: ParsingEvent.End
+  fullName: YamlDotNet.Core.Events.ParsingEvent.End
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Core.Events.Scalar.#ctor*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.#ctor
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar__ctor_YamlDotNet_Core_AnchorName_YamlDotNet_Core_TagName_System_String_YamlDotNet_Core_ScalarStyle_System_Boolean_System_Boolean_YamlDotNet_Core_Mark_YamlDotNet_Core_Mark_System_Boolean_
+  name: Scalar
+  nameWithType: Scalar.Scalar
+  fullName: YamlDotNet.Core.Events.Scalar.Scalar
+  nameWithType.vb: Scalar.New
+  fullName.vb: YamlDotNet.Core.Events.Scalar.New
+  name.vb: New
+- uid: YamlDotNet.Core.AnchorName
+  commentId: T:YamlDotNet.Core.AnchorName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.AnchorName.html
+  name: AnchorName
+  nameWithType: AnchorName
+  fullName: YamlDotNet.Core.AnchorName
+- uid: YamlDotNet.Core.TagName
+  commentId: T:YamlDotNet.Core.TagName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html
+  name: TagName
+  nameWithType: TagName
+  fullName: YamlDotNet.Core.TagName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: YamlDotNet.Core.ScalarStyle
+  commentId: T:YamlDotNet.Core.ScalarStyle
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.ScalarStyle.html
+  name: ScalarStyle
+  nameWithType: ScalarStyle
+  fullName: YamlDotNet.Core.ScalarStyle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Core.Mark
+  commentId: T:YamlDotNet.Core.Mark
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.Mark.html
+  name: Mark
+  nameWithType: Mark
+  fullName: YamlDotNet.Core.Mark
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: YamlDotNet.Core.Events.Scalar.ToString*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.ToString
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_ToString
+  name: ToString
+  nameWithType: Scalar.ToString
+  fullName: YamlDotNet.Core.Events.Scalar.ToString
+- uid: YamlDotNet.Core.Events.ParsingEvent.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  commentId: M:YamlDotNet.Core.Events.ParsingEvent.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  parent: YamlDotNet.Core.Events.ParsingEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html#YamlDotNet_Core_Events_ParsingEvent_Accept_YamlDotNet_Core_Events_IParsingEventVisitor_
+  name: Accept(IParsingEventVisitor)
+  nameWithType: ParsingEvent.Accept(IParsingEventVisitor)
+  fullName: YamlDotNet.Core.Events.ParsingEvent.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+  spec.csharp:
+  - uid: YamlDotNet.Core.Events.ParsingEvent.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+    name: Accept
+    isExternal: true
+    href: YamlDotNet.Core.Events.ParsingEvent.html#YamlDotNet_Core_Events_ParsingEvent_Accept_YamlDotNet_Core_Events_IParsingEventVisitor_
+  - name: (
+  - uid: YamlDotNet.Core.Events.IParsingEventVisitor
+    name: IParsingEventVisitor
+    isExternal: true
+    href: YamlDotNet.Core.Events.IParsingEventVisitor.html
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Core.Events.ParsingEvent.Accept(YamlDotNet.Core.Events.IParsingEventVisitor)
+    name: Accept
+    isExternal: true
+    href: YamlDotNet.Core.Events.ParsingEvent.html#YamlDotNet_Core_Events_ParsingEvent_Accept_YamlDotNet_Core_Events_IParsingEventVisitor_
+  - name: (
+  - uid: YamlDotNet.Core.Events.IParsingEventVisitor
+    name: IParsingEventVisitor
+    isExternal: true
+    href: YamlDotNet.Core.Events.IParsingEventVisitor.html
+  - name: )
+- uid: YamlDotNet.Core.Events.Scalar.Accept*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.Accept
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_Accept_YamlDotNet_Core_Events_IParsingEventVisitor_
+  name: Accept
+  nameWithType: Scalar.Accept
+  fullName: YamlDotNet.Core.Events.Scalar.Accept
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor
+  commentId: T:YamlDotNet.Core.Events.IParsingEventVisitor
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.IParsingEventVisitor.html
+  name: IParsingEventVisitor
+  nameWithType: IParsingEventVisitor
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor
+- uid: YamlDotNet.Core.Events.Scalar.Value*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.Value
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_Value
+  name: Value
+  nameWithType: Scalar.Value
+  fullName: YamlDotNet.Core.Events.Scalar.Value
+- uid: YamlDotNet.Core.Events.Scalar.Style*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.Style
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_Style
+  name: Style
+  nameWithType: Scalar.Style
+  fullName: YamlDotNet.Core.Events.Scalar.Style
+- uid: YamlDotNet.Core.Events.Scalar.IsPlainImplicit*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.IsPlainImplicit
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_IsPlainImplicit
+  name: IsPlainImplicit
+  nameWithType: Scalar.IsPlainImplicit
+  fullName: YamlDotNet.Core.Events.Scalar.IsPlainImplicit
+- uid: YamlDotNet.Core.Events.Scalar.IsQuotedImplicit*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.IsQuotedImplicit
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_IsQuotedImplicit
+  name: IsQuotedImplicit
+  nameWithType: Scalar.IsQuotedImplicit
+  fullName: YamlDotNet.Core.Events.Scalar.IsQuotedImplicit
+- uid: YamlDotNet.Core.Events.NodeEvent.IsCanonical
+  commentId: P:YamlDotNet.Core.Events.NodeEvent.IsCanonical
+  parent: YamlDotNet.Core.Events.NodeEvent
+  isExternal: true
+  href: YamlDotNet.Core.Events.NodeEvent.html#YamlDotNet_Core_Events_NodeEvent_IsCanonical
+  name: IsCanonical
+  nameWithType: NodeEvent.IsCanonical
+  fullName: YamlDotNet.Core.Events.NodeEvent.IsCanonical
+- uid: YamlDotNet.Core.Events.Scalar.IsCanonical*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.IsCanonical
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_IsCanonical
+  name: IsCanonical
+  nameWithType: Scalar.IsCanonical
+  fullName: YamlDotNet.Core.Events.Scalar.IsCanonical
+- uid: YamlDotNet.Core.Events.Scalar.IsKey*
+  commentId: Overload:YamlDotNet.Core.Events.Scalar.IsKey
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html#YamlDotNet_Core_Events_Scalar_IsKey
+  name: IsKey
+  nameWithType: Scalar.IsKey
+  fullName: YamlDotNet.Core.Events.Scalar.IsKey

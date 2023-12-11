@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.IScanner
+  commentId: T:YamlDotNet.Core.IScanner
+  id: IScanner
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.IScanner.ConsumeCurrent
+  - YamlDotNet.Core.IScanner.Current
+  - YamlDotNet.Core.IScanner.CurrentPosition
+  - YamlDotNet.Core.IScanner.MoveNext
+  - YamlDotNet.Core.IScanner.MoveNextWithoutConsuming
+  langs:
+  - csharp
+  - vb
+  name: IScanner
+  nameWithType: IScanner
+  fullName: YamlDotNet.Core.IScanner
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public interface IScanner
+    content.vb: Public Interface IScanner
+- uid: YamlDotNet.Core.IScanner.MoveNext
+  commentId: M:YamlDotNet.Core.IScanner.MoveNext
+  id: MoveNext
+  parent: YamlDotNet.Core.IScanner
+  langs:
+  - csharp
+  - vb
+  name: MoveNext()
+  nameWithType: IScanner.MoveNext()
+  fullName: YamlDotNet.Core.IScanner.MoveNext()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: bool MoveNext()
+    return:
+      type: System.Boolean
+    content.vb: Function MoveNext() As Boolean
+  overload: YamlDotNet.Core.IScanner.MoveNext*
+- uid: YamlDotNet.Core.IScanner.MoveNextWithoutConsuming
+  commentId: M:YamlDotNet.Core.IScanner.MoveNextWithoutConsuming
+  id: MoveNextWithoutConsuming
+  parent: YamlDotNet.Core.IScanner
+  langs:
+  - csharp
+  - vb
+  name: MoveNextWithoutConsuming()
+  nameWithType: IScanner.MoveNextWithoutConsuming()
+  fullName: YamlDotNet.Core.IScanner.MoveNextWithoutConsuming()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: bool MoveNextWithoutConsuming()
+    return:
+      type: System.Boolean
+    content.vb: Function MoveNextWithoutConsuming() As Boolean
+  overload: YamlDotNet.Core.IScanner.MoveNextWithoutConsuming*
+- uid: YamlDotNet.Core.IScanner.ConsumeCurrent
+  commentId: M:YamlDotNet.Core.IScanner.ConsumeCurrent
+  id: ConsumeCurrent
+  parent: YamlDotNet.Core.IScanner
+  langs:
+  - csharp
+  - vb
+  name: ConsumeCurrent()
+  nameWithType: IScanner.ConsumeCurrent()
+  fullName: YamlDotNet.Core.IScanner.ConsumeCurrent()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: void ConsumeCurrent()
+    content.vb: Sub ConsumeCurrent()
+  overload: YamlDotNet.Core.IScanner.ConsumeCurrent*
+- uid: YamlDotNet.Core.IScanner.CurrentPosition
+  commentId: P:YamlDotNet.Core.IScanner.CurrentPosition
+  id: CurrentPosition
+  parent: YamlDotNet.Core.IScanner
+  langs:
+  - csharp
+  - vb
+  name: CurrentPosition
+  nameWithType: IScanner.CurrentPosition
+  fullName: YamlDotNet.Core.IScanner.CurrentPosition
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: Mark CurrentPosition { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Core.Mark
+    content.vb: ReadOnly Property CurrentPosition As Mark
+  overload: YamlDotNet.Core.IScanner.CurrentPosition*
+- uid: YamlDotNet.Core.IScanner.Current
+  commentId: P:YamlDotNet.Core.IScanner.Current
+  id: Current
+  parent: YamlDotNet.Core.IScanner
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: IScanner.Current
+  fullName: YamlDotNet.Core.IScanner.Current
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: Token? Current { get; }
+    parameters: []
+    return:
+      type: YamlDotNet.Core.Tokens.Token
+    content.vb: ReadOnly Property Current As Token
+  overload: YamlDotNet.Core.IScanner.Current*
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Core.IScanner.MoveNext*
+  commentId: Overload:YamlDotNet.Core.IScanner.MoveNext
+  isExternal: true
+  href: YamlDotNet.Core.IScanner.html#YamlDotNet_Core_IScanner_MoveNext
+  name: MoveNext
+  nameWithType: IScanner.MoveNext
+  fullName: YamlDotNet.Core.IScanner.MoveNext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Core.IScanner.MoveNextWithoutConsuming*
+  commentId: Overload:YamlDotNet.Core.IScanner.MoveNextWithoutConsuming
+  isExternal: true
+  href: YamlDotNet.Core.IScanner.html#YamlDotNet_Core_IScanner_MoveNextWithoutConsuming
+  name: MoveNextWithoutConsuming
+  nameWithType: IScanner.MoveNextWithoutConsuming
+  fullName: YamlDotNet.Core.IScanner.MoveNextWithoutConsuming
+- uid: YamlDotNet.Core.IScanner.ConsumeCurrent*
+  commentId: Overload:YamlDotNet.Core.IScanner.ConsumeCurrent
+  isExternal: true
+  href: YamlDotNet.Core.IScanner.html#YamlDotNet_Core_IScanner_ConsumeCurrent
+  name: ConsumeCurrent
+  nameWithType: IScanner.ConsumeCurrent
+  fullName: YamlDotNet.Core.IScanner.ConsumeCurrent
+- uid: YamlDotNet.Core.IScanner.CurrentPosition*
+  commentId: Overload:YamlDotNet.Core.IScanner.CurrentPosition
+  isExternal: true
+  href: YamlDotNet.Core.IScanner.html#YamlDotNet_Core_IScanner_CurrentPosition
+  name: CurrentPosition
+  nameWithType: IScanner.CurrentPosition
+  fullName: YamlDotNet.Core.IScanner.CurrentPosition
+- uid: YamlDotNet.Core.Mark
+  commentId: T:YamlDotNet.Core.Mark
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.Mark.html
+  name: Mark
+  nameWithType: Mark
+  fullName: YamlDotNet.Core.Mark
+- uid: YamlDotNet.Core.IScanner.Current*
+  commentId: Overload:YamlDotNet.Core.IScanner.Current
+  isExternal: true
+  href: YamlDotNet.Core.IScanner.html#YamlDotNet_Core_IScanner_Current
+  name: Current
+  nameWithType: IScanner.Current
+  fullName: YamlDotNet.Core.IScanner.Current
+- uid: YamlDotNet.Core.Tokens.Token
+  commentId: T:YamlDotNet.Core.Tokens.Token
+  parent: YamlDotNet.Core.Tokens
+  isExternal: true
+  href: YamlDotNet.Core.Tokens.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: YamlDotNet.Core.Tokens.Token
+- uid: YamlDotNet.Core.Tokens
+  commentId: N:YamlDotNet.Core.Tokens
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Tokens
+  nameWithType: YamlDotNet.Core.Tokens
+  fullName: YamlDotNet.Core.Tokens
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Tokens
+    name: Tokens
+    isExternal: true
+    href: YamlDotNet.Core.Tokens.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Tokens
+    name: Tokens
+    isExternal: true
+    href: YamlDotNet.Core.Tokens.html

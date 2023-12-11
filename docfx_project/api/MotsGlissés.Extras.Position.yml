@@ -19,13 +19,7 @@ items:
   fullName: MotsGlissés.Extras.Position
   type: Struct
   source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: Position
-    path: ../Extras.cs
-    startLine: 90
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
   assemblies:
   - MotsGlissés
   namespace: MotsGlissés
@@ -37,73 +31,9 @@ items:
   inheritedMembers:
   - System.ValueType.GetHashCode
   - System.ValueType.ToString
-  - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
-- uid: MotsGlissés.Extras.Position.X
-  commentId: P:MotsGlissés.Extras.Position.X
-  id: X
-  parent: MotsGlissés.Extras.Position
-  langs:
-  - csharp
-  - vb
-  name: X
-  nameWithType: Extras.Position.X
-  fullName: MotsGlissés.Extras.Position.X
-  type: Property
-  source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: X
-    path: ../Extras.cs
-    startLine: 99
-  assemblies:
-  - MotsGlissés
-  namespace: MotsGlissés
-  summary: Propriété en lecture seule pour lire la position X, qui se réfère à la largeur de la console.
-  example: []
-  syntax:
-    content: public int X { get; }
-    parameters: []
-    return:
-      type: System.Int32
-      description: ''
-    content.vb: Public ReadOnly Property X As Integer
-  overload: MotsGlissés.Extras.Position.X*
-- uid: MotsGlissés.Extras.Position.Y
-  commentId: P:MotsGlissés.Extras.Position.Y
-  id: Y
-  parent: MotsGlissés.Extras.Position
-  langs:
-  - csharp
-  - vb
-  name: Y
-  nameWithType: Extras.Position.Y
-  fullName: MotsGlissés.Extras.Position.Y
-  type: Property
-  source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: Y
-    path: ../Extras.cs
-    startLine: 104
-  assemblies:
-  - MotsGlissés
-  namespace: MotsGlissés
-  summary: Propriété en lecture seule pour lire la position Y, qui se réfère à la hauteur de la console.
-  example: []
-  syntax:
-    content: public int Y { get; }
-    parameters: []
-    return:
-      type: System.Int32
-      description: ''
-    content.vb: Public ReadOnly Property Y As Integer
-  overload: MotsGlissés.Extras.Position.Y*
 - uid: MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)
   commentId: M:MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)
   id: '#ctor(System.Int32,System.Int32)'
@@ -116,13 +46,7 @@ items:
   fullName: MotsGlissés.Extras.Position.Position(int, int)
   type: Constructor
   source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: .ctor
-    path: ../Extras.cs
-    startLine: 111
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
   assemblies:
   - MotsGlissés
   namespace: MotsGlissés
@@ -154,13 +78,7 @@ items:
   fullName: MotsGlissés.Extras.Position.Equals(object?)
   type: Method
   source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: Equals
-    path: ../Extras.cs
-    startLine: 122
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
   assemblies:
   - MotsGlissés
   namespace: MotsGlissés
@@ -193,13 +111,7 @@ items:
   fullName: MotsGlissés.Extras.Position.operator ==(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
   type: Operator
   source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: op_Equality
-    path: ../Extras.cs
-    startLine: 138
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
   assemblies:
   - MotsGlissés
   namespace: MotsGlissés
@@ -234,13 +146,7 @@ items:
   fullName: MotsGlissés.Extras.Position.operator !=(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
   type: Operator
   source:
-    remote:
-      path: Extras.cs
-      branch: I'll-kill-myself
-      repo: https://github.com/alex-crr/MotsGliss-s.git
-    id: op_Inequality
-    path: ../Extras.cs
-    startLine: 149
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
   assemblies:
   - MotsGlissés
   namespace: MotsGlissés
@@ -263,9 +169,62 @@ items:
   nameWithType.vb: Extras.Position.<>(Extras.Position, Extras.Position)
   fullName.vb: MotsGlissés.Extras.Position.<>(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
   name.vb: <>(Position, Position)
+- uid: MotsGlissés.Extras.Position.X
+  commentId: P:MotsGlissés.Extras.Position.X
+  id: X
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Extras.Position.X
+  fullName: MotsGlissés.Extras.Position.X
+  type: Property
+  source:
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Propriété en lecture seule pour lire la position X, qui se réfère à la largeur de la console.
+  example: []
+  syntax:
+    content: public int X { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property X As Integer
+  overload: MotsGlissés.Extras.Position.X*
+- uid: MotsGlissés.Extras.Position.Y
+  commentId: P:MotsGlissés.Extras.Position.Y
+  id: Y
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Extras.Position.Y
+  fullName: MotsGlissés.Extras.Position.Y
+  type: Property
+  source:
+    href: https://github.com/alex-crr/MotsGliss-s/blob/a5db3e94d31708b91217f56b1e6e4fd5213d77e0/Extras.cs
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Propriété en lecture seule pour lire la position Y, qui se réfère à la hauteur de la console.
+  example: []
+  syntax:
+    content: public int Y { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property Y As Integer
+  overload: MotsGlissés.Extras.Position.Y*
 references:
 - uid: MotsGlissés
   commentId: N:MotsGlissés
+  isExternal: true
   href: MotsGlissés.html
   name: MotsGlissés
   nameWithType: MotsGlissés
@@ -314,6 +273,30 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
   - name: (
   - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -358,30 +341,6 @@ references:
     name: Object
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
   - name: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
@@ -454,12 +413,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: MotsGlissés.Extras.Position.X*
-  commentId: Overload:MotsGlissés.Extras.Position.X
-  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_X
-  name: X
-  nameWithType: Extras.Position.X
-  fullName: MotsGlissés.Extras.Position.X
+- uid: MotsGlissés.Extras.Position.#ctor*
+  commentId: Overload:MotsGlissés.Extras.Position.#ctor
+  isExternal: true
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position__ctor_System_Int32_System_Int32_
+  name: Position
+  nameWithType: Extras.Position.Position
+  fullName: MotsGlissés.Extras.Position.Position
+  nameWithType.vb: Extras.Position.New
+  fullName.vb: MotsGlissés.Extras.Position.New
+  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -471,21 +434,6 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: MotsGlissés.Extras.Position.Y*
-  commentId: Overload:MotsGlissés.Extras.Position.Y
-  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_Y
-  name: Y
-  nameWithType: Extras.Position.Y
-  fullName: MotsGlissés.Extras.Position.Y
-- uid: MotsGlissés.Extras.Position.#ctor*
-  commentId: Overload:MotsGlissés.Extras.Position.#ctor
-  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position__ctor_System_Int32_System_Int32_
-  name: Position
-  nameWithType: Extras.Position.Position
-  fullName: MotsGlissés.Extras.Position.Position
-  nameWithType.vb: Extras.Position.New
-  fullName.vb: MotsGlissés.Extras.Position.New
-  name.vb: New
 - uid: System.ValueType.Equals(System.Object)
   commentId: M:System.ValueType.Equals(System.Object)
   parent: System.ValueType
@@ -521,6 +469,7 @@ references:
   - name: )
 - uid: MotsGlissés.Extras.Position.Equals*
   commentId: Overload:MotsGlissés.Extras.Position.Equals
+  isExternal: true
   href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_Equals_System_Object_
   name: Equals
   nameWithType: Extras.Position.Equals
@@ -538,6 +487,7 @@ references:
   name.vb: Boolean
 - uid: MotsGlissés.Extras.Position.op_Equality*
   commentId: Overload:MotsGlissés.Extras.Position.op_Equality
+  isExternal: true
   href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Equality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
   name: operator ==
   nameWithType: Extras.Position.operator ==
@@ -550,10 +500,12 @@ references:
   - name: " "
   - uid: MotsGlissés.Extras.Position.op_Equality*
     name: ==
+    isExternal: true
     href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Equality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
 - uid: MotsGlissés.Extras.Position
   commentId: T:MotsGlissés.Extras.Position
   parent: MotsGlissés
+  isExternal: true
   href: MotsGlissés.Extras.html
   name: Extras.Position
   nameWithType: Extras.Position
@@ -561,21 +513,26 @@ references:
   spec.csharp:
   - uid: MotsGlissés.Extras
     name: Extras
+    isExternal: true
     href: MotsGlissés.Extras.html
   - name: .
   - uid: MotsGlissés.Extras.Position
     name: Position
+    isExternal: true
     href: MotsGlissés.Extras.Position.html
   spec.vb:
   - uid: MotsGlissés.Extras
     name: Extras
+    isExternal: true
     href: MotsGlissés.Extras.html
   - name: .
   - uid: MotsGlissés.Extras.Position
     name: Position
+    isExternal: true
     href: MotsGlissés.Extras.Position.html
 - uid: MotsGlissés.Extras.Position.op_Inequality*
   commentId: Overload:MotsGlissés.Extras.Position.op_Inequality
+  isExternal: true
   href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Inequality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
   name: operator !=
   nameWithType: Extras.Position.operator !=
@@ -588,4 +545,19 @@ references:
   - name: " "
   - uid: MotsGlissés.Extras.Position.op_Inequality*
     name: '!='
+    isExternal: true
     href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Inequality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
+- uid: MotsGlissés.Extras.Position.X*
+  commentId: Overload:MotsGlissés.Extras.Position.X
+  isExternal: true
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_X
+  name: X
+  nameWithType: Extras.Position.X
+  fullName: MotsGlissés.Extras.Position.X
+- uid: MotsGlissés.Extras.Position.Y*
+  commentId: Overload:MotsGlissés.Extras.Position.Y
+  isExternal: true
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_Y
+  name: Y
+  nameWithType: Extras.Position.Y
+  fullName: MotsGlissés.Extras.Position.Y

@@ -1,0 +1,772 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  id: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.AliasEventInfo
+  - YamlDotNet.Serialization.BuilderSkeleton`1
+  - YamlDotNet.Serialization.DefaultValuesHandling
+  - YamlDotNet.Serialization.Deserializer
+  - YamlDotNet.Serialization.DeserializerBuilder
+  - YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  - YamlDotNet.Serialization.EventInfo
+  - YamlDotNet.Serialization.IAliasProvider
+  - YamlDotNet.Serialization.IDeserializer
+  - YamlDotNet.Serialization.IEventEmitter
+  - YamlDotNet.Serialization.INamingConvention
+  - YamlDotNet.Serialization.INodeDeserializer
+  - YamlDotNet.Serialization.INodeTypeResolver
+  - YamlDotNet.Serialization.IObjectAccessor
+  - YamlDotNet.Serialization.IObjectDescriptor
+  - YamlDotNet.Serialization.IObjectFactory
+  - YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1
+  - YamlDotNet.Serialization.IPropertyDescriptor
+  - YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  - YamlDotNet.Serialization.ISerializer
+  - YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+  - YamlDotNet.Serialization.ITypeInspector
+  - YamlDotNet.Serialization.ITypeResolver
+  - YamlDotNet.Serialization.IValueDeserializer
+  - YamlDotNet.Serialization.IValuePromise
+  - YamlDotNet.Serialization.IValueSerializer
+  - YamlDotNet.Serialization.IYamlConvertible
+  - YamlDotNet.Serialization.IYamlSerializable
+  - YamlDotNet.Serialization.IYamlTypeConverter
+  - YamlDotNet.Serialization.MappingEndEventInfo
+  - YamlDotNet.Serialization.MappingStartEventInfo
+  - YamlDotNet.Serialization.Nothing
+  - YamlDotNet.Serialization.ObjectDescriptor
+  - YamlDotNet.Serialization.ObjectDescriptorExtensions
+  - YamlDotNet.Serialization.ObjectDeserializer
+  - YamlDotNet.Serialization.ObjectEventInfo
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  - YamlDotNet.Serialization.ObjectSerializer
+  - YamlDotNet.Serialization.PropertyDescriptor
+  - YamlDotNet.Serialization.ScalarEventInfo
+  - YamlDotNet.Serialization.SequenceEndEventInfo
+  - YamlDotNet.Serialization.SequenceStartEventInfo
+  - YamlDotNet.Serialization.Serializer
+  - YamlDotNet.Serialization.SerializerBuilder
+  - YamlDotNet.Serialization.Settings
+  - YamlDotNet.Serialization.StaticBuilderSkeleton`1
+  - YamlDotNet.Serialization.StaticContext
+  - YamlDotNet.Serialization.StaticDeserializerBuilder
+  - YamlDotNet.Serialization.StaticSerializerBuilder
+  - YamlDotNet.Serialization.StreamFragment
+  - YamlDotNet.Serialization.TagMappings
+  - YamlDotNet.Serialization.WrapperFactory`2
+  - YamlDotNet.Serialization.WrapperFactory`3
+  - YamlDotNet.Serialization.YamlAttributeOverrides
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector
+  - YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  - YamlDotNet.Serialization.YamlAttributesTypeInspector
+  - YamlDotNet.Serialization.YamlFormatter
+  - YamlDotNet.Serialization.YamlIgnoreAttribute
+  - YamlDotNet.Serialization.YamlMemberAttribute
+  - YamlDotNet.Serialization.YamlSerializableAttribute
+  - YamlDotNet.Serialization.YamlStaticContextAttribute
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.BuilderSkeleton`1
+  commentId: T:YamlDotNet.Serialization.BuilderSkeleton`1
+  isExternal: true
+  href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  name: BuilderSkeleton<TBuilder>
+  nameWithType: BuilderSkeleton<TBuilder>
+  fullName: YamlDotNet.Serialization.BuilderSkeleton<TBuilder>
+  nameWithType.vb: BuilderSkeleton(Of TBuilder)
+  fullName.vb: YamlDotNet.Serialization.BuilderSkeleton(Of TBuilder)
+  name.vb: BuilderSkeleton(Of TBuilder)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1
+    name: BuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  - name: <
+  - name: TBuilder
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.BuilderSkeleton`1
+    name: BuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.BuilderSkeleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBuilder
+  - name: )
+- uid: YamlDotNet.Serialization.WrapperFactory`2
+  commentId: T:YamlDotNet.Serialization.WrapperFactory`2
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-2.html
+  name: WrapperFactory<TComponentBase, TComponent>
+  nameWithType: WrapperFactory<TComponentBase, TComponent>
+  fullName: YamlDotNet.Serialization.WrapperFactory<TComponentBase, TComponent>
+  nameWithType.vb: WrapperFactory(Of TComponentBase, TComponent)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TComponentBase, TComponent)
+  name.vb: WrapperFactory(Of TComponentBase, TComponent)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: <
+  - name: TComponentBase
+  - name: ','
+  - name: " "
+  - name: TComponent
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.WrapperFactory`2
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TComponentBase
+  - name: ','
+  - name: " "
+  - name: TComponent
+  - name: )
+- uid: YamlDotNet.Serialization.WrapperFactory`3
+  commentId: T:YamlDotNet.Serialization.WrapperFactory`3
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-3.html
+  name: WrapperFactory<TArgument, TComponentBase, TComponent>
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent)
+  name.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.WrapperFactory`3
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-3.html
+  - name: <
+  - name: TArgument
+  - name: ','
+  - name: " "
+  - name: TComponentBase
+  - name: ','
+  - name: " "
+  - name: TComponent
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.WrapperFactory`3
+    name: WrapperFactory
+    isExternal: true
+    href: YamlDotNet.Serialization.WrapperFactory-3.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TArgument
+  - name: ','
+  - name: " "
+  - name: TComponentBase
+  - name: ','
+  - name: " "
+  - name: TComponent
+  - name: )
+- uid: YamlDotNet.Serialization.DefaultValuesHandling
+  commentId: T:YamlDotNet.Serialization.DefaultValuesHandling
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.DefaultValuesHandling.html
+  name: DefaultValuesHandling
+  nameWithType: DefaultValuesHandling
+  fullName: YamlDotNet.Serialization.DefaultValuesHandling
+- uid: YamlDotNet.Serialization.Deserializer
+  commentId: T:YamlDotNet.Serialization.Deserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.Deserializer.html
+  name: Deserializer
+  nameWithType: Deserializer
+  fullName: YamlDotNet.Serialization.Deserializer
+- uid: YamlDotNet.Serialization.DeserializerBuilder
+  commentId: T:YamlDotNet.Serialization.DeserializerBuilder
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.DeserializerBuilder.html
+  name: DeserializerBuilder
+  nameWithType: DeserializerBuilder
+  fullName: YamlDotNet.Serialization.DeserializerBuilder
+- uid: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  commentId: T:YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+  isExternal: true
+  href: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html
+  name: EmissionPhaseObjectGraphVisitorArgs
+  nameWithType: EmissionPhaseObjectGraphVisitorArgs
+  fullName: YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs
+- uid: YamlDotNet.Serialization.EventInfo
+  commentId: T:YamlDotNet.Serialization.EventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.EventInfo.html
+  name: EventInfo
+  nameWithType: EventInfo
+  fullName: YamlDotNet.Serialization.EventInfo
+- uid: YamlDotNet.Serialization.AliasEventInfo
+  commentId: T:YamlDotNet.Serialization.AliasEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.AliasEventInfo.html
+  name: AliasEventInfo
+  nameWithType: AliasEventInfo
+  fullName: YamlDotNet.Serialization.AliasEventInfo
+- uid: YamlDotNet.Serialization.ObjectEventInfo
+  commentId: T:YamlDotNet.Serialization.ObjectEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectEventInfo.html
+  name: ObjectEventInfo
+  nameWithType: ObjectEventInfo
+  fullName: YamlDotNet.Serialization.ObjectEventInfo
+- uid: YamlDotNet.Serialization.ScalarEventInfo
+  commentId: T:YamlDotNet.Serialization.ScalarEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ScalarEventInfo.html
+  name: ScalarEventInfo
+  nameWithType: ScalarEventInfo
+  fullName: YamlDotNet.Serialization.ScalarEventInfo
+- uid: YamlDotNet.Serialization.MappingStartEventInfo
+  commentId: T:YamlDotNet.Serialization.MappingStartEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.MappingStartEventInfo.html
+  name: MappingStartEventInfo
+  nameWithType: MappingStartEventInfo
+  fullName: YamlDotNet.Serialization.MappingStartEventInfo
+- uid: YamlDotNet.Serialization.MappingEndEventInfo
+  commentId: T:YamlDotNet.Serialization.MappingEndEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.MappingEndEventInfo.html
+  name: MappingEndEventInfo
+  nameWithType: MappingEndEventInfo
+  fullName: YamlDotNet.Serialization.MappingEndEventInfo
+- uid: YamlDotNet.Serialization.SequenceStartEventInfo
+  commentId: T:YamlDotNet.Serialization.SequenceStartEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.SequenceStartEventInfo.html
+  name: SequenceStartEventInfo
+  nameWithType: SequenceStartEventInfo
+  fullName: YamlDotNet.Serialization.SequenceStartEventInfo
+- uid: YamlDotNet.Serialization.SequenceEndEventInfo
+  commentId: T:YamlDotNet.Serialization.SequenceEndEventInfo
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.SequenceEndEventInfo.html
+  name: SequenceEndEventInfo
+  nameWithType: SequenceEndEventInfo
+  fullName: YamlDotNet.Serialization.SequenceEndEventInfo
+- uid: YamlDotNet.Serialization.IAliasProvider
+  commentId: T:YamlDotNet.Serialization.IAliasProvider
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IAliasProvider.html
+  name: IAliasProvider
+  nameWithType: IAliasProvider
+  fullName: YamlDotNet.Serialization.IAliasProvider
+- uid: YamlDotNet.Serialization.IDeserializer
+  commentId: T:YamlDotNet.Serialization.IDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IDeserializer.html
+  name: IDeserializer
+  nameWithType: IDeserializer
+  fullName: YamlDotNet.Serialization.IDeserializer
+- uid: YamlDotNet.Serialization.IEventEmitter
+  commentId: T:YamlDotNet.Serialization.IEventEmitter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IEventEmitter.html
+  name: IEventEmitter
+  nameWithType: IEventEmitter
+  fullName: YamlDotNet.Serialization.IEventEmitter
+- uid: YamlDotNet.Serialization.INamingConvention
+  commentId: T:YamlDotNet.Serialization.INamingConvention
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INamingConvention.html
+  name: INamingConvention
+  nameWithType: INamingConvention
+  fullName: YamlDotNet.Serialization.INamingConvention
+- uid: YamlDotNet.Serialization.INodeDeserializer
+  commentId: T:YamlDotNet.Serialization.INodeDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeDeserializer.html
+  name: INodeDeserializer
+  nameWithType: INodeDeserializer
+  fullName: YamlDotNet.Serialization.INodeDeserializer
+- uid: YamlDotNet.Serialization.INodeTypeResolver
+  commentId: T:YamlDotNet.Serialization.INodeTypeResolver
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INodeTypeResolver.html
+  name: INodeTypeResolver
+  nameWithType: INodeTypeResolver
+  fullName: YamlDotNet.Serialization.INodeTypeResolver
+- uid: YamlDotNet.Serialization.IObjectAccessor
+  commentId: T:YamlDotNet.Serialization.IObjectAccessor
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectAccessor.html
+  name: IObjectAccessor
+  nameWithType: IObjectAccessor
+  fullName: YamlDotNet.Serialization.IObjectAccessor
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: YamlDotNet.Serialization.ObjectDescriptorExtensions
+  commentId: T:YamlDotNet.Serialization.ObjectDescriptorExtensions
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDescriptorExtensions.html
+  name: ObjectDescriptorExtensions
+  nameWithType: ObjectDescriptorExtensions
+  fullName: YamlDotNet.Serialization.ObjectDescriptorExtensions
+- uid: YamlDotNet.Serialization.IObjectFactory
+  commentId: T:YamlDotNet.Serialization.IObjectFactory
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html
+  name: IObjectFactory
+  nameWithType: IObjectFactory
+  fullName: YamlDotNet.Serialization.IObjectFactory
+- uid: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.html
+  name: IObjectGraphTraversalStrategy
+  nameWithType: IObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: YamlDotNet.Serialization.IPropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.IPropertyDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html
+  name: IPropertyDescriptor
+  nameWithType: IPropertyDescriptor
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  commentId: T:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  name: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  name.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - name: TBaseRegistrationType
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+    name: IRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBaseRegistrationType
+  - name: )
+- uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+  commentId: T:YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+  isExternal: true
+  href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  name: ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  nameWithType: ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  fullName: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  nameWithType.vb: ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  fullName.vb: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  name.vb: ITrackingRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: <
+  - name: TBaseRegistrationType
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax`1
+    name: ITrackingRegistrationLocationSelectionSyntax
+    isExternal: true
+    href: YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBaseRegistrationType
+  - name: )
+- uid: YamlDotNet.Serialization.ISerializer
+  commentId: T:YamlDotNet.Serialization.ISerializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ISerializer.html
+  name: ISerializer
+  nameWithType: ISerializer
+  fullName: YamlDotNet.Serialization.ISerializer
+- uid: YamlDotNet.Serialization.ITypeInspector
+  commentId: T:YamlDotNet.Serialization.ITypeInspector
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeInspector.html
+  name: ITypeInspector
+  nameWithType: ITypeInspector
+  fullName: YamlDotNet.Serialization.ITypeInspector
+- uid: YamlDotNet.Serialization.ITypeResolver
+  commentId: T:YamlDotNet.Serialization.ITypeResolver
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeResolver.html
+  name: ITypeResolver
+  nameWithType: ITypeResolver
+  fullName: YamlDotNet.Serialization.ITypeResolver
+- uid: YamlDotNet.Serialization.IValueDeserializer
+  commentId: T:YamlDotNet.Serialization.IValueDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IValueDeserializer.html
+  name: IValueDeserializer
+  nameWithType: IValueDeserializer
+  fullName: YamlDotNet.Serialization.IValueDeserializer
+- uid: YamlDotNet.Serialization.IValuePromise
+  commentId: T:YamlDotNet.Serialization.IValuePromise
+  isExternal: true
+  href: YamlDotNet.Serialization.IValuePromise.html
+  name: IValuePromise
+  nameWithType: IValuePromise
+  fullName: YamlDotNet.Serialization.IValuePromise
+- uid: YamlDotNet.Serialization.IValueSerializer
+  commentId: T:YamlDotNet.Serialization.IValueSerializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IValueSerializer.html
+  name: IValueSerializer
+  nameWithType: IValueSerializer
+  fullName: YamlDotNet.Serialization.IValueSerializer
+- uid: YamlDotNet.Serialization.IYamlConvertible
+  commentId: T:YamlDotNet.Serialization.IYamlConvertible
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IYamlConvertible.html
+  name: IYamlConvertible
+  nameWithType: IYamlConvertible
+  fullName: YamlDotNet.Serialization.IYamlConvertible
+- uid: YamlDotNet.Serialization.ObjectDeserializer
+  commentId: T:YamlDotNet.Serialization.ObjectDeserializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDeserializer.html
+  name: ObjectDeserializer
+  nameWithType: ObjectDeserializer
+  fullName: YamlDotNet.Serialization.ObjectDeserializer
+- uid: YamlDotNet.Serialization.ObjectSerializer
+  commentId: T:YamlDotNet.Serialization.ObjectSerializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectSerializer.html
+  name: ObjectSerializer
+  nameWithType: ObjectSerializer
+  fullName: YamlDotNet.Serialization.ObjectSerializer
+- uid: YamlDotNet.Serialization.IYamlSerializable
+  commentId: T:YamlDotNet.Serialization.IYamlSerializable
+  isExternal: true
+  href: YamlDotNet.Serialization.IYamlSerializable.html
+  name: IYamlSerializable
+  nameWithType: IYamlSerializable
+  fullName: YamlDotNet.Serialization.IYamlSerializable
+- uid: YamlDotNet.Serialization.IYamlTypeConverter
+  commentId: T:YamlDotNet.Serialization.IYamlTypeConverter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IYamlTypeConverter.html
+  name: IYamlTypeConverter
+  nameWithType: IYamlTypeConverter
+  fullName: YamlDotNet.Serialization.IYamlTypeConverter
+- uid: YamlDotNet.Serialization.Nothing
+  commentId: T:YamlDotNet.Serialization.Nothing
+  isExternal: true
+  href: YamlDotNet.Serialization.Nothing.html
+  name: Nothing
+  nameWithType: Nothing
+  fullName: YamlDotNet.Serialization.Nothing
+- uid: YamlDotNet.Serialization.ObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.ObjectDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectDescriptor.html
+  name: ObjectDescriptor
+  nameWithType: ObjectDescriptor
+  fullName: YamlDotNet.Serialization.ObjectDescriptor
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html
+  name: ObjectGraphTraversalStrategyFactory
+  nameWithType: ObjectGraphTraversalStrategyFactory
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory
+- uid: YamlDotNet.Serialization.PropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.PropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.PropertyDescriptor.html
+  name: PropertyDescriptor
+  nameWithType: PropertyDescriptor
+  fullName: YamlDotNet.Serialization.PropertyDescriptor
+- uid: YamlDotNet.Serialization.Serializer
+  commentId: T:YamlDotNet.Serialization.Serializer
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.Serializer.html
+  name: Serializer
+  nameWithType: Serializer
+  fullName: YamlDotNet.Serialization.Serializer
+- uid: YamlDotNet.Serialization.SerializerBuilder
+  commentId: T:YamlDotNet.Serialization.SerializerBuilder
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.SerializerBuilder.html
+  name: SerializerBuilder
+  nameWithType: SerializerBuilder
+  fullName: YamlDotNet.Serialization.SerializerBuilder
+- uid: YamlDotNet.Serialization.Settings
+  commentId: T:YamlDotNet.Serialization.Settings
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.Settings.html
+  name: Settings
+  nameWithType: Settings
+  fullName: YamlDotNet.Serialization.Settings
+- uid: YamlDotNet.Serialization.StaticBuilderSkeleton`1
+  commentId: T:YamlDotNet.Serialization.StaticBuilderSkeleton`1
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticBuilderSkeleton-1.html
+  name: StaticBuilderSkeleton<TBuilder>
+  nameWithType: StaticBuilderSkeleton<TBuilder>
+  fullName: YamlDotNet.Serialization.StaticBuilderSkeleton<TBuilder>
+  nameWithType.vb: StaticBuilderSkeleton(Of TBuilder)
+  fullName.vb: YamlDotNet.Serialization.StaticBuilderSkeleton(Of TBuilder)
+  name.vb: StaticBuilderSkeleton(Of TBuilder)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.StaticBuilderSkeleton`1
+    name: StaticBuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.StaticBuilderSkeleton-1.html
+  - name: <
+  - name: TBuilder
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.StaticBuilderSkeleton`1
+    name: StaticBuilderSkeleton
+    isExternal: true
+    href: YamlDotNet.Serialization.StaticBuilderSkeleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TBuilder
+  - name: )
+- uid: YamlDotNet.Serialization.StaticContext
+  commentId: T:YamlDotNet.Serialization.StaticContext
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticContext.html
+  name: StaticContext
+  nameWithType: StaticContext
+  fullName: YamlDotNet.Serialization.StaticContext
+- uid: YamlDotNet.Serialization.StaticDeserializerBuilder
+  commentId: T:YamlDotNet.Serialization.StaticDeserializerBuilder
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticDeserializerBuilder.html
+  name: StaticDeserializerBuilder
+  nameWithType: StaticDeserializerBuilder
+  fullName: YamlDotNet.Serialization.StaticDeserializerBuilder
+- uid: YamlDotNet.Serialization.StaticSerializerBuilder
+  commentId: T:YamlDotNet.Serialization.StaticSerializerBuilder
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.StaticSerializerBuilder.html
+  name: StaticSerializerBuilder
+  nameWithType: StaticSerializerBuilder
+  fullName: YamlDotNet.Serialization.StaticSerializerBuilder
+- uid: YamlDotNet.Serialization.StreamFragment
+  commentId: T:YamlDotNet.Serialization.StreamFragment
+  isExternal: true
+  href: YamlDotNet.Serialization.StreamFragment.html
+  name: StreamFragment
+  nameWithType: StreamFragment
+  fullName: YamlDotNet.Serialization.StreamFragment
+- uid: YamlDotNet.Serialization.TagMappings
+  commentId: T:YamlDotNet.Serialization.TagMappings
+  isExternal: true
+  href: YamlDotNet.Serialization.TagMappings.html
+  name: TagMappings
+  nameWithType: TagMappings
+  fullName: YamlDotNet.Serialization.TagMappings
+- uid: YamlDotNet.Serialization.YamlAttributeOverrides
+  commentId: T:YamlDotNet.Serialization.YamlAttributeOverrides
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverrides.html
+  name: YamlAttributeOverrides
+  nameWithType: YamlAttributeOverrides
+  fullName: YamlDotNet.Serialization.YamlAttributeOverrides
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector
+  commentId: T:YamlDotNet.Serialization.YamlAttributeOverridesInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.html
+  name: YamlAttributeOverridesInspector
+  nameWithType: YamlAttributeOverridesInspector
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector
+- uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.html
+  name: YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  nameWithType: YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  fullName: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector
+    name: YamlAttributeOverridesInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.html
+  - name: .
+  - uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+    name: OverridePropertyDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html
+  spec.vb:
+  - uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector
+    name: YamlAttributeOverridesInspector
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.html
+  - name: .
+  - uid: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor
+    name: OverridePropertyDescriptor
+    isExternal: true
+    href: YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html
+- uid: YamlDotNet.Serialization.YamlAttributesTypeInspector
+  commentId: T:YamlDotNet.Serialization.YamlAttributesTypeInspector
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlAttributesTypeInspector.html
+  name: YamlAttributesTypeInspector
+  nameWithType: YamlAttributesTypeInspector
+  fullName: YamlDotNet.Serialization.YamlAttributesTypeInspector
+- uid: YamlDotNet.Serialization.YamlFormatter
+  commentId: T:YamlDotNet.Serialization.YamlFormatter
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlFormatter.html
+  name: YamlFormatter
+  nameWithType: YamlFormatter
+  fullName: YamlDotNet.Serialization.YamlFormatter
+- uid: YamlDotNet.Serialization.YamlIgnoreAttribute
+  commentId: T:YamlDotNet.Serialization.YamlIgnoreAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlIgnoreAttribute.html
+  name: YamlIgnoreAttribute
+  nameWithType: YamlIgnoreAttribute
+  fullName: YamlDotNet.Serialization.YamlIgnoreAttribute
+- uid: YamlDotNet.Serialization.YamlMemberAttribute
+  commentId: T:YamlDotNet.Serialization.YamlMemberAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlMemberAttribute.html
+  name: YamlMemberAttribute
+  nameWithType: YamlMemberAttribute
+  fullName: YamlDotNet.Serialization.YamlMemberAttribute
+- uid: YamlDotNet.Serialization.YamlSerializableAttribute
+  commentId: T:YamlDotNet.Serialization.YamlSerializableAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlSerializableAttribute.html
+  name: YamlSerializableAttribute
+  nameWithType: YamlSerializableAttribute
+  fullName: YamlDotNet.Serialization.YamlSerializableAttribute
+- uid: YamlDotNet.Serialization.YamlStaticContextAttribute
+  commentId: T:YamlDotNet.Serialization.YamlStaticContextAttribute
+  isExternal: true
+  href: YamlDotNet.Serialization.YamlStaticContextAttribute.html
+  name: YamlStaticContextAttribute
+  nameWithType: YamlStaticContextAttribute
+  fullName: YamlDotNet.Serialization.YamlStaticContextAttribute
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html

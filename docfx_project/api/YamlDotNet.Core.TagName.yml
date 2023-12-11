@@ -1,0 +1,944 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.TagName
+  commentId: T:YamlDotNet.Core.TagName
+  id: TagName
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.TagName.#ctor(System.String)
+  - YamlDotNet.Core.TagName.Empty
+  - YamlDotNet.Core.TagName.Equals(System.Object)
+  - YamlDotNet.Core.TagName.Equals(YamlDotNet.Core.TagName)
+  - YamlDotNet.Core.TagName.GetHashCode
+  - YamlDotNet.Core.TagName.IsEmpty
+  - YamlDotNet.Core.TagName.IsGlobal
+  - YamlDotNet.Core.TagName.IsLocal
+  - YamlDotNet.Core.TagName.IsNonSpecific
+  - YamlDotNet.Core.TagName.ToString
+  - YamlDotNet.Core.TagName.Value
+  - YamlDotNet.Core.TagName.op_Equality(YamlDotNet.Core.TagName,System.String)
+  - YamlDotNet.Core.TagName.op_Equality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  - YamlDotNet.Core.TagName.op_Implicit(System.String)~YamlDotNet.Core.TagName
+  - YamlDotNet.Core.TagName.op_Inequality(YamlDotNet.Core.TagName,System.String)
+  - YamlDotNet.Core.TagName.op_Inequality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  langs:
+  - csharp
+  - vb
+  name: TagName
+  nameWithType: TagName
+  fullName: YamlDotNet.Core.TagName
+  type: Struct
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: 'public readonly struct TagName : IEquatable<TagName>'
+    content.vb: Public Structure TagName Implements IEquatable(Of TagName)
+  implements:
+  - System.IEquatable{YamlDotNet.Core.TagName}
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: YamlDotNet.Core.TagName.Empty
+  commentId: F:YamlDotNet.Core.TagName.Empty
+  id: Empty
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: Empty
+  nameWithType: TagName.Empty
+  fullName: YamlDotNet.Core.TagName.Empty
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static readonly TagName Empty
+    return:
+      type: YamlDotNet.Core.TagName
+    content.vb: Public Shared ReadOnly Empty As TagName
+- uid: YamlDotNet.Core.TagName.#ctor(System.String)
+  commentId: M:YamlDotNet.Core.TagName.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: TagName(string)
+  nameWithType: TagName.TagName(string)
+  fullName: YamlDotNet.Core.TagName.TagName(string)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public TagName(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(value As String)
+  overload: YamlDotNet.Core.TagName.#ctor*
+  nameWithType.vb: TagName.New(String)
+  fullName.vb: YamlDotNet.Core.TagName.New(String)
+  name.vb: New(String)
+- uid: YamlDotNet.Core.TagName.ToString
+  commentId: M:YamlDotNet.Core.TagName.ToString
+  id: ToString
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TagName.ToString()
+  fullName: YamlDotNet.Core.TagName.ToString()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: YamlDotNet.Core.TagName.ToString*
+- uid: YamlDotNet.Core.TagName.Equals(YamlDotNet.Core.TagName)
+  commentId: M:YamlDotNet.Core.TagName.Equals(YamlDotNet.Core.TagName)
+  id: Equals(YamlDotNet.Core.TagName)
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: Equals(TagName)
+  nameWithType: TagName.Equals(TagName)
+  fullName: YamlDotNet.Core.TagName.Equals(YamlDotNet.Core.TagName)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public bool Equals(TagName other)
+    parameters:
+    - id: other
+      type: YamlDotNet.Core.TagName
+    return:
+      type: System.Boolean
+    content.vb: Public Function Equals(other As TagName) As Boolean
+  overload: YamlDotNet.Core.TagName.Equals*
+  implements:
+  - System.IEquatable{YamlDotNet.Core.TagName}.Equals(YamlDotNet.Core.TagName)
+- uid: YamlDotNet.Core.TagName.Equals(System.Object)
+  commentId: M:YamlDotNet.Core.TagName.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: TagName.Equals(object?)
+  fullName: YamlDotNet.Core.TagName.Equals(object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: YamlDotNet.Core.TagName.Equals*
+  nameWithType.vb: TagName.Equals(Object)
+  fullName.vb: YamlDotNet.Core.TagName.Equals(Object)
+  name.vb: Equals(Object)
+- uid: YamlDotNet.Core.TagName.GetHashCode
+  commentId: M:YamlDotNet.Core.TagName.GetHashCode
+  id: GetHashCode
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TagName.GetHashCode()
+  fullName: YamlDotNet.Core.TagName.GetHashCode()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode() As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: YamlDotNet.Core.TagName.GetHashCode*
+- uid: YamlDotNet.Core.TagName.op_Equality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  commentId: M:YamlDotNet.Core.TagName.op_Equality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  id: op_Equality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: operator ==(TagName, TagName)
+  nameWithType: TagName.operator ==(TagName, TagName)
+  fullName: YamlDotNet.Core.TagName.operator ==(YamlDotNet.Core.TagName, YamlDotNet.Core.TagName)
+  type: Operator
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static bool operator ==(TagName left, TagName right)
+    parameters:
+    - id: left
+      type: YamlDotNet.Core.TagName
+    - id: right
+      type: YamlDotNet.Core.TagName
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As TagName, right As TagName) As Boolean
+  overload: YamlDotNet.Core.TagName.op_Equality*
+  nameWithType.vb: TagName.=(TagName, TagName)
+  fullName.vb: YamlDotNet.Core.TagName.=(YamlDotNet.Core.TagName, YamlDotNet.Core.TagName)
+  name.vb: =(TagName, TagName)
+- uid: YamlDotNet.Core.TagName.op_Inequality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  commentId: M:YamlDotNet.Core.TagName.op_Inequality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  id: op_Inequality(YamlDotNet.Core.TagName,YamlDotNet.Core.TagName)
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: operator !=(TagName, TagName)
+  nameWithType: TagName.operator !=(TagName, TagName)
+  fullName: YamlDotNet.Core.TagName.operator !=(YamlDotNet.Core.TagName, YamlDotNet.Core.TagName)
+  type: Operator
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static bool operator !=(TagName left, TagName right)
+    parameters:
+    - id: left
+      type: YamlDotNet.Core.TagName
+    - id: right
+      type: YamlDotNet.Core.TagName
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As TagName, right As TagName) As Boolean
+  overload: YamlDotNet.Core.TagName.op_Inequality*
+  nameWithType.vb: TagName.<>(TagName, TagName)
+  fullName.vb: YamlDotNet.Core.TagName.<>(YamlDotNet.Core.TagName, YamlDotNet.Core.TagName)
+  name.vb: <>(TagName, TagName)
+- uid: YamlDotNet.Core.TagName.op_Equality(YamlDotNet.Core.TagName,System.String)
+  commentId: M:YamlDotNet.Core.TagName.op_Equality(YamlDotNet.Core.TagName,System.String)
+  id: op_Equality(YamlDotNet.Core.TagName,System.String)
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: operator ==(TagName, string)
+  nameWithType: TagName.operator ==(TagName, string)
+  fullName: YamlDotNet.Core.TagName.operator ==(YamlDotNet.Core.TagName, string)
+  type: Operator
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static bool operator ==(TagName left, string right)
+    parameters:
+    - id: left
+      type: YamlDotNet.Core.TagName
+    - id: right
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As TagName, right As String) As Boolean
+  overload: YamlDotNet.Core.TagName.op_Equality*
+  nameWithType.vb: TagName.=(TagName, String)
+  fullName.vb: YamlDotNet.Core.TagName.=(YamlDotNet.Core.TagName, String)
+  name.vb: =(TagName, String)
+- uid: YamlDotNet.Core.TagName.op_Inequality(YamlDotNet.Core.TagName,System.String)
+  commentId: M:YamlDotNet.Core.TagName.op_Inequality(YamlDotNet.Core.TagName,System.String)
+  id: op_Inequality(YamlDotNet.Core.TagName,System.String)
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: operator !=(TagName, string)
+  nameWithType: TagName.operator !=(TagName, string)
+  fullName: YamlDotNet.Core.TagName.operator !=(YamlDotNet.Core.TagName, string)
+  type: Operator
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static bool operator !=(TagName left, string right)
+    parameters:
+    - id: left
+      type: YamlDotNet.Core.TagName
+    - id: right
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As TagName, right As String) As Boolean
+  overload: YamlDotNet.Core.TagName.op_Inequality*
+  nameWithType.vb: TagName.<>(TagName, String)
+  fullName.vb: YamlDotNet.Core.TagName.<>(YamlDotNet.Core.TagName, String)
+  name.vb: <>(TagName, String)
+- uid: YamlDotNet.Core.TagName.op_Implicit(System.String)~YamlDotNet.Core.TagName
+  commentId: M:YamlDotNet.Core.TagName.op_Implicit(System.String)~YamlDotNet.Core.TagName
+  id: op_Implicit(System.String)~YamlDotNet.Core.TagName
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: implicit operator TagName(string?)
+  nameWithType: TagName.implicit operator TagName(string?)
+  fullName: YamlDotNet.Core.TagName.implicit operator YamlDotNet.Core.TagName(string?)
+  type: Operator
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static implicit operator TagName(string? value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: YamlDotNet.Core.TagName
+    content.vb: Public Shared Widening Operator CType(value As String) As TagName
+  overload: YamlDotNet.Core.TagName.op_Implicit*
+  nameWithType.vb: TagName.CType(String)
+  fullName.vb: YamlDotNet.Core.TagName.CType(String)
+  name.vb: CType(String)
+- uid: YamlDotNet.Core.TagName.Value
+  commentId: P:YamlDotNet.Core.TagName.Value
+  id: Value
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: TagName.Value
+  fullName: YamlDotNet.Core.TagName.Value
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public string Value { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Value As String
+  overload: YamlDotNet.Core.TagName.Value*
+- uid: YamlDotNet.Core.TagName.IsEmpty
+  commentId: P:YamlDotNet.Core.TagName.IsEmpty
+  id: IsEmpty
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty
+  nameWithType: TagName.IsEmpty
+  fullName: YamlDotNet.Core.TagName.IsEmpty
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public bool IsEmpty { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmpty As Boolean
+  overload: YamlDotNet.Core.TagName.IsEmpty*
+- uid: YamlDotNet.Core.TagName.IsNonSpecific
+  commentId: P:YamlDotNet.Core.TagName.IsNonSpecific
+  id: IsNonSpecific
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: IsNonSpecific
+  nameWithType: TagName.IsNonSpecific
+  fullName: YamlDotNet.Core.TagName.IsNonSpecific
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public bool IsNonSpecific { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsNonSpecific As Boolean
+  overload: YamlDotNet.Core.TagName.IsNonSpecific*
+- uid: YamlDotNet.Core.TagName.IsLocal
+  commentId: P:YamlDotNet.Core.TagName.IsLocal
+  id: IsLocal
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: IsLocal
+  nameWithType: TagName.IsLocal
+  fullName: YamlDotNet.Core.TagName.IsLocal
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public bool IsLocal { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLocal As Boolean
+  overload: YamlDotNet.Core.TagName.IsLocal*
+- uid: YamlDotNet.Core.TagName.IsGlobal
+  commentId: P:YamlDotNet.Core.TagName.IsGlobal
+  id: IsGlobal
+  parent: YamlDotNet.Core.TagName
+  langs:
+  - csharp
+  - vb
+  name: IsGlobal
+  nameWithType: TagName.IsGlobal
+  fullName: YamlDotNet.Core.TagName.IsGlobal
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public bool IsGlobal { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsGlobal As Boolean
+  overload: YamlDotNet.Core.TagName.IsGlobal*
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.IEquatable{YamlDotNet.Core.TagName}
+  commentId: T:System.IEquatable{YamlDotNet.Core.TagName}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TagName>
+  nameWithType: IEquatable<TagName>
+  fullName: System.IEquatable<YamlDotNet.Core.TagName>
+  nameWithType.vb: IEquatable(Of TagName)
+  fullName.vb: System.IEquatable(Of YamlDotNet.Core.TagName)
+  name.vb: IEquatable(Of TagName)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Core.TagName
+  commentId: T:YamlDotNet.Core.TagName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html
+  name: TagName
+  nameWithType: TagName
+  fullName: YamlDotNet.Core.TagName
+- uid: YamlDotNet.Core.TagName.#ctor*
+  commentId: Overload:YamlDotNet.Core.TagName.#ctor
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName__ctor_System_String_
+  name: TagName
+  nameWithType: TagName.TagName
+  fullName: YamlDotNet.Core.TagName.TagName
+  nameWithType.vb: TagName.New
+  fullName.vb: YamlDotNet.Core.TagName.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: YamlDotNet.Core.TagName.ToString*
+  commentId: Overload:YamlDotNet.Core.TagName.ToString
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_ToString
+  name: ToString
+  nameWithType: TagName.ToString
+  fullName: YamlDotNet.Core.TagName.ToString
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: YamlDotNet.Core.TagName.Equals*
+  commentId: Overload:YamlDotNet.Core.TagName.Equals
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_Equals_YamlDotNet_Core_TagName_
+  name: Equals
+  nameWithType: TagName.Equals
+  fullName: YamlDotNet.Core.TagName.Equals
+- uid: System.IEquatable{YamlDotNet.Core.TagName}.Equals(YamlDotNet.Core.TagName)
+  commentId: M:System.IEquatable{YamlDotNet.Core.TagName}.Equals(YamlDotNet.Core.TagName)
+  parent: System.IEquatable{YamlDotNet.Core.TagName}
+  definition: System.IEquatable`1.Equals(`0)
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(TagName)
+  nameWithType: IEquatable<TagName>.Equals(TagName)
+  fullName: System.IEquatable<YamlDotNet.Core.TagName>.Equals(YamlDotNet.Core.TagName)
+  nameWithType.vb: IEquatable(Of TagName).Equals(TagName)
+  fullName.vb: System.IEquatable(Of YamlDotNet.Core.TagName).Equals(YamlDotNet.Core.TagName)
+  spec.csharp:
+  - uid: System.IEquatable{YamlDotNet.Core.TagName}.Equals(YamlDotNet.Core.TagName)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable{YamlDotNet.Core.TagName}.Equals(YamlDotNet.Core.TagName)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - uid: YamlDotNet.Core.TagName
+    name: TagName
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullName.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
+  - name: (
+  - name: T
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: YamlDotNet.Core.TagName.GetHashCode*
+  commentId: Overload:YamlDotNet.Core.TagName.GetHashCode
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_GetHashCode
+  name: GetHashCode
+  nameWithType: TagName.GetHashCode
+  fullName: YamlDotNet.Core.TagName.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.Core.TagName.op_Equality*
+  commentId: Overload:YamlDotNet.Core.TagName.op_Equality
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_op_Equality_YamlDotNet_Core_TagName_YamlDotNet_Core_TagName_
+  name: operator ==
+  nameWithType: TagName.operator ==
+  fullName: YamlDotNet.Core.TagName.operator ==
+  nameWithType.vb: TagName.=
+  fullName.vb: YamlDotNet.Core.TagName.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: YamlDotNet.Core.TagName.op_Equality*
+    name: ==
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_op_Equality_YamlDotNet_Core_TagName_YamlDotNet_Core_TagName_
+- uid: YamlDotNet.Core.TagName.op_Inequality*
+  commentId: Overload:YamlDotNet.Core.TagName.op_Inequality
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_op_Inequality_YamlDotNet_Core_TagName_YamlDotNet_Core_TagName_
+  name: operator !=
+  nameWithType: TagName.operator !=
+  fullName: YamlDotNet.Core.TagName.operator !=
+  nameWithType.vb: TagName.<>
+  fullName.vb: YamlDotNet.Core.TagName.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: YamlDotNet.Core.TagName.op_Inequality*
+    name: '!='
+    isExternal: true
+    href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_op_Inequality_YamlDotNet_Core_TagName_YamlDotNet_Core_TagName_
+- uid: YamlDotNet.Core.TagName.op_Implicit*
+  commentId: Overload:YamlDotNet.Core.TagName.op_Implicit
+  name: implicit operator
+  nameWithType: TagName.implicit operator
+  fullName: YamlDotNet.Core.TagName.implicit operator
+  nameWithType.vb: TagName.CType
+  fullName.vb: YamlDotNet.Core.TagName.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: YamlDotNet.Core.TagName.Value*
+  commentId: Overload:YamlDotNet.Core.TagName.Value
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_Value
+  name: Value
+  nameWithType: TagName.Value
+  fullName: YamlDotNet.Core.TagName.Value
+- uid: YamlDotNet.Core.TagName.IsEmpty*
+  commentId: Overload:YamlDotNet.Core.TagName.IsEmpty
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_IsEmpty
+  name: IsEmpty
+  nameWithType: TagName.IsEmpty
+  fullName: YamlDotNet.Core.TagName.IsEmpty
+- uid: YamlDotNet.Core.TagName.IsNonSpecific*
+  commentId: Overload:YamlDotNet.Core.TagName.IsNonSpecific
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_IsNonSpecific
+  name: IsNonSpecific
+  nameWithType: TagName.IsNonSpecific
+  fullName: YamlDotNet.Core.TagName.IsNonSpecific
+- uid: YamlDotNet.Core.TagName.IsLocal*
+  commentId: Overload:YamlDotNet.Core.TagName.IsLocal
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_IsLocal
+  name: IsLocal
+  nameWithType: TagName.IsLocal
+  fullName: YamlDotNet.Core.TagName.IsLocal
+- uid: YamlDotNet.Core.TagName.IsGlobal*
+  commentId: Overload:YamlDotNet.Core.TagName.IsGlobal
+  isExternal: true
+  href: YamlDotNet.Core.TagName.html#YamlDotNet_Core_TagName_IsGlobal
+  name: IsGlobal
+  nameWithType: TagName.IsGlobal
+  fullName: YamlDotNet.Core.TagName.IsGlobal

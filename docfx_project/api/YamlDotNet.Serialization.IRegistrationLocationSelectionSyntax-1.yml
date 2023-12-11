@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  commentId: T:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  id: IRegistrationLocationSelectionSyntax`1
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.After``1
+  - YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.Before``1
+  - YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.InsteadOf``1
+  - YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnBottom
+  - YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnTop
+  langs:
+  - csharp
+  - vb
+  name: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IRegistrationLocationSelectionSyntax<TBaseRegistrationType>
+    typeParameters:
+    - id: TBaseRegistrationType
+    content.vb: Public Interface IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+  name.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType)
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.InsteadOf``1
+  commentId: M:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.InsteadOf``1
+  id: InsteadOf``1
+  parent: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  langs:
+  - csharp
+  - vb
+  name: InsteadOf<TRegistrationType>()
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf<TRegistrationType>()
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf<TRegistrationType>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'void InsteadOf<TRegistrationType>() where TRegistrationType : TBaseRegistrationType'
+    typeParameters:
+    - id: TRegistrationType
+    content.vb: Sub InsteadOf(Of TRegistrationType As TBaseRegistrationType)()
+  overload: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.InsteadOf*
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf(Of TRegistrationType)()
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf(Of TRegistrationType)()
+  name.vb: InsteadOf(Of TRegistrationType)()
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.Before``1
+  commentId: M:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.Before``1
+  id: Before``1
+  parent: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  langs:
+  - csharp
+  - vb
+  name: Before<TRegistrationType>()
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.Before<TRegistrationType>()
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.Before<TRegistrationType>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'void Before<TRegistrationType>() where TRegistrationType : TBaseRegistrationType'
+    typeParameters:
+    - id: TRegistrationType
+    content.vb: Sub Before(Of TRegistrationType As TBaseRegistrationType)()
+  overload: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.Before*
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).Before(Of TRegistrationType)()
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).Before(Of TRegistrationType)()
+  name.vb: Before(Of TRegistrationType)()
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.After``1
+  commentId: M:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.After``1
+  id: After``1
+  parent: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  langs:
+  - csharp
+  - vb
+  name: After<TRegistrationType>()
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.After<TRegistrationType>()
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.After<TRegistrationType>()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'void After<TRegistrationType>() where TRegistrationType : TBaseRegistrationType'
+    typeParameters:
+    - id: TRegistrationType
+    content.vb: Sub After(Of TRegistrationType As TBaseRegistrationType)()
+  overload: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.After*
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).After(Of TRegistrationType)()
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).After(Of TRegistrationType)()
+  name.vb: After(Of TRegistrationType)()
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnTop
+  commentId: M:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnTop
+  id: OnTop
+  parent: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  langs:
+  - csharp
+  - vb
+  name: OnTop()
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnTop()
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnTop()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void OnTop()
+    content.vb: Sub OnTop()
+  overload: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnTop*
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnTop()
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnTop()
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnBottom
+  commentId: M:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnBottom
+  id: OnBottom
+  parent: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1
+  langs:
+  - csharp
+  - vb
+  name: OnBottom()
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnBottom()
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnBottom()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void OnBottom()
+    content.vb: Sub OnBottom()
+  overload: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnBottom*
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnBottom()
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnBottom()
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.InsteadOf*
+  commentId: Overload:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.InsteadOf
+  isExternal: true
+  href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html#YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_1_InsteadOf__1
+  name: InsteadOf
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.InsteadOf
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).InsteadOf
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.Before*
+  commentId: Overload:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.Before
+  isExternal: true
+  href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html#YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_1_Before__1
+  name: Before
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.Before
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.Before
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).Before
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).Before
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.After*
+  commentId: Overload:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.After
+  isExternal: true
+  href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html#YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_1_After__1
+  name: After
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.After
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.After
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).After
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).After
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnTop*
+  commentId: Overload:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnTop
+  isExternal: true
+  href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html#YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_1_OnTop
+  name: OnTop
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnTop
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnTop
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnTop
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnTop
+- uid: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnBottom*
+  commentId: Overload:YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax`1.OnBottom
+  isExternal: true
+  href: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html#YamlDotNet_Serialization_IRegistrationLocationSelectionSyntax_1_OnBottom
+  name: OnBottom
+  nameWithType: IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnBottom
+  fullName: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax<TBaseRegistrationType>.OnBottom
+  nameWithType.vb: IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnBottom
+  fullName.vb: YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax(Of TBaseRegistrationType).OnBottom

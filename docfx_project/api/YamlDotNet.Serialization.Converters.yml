@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.Converters
+  commentId: N:YamlDotNet.Serialization.Converters
+  id: YamlDotNet.Serialization.Converters
+  children:
+  - YamlDotNet.Serialization.Converters.DateOnlyConverter
+  - YamlDotNet.Serialization.Converters.DateTimeConverter
+  - YamlDotNet.Serialization.Converters.DateTimeOffsetConverter
+  - YamlDotNet.Serialization.Converters.GuidConverter
+  - YamlDotNet.Serialization.Converters.SystemTypeConverter
+  - YamlDotNet.Serialization.Converters.TimeOnlyConverter
+  langs:
+  - csharp
+  - vb
+  name: YamlDotNet.Serialization.Converters
+  nameWithType: YamlDotNet.Serialization.Converters
+  fullName: YamlDotNet.Serialization.Converters
+  type: Namespace
+  assemblies:
+  - YamlDotNet
+references:
+- uid: YamlDotNet.Serialization.Converters.DateOnlyConverter
+  commentId: T:YamlDotNet.Serialization.Converters.DateOnlyConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Converters.DateOnlyConverter.html
+  name: DateOnlyConverter
+  nameWithType: DateOnlyConverter
+  fullName: YamlDotNet.Serialization.Converters.DateOnlyConverter
+- uid: YamlDotNet.Serialization.Converters.DateTimeConverter
+  commentId: T:YamlDotNet.Serialization.Converters.DateTimeConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Converters.DateTimeConverter.html
+  name: DateTimeConverter
+  nameWithType: DateTimeConverter
+  fullName: YamlDotNet.Serialization.Converters.DateTimeConverter
+- uid: YamlDotNet.Serialization.Converters.DateTimeOffsetConverter
+  commentId: T:YamlDotNet.Serialization.Converters.DateTimeOffsetConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Converters.DateTimeOffsetConverter.html
+  name: DateTimeOffsetConverter
+  nameWithType: DateTimeOffsetConverter
+  fullName: YamlDotNet.Serialization.Converters.DateTimeOffsetConverter
+- uid: YamlDotNet.Serialization.Converters.GuidConverter
+  commentId: T:YamlDotNet.Serialization.Converters.GuidConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Converters.GuidConverter.html
+  name: GuidConverter
+  nameWithType: GuidConverter
+  fullName: YamlDotNet.Serialization.Converters.GuidConverter
+- uid: YamlDotNet.Serialization.Converters.SystemTypeConverter
+  commentId: T:YamlDotNet.Serialization.Converters.SystemTypeConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Converters.SystemTypeConverter.html
+  name: SystemTypeConverter
+  nameWithType: SystemTypeConverter
+  fullName: YamlDotNet.Serialization.Converters.SystemTypeConverter
+- uid: YamlDotNet.Serialization.Converters.TimeOnlyConverter
+  commentId: T:YamlDotNet.Serialization.Converters.TimeOnlyConverter
+  isExternal: true
+  href: YamlDotNet.Serialization.Converters.TimeOnlyConverter.html
+  name: TimeOnlyConverter
+  nameWithType: TimeOnlyConverter
+  fullName: YamlDotNet.Serialization.Converters.TimeOnlyConverter

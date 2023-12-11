@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.WrapperFactory`3
+  commentId: T:YamlDotNet.Serialization.WrapperFactory`3
+  id: WrapperFactory`3
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.WrapperFactory`3.#ctor(System.Object,System.IntPtr)
+  - YamlDotNet.Serialization.WrapperFactory`3.BeginInvoke(`1,`0,System.AsyncCallback,System.Object)
+  - YamlDotNet.Serialization.WrapperFactory`3.EndInvoke(System.IAsyncResult)
+  - YamlDotNet.Serialization.WrapperFactory`3.Invoke(`1,`0)
+  langs:
+  - csharp
+  - vb
+  name: WrapperFactory<TArgument, TComponentBase, TComponent>
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>
+  type: Delegate
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: 'public delegate TComponent WrapperFactory<TArgument, TComponentBase, TComponent>(TComponentBase wrapped, TArgument argument) where TComponent : TComponentBase'
+    parameters:
+    - id: wrapped
+      type: '{TComponentBase}'
+    - id: argument
+      type: '{TArgument}'
+    typeParameters:
+    - id: TArgument
+    - id: TComponentBase
+    - id: TComponent
+    return:
+      type: '{TComponent}'
+    content.vb: Public Delegate Function WrapperFactory(Of TArgument, TComponentBase, TComponent As TComponentBase)(wrapped As TComponentBase, argument As TArgument) As TComponent
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent)
+  name.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent)
+- uid: YamlDotNet.Serialization.WrapperFactory`3.#ctor(System.Object,System.IntPtr)
+  commentId: M:YamlDotNet.Serialization.WrapperFactory`3.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: YamlDotNet.Serialization.WrapperFactory`3
+  langs:
+  - csharp
+  - vb
+  name: WrapperFactory(object, nint)
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.WrapperFactory(object, nint)
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.WrapperFactory(object, nint)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public WrapperFactory(object @object, nint method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New([object] As Object, method As IntPtr)
+  overload: YamlDotNet.Serialization.WrapperFactory`3.#ctor*
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).New(Object, IntPtr)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).New(Object, System.IntPtr)
+  name.vb: New(Object, IntPtr)
+- uid: YamlDotNet.Serialization.WrapperFactory`3.Invoke(`1,`0)
+  commentId: M:YamlDotNet.Serialization.WrapperFactory`3.Invoke(`1,`0)
+  id: Invoke(`1,`0)
+  parent: YamlDotNet.Serialization.WrapperFactory`3
+  langs:
+  - csharp
+  - vb
+  name: Invoke(TComponentBase, TArgument)
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.Invoke(TComponentBase, TArgument)
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.Invoke(TComponentBase, TArgument)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual TComponent Invoke(TComponentBase wrapped, TArgument argument)
+    parameters:
+    - id: wrapped
+      type: '{TComponentBase}'
+    - id: argument
+      type: '{TArgument}'
+    return:
+      type: '{TComponent}'
+    content.vb: Public Overridable Function Invoke(wrapped As TComponentBase, argument As TArgument) As TComponent
+  overload: YamlDotNet.Serialization.WrapperFactory`3.Invoke*
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).Invoke(TComponentBase, TArgument)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).Invoke(TComponentBase, TArgument)
+- uid: YamlDotNet.Serialization.WrapperFactory`3.BeginInvoke(`1,`0,System.AsyncCallback,System.Object)
+  commentId: M:YamlDotNet.Serialization.WrapperFactory`3.BeginInvoke(`1,`0,System.AsyncCallback,System.Object)
+  id: BeginInvoke(`1,`0,System.AsyncCallback,System.Object)
+  parent: YamlDotNet.Serialization.WrapperFactory`3
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(TComponentBase, TArgument, AsyncCallback, object)
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.BeginInvoke(TComponentBase, TArgument, AsyncCallback, object)
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.BeginInvoke(TComponentBase, TArgument, System.AsyncCallback, object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(TComponentBase wrapped, TArgument argument, AsyncCallback callback, object @object)
+    parameters:
+    - id: wrapped
+      type: '{TComponentBase}'
+    - id: argument
+      type: '{TArgument}'
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(wrapped As TComponentBase, argument As TArgument, callback As AsyncCallback, [object] As Object) As IAsyncResult
+  overload: YamlDotNet.Serialization.WrapperFactory`3.BeginInvoke*
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).BeginInvoke(TComponentBase, TArgument, AsyncCallback, Object)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).BeginInvoke(TComponentBase, TArgument, System.AsyncCallback, Object)
+  name.vb: BeginInvoke(TComponentBase, TArgument, AsyncCallback, Object)
+- uid: YamlDotNet.Serialization.WrapperFactory`3.EndInvoke(System.IAsyncResult)
+  commentId: M:YamlDotNet.Serialization.WrapperFactory`3.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: YamlDotNet.Serialization.WrapperFactory`3
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.EndInvoke(IAsyncResult)
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.EndInvoke(System.IAsyncResult)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public virtual TComponent EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: '{TComponent}'
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As TComponent
+  overload: YamlDotNet.Serialization.WrapperFactory`3.EndInvoke*
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).EndInvoke(IAsyncResult)
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).EndInvoke(System.IAsyncResult)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: '{TComponentBase}'
+  commentId: '!:TComponentBase'
+  definition: TComponentBase
+  name: TComponentBase
+  nameWithType: TComponentBase
+  fullName: TComponentBase
+- uid: '{TArgument}'
+  commentId: '!:TArgument'
+  definition: TArgument
+  name: TArgument
+  nameWithType: TArgument
+  fullName: TArgument
+- uid: '{TComponent}'
+  commentId: '!:TComponent'
+  definition: TComponent
+  name: TComponent
+  nameWithType: TComponent
+  fullName: TComponent
+- uid: TComponentBase
+  name: TComponentBase
+  nameWithType: TComponentBase
+  fullName: TComponentBase
+- uid: TArgument
+  name: TArgument
+  nameWithType: TArgument
+  fullName: TArgument
+- uid: TComponent
+  name: TComponent
+  nameWithType: TComponent
+  fullName: TComponent
+- uid: YamlDotNet.Serialization.WrapperFactory`3.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.WrapperFactory`3.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-3.html#YamlDotNet_Serialization_WrapperFactory_3__ctor_System_Object_System_IntPtr_
+  name: WrapperFactory
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.WrapperFactory
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.WrapperFactory
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).New
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).New
+  name.vb: New
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.intptr
+  name: nint
+  nameWithType: nint
+  fullName: nint
+  nameWithType.vb: IntPtr
+  fullName.vb: System.IntPtr
+  name.vb: IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.WrapperFactory`3.Invoke*
+  commentId: Overload:YamlDotNet.Serialization.WrapperFactory`3.Invoke
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-3.html#YamlDotNet_Serialization_WrapperFactory_3_Invoke__1__0_
+  name: Invoke
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.Invoke
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.Invoke
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).Invoke
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).Invoke
+- uid: YamlDotNet.Serialization.WrapperFactory`3.BeginInvoke*
+  commentId: Overload:YamlDotNet.Serialization.WrapperFactory`3.BeginInvoke
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-3.html#YamlDotNet_Serialization_WrapperFactory_3_BeginInvoke__1__0_System_AsyncCallback_System_Object_
+  name: BeginInvoke
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.BeginInvoke
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.BeginInvoke
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).BeginInvoke
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: YamlDotNet.Serialization.WrapperFactory`3.EndInvoke*
+  commentId: Overload:YamlDotNet.Serialization.WrapperFactory`3.EndInvoke
+  isExternal: true
+  href: YamlDotNet.Serialization.WrapperFactory-3.html#YamlDotNet_Serialization_WrapperFactory_3_EndInvoke_System_IAsyncResult_
+  name: EndInvoke
+  nameWithType: WrapperFactory<TArgument, TComponentBase, TComponent>.EndInvoke
+  fullName: YamlDotNet.Serialization.WrapperFactory<TArgument, TComponentBase, TComponent>.EndInvoke
+  nameWithType.vb: WrapperFactory(Of TArgument, TComponentBase, TComponent).EndInvoke
+  fullName.vb: YamlDotNet.Serialization.WrapperFactory(Of TArgument, TComponentBase, TComponent).EndInvoke

@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IAliasProvider
+  commentId: T:YamlDotNet.Serialization.IAliasProvider
+  id: IAliasProvider
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IAliasProvider.GetAlias(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: IAliasProvider
+  nameWithType: IAliasProvider
+  fullName: YamlDotNet.Serialization.IAliasProvider
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IAliasProvider
+    content.vb: Public Interface IAliasProvider
+- uid: YamlDotNet.Serialization.IAliasProvider.GetAlias(System.Object)
+  commentId: M:YamlDotNet.Serialization.IAliasProvider.GetAlias(System.Object)
+  id: GetAlias(System.Object)
+  parent: YamlDotNet.Serialization.IAliasProvider
+  langs:
+  - csharp
+  - vb
+  name: GetAlias(object)
+  nameWithType: IAliasProvider.GetAlias(object)
+  fullName: YamlDotNet.Serialization.IAliasProvider.GetAlias(object)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: AnchorName GetAlias(object target)
+    parameters:
+    - id: target
+      type: System.Object
+    return:
+      type: YamlDotNet.Core.AnchorName
+    content.vb: Function GetAlias(target As Object) As AnchorName
+  overload: YamlDotNet.Serialization.IAliasProvider.GetAlias*
+  nameWithType.vb: IAliasProvider.GetAlias(Object)
+  fullName.vb: YamlDotNet.Serialization.IAliasProvider.GetAlias(Object)
+  name.vb: GetAlias(Object)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IAliasProvider.GetAlias*
+  commentId: Overload:YamlDotNet.Serialization.IAliasProvider.GetAlias
+  isExternal: true
+  href: YamlDotNet.Serialization.IAliasProvider.html#YamlDotNet_Serialization_IAliasProvider_GetAlias_System_Object_
+  name: GetAlias
+  nameWithType: IAliasProvider.GetAlias
+  fullName: YamlDotNet.Serialization.IAliasProvider.GetAlias
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Core.AnchorName
+  commentId: T:YamlDotNet.Core.AnchorName
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.AnchorName.html
+  name: AnchorName
+  nameWithType: AnchorName
+  fullName: YamlDotNet.Core.AnchorName
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html

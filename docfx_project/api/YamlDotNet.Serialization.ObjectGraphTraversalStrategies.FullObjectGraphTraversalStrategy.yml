@@ -1,0 +1,789 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  id: FullObjectGraphTraversalStrategy
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  children:
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.#ctor(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Int32,YamlDotNet.Serialization.INamingConvention,YamlDotNet.Serialization.IObjectFactory)
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},System.Type,System.Type,``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse``1(System.Object,YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  langs:
+  - csharp
+  - vb
+  name: FullObjectGraphTraversalStrategy
+  nameWithType: FullObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: 'public class FullObjectGraphTraversalStrategy : IObjectGraphTraversalStrategy'
+    content.vb: Public Class FullObjectGraphTraversalStrategy Implements IObjectGraphTraversalStrategy
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy
+  implements:
+  - YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.#ctor(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Int32,YamlDotNet.Serialization.INamingConvention,YamlDotNet.Serialization.IObjectFactory)
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.#ctor(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Int32,YamlDotNet.Serialization.INamingConvention,YamlDotNet.Serialization.IObjectFactory)
+  id: '#ctor(YamlDotNet.Serialization.ITypeInspector,YamlDotNet.Serialization.ITypeResolver,System.Int32,YamlDotNet.Serialization.INamingConvention,YamlDotNet.Serialization.IObjectFactory)'
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: FullObjectGraphTraversalStrategy(ITypeInspector, ITypeResolver, int, INamingConvention, IObjectFactory)
+  nameWithType: FullObjectGraphTraversalStrategy.FullObjectGraphTraversalStrategy(ITypeInspector, ITypeResolver, int, INamingConvention, IObjectFactory)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.FullObjectGraphTraversalStrategy(YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeResolver, int, YamlDotNet.Serialization.INamingConvention, YamlDotNet.Serialization.IObjectFactory)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: public FullObjectGraphTraversalStrategy(ITypeInspector typeDescriptor, ITypeResolver typeResolver, int maxRecursion, INamingConvention namingConvention, IObjectFactory objectFactory)
+    parameters:
+    - id: typeDescriptor
+      type: YamlDotNet.Serialization.ITypeInspector
+    - id: typeResolver
+      type: YamlDotNet.Serialization.ITypeResolver
+    - id: maxRecursion
+      type: System.Int32
+    - id: namingConvention
+      type: YamlDotNet.Serialization.INamingConvention
+    - id: objectFactory
+      type: YamlDotNet.Serialization.IObjectFactory
+    content.vb: Public Sub New(typeDescriptor As ITypeInspector, typeResolver As ITypeResolver, maxRecursion As Integer, namingConvention As INamingConvention, objectFactory As IObjectFactory)
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.#ctor*
+  nameWithType.vb: FullObjectGraphTraversalStrategy.New(ITypeInspector, ITypeResolver, Integer, INamingConvention, IObjectFactory)
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.New(YamlDotNet.Serialization.ITypeInspector, YamlDotNet.Serialization.ITypeResolver, Integer, YamlDotNet.Serialization.INamingConvention, YamlDotNet.Serialization.IObjectFactory)
+  name.vb: New(ITypeInspector, ITypeResolver, Integer, INamingConvention, IObjectFactory)
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse``1(System.Object,YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse``1(System.Object,YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  id: Traverse``1(System.Object,YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: Traverse<TContext>(object, IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext, Stack<ObjectPathSegment>)
+  nameWithType: FullObjectGraphTraversalStrategy.Traverse<TContext>(object, IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse<TContext>(object, YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor<TContext>, TContext, System.Collections.Generic.Stack<YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: protected virtual void Traverse<TContext>(object name, IObjectDescriptor value, IObjectGraphVisitor<TContext> visitor, TContext context, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment> path)
+    parameters:
+    - id: name
+      type: System.Object
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: visitor
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+    - id: context
+      type: '{TContext}'
+    - id: path
+      type: System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment}
+    typeParameters:
+    - id: TContext
+    content.vb: Protected Overridable Sub Traverse(Of TContext)(name As Object, value As IObjectDescriptor, visitor As IObjectGraphVisitor(Of TContext), context As TContext, path As Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse*
+  nameWithType.vb: FullObjectGraphTraversalStrategy.Traverse(Of TContext)(Object, IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext, Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse(Of TContext)(Object, YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext), TContext, System.Collections.Generic.Stack(Of YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  name.vb: Traverse(Of TContext)(Object, IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext, Stack(Of ObjectPathSegment))
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  id: TraverseObject``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: TraverseObject<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext, Stack<ObjectPathSegment>)
+  nameWithType: FullObjectGraphTraversalStrategy.TraverseObject<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject<TContext>(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor<TContext>, TContext, System.Collections.Generic.Stack<YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: protected virtual void TraverseObject<TContext>(IObjectDescriptor value, IObjectGraphVisitor<TContext> visitor, TContext context, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment> path)
+    parameters:
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: visitor
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+    - id: context
+      type: '{TContext}'
+    - id: path
+      type: System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment}
+    typeParameters:
+    - id: TContext
+    content.vb: Protected Overridable Sub TraverseObject(Of TContext)(value As IObjectDescriptor, visitor As IObjectGraphVisitor(Of TContext), context As TContext, path As Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject*
+  nameWithType.vb: FullObjectGraphTraversalStrategy.TraverseObject(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext, Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject(Of TContext)(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext), TContext, System.Collections.Generic.Stack(Of YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  name.vb: TraverseObject(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext, Stack(Of ObjectPathSegment))
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},System.Type,System.Type,``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},System.Type,System.Type,``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  id: TraverseDictionary``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},System.Type,System.Type,``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: TraverseDictionary<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, Type, Type, TContext, Stack<ObjectPathSegment>)
+  nameWithType: FullObjectGraphTraversalStrategy.TraverseDictionary<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, Type, Type, TContext, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary<TContext>(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor<TContext>, System.Type, System.Type, TContext, System.Collections.Generic.Stack<YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: protected virtual void TraverseDictionary<TContext>(IObjectDescriptor dictionary, IObjectGraphVisitor<TContext> visitor, Type keyType, Type valueType, TContext context, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment> path)
+    parameters:
+    - id: dictionary
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: visitor
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+    - id: keyType
+      type: System.Type
+    - id: valueType
+      type: System.Type
+    - id: context
+      type: '{TContext}'
+    - id: path
+      type: System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment}
+    typeParameters:
+    - id: TContext
+    content.vb: Protected Overridable Sub TraverseDictionary(Of TContext)(dictionary As IObjectDescriptor, visitor As IObjectGraphVisitor(Of TContext), keyType As Type, valueType As Type, context As TContext, path As Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary*
+  nameWithType.vb: FullObjectGraphTraversalStrategy.TraverseDictionary(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), Type, Type, TContext, Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary(Of TContext)(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext), System.Type, System.Type, TContext, System.Collections.Generic.Stack(Of YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  name.vb: TraverseDictionary(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), Type, Type, TContext, Stack(Of ObjectPathSegment))
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  commentId: M:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  id: TraverseProperties``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0,System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment})
+  parent: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: TraverseProperties<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext, Stack<ObjectPathSegment>)
+  nameWithType: FullObjectGraphTraversalStrategy.TraverseProperties<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties<TContext>(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor<TContext>, TContext, System.Collections.Generic.Stack<YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment>)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  syntax:
+    content: protected virtual void TraverseProperties<TContext>(IObjectDescriptor value, IObjectGraphVisitor<TContext> visitor, TContext context, Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment> path)
+    parameters:
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: visitor
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+    - id: context
+      type: '{TContext}'
+    - id: path
+      type: System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment}
+    typeParameters:
+    - id: TContext
+    content.vb: Protected Overridable Sub TraverseProperties(Of TContext)(value As IObjectDescriptor, visitor As IObjectGraphVisitor(Of TContext), context As TContext, path As Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  overload: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties*
+  nameWithType.vb: FullObjectGraphTraversalStrategy.TraverseProperties(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext, Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties(Of TContext)(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext), TContext, System.Collections.Generic.Stack(Of YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment))
+  name.vb: TraverseProperties(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext, Stack(Of ObjectPathSegment))
+references:
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  commentId: N:YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  nameWithType: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+    name: ObjectGraphTraversalStrategies
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies
+    name: ObjectGraphTraversalStrategies
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.html
+  name: IObjectGraphTraversalStrategy
+  nameWithType: IObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy__ctor_YamlDotNet_Serialization_ITypeInspector_YamlDotNet_Serialization_ITypeResolver_System_Int32_YamlDotNet_Serialization_INamingConvention_YamlDotNet_Serialization_IObjectFactory_
+  name: FullObjectGraphTraversalStrategy
+  nameWithType: FullObjectGraphTraversalStrategy.FullObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.FullObjectGraphTraversalStrategy
+  nameWithType.vb: FullObjectGraphTraversalStrategy.New
+  fullName.vb: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.ITypeInspector
+  commentId: T:YamlDotNet.Serialization.ITypeInspector
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeInspector.html
+  name: ITypeInspector
+  nameWithType: ITypeInspector
+  fullName: YamlDotNet.Serialization.ITypeInspector
+- uid: YamlDotNet.Serialization.ITypeResolver
+  commentId: T:YamlDotNet.Serialization.ITypeResolver
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeResolver.html
+  name: ITypeResolver
+  nameWithType: ITypeResolver
+  fullName: YamlDotNet.Serialization.ITypeResolver
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.Serialization.INamingConvention
+  commentId: T:YamlDotNet.Serialization.INamingConvention
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INamingConvention.html
+  name: INamingConvention
+  nameWithType: INamingConvention
+  fullName: YamlDotNet.Serialization.INamingConvention
+- uid: YamlDotNet.Serialization.IObjectFactory
+  commentId: T:YamlDotNet.Serialization.IObjectFactory
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectFactory.html
+  name: IObjectFactory
+  nameWithType: IObjectFactory
+  fullName: YamlDotNet.Serialization.IObjectFactory
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_Traverse__1_System_Object_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectGraphVisitor___0____0_System_Collections_Generic_Stack_YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_ObjectPathSegment__
+  name: Traverse
+  nameWithType: FullObjectGraphTraversalStrategy.Traverse
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.Traverse
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor{``0}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: '{TContext}'
+  commentId: '!:TContext'
+  definition: TContext
+  name: TContext
+  nameWithType: TContext
+  fullName: TContext
+- uid: System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment}
+  commentId: T:System.Collections.Generic.Stack{YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Stack`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+  name: Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment>
+  nameWithType: Stack<FullObjectGraphTraversalStrategy.ObjectPathSegment>
+  fullName: System.Collections.Generic.Stack<YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment>
+  nameWithType.vb: Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment)
+  fullName.vb: System.Collections.Generic.Stack(Of YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment)
+  name.vb: Stack(Of FullObjectGraphTraversalStrategy.ObjectPathSegment)
+  spec.csharp:
+  - uid: System.Collections.Generic.Stack`1
+    name: Stack
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+  - name: <
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+    name: FullObjectGraphTraversalStrategy
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+    name: ObjectPathSegment
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Stack`1
+    name: Stack
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy
+    name: FullObjectGraphTraversalStrategy
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html
+  - name: .
+  - uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment
+    name: ObjectPathSegment
+    isExternal: true
+    href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.html
+  - name: )
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: TContext
+  name: TContext
+  nameWithType: TContext
+  fullName: TContext
+- uid: System.Collections.Generic.Stack`1
+  commentId: T:System.Collections.Generic.Stack`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+  name: Stack<T>
+  nameWithType: Stack<T>
+  fullName: System.Collections.Generic.Stack<T>
+  nameWithType.vb: Stack(Of T)
+  fullName.vb: System.Collections.Generic.Stack(Of T)
+  name.vb: Stack(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.Stack`1
+    name: Stack
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Stack`1
+    name: Stack
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_TraverseObject__1_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectGraphVisitor___0____0_System_Collections_Generic_Stack_YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_ObjectPathSegment__
+  name: TraverseObject
+  nameWithType: FullObjectGraphTraversalStrategy.TraverseObject
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseObject
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_TraverseDictionary__1_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectGraphVisitor___0__System_Type_System_Type___0_System_Collections_Generic_Stack_YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_ObjectPathSegment__
+  name: TraverseDictionary
+  nameWithType: FullObjectGraphTraversalStrategy.TraverseDictionary
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseDictionary
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties*
+  commentId: Overload:YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties
+  isExternal: true
+  href: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html#YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_TraverseProperties__1_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectGraphVisitor___0____0_System_Collections_Generic_Stack_YamlDotNet_Serialization_ObjectGraphTraversalStrategies_FullObjectGraphTraversalStrategy_ObjectPathSegment__
+  name: TraverseProperties
+  nameWithType: FullObjectGraphTraversalStrategy.TraverseProperties
+  fullName: YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.TraverseProperties

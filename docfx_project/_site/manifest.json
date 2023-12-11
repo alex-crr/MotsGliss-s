@@ -12,6 +12,96 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.FontYamlFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.FontYamlFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.Output.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.Output.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.Placement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.Placement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.Position.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.Position.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.Table-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.Table-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.TextStyler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.TextStyler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ConsoleAppVisuals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ConsoleAppVisuals.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MotsGlissés.Dictionnaire.yml",
       "output": {
         ".html": {
@@ -76,6 +166,2556 @@
       "output": {
         ".html": {
           "relative_path": "api/MotsGlissés.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.AnchorName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.AnchorName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.AnchorNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.AnchorNotFoundException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Constants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Cursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Cursor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Emitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Emitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.EmitterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.EmitterSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.AnchorAlias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.AnchorAlias.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.Comment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.Comment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.DocumentEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.DocumentEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.DocumentStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.DocumentStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.IParsingEventVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.IParsingEventVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.MappingEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.MappingEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.MappingStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.MappingStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.MappingStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.MappingStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.NodeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.NodeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.ParsingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.ParsingEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.Scalar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.Scalar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.SequenceEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.SequenceEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.SequenceStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.SequenceStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.SequenceStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.SequenceStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.StreamEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.StreamEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.StreamStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.StreamStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.ForwardAnchorNotSupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.ForwardAnchorNotSupportedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.IEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.IEmitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.IParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.IParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.IScanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.IScanner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.InsertionQueue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.InsertionQueue-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.LookAheadBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.LookAheadBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Mark.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Mark.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.MaximumRecursionLevelReachedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.MaximumRecursionLevelReachedException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.MergingParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.MergingParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Parser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.ParserExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.ParserExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.ScalarStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.ScalarStyle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Scanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Scanner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.SemanticErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.SemanticErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.SyntaxErrorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.SyntaxErrorException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.TagDirectiveCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.TagDirectiveCollection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.TagName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.TagName.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Anchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Anchor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.AnchorAlias.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.AnchorAlias.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.BlockEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.BlockEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.BlockEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.BlockEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.BlockMappingStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.BlockMappingStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.BlockSequenceStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.BlockSequenceStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Comment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Comment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.DocumentEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.DocumentEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.DocumentStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.DocumentStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Error.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.FlowEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.FlowEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.FlowMappingEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.FlowMappingEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.FlowMappingStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.FlowMappingStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.FlowSequenceEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.FlowSequenceEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.FlowSequenceStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.FlowSequenceStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Key.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Key.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Scalar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Scalar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.StreamEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.StreamEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.StreamStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.StreamStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.TagDirective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.TagDirective.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Token.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.VersionDirective.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.VersionDirective.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Tokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Tokens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.Version.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.Version.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.YamlException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.YamlException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Helpers.ExpressionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Helpers.ExpressionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Helpers.IOrderedDictionary-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Helpers.IOrderedDictionary-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.IYamlVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.IYamlVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.LibYamlEventStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.LibYamlEventStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlDocument.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlMappingNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlMappingNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlNodeIdentityEqualityComparer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlNodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlNodeType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlScalarNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlScalarNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlSequenceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlSequenceNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlStream.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.YamlVisitorBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.YamlVisitorBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.RepresentationModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.RepresentationModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.AliasEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.AliasEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.ITypeDiscriminatingNodeDeserializerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.ParserBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminatingNodeDeserializerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.ITypeDiscriminator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.KeyValueTypeDiscriminator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.UniqueKeyTypeDiscriminator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.TypeDiscriminators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BufferedDeserialization.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.BuilderSkeleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.BuilderSkeleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Callbacks.OnDeserializedAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Callbacks.OnDeserializingAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Callbacks.OnSerializedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Callbacks.OnSerializedAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Callbacks.OnSerializingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Callbacks.OnSerializingAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Callbacks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Callbacks.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.DateOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.DateOnlyConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.DateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.DateTimeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.DateTimeOffsetConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.DateTimeOffsetConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.GuidConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.GuidConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.SystemTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.SystemTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.TimeOnlyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.TimeOnlyConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Converters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.DefaultValuesHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.DefaultValuesHandling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Deserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Deserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.DeserializerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.DeserializerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EmissionPhaseObjectGraphVisitorArgs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EventEmitters.ChainedEventEmitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EventEmitters.JsonEventEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EventEmitters.JsonEventEmitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EventEmitters.TypeAssigningEventEmitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EventEmitters.WriterEventEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EventEmitters.WriterEventEmitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EventEmitters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EventEmitters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.EventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.EventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IAliasProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IAliasProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IEventEmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IEventEmitter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.INamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.INamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.INodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.INodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.INodeTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.INodeTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IObjectAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IObjectAccessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IObjectDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IObjectDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IObjectFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IObjectFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IObjectGraphTraversalStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IObjectGraphTraversalStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IObjectGraphVisitor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IObjectGraphVisitor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IPropertyDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IPropertyDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IRegistrationLocationSelectionSyntax-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ISerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ISerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ITrackingRegistrationLocationSelectionSyntax-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ITypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ITypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ITypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ITypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IValueDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IValueDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IValuePromise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IValuePromise.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IValueSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IValueSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IYamlConvertible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IYamlConvertible.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IYamlSerializable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IYamlSerializable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.IYamlTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.IYamlTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.MappingEndEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.MappingEndEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.MappingStartEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.MappingStartEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.CamelCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.HyphenatedNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.LowerCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.NullNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.NullNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.UnderscoredNamingConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NamingConventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NamingConventions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.ArrayNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.CollectionDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.CollectionNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.DictionaryDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.DictionaryNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.EnumerableNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.NullNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.ObjectNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.ScalarNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.StaticArrayNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.StaticCollectionNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.StaticDictionaryNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.TypeConverterNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.YamlConvertibleNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.YamlSerializableNodeDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeDeserializers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.DefaultContainersNodeTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.MappingNodeTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.PreventUnknownTagsNodeTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.TagNodeTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.TypeNameInTagNodeTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.YamlConvertibleTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.YamlSerializableTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.NodeTypeResolvers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Nothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Nothing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectDescriptorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectDescriptorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectFactories.DefaultObjectFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectFactories.LambdaObjectFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectFactories.ObjectFactoryBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectFactories.StaticObjectFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectFactories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectFactories.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.ObjectPathSegment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.FullObjectGraphTraversalStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.RoundtripObjectGraphTraversalStrategy.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphTraversalStrategyFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.AnchorAssigningObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.ChainedObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.CommentsObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.CustomSerializationObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.DefaultExclusiveObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.DefaultValuesObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.EmittingObjectGraphVisitor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.PreProcessingPhaseObjectGraphVisitorSkeleton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectGraphVisitors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ObjectSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ObjectSerializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.PropertyDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.PropertyDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ScalarEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ScalarEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.CoreSchema.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.CoreSchema.Tags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.CoreSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.CoreSchema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.DefaultSchema.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.DefaultSchema.Tags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.DefaultSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.DefaultSchema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.FailsafeSchema.Tags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.FailsafeSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.FailsafeSchema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.JsonSchema.Tags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.JsonSchema.Tags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.JsonSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.JsonSchema.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Schemas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Schemas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.SequenceEndEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.SequenceEndEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.SequenceStartEventInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.SequenceStartEventInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Serializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.SerializerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.SerializerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.StaticBuilderSkeleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.StaticBuilderSkeleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.StaticContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.StaticContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.StaticDeserializerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.StaticDeserializerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.StaticSerializerBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.StaticSerializerBuilder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.StreamFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.StreamFragment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TagMappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TagMappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.CachedTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.CompositeTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.NamingConventionTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.ReadableAndWritablePropertiesTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.ReadableFieldsTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.ReadablePropertiesTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.TypeInspectorSkeleton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.WritablePropertiesTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeInspectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeInspectors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeResolvers.DynamicTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeResolvers.StaticTypeResolver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.TypeResolvers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.TypeResolvers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.IPostDeserializationCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.ITypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.ITypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.NullTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.NullTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.ReflectionTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.ReflectionTypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.SerializerState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.SerializerState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.TypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.TypeConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ValueDeserializers.AliasValueDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ValueDeserializers.NodeValueDeserializer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.ValueDeserializers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.ValueDeserializers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.WrapperFactory-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.WrapperFactory-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.WrapperFactory-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.WrapperFactory-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlAttributeOverrides.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlAttributeOverrides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlAttributeOverridesInspector.OverridePropertyDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlAttributeOverridesInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlAttributeOverridesInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlAttributesTypeInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlAttributesTypeInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlFormatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlIgnoreAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlMemberAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlMemberAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlSerializableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlSerializableAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.YamlStaticContextAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.YamlStaticContextAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/YamlDotNet.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/YamlDotNet.Serialization.html"
         }
       },
       "version": ""

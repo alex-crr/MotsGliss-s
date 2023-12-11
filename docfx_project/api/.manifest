@@ -6,6 +6,7 @@
   "MotsGlissés.Dictionnaire.Tri_Fusion": "MotsGlissés.Dictionnaire.yml",
   "MotsGlissés.Dictionnaire.toString": "MotsGlissés.Dictionnaire.yml",
   "MotsGlissés.Extras": "MotsGlissés.Extras.yml",
+  "MotsGlissés.Extras.#ctor": "MotsGlissés.Extras.yml",
   "MotsGlissés.Extras.Fusion(System.String[])": "MotsGlissés.Extras.yml",
   "MotsGlissés.Extras.Position": "MotsGlissés.Extras.Position.yml",
   "MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)": "MotsGlissés.Extras.Position.yml",

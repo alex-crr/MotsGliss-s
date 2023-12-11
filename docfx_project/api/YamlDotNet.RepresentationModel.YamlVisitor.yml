@@ -1,0 +1,718 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.RepresentationModel.YamlVisitor
+  commentId: T:YamlDotNet.RepresentationModel.YamlVisitor
+  id: YamlVisitor
+  parent: YamlDotNet.RepresentationModel
+  children:
+  - YamlDotNet.RepresentationModel.YamlVisitor.#ctor
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlDocument)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlMappingNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlScalarNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlStream)
+  - YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlDocument)
+  - YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlMappingNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlStream)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlDocument)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlMappingNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlScalarNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  - YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlStream)
+  langs:
+  - csharp
+  - vb
+  name: YamlVisitor
+  nameWithType: YamlVisitor
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: >-
+      [Obsolete("Use YamlVisitorBase")]
+
+      public abstract class YamlVisitor : IYamlVisitor
+    content.vb: >-
+      <Obsolete("Use YamlVisitorBase")>
+
+      Public MustInherit Class YamlVisitor Implements IYamlVisitor
+  inheritance:
+  - System.Object
+  implements:
+  - YamlDotNet.RepresentationModel.IYamlVisitor
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use YamlVisitorBase
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlStream)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlStream)
+  id: Visit(YamlDotNet.RepresentationModel.YamlStream)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(YamlStream)
+  nameWithType: YamlVisitor.Visit(YamlStream)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlStream)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visit(YamlStream stream)
+    parameters:
+    - id: stream
+      type: YamlDotNet.RepresentationModel.YamlStream
+    content.vb: Protected Overridable Sub Visit(stream As YamlStream)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visit*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlStream)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlStream)
+  id: Visited(YamlDotNet.RepresentationModel.YamlStream)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visited(YamlStream)
+  nameWithType: YamlVisitor.Visited(YamlStream)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlStream)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visited(YamlStream stream)
+    parameters:
+    - id: stream
+      type: YamlDotNet.RepresentationModel.YamlStream
+    content.vb: Protected Overridable Sub Visited(stream As YamlStream)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visited*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlDocument)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlDocument)
+  id: Visit(YamlDotNet.RepresentationModel.YamlDocument)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(YamlDocument)
+  nameWithType: YamlVisitor.Visit(YamlDocument)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlDocument)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visit(YamlDocument document)
+    parameters:
+    - id: document
+      type: YamlDotNet.RepresentationModel.YamlDocument
+    content.vb: Protected Overridable Sub Visit(document As YamlDocument)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visit*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlDocument)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlDocument)
+  id: Visited(YamlDotNet.RepresentationModel.YamlDocument)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visited(YamlDocument)
+  nameWithType: YamlVisitor.Visited(YamlDocument)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlDocument)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visited(YamlDocument document)
+    parameters:
+    - id: document
+      type: YamlDotNet.RepresentationModel.YamlDocument
+    content.vb: Protected Overridable Sub Visited(document As YamlDocument)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visited*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlScalarNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlScalarNode)
+  id: Visit(YamlDotNet.RepresentationModel.YamlScalarNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(YamlScalarNode)
+  nameWithType: YamlVisitor.Visit(YamlScalarNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlScalarNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visit(YamlScalarNode scalar)
+    parameters:
+    - id: scalar
+      type: YamlDotNet.RepresentationModel.YamlScalarNode
+    content.vb: Protected Overridable Sub Visit(scalar As YamlScalarNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visit*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlScalarNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlScalarNode)
+  id: Visited(YamlDotNet.RepresentationModel.YamlScalarNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visited(YamlScalarNode)
+  nameWithType: YamlVisitor.Visited(YamlScalarNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlScalarNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visited(YamlScalarNode scalar)
+    parameters:
+    - id: scalar
+      type: YamlDotNet.RepresentationModel.YamlScalarNode
+    content.vb: Protected Overridable Sub Visited(scalar As YamlScalarNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visited*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  id: Visit(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(YamlSequenceNode)
+  nameWithType: YamlVisitor.Visit(YamlSequenceNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visit(YamlSequenceNode sequence)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.RepresentationModel.YamlSequenceNode
+    content.vb: Protected Overridable Sub Visit(sequence As YamlSequenceNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visit*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  id: Visited(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visited(YamlSequenceNode)
+  nameWithType: YamlVisitor.Visited(YamlSequenceNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visited(YamlSequenceNode sequence)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.RepresentationModel.YamlSequenceNode
+    content.vb: Protected Overridable Sub Visited(sequence As YamlSequenceNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visited*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlMappingNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlMappingNode)
+  id: Visit(YamlDotNet.RepresentationModel.YamlMappingNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(YamlMappingNode)
+  nameWithType: YamlVisitor.Visit(YamlMappingNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visit(YamlDotNet.RepresentationModel.YamlMappingNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visit(YamlMappingNode mapping)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.RepresentationModel.YamlMappingNode
+    content.vb: Protected Overridable Sub Visit(mapping As YamlMappingNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visit*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlMappingNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlMappingNode)
+  id: Visited(YamlDotNet.RepresentationModel.YamlMappingNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visited(YamlMappingNode)
+  nameWithType: YamlVisitor.Visited(YamlMappingNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visited(YamlDotNet.RepresentationModel.YamlMappingNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void Visited(YamlMappingNode mapping)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.RepresentationModel.YamlMappingNode
+    content.vb: Protected Overridable Sub Visited(mapping As YamlMappingNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.Visited*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlStream)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlStream)
+  id: VisitChildren(YamlDotNet.RepresentationModel.YamlStream)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: VisitChildren(YamlStream)
+  nameWithType: YamlVisitor.VisitChildren(YamlStream)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlStream)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void VisitChildren(YamlStream stream)
+    parameters:
+    - id: stream
+      type: YamlDotNet.RepresentationModel.YamlStream
+    content.vb: Protected Overridable Sub VisitChildren(stream As YamlStream)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlDocument)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlDocument)
+  id: VisitChildren(YamlDotNet.RepresentationModel.YamlDocument)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: VisitChildren(YamlDocument)
+  nameWithType: YamlVisitor.VisitChildren(YamlDocument)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlDocument)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void VisitChildren(YamlDocument document)
+    parameters:
+    - id: document
+      type: YamlDotNet.RepresentationModel.YamlDocument
+    content.vb: Protected Overridable Sub VisitChildren(document As YamlDocument)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  id: VisitChildren(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: VisitChildren(YamlSequenceNode)
+  nameWithType: YamlVisitor.VisitChildren(YamlSequenceNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlSequenceNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void VisitChildren(YamlSequenceNode sequence)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.RepresentationModel.YamlSequenceNode
+    content.vb: Protected Overridable Sub VisitChildren(sequence As YamlSequenceNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlMappingNode)
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlMappingNode)
+  id: VisitChildren(YamlDotNet.RepresentationModel.YamlMappingNode)
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: VisitChildren(YamlMappingNode)
+  nameWithType: YamlVisitor.VisitChildren(YamlMappingNode)
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren(YamlDotNet.RepresentationModel.YamlMappingNode)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected virtual void VisitChildren(YamlMappingNode mapping)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.RepresentationModel.YamlMappingNode
+    content.vb: Protected Overridable Sub VisitChildren(mapping As YamlMappingNode)
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren*
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.#ctor
+  commentId: M:YamlDotNet.RepresentationModel.YamlVisitor.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.RepresentationModel.YamlVisitor
+  langs:
+  - csharp
+  - vb
+  name: YamlVisitor()
+  nameWithType: YamlVisitor.YamlVisitor()
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.YamlVisitor()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.RepresentationModel
+  syntax:
+    content: protected YamlVisitor()
+    content.vb: Protected Sub New()
+  overload: YamlDotNet.RepresentationModel.YamlVisitor.#ctor*
+  nameWithType.vb: YamlVisitor.New()
+  fullName.vb: YamlDotNet.RepresentationModel.YamlVisitor.New()
+  name.vb: New()
+references:
+- uid: YamlDotNet.RepresentationModel
+  commentId: N:YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.RepresentationModel
+  nameWithType: YamlDotNet.RepresentationModel
+  fullName: YamlDotNet.RepresentationModel
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.RepresentationModel
+    name: RepresentationModel
+    isExternal: true
+    href: YamlDotNet.RepresentationModel.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.RepresentationModel.IYamlVisitor
+  commentId: T:YamlDotNet.RepresentationModel.IYamlVisitor
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.IYamlVisitor.html
+  name: IYamlVisitor
+  nameWithType: IYamlVisitor
+  fullName: YamlDotNet.RepresentationModel.IYamlVisitor
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visit*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlVisitor.Visit
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlVisitor.html#YamlDotNet_RepresentationModel_YamlVisitor_Visit_YamlDotNet_RepresentationModel_YamlStream_
+  name: Visit
+  nameWithType: YamlVisitor.Visit
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visit
+- uid: YamlDotNet.RepresentationModel.YamlStream
+  commentId: T:YamlDotNet.RepresentationModel.YamlStream
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlStream.html
+  name: YamlStream
+  nameWithType: YamlStream
+  fullName: YamlDotNet.RepresentationModel.YamlStream
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.Visited*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlVisitor.Visited
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlVisitor.html#YamlDotNet_RepresentationModel_YamlVisitor_Visited_YamlDotNet_RepresentationModel_YamlStream_
+  name: Visited
+  nameWithType: YamlVisitor.Visited
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.Visited
+- uid: YamlDotNet.RepresentationModel.YamlDocument
+  commentId: T:YamlDotNet.RepresentationModel.YamlDocument
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlDocument.html
+  name: YamlDocument
+  nameWithType: YamlDocument
+  fullName: YamlDotNet.RepresentationModel.YamlDocument
+- uid: YamlDotNet.RepresentationModel.YamlScalarNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlScalarNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlScalarNode.html
+  name: YamlScalarNode
+  nameWithType: YamlScalarNode
+  fullName: YamlDotNet.RepresentationModel.YamlScalarNode
+- uid: YamlDotNet.RepresentationModel.YamlSequenceNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlSequenceNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlSequenceNode.html
+  name: YamlSequenceNode
+  nameWithType: YamlSequenceNode
+  fullName: YamlDotNet.RepresentationModel.YamlSequenceNode
+- uid: YamlDotNet.RepresentationModel.YamlMappingNode
+  commentId: T:YamlDotNet.RepresentationModel.YamlMappingNode
+  parent: YamlDotNet.RepresentationModel
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlMappingNode.html
+  name: YamlMappingNode
+  nameWithType: YamlMappingNode
+  fullName: YamlDotNet.RepresentationModel.YamlMappingNode
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlVisitor.html#YamlDotNet_RepresentationModel_YamlVisitor_VisitChildren_YamlDotNet_RepresentationModel_YamlStream_
+  name: VisitChildren
+  nameWithType: YamlVisitor.VisitChildren
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.VisitChildren
+- uid: YamlDotNet.RepresentationModel.YamlVisitor.#ctor*
+  commentId: Overload:YamlDotNet.RepresentationModel.YamlVisitor.#ctor
+  isExternal: true
+  href: YamlDotNet.RepresentationModel.YamlVisitor.html#YamlDotNet_RepresentationModel_YamlVisitor__ctor
+  name: YamlVisitor
+  nameWithType: YamlVisitor.YamlVisitor
+  fullName: YamlDotNet.RepresentationModel.YamlVisitor.YamlVisitor
+  nameWithType.vb: YamlVisitor.New
+  fullName.vb: YamlDotNet.RepresentationModel.YamlVisitor.New
+  name.vb: New

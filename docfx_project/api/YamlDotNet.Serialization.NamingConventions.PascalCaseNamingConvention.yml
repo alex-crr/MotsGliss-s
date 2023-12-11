@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  commentId: T:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  id: PascalCaseNamingConvention
+  parent: YamlDotNet.Serialization.NamingConventions
+  children:
+  - YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.#ctor
+  - YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply(System.String)
+  - YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Instance
+  langs:
+  - csharp
+  - vb
+  name: PascalCaseNamingConvention
+  nameWithType: PascalCaseNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.NamingConventions
+  syntax:
+    content: 'public sealed class PascalCaseNamingConvention : INamingConvention'
+    content.vb: Public NotInheritable Class PascalCaseNamingConvention Implements INamingConvention
+  inheritance:
+  - System.Object
+  implements:
+  - YamlDotNet.Serialization.INamingConvention
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Instance
+  commentId: F:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Instance
+  id: Instance
+  parent: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: PascalCaseNamingConvention.Instance
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Instance
+  type: Field
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.NamingConventions
+  syntax:
+    content: public static readonly INamingConvention Instance
+    return:
+      type: YamlDotNet.Serialization.INamingConvention
+    content.vb: Public Shared ReadOnly Instance As INamingConvention
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.#ctor
+  commentId: M:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.#ctor
+  id: '#ctor'
+  parent: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  langs:
+  - csharp
+  - vb
+  name: PascalCaseNamingConvention()
+  nameWithType: PascalCaseNamingConvention.PascalCaseNamingConvention()
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.PascalCaseNamingConvention()
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.NamingConventions
+  syntax:
+    content: >-
+      [Obsolete("Use the Instance static field instead of creating new instances")]
+
+      public PascalCaseNamingConvention()
+    content.vb: >-
+      <Obsolete("Use the Instance static field instead of creating new instances")>
+
+      Public Sub New()
+  overload: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.#ctor*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use the Instance static field instead of creating new instances
+  nameWithType.vb: PascalCaseNamingConvention.New()
+  fullName.vb: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.New()
+  name.vb: New()
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply(System.String)
+  commentId: M:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply(System.String)
+  id: Apply(System.String)
+  parent: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention
+  langs:
+  - csharp
+  - vb
+  name: Apply(string)
+  nameWithType: PascalCaseNamingConvention.Apply(string)
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply(string)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization.NamingConventions
+  example: []
+  syntax:
+    content: public string Apply(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function Apply(value As String) As String
+  overload: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply*
+  implements:
+  - YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+  nameWithType.vb: PascalCaseNamingConvention.Apply(String)
+  fullName.vb: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply(String)
+  name.vb: Apply(String)
+references:
+- uid: YamlDotNet.Serialization.NamingConventions
+  commentId: N:YamlDotNet.Serialization.NamingConventions
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization.NamingConventions
+  nameWithType: YamlDotNet.Serialization.NamingConventions
+  fullName: YamlDotNet.Serialization.NamingConventions
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.NamingConventions
+    name: NamingConventions
+    isExternal: true
+    href: YamlDotNet.Serialization.NamingConventions.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  - name: .
+  - uid: YamlDotNet.Serialization.NamingConventions
+    name: NamingConventions
+    isExternal: true
+    href: YamlDotNet.Serialization.NamingConventions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: YamlDotNet.Serialization.INamingConvention
+  commentId: T:YamlDotNet.Serialization.INamingConvention
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.INamingConvention.html
+  name: INamingConvention
+  nameWithType: INamingConvention
+  fullName: YamlDotNet.Serialization.INamingConvention
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.#ctor*
+  commentId: Overload:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.#ctor
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.html#YamlDotNet_Serialization_NamingConventions_PascalCaseNamingConvention__ctor
+  name: PascalCaseNamingConvention
+  nameWithType: PascalCaseNamingConvention.PascalCaseNamingConvention
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.PascalCaseNamingConvention
+  nameWithType.vb: PascalCaseNamingConvention.New
+  fullName.vb: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.New
+  name.vb: New
+- uid: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply*
+  commentId: Overload:YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply
+  isExternal: true
+  href: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.html#YamlDotNet_Serialization_NamingConventions_PascalCaseNamingConvention_Apply_System_String_
+  name: Apply
+  nameWithType: PascalCaseNamingConvention.Apply
+  fullName: YamlDotNet.Serialization.NamingConventions.PascalCaseNamingConvention.Apply
+- uid: YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+  commentId: M:YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+  parent: YamlDotNet.Serialization.INamingConvention
+  isExternal: true
+  href: YamlDotNet.Serialization.INamingConvention.html#YamlDotNet_Serialization_INamingConvention_Apply_System_String_
+  name: Apply(string)
+  nameWithType: INamingConvention.Apply(string)
+  fullName: YamlDotNet.Serialization.INamingConvention.Apply(string)
+  nameWithType.vb: INamingConvention.Apply(String)
+  fullName.vb: YamlDotNet.Serialization.INamingConvention.Apply(String)
+  name.vb: Apply(String)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+    name: Apply
+    isExternal: true
+    href: YamlDotNet.Serialization.INamingConvention.html#YamlDotNet_Serialization_INamingConvention_Apply_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: YamlDotNet.Serialization.INamingConvention.Apply(System.String)
+    name: Apply
+    isExternal: true
+    href: YamlDotNet.Serialization.INamingConvention.html#YamlDotNet_Serialization_INamingConvention_Apply_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

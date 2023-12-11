@@ -192,6 +192,11 @@
             <param name="mot">Le mot qu'on teste</param>
             <returns>vrai si le mot a déjà été trouvé, faux sinon</returns>
         </member>
+        <member name="T:MotsGlissés.Plateau">
+            <summary>
+            Classe représentant un plateau de jeu
+            </summary>
+        </member>
         <member name="P:MotsGlissés.Plateau.NbLettres">
             <summary>
             Propriété en lecture seule représentant le nombre de lettres restantes sur le plateau

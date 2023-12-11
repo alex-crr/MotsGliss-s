@@ -1,0 +1,870 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.ParserExtensions
+  commentId: T:YamlDotNet.Core.ParserExtensions
+  id: ParserExtensions
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.ParserExtensions.Accept``1(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.Accept``1(YamlDotNet.Core.IParser,``0@)
+  - YamlDotNet.Core.ParserExtensions.Allow``1(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.Consume``1(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.Expect``1(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.Peek``1(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.Require``1(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents(YamlDotNet.Core.IParser)
+  - YamlDotNet.Core.ParserExtensions.TryConsume``1(YamlDotNet.Core.IParser,``0@)
+  - YamlDotNet.Core.ParserExtensions.TryFindMappingEntry(YamlDotNet.Core.IParser,System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean},YamlDotNet.Core.Events.Scalar@,YamlDotNet.Core.Events.ParsingEvent@)
+  langs:
+  - csharp
+  - vb
+  name: ParserExtensions
+  nameWithType: ParserExtensions
+  fullName: YamlDotNet.Core.ParserExtensions
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static class ParserExtensions
+    content.vb: Public Module ParserExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: YamlDotNet.Core.ParserExtensions.Consume``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Consume``1(YamlDotNet.Core.IParser)
+  id: Consume``1(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Consume<T>(IParser)
+  nameWithType: ParserExtensions.Consume<T>(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.Consume<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: 'public static T Consume<T>(this IParser parser) where T : ParsingEvent'
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Consume(Of T As ParsingEvent)(parser As IParser) As T
+  overload: YamlDotNet.Core.ParserExtensions.Consume*
+  nameWithType.vb: ParserExtensions.Consume(Of T)(IParser)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Consume(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Consume(Of T)(IParser)
+- uid: YamlDotNet.Core.ParserExtensions.TryConsume``1(YamlDotNet.Core.IParser,``0@)
+  commentId: M:YamlDotNet.Core.ParserExtensions.TryConsume``1(YamlDotNet.Core.IParser,``0@)
+  id: TryConsume``1(YamlDotNet.Core.IParser,``0@)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryConsume<T>(IParser, out T)
+  nameWithType: ParserExtensions.TryConsume<T>(IParser, out T)
+  fullName: YamlDotNet.Core.ParserExtensions.TryConsume<T>(YamlDotNet.Core.IParser, out T)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: 'public static bool TryConsume<T>(this IParser parser, out T @event) where T : ParsingEvent'
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    - id: event
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryConsume(Of T As ParsingEvent)(parser As IParser, [event] As T) As Boolean
+  overload: YamlDotNet.Core.ParserExtensions.TryConsume*
+  nameWithType.vb: ParserExtensions.TryConsume(Of T)(IParser, T)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.TryConsume(Of T)(YamlDotNet.Core.IParser, T)
+  name.vb: TryConsume(Of T)(IParser, T)
+- uid: YamlDotNet.Core.ParserExtensions.Require``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Require``1(YamlDotNet.Core.IParser)
+  id: Require``1(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Require<T>(IParser)
+  nameWithType: ParserExtensions.Require<T>(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.Require<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: 'public static T Require<T>(this IParser parser) where T : ParsingEvent'
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Require(Of T As ParsingEvent)(parser As IParser) As T
+  overload: YamlDotNet.Core.ParserExtensions.Require*
+  nameWithType.vb: ParserExtensions.Require(Of T)(IParser)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Require(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Require(Of T)(IParser)
+- uid: YamlDotNet.Core.ParserExtensions.Accept``1(YamlDotNet.Core.IParser,``0@)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Accept``1(YamlDotNet.Core.IParser,``0@)
+  id: Accept``1(YamlDotNet.Core.IParser,``0@)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Accept<T>(IParser, out T)
+  nameWithType: ParserExtensions.Accept<T>(IParser, out T)
+  fullName: YamlDotNet.Core.ParserExtensions.Accept<T>(YamlDotNet.Core.IParser, out T)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: 'public static bool Accept<T>(this IParser parser, out T @event) where T : ParsingEvent'
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    - id: event
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Accept(Of T As ParsingEvent)(parser As IParser, [event] As T) As Boolean
+  overload: YamlDotNet.Core.ParserExtensions.Accept*
+  nameWithType.vb: ParserExtensions.Accept(Of T)(IParser, T)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Accept(Of T)(YamlDotNet.Core.IParser, T)
+  name.vb: Accept(Of T)(IParser, T)
+- uid: YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents(YamlDotNet.Core.IParser)
+  id: SkipThisAndNestedEvents(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: SkipThisAndNestedEvents(IParser)
+  nameWithType: ParserExtensions.SkipThisAndNestedEvents(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static void SkipThisAndNestedEvents(this IParser parser)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    content.vb: Public Shared Sub SkipThisAndNestedEvents(parser As IParser)
+  overload: YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents*
+- uid: YamlDotNet.Core.ParserExtensions.Expect``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Expect``1(YamlDotNet.Core.IParser)
+  id: Expect``1(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Expect<T>(IParser)
+  nameWithType: ParserExtensions.Expect<T>(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.Expect<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: >-
+      [Obsolete("Please use Consume<T>() instead")]
+
+      public static T Expect<T>(this IParser parser) where T : ParsingEvent
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <Obsolete("Please use Consume<T>() instead")>
+
+      Public Shared Function Expect(Of T As ParsingEvent)(parser As IParser) As T
+  overload: YamlDotNet.Core.ParserExtensions.Expect*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Please use Consume<T>() instead
+  nameWithType.vb: ParserExtensions.Expect(Of T)(IParser)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Expect(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Expect(Of T)(IParser)
+- uid: YamlDotNet.Core.ParserExtensions.Allow``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Allow``1(YamlDotNet.Core.IParser)
+  id: Allow``1(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Allow<T>(IParser)
+  nameWithType: ParserExtensions.Allow<T>(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.Allow<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: >-
+      [Obsolete("Please use TryConsume<T>(out var evt) instead")]
+
+      public static T? Allow<T>(this IParser parser) where T : ParsingEvent
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <Obsolete("Please use TryConsume<T>(out var evt) instead")>
+
+      Public Shared Function Allow(Of T As ParsingEvent)(parser As IParser) As T
+  overload: YamlDotNet.Core.ParserExtensions.Allow*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Please use TryConsume<T>(out var evt) instead
+  nameWithType.vb: ParserExtensions.Allow(Of T)(IParser)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Allow(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Allow(Of T)(IParser)
+- uid: YamlDotNet.Core.ParserExtensions.Peek``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Peek``1(YamlDotNet.Core.IParser)
+  id: Peek``1(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Peek<T>(IParser)
+  nameWithType: ParserExtensions.Peek<T>(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.Peek<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: >-
+      [Obsolete("Please use Accept<T>(out var evt) instead")]
+
+      public static T? Peek<T>(this IParser parser) where T : ParsingEvent
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <Obsolete("Please use Accept<T>(out var evt) instead")>
+
+      Public Shared Function Peek(Of T As ParsingEvent)(parser As IParser) As T
+  overload: YamlDotNet.Core.ParserExtensions.Peek*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Please use Accept<T>(out var evt) instead
+  nameWithType.vb: ParserExtensions.Peek(Of T)(IParser)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Peek(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Peek(Of T)(IParser)
+- uid: YamlDotNet.Core.ParserExtensions.Accept``1(YamlDotNet.Core.IParser)
+  commentId: M:YamlDotNet.Core.ParserExtensions.Accept``1(YamlDotNet.Core.IParser)
+  id: Accept``1(YamlDotNet.Core.IParser)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: Accept<T>(IParser)
+  nameWithType: ParserExtensions.Accept<T>(IParser)
+  fullName: YamlDotNet.Core.ParserExtensions.Accept<T>(YamlDotNet.Core.IParser)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: >-
+      [Obsolete("Please use TryConsume<T>(out var evt) or Accept<T>(out var evt) instead")]
+
+      public static bool Accept<T>(this IParser parser) where T : ParsingEvent
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Obsolete("Please use TryConsume<T>(out var evt) or Accept<T>(out var evt) instead")>
+
+      Public Shared Function Accept(Of T As ParsingEvent)(parser As IParser) As Boolean
+  overload: YamlDotNet.Core.ParserExtensions.Accept*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Please use TryConsume<T>(out var evt) or Accept<T>(out var evt) instead
+  nameWithType.vb: ParserExtensions.Accept(Of T)(IParser)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.Accept(Of T)(YamlDotNet.Core.IParser)
+  name.vb: Accept(Of T)(IParser)
+- uid: YamlDotNet.Core.ParserExtensions.TryFindMappingEntry(YamlDotNet.Core.IParser,System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean},YamlDotNet.Core.Events.Scalar@,YamlDotNet.Core.Events.ParsingEvent@)
+  commentId: M:YamlDotNet.Core.ParserExtensions.TryFindMappingEntry(YamlDotNet.Core.IParser,System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean},YamlDotNet.Core.Events.Scalar@,YamlDotNet.Core.Events.ParsingEvent@)
+  id: TryFindMappingEntry(YamlDotNet.Core.IParser,System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean},YamlDotNet.Core.Events.Scalar@,YamlDotNet.Core.Events.ParsingEvent@)
+  isExtensionMethod: true
+  parent: YamlDotNet.Core.ParserExtensions
+  langs:
+  - csharp
+  - vb
+  name: TryFindMappingEntry(IParser, Func<Scalar, bool>, out Scalar?, out ParsingEvent?)
+  nameWithType: ParserExtensions.TryFindMappingEntry(IParser, Func<Scalar, bool>, out Scalar?, out ParsingEvent?)
+  fullName: YamlDotNet.Core.ParserExtensions.TryFindMappingEntry(YamlDotNet.Core.IParser, System.Func<YamlDotNet.Core.Events.Scalar, bool>, out YamlDotNet.Core.Events.Scalar?, out YamlDotNet.Core.Events.ParsingEvent?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public static bool TryFindMappingEntry(this IParser parser, Func<Scalar, bool> selector, out Scalar? key, out ParsingEvent? value)
+    parameters:
+    - id: parser
+      type: YamlDotNet.Core.IParser
+    - id: selector
+      type: System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean}
+    - id: key
+      type: YamlDotNet.Core.Events.Scalar
+    - id: value
+      type: YamlDotNet.Core.Events.ParsingEvent
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryFindMappingEntry(parser As IParser, selector As Func(Of Scalar, Boolean), key As Scalar, value As ParsingEvent) As Boolean
+  overload: YamlDotNet.Core.ParserExtensions.TryFindMappingEntry*
+  nameWithType.vb: ParserExtensions.TryFindMappingEntry(IParser, Func(Of Scalar, Boolean), Scalar, ParsingEvent)
+  fullName.vb: YamlDotNet.Core.ParserExtensions.TryFindMappingEntry(YamlDotNet.Core.IParser, System.Func(Of YamlDotNet.Core.Events.Scalar, Boolean), YamlDotNet.Core.Events.Scalar, YamlDotNet.Core.Events.ParsingEvent)
+  name.vb: TryFindMappingEntry(IParser, Func(Of Scalar, Boolean), Scalar, ParsingEvent)
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Core.ParserExtensions.Consume*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.Consume
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_Consume__1_YamlDotNet_Core_IParser_
+  name: Consume
+  nameWithType: ParserExtensions.Consume
+  fullName: YamlDotNet.Core.ParserExtensions.Consume
+- uid: YamlDotNet.Core.IParser
+  commentId: T:YamlDotNet.Core.IParser
+  parent: YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.Core.IParser.html
+  name: IParser
+  nameWithType: IParser
+  fullName: YamlDotNet.Core.IParser
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: YamlDotNet.Core.ParserExtensions.TryConsume*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.TryConsume
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_TryConsume__1_YamlDotNet_Core_IParser___0__
+  name: TryConsume
+  nameWithType: ParserExtensions.TryConsume
+  fullName: YamlDotNet.Core.ParserExtensions.TryConsume
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: YamlDotNet.Core.ParserExtensions.Require*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.Require
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_Require__1_YamlDotNet_Core_IParser_
+  name: Require
+  nameWithType: ParserExtensions.Require
+  fullName: YamlDotNet.Core.ParserExtensions.Require
+- uid: YamlDotNet.Core.ParserExtensions.Accept*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.Accept
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_Accept__1_YamlDotNet_Core_IParser___0__
+  name: Accept
+  nameWithType: ParserExtensions.Accept
+  fullName: YamlDotNet.Core.ParserExtensions.Accept
+- uid: YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_SkipThisAndNestedEvents_YamlDotNet_Core_IParser_
+  name: SkipThisAndNestedEvents
+  nameWithType: ParserExtensions.SkipThisAndNestedEvents
+  fullName: YamlDotNet.Core.ParserExtensions.SkipThisAndNestedEvents
+- uid: YamlDotNet.Core.ParserExtensions.Expect*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.Expect
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_Expect__1_YamlDotNet_Core_IParser_
+  name: Expect
+  nameWithType: ParserExtensions.Expect
+  fullName: YamlDotNet.Core.ParserExtensions.Expect
+- uid: YamlDotNet.Core.ParserExtensions.Allow*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.Allow
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_Allow__1_YamlDotNet_Core_IParser_
+  name: Allow
+  nameWithType: ParserExtensions.Allow
+  fullName: YamlDotNet.Core.ParserExtensions.Allow
+- uid: YamlDotNet.Core.ParserExtensions.Peek*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.Peek
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_Peek__1_YamlDotNet_Core_IParser_
+  name: Peek
+  nameWithType: ParserExtensions.Peek
+  fullName: YamlDotNet.Core.ParserExtensions.Peek
+- uid: YamlDotNet.Core.ParserExtensions.TryFindMappingEntry*
+  commentId: Overload:YamlDotNet.Core.ParserExtensions.TryFindMappingEntry
+  isExternal: true
+  href: YamlDotNet.Core.ParserExtensions.html#YamlDotNet_Core_ParserExtensions_TryFindMappingEntry_YamlDotNet_Core_IParser_System_Func_YamlDotNet_Core_Events_Scalar_System_Boolean__YamlDotNet_Core_Events_Scalar__YamlDotNet_Core_Events_ParsingEvent__
+  name: TryFindMappingEntry
+  nameWithType: ParserExtensions.TryFindMappingEntry
+  fullName: YamlDotNet.Core.ParserExtensions.TryFindMappingEntry
+- uid: System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean}
+  commentId: T:System.Func{YamlDotNet.Core.Events.Scalar,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<Scalar, bool>
+  nameWithType: Func<Scalar, bool>
+  fullName: System.Func<YamlDotNet.Core.Events.Scalar, bool>
+  nameWithType.vb: Func(Of Scalar, Boolean)
+  fullName.vb: System.Func(Of YamlDotNet.Core.Events.Scalar, Boolean)
+  name.vb: Func(Of Scalar, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: YamlDotNet.Core.Events.Scalar
+    name: Scalar
+    isExternal: true
+    href: YamlDotNet.Core.Events.Scalar.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: YamlDotNet.Core.Events.Scalar
+    name: Scalar
+    isExternal: true
+    href: YamlDotNet.Core.Events.Scalar.html
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: YamlDotNet.Core.Events.Scalar
+  commentId: T:YamlDotNet.Core.Events.Scalar
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html
+  name: Scalar
+  nameWithType: Scalar
+  fullName: YamlDotNet.Core.Events.Scalar
+- uid: YamlDotNet.Core.Events.ParsingEvent
+  commentId: T:YamlDotNet.Core.Events.ParsingEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html
+  name: ParsingEvent
+  nameWithType: ParsingEvent
+  fullName: YamlDotNet.Core.Events.ParsingEvent
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html

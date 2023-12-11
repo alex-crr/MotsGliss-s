@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.IEmitter
+  commentId: T:YamlDotNet.Core.IEmitter
+  id: IEmitter
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.IEmitter.Emit(YamlDotNet.Core.Events.ParsingEvent)
+  langs:
+  - csharp
+  - vb
+  name: IEmitter
+  nameWithType: IEmitter
+  fullName: YamlDotNet.Core.IEmitter
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public interface IEmitter
+    content.vb: Public Interface IEmitter
+- uid: YamlDotNet.Core.IEmitter.Emit(YamlDotNet.Core.Events.ParsingEvent)
+  commentId: M:YamlDotNet.Core.IEmitter.Emit(YamlDotNet.Core.Events.ParsingEvent)
+  id: Emit(YamlDotNet.Core.Events.ParsingEvent)
+  parent: YamlDotNet.Core.IEmitter
+  langs:
+  - csharp
+  - vb
+  name: Emit(ParsingEvent)
+  nameWithType: IEmitter.Emit(ParsingEvent)
+  fullName: YamlDotNet.Core.IEmitter.Emit(YamlDotNet.Core.Events.ParsingEvent)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: void Emit(ParsingEvent @event)
+    parameters:
+    - id: event
+      type: YamlDotNet.Core.Events.ParsingEvent
+    content.vb: Sub Emit([event] As ParsingEvent)
+  overload: YamlDotNet.Core.IEmitter.Emit*
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: YamlDotNet.Core.IEmitter.Emit*
+  commentId: Overload:YamlDotNet.Core.IEmitter.Emit
+  isExternal: true
+  href: YamlDotNet.Core.IEmitter.html#YamlDotNet_Core_IEmitter_Emit_YamlDotNet_Core_Events_ParsingEvent_
+  name: Emit
+  nameWithType: IEmitter.Emit
+  fullName: YamlDotNet.Core.IEmitter.Emit
+- uid: YamlDotNet.Core.Events.ParsingEvent
+  commentId: T:YamlDotNet.Core.Events.ParsingEvent
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.ParsingEvent.html
+  name: ParsingEvent
+  nameWithType: ParsingEvent
+  fullName: YamlDotNet.Core.Events.ParsingEvent
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html

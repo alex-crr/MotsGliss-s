@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  commentId: T:YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  id: IObjectGraphTraversalStrategy
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0)
+  langs:
+  - csharp
+  - vb
+  name: IObjectGraphTraversalStrategy
+  nameWithType: IObjectGraphTraversalStrategy
+  fullName: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IObjectGraphTraversalStrategy
+    content.vb: Public Interface IObjectGraphTraversalStrategy
+- uid: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0)
+  id: Traverse``1(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectGraphVisitor{``0},``0)
+  parent: YamlDotNet.Serialization.IObjectGraphTraversalStrategy
+  langs:
+  - csharp
+  - vb
+  name: Traverse<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext)
+  nameWithType: IObjectGraphTraversalStrategy.Traverse<TContext>(IObjectDescriptor, IObjectGraphVisitor<TContext>, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse<TContext>(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor<TContext>, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void Traverse<TContext>(IObjectDescriptor graph, IObjectGraphVisitor<TContext> visitor, TContext context)
+    parameters:
+    - id: graph
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: visitor
+      type: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+    - id: context
+      type: '{TContext}'
+    typeParameters:
+    - id: TContext
+    content.vb: Sub Traverse(Of TContext)(graph As IObjectDescriptor, visitor As IObjectGraphVisitor(Of TContext), context As TContext)
+  overload: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse*
+  nameWithType.vb: IObjectGraphTraversalStrategy.Traverse(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse(Of TContext)(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext), TContext)
+  name.vb: Traverse(Of TContext)(IObjectDescriptor, IObjectGraphVisitor(Of TContext), TContext)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.html#YamlDotNet_Serialization_IObjectGraphTraversalStrategy_Traverse__1_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectGraphVisitor___0____0_
+  name: Traverse
+  nameWithType: IObjectGraphTraversalStrategy.Traverse
+  fullName: YamlDotNet.Serialization.IObjectGraphTraversalStrategy.Traverse
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor{{TContext}}
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor{``0}
+  parent: YamlDotNet.Serialization
+  definition: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: '{TContext}'
+  commentId: '!:TContext'
+  definition: TContext
+  name: TContext
+  nameWithType: TContext
+  fullName: TContext
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+  spec.csharp:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: <
+  - name: TContext
+  - name: '>'
+  spec.vb:
+  - uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+    name: IObjectGraphVisitor
+    isExternal: true
+    href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TContext
+  - name: )
+- uid: TContext
+  name: TContext
+  nameWithType: TContext
+  fullName: TContext

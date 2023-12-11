@@ -1,0 +1,392 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  commentId: T:YamlDotNet.Serialization.IObjectGraphVisitor`1
+  id: IObjectGraphVisitor`1
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.Enter(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  - YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,`0)
+  langs:
+  - csharp
+  - vb
+  name: IObjectGraphVisitor<TContext>
+  nameWithType: IObjectGraphVisitor<TContext>
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface IObjectGraphVisitor<TContext>
+    typeParameters:
+    - id: TContext
+    content.vb: Public Interface IObjectGraphVisitor(Of TContext)
+  nameWithType.vb: IObjectGraphVisitor(Of TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext)
+  name.vb: IObjectGraphVisitor(Of TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.Enter(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.Enter(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  id: Enter(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: Enter(IObjectDescriptor, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.Enter(IObjectDescriptor, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.Enter(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: bool Enter(IObjectDescriptor value, TContext context)
+    parameters:
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: context
+      type: '{TContext}'
+    return:
+      type: System.Boolean
+    content.vb: Function Enter(value As IObjectDescriptor, context As TContext) As Boolean
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.Enter*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).Enter(IObjectDescriptor, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).Enter(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  id: EnterMapping(YamlDotNet.Serialization.IObjectDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: EnterMapping(IObjectDescriptor, IObjectDescriptor, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.EnterMapping(IObjectDescriptor, IObjectDescriptor, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.EnterMapping(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectDescriptor, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: bool EnterMapping(IObjectDescriptor key, IObjectDescriptor value, TContext context)
+    parameters:
+    - id: key
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: context
+      type: '{TContext}'
+    return:
+      type: System.Boolean
+    content.vb: Function EnterMapping(key As IObjectDescriptor, value As IObjectDescriptor, context As TContext) As Boolean
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).EnterMapping(IObjectDescriptor, IObjectDescriptor, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).EnterMapping(YamlDotNet.Serialization.IObjectDescriptor, YamlDotNet.Serialization.IObjectDescriptor, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  id: EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor,YamlDotNet.Serialization.IObjectDescriptor,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: EnterMapping(IPropertyDescriptor, IObjectDescriptor, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.EnterMapping(IPropertyDescriptor, IObjectDescriptor, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor, YamlDotNet.Serialization.IObjectDescriptor, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: bool EnterMapping(IPropertyDescriptor key, IObjectDescriptor value, TContext context)
+    parameters:
+    - id: key
+      type: YamlDotNet.Serialization.IPropertyDescriptor
+    - id: value
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: context
+      type: '{TContext}'
+    return:
+      type: System.Boolean
+    content.vb: Function EnterMapping(key As IPropertyDescriptor, value As IObjectDescriptor, context As TContext) As Boolean
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).EnterMapping(IPropertyDescriptor, IObjectDescriptor, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).EnterMapping(YamlDotNet.Serialization.IPropertyDescriptor, YamlDotNet.Serialization.IObjectDescriptor, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  id: VisitScalar(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: VisitScalar(IObjectDescriptor, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.VisitScalar(IObjectDescriptor, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitScalar(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void VisitScalar(IObjectDescriptor scalar, TContext context)
+    parameters:
+    - id: scalar
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: context
+      type: '{TContext}'
+    content.vb: Sub VisitScalar(scalar As IObjectDescriptor, context As TContext)
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitScalar*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitScalar(IObjectDescriptor, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitScalar(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type,`0)
+  id: VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,System.Type,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: VisitMappingStart(IObjectDescriptor, Type, Type, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.VisitMappingStart(IObjectDescriptor, Type, Type, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type, System.Type, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void VisitMappingStart(IObjectDescriptor mapping, Type keyType, Type valueType, TContext context)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: keyType
+      type: System.Type
+    - id: valueType
+      type: System.Type
+    - id: context
+      type: '{TContext}'
+    content.vb: Sub VisitMappingStart(mapping As IObjectDescriptor, keyType As Type, valueType As Type, context As TContext)
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingStart*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitMappingStart(IObjectDescriptor, Type, Type, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitMappingStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type, System.Type, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  id: VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: VisitMappingEnd(IObjectDescriptor, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.VisitMappingEnd(IObjectDescriptor, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void VisitMappingEnd(IObjectDescriptor mapping, TContext context)
+    parameters:
+    - id: mapping
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: context
+      type: '{TContext}'
+    content.vb: Sub VisitMappingEnd(mapping As IObjectDescriptor, context As TContext)
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingEnd*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitMappingEnd(IObjectDescriptor, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitMappingEnd(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,`0)
+  id: VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor,System.Type,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: VisitSequenceStart(IObjectDescriptor, Type, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.VisitSequenceStart(IObjectDescriptor, Type, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void VisitSequenceStart(IObjectDescriptor sequence, Type elementType, TContext context)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: elementType
+      type: System.Type
+    - id: context
+      type: '{TContext}'
+    content.vb: Sub VisitSequenceStart(sequence As IObjectDescriptor, elementType As Type, context As TContext)
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceStart*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitSequenceStart(IObjectDescriptor, Type, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitSequenceStart(YamlDotNet.Serialization.IObjectDescriptor, System.Type, TContext)
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  commentId: M:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  id: VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor,`0)
+  parent: YamlDotNet.Serialization.IObjectGraphVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: VisitSequenceEnd(IObjectDescriptor, TContext)
+  nameWithType: IObjectGraphVisitor<TContext>.VisitSequenceEnd(IObjectDescriptor, TContext)
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: void VisitSequenceEnd(IObjectDescriptor sequence, TContext context)
+    parameters:
+    - id: sequence
+      type: YamlDotNet.Serialization.IObjectDescriptor
+    - id: context
+      type: '{TContext}'
+    content.vb: Sub VisitSequenceEnd(sequence As IObjectDescriptor, context As TContext)
+  overload: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceEnd*
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitSequenceEnd(IObjectDescriptor, TContext)
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitSequenceEnd(YamlDotNet.Serialization.IObjectDescriptor, TContext)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.Enter*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.Enter
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_Enter_YamlDotNet_Serialization_IObjectDescriptor__0_
+  name: Enter
+  nameWithType: IObjectGraphVisitor<TContext>.Enter
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.Enter
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).Enter
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).Enter
+- uid: YamlDotNet.Serialization.IObjectDescriptor
+  commentId: T:YamlDotNet.Serialization.IObjectDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectDescriptor.html
+  name: IObjectDescriptor
+  nameWithType: IObjectDescriptor
+  fullName: YamlDotNet.Serialization.IObjectDescriptor
+- uid: '{TContext}'
+  commentId: '!:TContext'
+  definition: TContext
+  name: TContext
+  nameWithType: TContext
+  fullName: TContext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: TContext
+  name: TContext
+  nameWithType: TContext
+  fullName: TContext
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.EnterMapping
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_EnterMapping_YamlDotNet_Serialization_IObjectDescriptor_YamlDotNet_Serialization_IObjectDescriptor__0_
+  name: EnterMapping
+  nameWithType: IObjectGraphVisitor<TContext>.EnterMapping
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.EnterMapping
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).EnterMapping
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).EnterMapping
+- uid: YamlDotNet.Serialization.IPropertyDescriptor
+  commentId: T:YamlDotNet.Serialization.IPropertyDescriptor
+  parent: YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.Serialization.IPropertyDescriptor.html
+  name: IPropertyDescriptor
+  nameWithType: IPropertyDescriptor
+  fullName: YamlDotNet.Serialization.IPropertyDescriptor
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitScalar*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitScalar
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_VisitScalar_YamlDotNet_Serialization_IObjectDescriptor__0_
+  name: VisitScalar
+  nameWithType: IObjectGraphVisitor<TContext>.VisitScalar
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitScalar
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitScalar
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitScalar
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingStart*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingStart
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_VisitMappingStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type_System_Type__0_
+  name: VisitMappingStart
+  nameWithType: IObjectGraphVisitor<TContext>.VisitMappingStart
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitMappingStart
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitMappingStart
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitMappingStart
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingEnd*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitMappingEnd
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_VisitMappingEnd_YamlDotNet_Serialization_IObjectDescriptor__0_
+  name: VisitMappingEnd
+  nameWithType: IObjectGraphVisitor<TContext>.VisitMappingEnd
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitMappingEnd
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitMappingEnd
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitMappingEnd
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceStart*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceStart
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_VisitSequenceStart_YamlDotNet_Serialization_IObjectDescriptor_System_Type__0_
+  name: VisitSequenceStart
+  nameWithType: IObjectGraphVisitor<TContext>.VisitSequenceStart
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitSequenceStart
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitSequenceStart
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitSequenceStart
+- uid: YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceEnd*
+  commentId: Overload:YamlDotNet.Serialization.IObjectGraphVisitor`1.VisitSequenceEnd
+  isExternal: true
+  href: YamlDotNet.Serialization.IObjectGraphVisitor-1.html#YamlDotNet_Serialization_IObjectGraphVisitor_1_VisitSequenceEnd_YamlDotNet_Serialization_IObjectDescriptor__0_
+  name: VisitSequenceEnd
+  nameWithType: IObjectGraphVisitor<TContext>.VisitSequenceEnd
+  fullName: YamlDotNet.Serialization.IObjectGraphVisitor<TContext>.VisitSequenceEnd
+  nameWithType.vb: IObjectGraphVisitor(Of TContext).VisitSequenceEnd
+  fullName.vb: YamlDotNet.Serialization.IObjectGraphVisitor(Of TContext).VisitSequenceEnd

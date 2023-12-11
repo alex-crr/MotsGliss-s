@@ -1,0 +1,769 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.InsertionQueue`1
+  commentId: T:YamlDotNet.Core.InsertionQueue`1
+  id: InsertionQueue`1
+  parent: YamlDotNet.Core
+  children:
+  - YamlDotNet.Core.InsertionQueue`1.#ctor(System.Int32)
+  - YamlDotNet.Core.InsertionQueue`1.Capacity
+  - YamlDotNet.Core.InsertionQueue`1.Count
+  - YamlDotNet.Core.InsertionQueue`1.Dequeue
+  - YamlDotNet.Core.InsertionQueue`1.Enqueue(`0)
+  - YamlDotNet.Core.InsertionQueue`1.GetEnumerator
+  - YamlDotNet.Core.InsertionQueue`1.Insert(System.Int32,`0)
+  langs:
+  - csharp
+  - vb
+  name: InsertionQueue<T>
+  nameWithType: InsertionQueue<T>
+  fullName: YamlDotNet.Core.InsertionQueue<T>
+  type: Class
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: 'public sealed class InsertionQueue<T> : IEnumerable<T>, IEnumerable'
+    typeParameters:
+    - id: T
+    content.vb: Public NotInheritable Class InsertionQueue(Of T) Implements IEnumerable(Of T), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{{T}}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  nameWithType.vb: InsertionQueue(Of T)
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T)
+  name.vb: InsertionQueue(Of T)
+- uid: YamlDotNet.Core.InsertionQueue`1.#ctor(System.Int32)
+  commentId: M:YamlDotNet.Core.InsertionQueue`1.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: InsertionQueue(int)
+  nameWithType: InsertionQueue<T>.InsertionQueue(int)
+  fullName: YamlDotNet.Core.InsertionQueue<T>.InsertionQueue(int)
+  type: Constructor
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public InsertionQueue(int initialCapacity = 128)
+    parameters:
+    - id: initialCapacity
+      type: System.Int32
+    content.vb: Public Sub New(initialCapacity As Integer = 128)
+  overload: YamlDotNet.Core.InsertionQueue`1.#ctor*
+  nameWithType.vb: InsertionQueue(Of T).New(Integer)
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).New(Integer)
+  name.vb: New(Integer)
+- uid: YamlDotNet.Core.InsertionQueue`1.Enqueue(`0)
+  commentId: M:YamlDotNet.Core.InsertionQueue`1.Enqueue(`0)
+  id: Enqueue(`0)
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Enqueue(T)
+  nameWithType: InsertionQueue<T>.Enqueue(T)
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Enqueue(T)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public void Enqueue(T item)
+    parameters:
+    - id: item
+      type: '{T}'
+    content.vb: Public Sub Enqueue(item As T)
+  overload: YamlDotNet.Core.InsertionQueue`1.Enqueue*
+  nameWithType.vb: InsertionQueue(Of T).Enqueue(T)
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Enqueue(T)
+- uid: YamlDotNet.Core.InsertionQueue`1.Dequeue
+  commentId: M:YamlDotNet.Core.InsertionQueue`1.Dequeue
+  id: Dequeue
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Dequeue()
+  nameWithType: InsertionQueue<T>.Dequeue()
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Dequeue()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public T Dequeue()
+    return:
+      type: '{T}'
+    content.vb: Public Function Dequeue() As T
+  overload: YamlDotNet.Core.InsertionQueue`1.Dequeue*
+  nameWithType.vb: InsertionQueue(Of T).Dequeue()
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Dequeue()
+- uid: YamlDotNet.Core.InsertionQueue`1.Insert(System.Int32,`0)
+  commentId: M:YamlDotNet.Core.InsertionQueue`1.Insert(System.Int32,`0)
+  id: Insert(System.Int32,`0)
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Insert(int, T)
+  nameWithType: InsertionQueue<T>.Insert(int, T)
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Insert(int, T)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public void Insert(int index, T item)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: item
+      type: '{T}'
+    content.vb: Public Sub Insert(index As Integer, item As T)
+  overload: YamlDotNet.Core.InsertionQueue`1.Insert*
+  nameWithType.vb: InsertionQueue(Of T).Insert(Integer, T)
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Insert(Integer, T)
+  name.vb: Insert(Integer, T)
+- uid: YamlDotNet.Core.InsertionQueue`1.GetEnumerator
+  commentId: M:YamlDotNet.Core.InsertionQueue`1.GetEnumerator
+  id: GetEnumerator
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: InsertionQueue<T>.GetEnumerator()
+  fullName: YamlDotNet.Core.InsertionQueue<T>.GetEnumerator()
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  example: []
+  syntax:
+    content: public IEnumerator<T> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{{T}}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of T)
+  overload: YamlDotNet.Core.InsertionQueue`1.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{{T}}.GetEnumerator
+  nameWithType.vb: InsertionQueue(Of T).GetEnumerator()
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).GetEnumerator()
+- uid: YamlDotNet.Core.InsertionQueue`1.Count
+  commentId: P:YamlDotNet.Core.InsertionQueue`1.Count
+  id: Count
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: InsertionQueue<T>.Count
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Count
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: YamlDotNet.Core.InsertionQueue`1.Count*
+  nameWithType.vb: InsertionQueue(Of T).Count
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Count
+- uid: YamlDotNet.Core.InsertionQueue`1.Capacity
+  commentId: P:YamlDotNet.Core.InsertionQueue`1.Capacity
+  id: Capacity
+  parent: YamlDotNet.Core.InsertionQueue`1
+  langs:
+  - csharp
+  - vb
+  name: Capacity
+  nameWithType: InsertionQueue<T>.Capacity
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Capacity
+  type: Property
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core
+  syntax:
+    content: public int Capacity { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Capacity As Integer
+  overload: YamlDotNet.Core.InsertionQueue`1.Capacity*
+  nameWithType.vb: InsertionQueue(Of T).Capacity
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Capacity
+references:
+- uid: YamlDotNet.Core
+  commentId: N:YamlDotNet.Core
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core
+  nameWithType: YamlDotNet.Core
+  fullName: YamlDotNet.Core
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: YamlDotNet.Core.InsertionQueue`1.#ctor*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.#ctor
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1__ctor_System_Int32_
+  name: InsertionQueue
+  nameWithType: InsertionQueue<T>.InsertionQueue
+  fullName: YamlDotNet.Core.InsertionQueue<T>.InsertionQueue
+  nameWithType.vb: InsertionQueue(Of T).New
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: YamlDotNet.Core.InsertionQueue`1.Enqueue*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.Enqueue
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1_Enqueue__0_
+  name: Enqueue
+  nameWithType: InsertionQueue<T>.Enqueue
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Enqueue
+  nameWithType.vb: InsertionQueue(Of T).Enqueue
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Enqueue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: YamlDotNet.Core.InsertionQueue`1.Dequeue*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.Dequeue
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1_Dequeue
+  name: Dequeue
+  nameWithType: InsertionQueue<T>.Dequeue
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Dequeue
+  nameWithType.vb: InsertionQueue(Of T).Dequeue
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Dequeue
+- uid: YamlDotNet.Core.InsertionQueue`1.Insert*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.Insert
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1_Insert_System_Int32__0_
+  name: Insert
+  nameWithType: InsertionQueue<T>.Insert
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Insert
+  nameWithType.vb: InsertionQueue(Of T).Insert
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Insert
+- uid: YamlDotNet.Core.InsertionQueue`1.GetEnumerator*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.GetEnumerator
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1_GetEnumerator
+  name: GetEnumerator
+  nameWithType: InsertionQueue<T>.GetEnumerator
+  fullName: YamlDotNet.Core.InsertionQueue<T>.GetEnumerator
+  nameWithType.vb: InsertionQueue(Of T).GetEnumerator
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{{T}}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{`0}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{{T}}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{`0}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{`0}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{{T}}
+  commentId: T:System.Collections.Generic.IEnumerator{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: YamlDotNet.Core.InsertionQueue`1.Count*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.Count
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1_Count
+  name: Count
+  nameWithType: InsertionQueue<T>.Count
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Count
+  nameWithType.vb: InsertionQueue(Of T).Count
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Count
+- uid: YamlDotNet.Core.InsertionQueue`1.Capacity*
+  commentId: Overload:YamlDotNet.Core.InsertionQueue`1.Capacity
+  isExternal: true
+  href: YamlDotNet.Core.InsertionQueue-1.html#YamlDotNet_Core_InsertionQueue_1_Capacity
+  name: Capacity
+  nameWithType: InsertionQueue<T>.Capacity
+  fullName: YamlDotNet.Core.InsertionQueue<T>.Capacity
+  nameWithType.vb: InsertionQueue(Of T).Capacity
+  fullName.vb: YamlDotNet.Core.InsertionQueue(Of T).Capacity

@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Serialization.ITypeResolver
+  commentId: T:YamlDotNet.Serialization.ITypeResolver
+  id: ITypeResolver
+  parent: YamlDotNet.Serialization
+  children:
+  - YamlDotNet.Serialization.ITypeResolver.Resolve(System.Type,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ITypeResolver
+  nameWithType: ITypeResolver
+  fullName: YamlDotNet.Serialization.ITypeResolver
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: public interface ITypeResolver
+    content.vb: Public Interface ITypeResolver
+- uid: YamlDotNet.Serialization.ITypeResolver.Resolve(System.Type,System.Object)
+  commentId: M:YamlDotNet.Serialization.ITypeResolver.Resolve(System.Type,System.Object)
+  id: Resolve(System.Type,System.Object)
+  parent: YamlDotNet.Serialization.ITypeResolver
+  langs:
+  - csharp
+  - vb
+  name: Resolve(Type, object?)
+  nameWithType: ITypeResolver.Resolve(Type, object?)
+  fullName: YamlDotNet.Serialization.ITypeResolver.Resolve(System.Type, object?)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Serialization
+  syntax:
+    content: Type Resolve(Type staticType, object? actualValue)
+    parameters:
+    - id: staticType
+      type: System.Type
+    - id: actualValue
+      type: System.Object
+    return:
+      type: System.Type
+    content.vb: Function Resolve(staticType As Type, actualValue As Object) As Type
+  overload: YamlDotNet.Serialization.ITypeResolver.Resolve*
+  nameWithType.vb: ITypeResolver.Resolve(Type, Object)
+  fullName.vb: YamlDotNet.Serialization.ITypeResolver.Resolve(System.Type, Object)
+  name.vb: Resolve(Type, Object)
+references:
+- uid: YamlDotNet.Serialization
+  commentId: N:YamlDotNet.Serialization
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Serialization
+  nameWithType: YamlDotNet.Serialization
+  fullName: YamlDotNet.Serialization
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Serialization
+    name: Serialization
+    isExternal: true
+    href: YamlDotNet.Serialization.html
+- uid: YamlDotNet.Serialization.ITypeResolver.Resolve*
+  commentId: Overload:YamlDotNet.Serialization.ITypeResolver.Resolve
+  isExternal: true
+  href: YamlDotNet.Serialization.ITypeResolver.html#YamlDotNet_Serialization_ITypeResolver_Resolve_System_Type_System_Object_
+  name: Resolve
+  nameWithType: ITypeResolver.Resolve
+  fullName: YamlDotNet.Serialization.ITypeResolver.Resolve
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.type
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

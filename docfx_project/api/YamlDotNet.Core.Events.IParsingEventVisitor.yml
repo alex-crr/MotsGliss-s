@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor
+  commentId: T:YamlDotNet.Core.Events.IParsingEventVisitor
+  id: IParsingEventVisitor
+  parent: YamlDotNet.Core.Events
+  children:
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.AnchorAlias)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Comment)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentEnd)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentStart)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingEnd)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingStart)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Scalar)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceEnd)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceStart)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamEnd)
+  - YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamStart)
+  langs:
+  - csharp
+  - vb
+  name: IParsingEventVisitor
+  nameWithType: IParsingEventVisitor
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor
+  type: Interface
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: public interface IParsingEventVisitor
+    content.vb: Public Interface IParsingEventVisitor
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.AnchorAlias)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.AnchorAlias)
+  id: Visit(YamlDotNet.Core.Events.AnchorAlias)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(AnchorAlias)
+  nameWithType: IParsingEventVisitor.Visit(AnchorAlias)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.AnchorAlias)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(AnchorAlias e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.AnchorAlias
+    content.vb: Sub Visit(e As AnchorAlias)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamStart)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamStart)
+  id: Visit(YamlDotNet.Core.Events.StreamStart)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(StreamStart)
+  nameWithType: IParsingEventVisitor.Visit(StreamStart)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamStart)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(StreamStart e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.StreamStart
+    content.vb: Sub Visit(e As StreamStart)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamEnd)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamEnd)
+  id: Visit(YamlDotNet.Core.Events.StreamEnd)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(StreamEnd)
+  nameWithType: IParsingEventVisitor.Visit(StreamEnd)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.StreamEnd)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(StreamEnd e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.StreamEnd
+    content.vb: Sub Visit(e As StreamEnd)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentStart)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentStart)
+  id: Visit(YamlDotNet.Core.Events.DocumentStart)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(DocumentStart)
+  nameWithType: IParsingEventVisitor.Visit(DocumentStart)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentStart)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(DocumentStart e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.DocumentStart
+    content.vb: Sub Visit(e As DocumentStart)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentEnd)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentEnd)
+  id: Visit(YamlDotNet.Core.Events.DocumentEnd)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(DocumentEnd)
+  nameWithType: IParsingEventVisitor.Visit(DocumentEnd)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.DocumentEnd)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(DocumentEnd e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.DocumentEnd
+    content.vb: Sub Visit(e As DocumentEnd)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Scalar)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Scalar)
+  id: Visit(YamlDotNet.Core.Events.Scalar)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(Scalar)
+  nameWithType: IParsingEventVisitor.Visit(Scalar)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Scalar)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(Scalar e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.Scalar
+    content.vb: Sub Visit(e As Scalar)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceStart)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceStart)
+  id: Visit(YamlDotNet.Core.Events.SequenceStart)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(SequenceStart)
+  nameWithType: IParsingEventVisitor.Visit(SequenceStart)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceStart)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(SequenceStart e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.SequenceStart
+    content.vb: Sub Visit(e As SequenceStart)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceEnd)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceEnd)
+  id: Visit(YamlDotNet.Core.Events.SequenceEnd)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(SequenceEnd)
+  nameWithType: IParsingEventVisitor.Visit(SequenceEnd)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.SequenceEnd)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(SequenceEnd e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.SequenceEnd
+    content.vb: Sub Visit(e As SequenceEnd)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingStart)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingStart)
+  id: Visit(YamlDotNet.Core.Events.MappingStart)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(MappingStart)
+  nameWithType: IParsingEventVisitor.Visit(MappingStart)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingStart)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(MappingStart e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.MappingStart
+    content.vb: Sub Visit(e As MappingStart)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingEnd)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingEnd)
+  id: Visit(YamlDotNet.Core.Events.MappingEnd)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(MappingEnd)
+  nameWithType: IParsingEventVisitor.Visit(MappingEnd)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.MappingEnd)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(MappingEnd e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.MappingEnd
+    content.vb: Sub Visit(e As MappingEnd)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Comment)
+  commentId: M:YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Comment)
+  id: Visit(YamlDotNet.Core.Events.Comment)
+  parent: YamlDotNet.Core.Events.IParsingEventVisitor
+  langs:
+  - csharp
+  - vb
+  name: Visit(Comment)
+  nameWithType: IParsingEventVisitor.Visit(Comment)
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit(YamlDotNet.Core.Events.Comment)
+  type: Method
+  assemblies:
+  - YamlDotNet
+  namespace: YamlDotNet.Core.Events
+  syntax:
+    content: void Visit(Comment e)
+    parameters:
+    - id: e
+      type: YamlDotNet.Core.Events.Comment
+    content.vb: Sub Visit(e As Comment)
+  overload: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+references:
+- uid: YamlDotNet.Core.Events
+  commentId: N:YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.html
+  name: YamlDotNet.Core.Events
+  nameWithType: YamlDotNet.Core.Events
+  fullName: YamlDotNet.Core.Events
+  spec.csharp:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+  spec.vb:
+  - uid: YamlDotNet
+    name: YamlDotNet
+    isExternal: true
+    href: YamlDotNet.html
+  - name: .
+  - uid: YamlDotNet.Core
+    name: Core
+    isExternal: true
+    href: YamlDotNet.Core.html
+  - name: .
+  - uid: YamlDotNet.Core.Events
+    name: Events
+    isExternal: true
+    href: YamlDotNet.Core.Events.html
+- uid: YamlDotNet.Core.Events.IParsingEventVisitor.Visit*
+  commentId: Overload:YamlDotNet.Core.Events.IParsingEventVisitor.Visit
+  isExternal: true
+  href: YamlDotNet.Core.Events.IParsingEventVisitor.html#YamlDotNet_Core_Events_IParsingEventVisitor_Visit_YamlDotNet_Core_Events_AnchorAlias_
+  name: Visit
+  nameWithType: IParsingEventVisitor.Visit
+  fullName: YamlDotNet.Core.Events.IParsingEventVisitor.Visit
+- uid: YamlDotNet.Core.Events.AnchorAlias
+  commentId: T:YamlDotNet.Core.Events.AnchorAlias
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.AnchorAlias.html
+  name: AnchorAlias
+  nameWithType: AnchorAlias
+  fullName: YamlDotNet.Core.Events.AnchorAlias
+- uid: YamlDotNet.Core.Events.StreamStart
+  commentId: T:YamlDotNet.Core.Events.StreamStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.StreamStart.html
+  name: StreamStart
+  nameWithType: StreamStart
+  fullName: YamlDotNet.Core.Events.StreamStart
+- uid: YamlDotNet.Core.Events.StreamEnd
+  commentId: T:YamlDotNet.Core.Events.StreamEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.StreamEnd.html
+  name: StreamEnd
+  nameWithType: StreamEnd
+  fullName: YamlDotNet.Core.Events.StreamEnd
+- uid: YamlDotNet.Core.Events.DocumentStart
+  commentId: T:YamlDotNet.Core.Events.DocumentStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.DocumentStart.html
+  name: DocumentStart
+  nameWithType: DocumentStart
+  fullName: YamlDotNet.Core.Events.DocumentStart
+- uid: YamlDotNet.Core.Events.DocumentEnd
+  commentId: T:YamlDotNet.Core.Events.DocumentEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.DocumentEnd.html
+  name: DocumentEnd
+  nameWithType: DocumentEnd
+  fullName: YamlDotNet.Core.Events.DocumentEnd
+- uid: YamlDotNet.Core.Events.Scalar
+  commentId: T:YamlDotNet.Core.Events.Scalar
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.Scalar.html
+  name: Scalar
+  nameWithType: Scalar
+  fullName: YamlDotNet.Core.Events.Scalar
+- uid: YamlDotNet.Core.Events.SequenceStart
+  commentId: T:YamlDotNet.Core.Events.SequenceStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.SequenceStart.html
+  name: SequenceStart
+  nameWithType: SequenceStart
+  fullName: YamlDotNet.Core.Events.SequenceStart
+- uid: YamlDotNet.Core.Events.SequenceEnd
+  commentId: T:YamlDotNet.Core.Events.SequenceEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.SequenceEnd.html
+  name: SequenceEnd
+  nameWithType: SequenceEnd
+  fullName: YamlDotNet.Core.Events.SequenceEnd
+- uid: YamlDotNet.Core.Events.MappingStart
+  commentId: T:YamlDotNet.Core.Events.MappingStart
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingStart.html
+  name: MappingStart
+  nameWithType: MappingStart
+  fullName: YamlDotNet.Core.Events.MappingStart
+- uid: YamlDotNet.Core.Events.MappingEnd
+  commentId: T:YamlDotNet.Core.Events.MappingEnd
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.MappingEnd.html
+  name: MappingEnd
+  nameWithType: MappingEnd
+  fullName: YamlDotNet.Core.Events.MappingEnd
+- uid: YamlDotNet.Core.Events.Comment
+  commentId: T:YamlDotNet.Core.Events.Comment
+  parent: YamlDotNet.Core.Events
+  isExternal: true
+  href: YamlDotNet.Core.Events.Comment.html
+  name: Comment
+  nameWithType: Comment
+  fullName: YamlDotNet.Core.Events.Comment
