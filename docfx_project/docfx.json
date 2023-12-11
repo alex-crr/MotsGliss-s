@@ -1,17 +1,14 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "src": "../",
-          "files": [
-            "**/*.csproj"
-          ]
-        }
-      ],
-      "dest": "api"
+  "metadata": [{
+    "src": [{
+      "files": ["bin/**/*.dll"],
+      "src": "../"
+    }],
+    "dest": "api",
+    "properties": {
+      "TargetFramework": "net7.0"
     }
-  ],
+  }],
   "build": {
     "content": [
       {
