@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: MotsGlissés.Extras.Position
+  commentId: T:MotsGlissés.Extras.Position
+  id: Extras.Position
+  parent: MotsGlissés
+  children:
+  - MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)
+  - MotsGlissés.Extras.Position.Equals(System.Object)
+  - MotsGlissés.Extras.Position.X
+  - MotsGlissés.Extras.Position.Y
+  - MotsGlissés.Extras.Position.op_Equality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  - MotsGlissés.Extras.Position.op_Inequality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  langs:
+  - csharp
+  - vb
+  name: Extras.Position
+  nameWithType: Extras.Position
+  fullName: MotsGlissés.Extras.Position
+  type: Struct
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: Position
+    path: ../Extras.cs
+    startLine: 90
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Represents a position in a two-dimensional space.
+  example: []
+  syntax:
+    content: public struct Extras.Position
+    content.vb: Public Structure Extras.Position
+  inheritedMembers:
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: MotsGlissés.Extras.Position.X
+  commentId: P:MotsGlissés.Extras.Position.X
+  id: X
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: X
+  nameWithType: Extras.Position.X
+  fullName: MotsGlissés.Extras.Position.X
+  type: Property
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: X
+    path: ../Extras.cs
+    startLine: 99
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Propriété en lecture seule pour lire la position X, qui se réfère à la largeur de la console.
+  example: []
+  syntax:
+    content: public int X { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property X As Integer
+  overload: MotsGlissés.Extras.Position.X*
+- uid: MotsGlissés.Extras.Position.Y
+  commentId: P:MotsGlissés.Extras.Position.Y
+  id: Y
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: Y
+  nameWithType: Extras.Position.Y
+  fullName: MotsGlissés.Extras.Position.Y
+  type: Property
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: Y
+    path: ../Extras.cs
+    startLine: 104
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Propriété en lecture seule pour lire la position Y, qui se réfère à la hauteur de la console.
+  example: []
+  syntax:
+    content: public int Y { get; }
+    parameters: []
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public ReadOnly Property Y As Integer
+  overload: MotsGlissés.Extras.Position.Y*
+- uid: MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)
+  commentId: M:MotsGlissés.Extras.Position.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: Position(int, int)
+  nameWithType: Extras.Position.Position(int, int)
+  fullName: MotsGlissés.Extras.Position.Position(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: .ctor
+    path: ../Extras.cs
+    startLine: 111
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Constructeur de la structure Position
+  example: []
+  syntax:
+    content: public Position(int x, int y)
+    parameters:
+    - id: x
+      type: System.Int32
+      description: La position en x
+    - id: y
+      type: System.Int32
+      description: La position en y
+    content.vb: Public Sub New(x As Integer, y As Integer)
+  overload: MotsGlissés.Extras.Position.#ctor*
+  nameWithType.vb: Extras.Position.New(Integer, Integer)
+  fullName.vb: MotsGlissés.Extras.Position.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: MotsGlissés.Extras.Position.Equals(System.Object)
+  commentId: M:MotsGlissés.Extras.Position.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: Equals(object?)
+  nameWithType: Extras.Position.Equals(object?)
+  fullName: MotsGlissés.Extras.Position.Equals(object?)
+  type: Method
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: Equals
+    path: ../Extras.cs
+    startLine: 122
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Override de la méthode Equals pour tester l'égalité de deux positions
+  example: []
+  syntax:
+    content: public override bool Equals(object? obj)
+    parameters:
+    - id: obj
+      type: System.Object
+      description: Objet à tester
+    return:
+      type: System.Boolean
+      description: 'bool: vrai si les positions sont égales en x et y, faux dans le cas contraire, ou si elle est nulle.'
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: MotsGlissés.Extras.Position.Equals*
+  nameWithType.vb: Extras.Position.Equals(Object)
+  fullName.vb: MotsGlissés.Extras.Position.Equals(Object)
+  name.vb: Equals(Object)
+- uid: MotsGlissés.Extras.Position.op_Equality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  commentId: M:MotsGlissés.Extras.Position.op_Equality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  id: op_Equality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: operator ==(Position, Position)
+  nameWithType: Extras.Position.operator ==(Extras.Position, Extras.Position)
+  fullName: MotsGlissés.Extras.Position.operator ==(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
+  type: Operator
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: op_Equality
+    path: ../Extras.cs
+    startLine: 138
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Override de l'opérateur == pour tester l'égalité de deux positions
+  example: []
+  syntax:
+    content: public static bool operator ==(Extras.Position left, Extras.Position right)
+    parameters:
+    - id: left
+      type: MotsGlissés.Extras.Position
+      description: Première position
+    - id: right
+      type: MotsGlissés.Extras.Position
+      description: Seconde position
+    return:
+      type: System.Boolean
+      description: 'bool: vrai si les deux positions sont égales'
+    content.vb: Public Shared Operator =(left As Extras.Position, right As Extras.Position) As Boolean
+  overload: MotsGlissés.Extras.Position.op_Equality*
+  nameWithType.vb: Extras.Position.=(Extras.Position, Extras.Position)
+  fullName.vb: MotsGlissés.Extras.Position.=(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
+  name.vb: =(Position, Position)
+- uid: MotsGlissés.Extras.Position.op_Inequality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  commentId: M:MotsGlissés.Extras.Position.op_Inequality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  id: op_Inequality(MotsGlissés.Extras.Position,MotsGlissés.Extras.Position)
+  parent: MotsGlissés.Extras.Position
+  langs:
+  - csharp
+  - vb
+  name: operator !=(Position, Position)
+  nameWithType: Extras.Position.operator !=(Extras.Position, Extras.Position)
+  fullName: MotsGlissés.Extras.Position.operator !=(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
+  type: Operator
+  source:
+    remote:
+      path: Extras.cs
+      branch: I'll-kill-myself
+      repo: https://github.com/alex-crr/MotsGliss-s.git
+    id: op_Inequality
+    path: ../Extras.cs
+    startLine: 149
+  assemblies:
+  - MotsGlissés
+  namespace: MotsGlissés
+  summary: Override de l'opérateur != pour tester l'inégalité de deux positions
+  example: []
+  syntax:
+    content: public static bool operator !=(Extras.Position left, Extras.Position right)
+    parameters:
+    - id: left
+      type: MotsGlissés.Extras.Position
+      description: Première position
+    - id: right
+      type: MotsGlissés.Extras.Position
+      description: Seconde position
+    return:
+      type: System.Boolean
+      description: "bool: vrai si l'inégalité est vérifiée, faux snn"
+    content.vb: Public Shared Operator <>(left As Extras.Position, right As Extras.Position) As Boolean
+  overload: MotsGlissés.Extras.Position.op_Inequality*
+  nameWithType.vb: Extras.Position.<>(Extras.Position, Extras.Position)
+  fullName.vb: MotsGlissés.Extras.Position.<>(MotsGlissés.Extras.Position, MotsGlissés.Extras.Position)
+  name.vb: <>(Position, Position)
+references:
+- uid: MotsGlissés
+  commentId: N:MotsGlissés
+  href: MotsGlissés.html
+  name: MotsGlissés
+  nameWithType: MotsGlissés
+  fullName: MotsGlissés
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MotsGlissés.Extras.Position.X*
+  commentId: Overload:MotsGlissés.Extras.Position.X
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_X
+  name: X
+  nameWithType: Extras.Position.X
+  fullName: MotsGlissés.Extras.Position.X
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: MotsGlissés.Extras.Position.Y*
+  commentId: Overload:MotsGlissés.Extras.Position.Y
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_Y
+  name: Y
+  nameWithType: Extras.Position.Y
+  fullName: MotsGlissés.Extras.Position.Y
+- uid: MotsGlissés.Extras.Position.#ctor*
+  commentId: Overload:MotsGlissés.Extras.Position.#ctor
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position__ctor_System_Int32_System_Int32_
+  name: Position
+  nameWithType: Extras.Position.Position
+  fullName: MotsGlissés.Extras.Position.Position
+  nameWithType.vb: Extras.Position.New
+  fullName.vb: MotsGlissés.Extras.Position.New
+  name.vb: New
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: MotsGlissés.Extras.Position.Equals*
+  commentId: Overload:MotsGlissés.Extras.Position.Equals
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_Equals_System_Object_
+  name: Equals
+  nameWithType: Extras.Position.Equals
+  fullName: MotsGlissés.Extras.Position.Equals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: MotsGlissés.Extras.Position.op_Equality*
+  commentId: Overload:MotsGlissés.Extras.Position.op_Equality
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Equality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
+  name: operator ==
+  nameWithType: Extras.Position.operator ==
+  fullName: MotsGlissés.Extras.Position.operator ==
+  nameWithType.vb: Extras.Position.=
+  fullName.vb: MotsGlissés.Extras.Position.=
+  name.vb: =
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: MotsGlissés.Extras.Position.op_Equality*
+    name: ==
+    href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Equality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
+- uid: MotsGlissés.Extras.Position
+  commentId: T:MotsGlissés.Extras.Position
+  parent: MotsGlissés
+  href: MotsGlissés.Extras.html
+  name: Extras.Position
+  nameWithType: Extras.Position
+  fullName: MotsGlissés.Extras.Position
+  spec.csharp:
+  - uid: MotsGlissés.Extras
+    name: Extras
+    href: MotsGlissés.Extras.html
+  - name: .
+  - uid: MotsGlissés.Extras.Position
+    name: Position
+    href: MotsGlissés.Extras.Position.html
+  spec.vb:
+  - uid: MotsGlissés.Extras
+    name: Extras
+    href: MotsGlissés.Extras.html
+  - name: .
+  - uid: MotsGlissés.Extras.Position
+    name: Position
+    href: MotsGlissés.Extras.Position.html
+- uid: MotsGlissés.Extras.Position.op_Inequality*
+  commentId: Overload:MotsGlissés.Extras.Position.op_Inequality
+  href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Inequality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_
+  name: operator !=
+  nameWithType: Extras.Position.operator !=
+  fullName: MotsGlissés.Extras.Position.operator !=
+  nameWithType.vb: Extras.Position.<>
+  fullName.vb: MotsGlissés.Extras.Position.<>
+  name.vb: <>
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: MotsGlissés.Extras.Position.op_Inequality*
+    name: '!='
+    href: MotsGlissés.Extras.Position.html#MotsGlissés_Extras_Position_op_Inequality_MotsGlissés_Extras_Position_MotsGlissés_Extras_Position_

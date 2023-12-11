@@ -1,6 +1,9 @@
 ﻿
 namespace MotsGlissés
 {
+    /// <summary>
+    /// Classe représentant une partie de Mot Glissé
+    /// </summary>
     public class Jeu
     {
         // attributs
@@ -11,7 +14,14 @@ namespace MotsGlissés
         TimeSpan tJeu = TimeSpan.FromSeconds(90);
 
 
-        // constructeur
+        /// <summary>
+        /// Constructeur de la classe Jeu
+        /// </summary>
+        /// <param name="dico">Dictionnaire utilisé pour valider </param>
+        /// <param name="plateau"></param>
+        /// <param name="joueur"></param>
+        /// <param name="tempsJoueur"></param>
+        /// <param name="tempsJeu"></param>
         public Jeu(Dictionnaire dico, Plateau plateau, List<Joueur> joueur, TimeSpan tempsJoueur, TimeSpan tempsJeu)
         {
             this._dico = dico;

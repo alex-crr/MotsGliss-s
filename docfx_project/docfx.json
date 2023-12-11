@@ -1,15 +1,17 @@
 {
-  "metadata": [{
-    "src": [{
-      "files": ["**/bin/Release/**.dll"],
-      "src": "../"
-    }],
-    "dest": "api",
-    "properties": {
-      "TargetFramework": "net7.0"
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "**/*.csproj"
+          ]
+        }
+      ],
+      "dest": "api"
     }
-  }],
-  
+  ],
   "build": {
     "content": [
       {
@@ -34,8 +36,8 @@
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "MotsGliss\u00E9s",
-      "_appTitle": "MotsGliss\u00E9s",
+      "_appName": "Mots Gliss\u00E9s",
+      "_appTitle": "Mots Gliss\u00E9s",
       "_enableSearch": true,
       "pdf": true
     }
