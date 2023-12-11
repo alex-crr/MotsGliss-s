@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MotsGlissés/1.0.0": {
+        "dependencies": {
+          "ConsoleAppVisuals": "2.5.1"
+        },
+        "runtime": {
+          "MotsGlissés.dll": {}
+        }
+      },
+      "ConsoleAppVisuals/2.5.1": {
+        "dependencies": {
+          "YamlDotNet": "13.7.1"
+        },
+        "runtime": {
+          "lib/net7.0/ConsoleAppVisuals.dll": {
+            "assemblyVersion": "2.5.1.0",
+            "fileVersion": "2.5.1.0"
+          }
+        }
+      },
+      "YamlDotNet/13.7.1": {
+        "runtime": {
+          "lib/net7.0/YamlDotNet.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.7.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MotsGlissés/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleAppVisuals/2.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7nLjF/KjYvlwojlEUca4/DXTPZIWXxgvxW3taBMix2zkBqvB3bW6K5SqDrDwy/2YPbWNnopPrHioaPcJur8MPg==",
+      "path": "consoleappvisuals/2.5.1",
+      "hashPath": "consoleappvisuals.2.5.1.nupkg.sha512"
+    },
+    "YamlDotNet/13.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4m1PnFcJwvAj1sCDMntg/eZcX96CJLrWMiYnq41KqhFVZPuw63ZTSxIGqgdCwHWHvCAyTxheELC/VDf1HsU2A==",
+      "path": "yamldotnet/13.7.1",
+      "hashPath": "yamldotnet.13.7.1.nupkg.sha512"
+    }
+  }
+}

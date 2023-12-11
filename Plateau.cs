@@ -1,5 +1,8 @@
 namespace MotsGlissés
 {
+    /// <summary>
+    /// Classe représentant un plateau de jeu
+    /// </summary>
     public class Plateau
     {
         // faire une liste avec le nombre de lettre possible ,
